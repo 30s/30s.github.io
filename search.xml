@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title>Jdon Framework</title>
-      <link href="/2017/01/01/06_tech_frame/064_project_case/0651_ddd/06511_jdon/jdon_framework/"/>
-      <content type="html"><![CDATA[<h1 id="开源项目：Jdon-Framework"><a href="#开源项目：Jdon-Framework" class="headerlink" title="开源项目：Jdon Framework"></a>开源项目：<a href="http://www.jdon.com/jdonframework/" target="_blank" rel="noopener">Jdon Framework</a></h1><p><a href="http://www.jdon.com/jdonframework/download.html" target="_blank" rel="noopener">下载</a>      <a href="http://www.jdon.com/jdonframework/manual.htm" target="_blank" rel="noopener">文档</a>       <a href="http://www.jdon.com/jdonframework/app.htm" target="_blank" rel="noopener">演示</a>      <a href="http://en.jdon.com/" target="_blank" rel="noopener">jdon英文</a>       <a href="https://github.com/banq/jdonframework" target="_blank" rel="noopener">Github项目</a></p><blockquote><p>项目新闻：<br>2017-06 增加了类似erLang/akka的Actor并发模型的账户转账测试代码和多核并发测试代码，验证Jdon框架支持无锁并发和内存事务<br>2015-05-06  Jdon框架研发思考<br>2014-01-16 Jdonframework PPT进入SlideShare 2013前Top 1%<br>2013-09-29 6.6.8 CQRS Command/Event异步并发输入输出。</p></blockquote><p>　　Jdon Framework是一个实施DDD+CQRS+EventSourcing架构的Java reactive开源框架，能够快速地将领域驱动设计(DDD)落地为异步、高并发、高吞吐量的Java应用系统 。</p>]]></content>
-      
+<search>
+  <entry>
+    <title><![CDATA[Jdon Framework]]></title>
+    <url>%2F2017%2F01%2F01%2F06_tech_frame%2F064_project_case%2F0651_ddd%2F06511_jdon%2Fjdon_framework%2F</url>
+    <content type="text"><![CDATA[开源项目：Jdon Framework下载 文档 演示 jdon英文 Github项目 项目新闻：2017-06 增加了类似erLang/akka的Actor并发模型的账户转账测试代码和多核并发测试代码，验证Jdon框架支持无锁并发和内存事务2015-05-06 Jdon框架研发思考2014-01-16 Jdonframework PPT进入SlideShare 2013前Top 1%2013-09-29 6.6.8 CQRS Command/Event异步并发输入输出。 Jdon Framework是一个实施DDD+CQRS+EventSourcing架构的Java reactive开源框架，能够快速地将领域驱动设计(DDD)落地为异步、高并发、高吞吐量的Java应用系统 。]]></content>
       <categories>
-          
-          <category> 06_tech_frame </category>
-          
+        <category>06_tech_frame</category>
       </categories>
-      
-      
-    </entry>
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2016/01/01/hello-world/"/>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
+      <tags>
+        <tag>DDD</tag>
+        <tag>CQRS</tag>
+        <tag>EventSourcing</tag>
+        <tag>Java reactive</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2016%2F01%2F01%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
       <categories>
-          
-          <category> frame_design </category>
-          
+        <category>frame_design</category>
       </categories>
-      
-      
-    </entry>
-    
-  
-  
+  </entry>
 </search>

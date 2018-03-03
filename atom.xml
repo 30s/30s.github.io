@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>BOTLAB</title>
+  <title>博乐园</title>
   
-  <subtitle>coding bots ...</subtitle>
+  <subtitle>Coding bots ...</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://30s.github.io/"/>
-  <updated>2018-03-03T03:24:33.657Z</updated>
+  <updated>2018-03-03T05:04:05.851Z</updated>
   <id>https://30s.github.io/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
@@ -16,7 +16,7 @@
     <link href="https://30s.github.io/2017/01/01/06_tech_frame/064_project_case/0651_ddd/06511_jdon/jdon_framework/"/>
     <id>https://30s.github.io/2017/01/01/06_tech_frame/064_project_case/0651_ddd/06511_jdon/jdon_framework/</id>
     <published>2017-01-01T14:51:11.000Z</published>
-    <updated>2018-03-03T03:24:33.657Z</updated>
+    <updated>2018-03-03T05:04:05.851Z</updated>
     
     <content type="html"><![CDATA[<h1 id="开源项目：Jdon-Framework"><a href="#开源项目：Jdon-Framework" class="headerlink" title="开源项目：Jdon Framework"></a>开源项目：<a href="http://www.jdon.com/jdonframework/" target="_blank" rel="noopener">Jdon Framework</a></h1><p><a href="http://www.jdon.com/jdonframework/download.html" target="_blank" rel="noopener">下载</a>      <a href="http://www.jdon.com/jdonframework/manual.htm" target="_blank" rel="noopener">文档</a>       <a href="http://www.jdon.com/jdonframework/app.htm" target="_blank" rel="noopener">演示</a>      <a href="http://en.jdon.com/" target="_blank" rel="noopener">jdon英文</a>       <a href="https://github.com/banq/jdonframework" target="_blank" rel="noopener">Github项目</a></p><blockquote><p>项目新闻：<br>2017-06 增加了类似erLang/akka的Actor并发模型的账户转账测试代码和多核并发测试代码，验证Jdon框架支持无锁并发和内存事务<br>2015-05-06  Jdon框架研发思考<br>2014-01-16 Jdonframework PPT进入SlideShare 2013前Top 1%<br>2013-09-29 6.6.8 CQRS Command/Event异步并发输入输出。</p></blockquote><p>　　Jdon Framework是一个实施DDD+CQRS+EventSourcing架构的Java reactive开源框架，能够快速地将领域驱动设计(DDD)落地为异步、高并发、高吞吐量的Java应用系统 。</p>]]></content>
     
@@ -31,6 +31,14 @@
     
       <category term="06_tech_frame" scheme="https://30s.github.io/categories/06-tech-frame/"/>
     
+    
+      <category term="DDD" scheme="https://30s.github.io/tags/DDD/"/>
+    
+      <category term="CQRS" scheme="https://30s.github.io/tags/CQRS/"/>
+    
+      <category term="EventSourcing" scheme="https://30s.github.io/tags/EventSourcing/"/>
+    
+      <category term="Java reactive" scheme="https://30s.github.io/tags/Java-reactive/"/>
     
   </entry>
   
