@@ -15,14 +15,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2016%2F01%2F01%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>frame_design</category>
-      </categories>
-  </entry>
-  <entry>
     <title><![CDATA[计算机组成原理概述]]></title>
     <url>%2F2009%2F09%2F01%2F01_software_engineering%2F011_computer_principle%2Findex%2F</url>
     <content type="text"><![CDATA[第1篇 概论第1章 计算机系统概论1.1 计算机系统简介1.2 计算机的基本组成 控制器，运算器，存储器，输入设备，输出设备。 1.3 计算机硬件的主要技术指标 CPU的字长、时钟主频、运算速度、容量与可靠性。 第2章 计算机的发展及应用2.1 计算机的发展史2.2 计算机的应用2.3 计算机的展望 第2篇 计算机系统的硬件结构 第3章 系统总线3.1 总线的基本概念3.2 总线的分类3.3 总线特性及性能指标3.4 总线结构3.5 总线控制第4章 存储器4.1 概述4.2 主存储器4.3 高速缓冲存储器4.4 辅助存储器第5章 输入输出系统5.1 概述5.2 I/O设备5.3 I/O接口5.4 程序查询方式5.5 程序中断方式5.6 DMA方式附录5A ASCⅡ码附录5B BCD码附录5C 奇偶校检码 第3篇 中央处理器第6章 计算机的运算方法6.1 无符号数和有符号数6.2 数的定点表示和浮点表示6.3 定点运算6.4 浮点四则运算6.5 算术逻辑单元附录6A 各种进位制附录6B 阵列乘法器和阵列除法器附录6C 7418l逻辑电路第7章 指令系统7.1 机器指令7.2 操作数类型和操作类型7.3 寻址方式7.4 指令格式举例7.5 RISC技术第8章 CPU的结构和功能8.1 CPU的结构8.2 指令周期8.3 指令流水8.4 中断系统 第4篇 控制单元第9章 控制单元的功能9.1 微操作命令的分析9.2 控制单元的功能第10章 控制单元的设计10.1 组合逻辑设计10.2 微程序设计]]></content>
