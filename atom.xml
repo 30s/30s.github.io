@@ -43,124 +43,6 @@
   </entry>
   
   <entry>
-    <title>操作系统</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/012_operating_system/index/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/012_operating_system/index/</id>
-    <published>2010-09-01T12:00:00.000Z</published>
-    <updated>2018-03-06T10:37:56.385Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第一章-操作系统引论"><a href="#第一章-操作系统引论" class="headerlink" title="第一章 操作系统引论"></a>第一章 操作系统引论</h1><h2 id="1-1-操作系统的目标和作用"><a href="#1-1-操作系统的目标和作用" class="headerlink" title="1.1 操作系统的目标和作用"></a>1.1 操作系统的目标和作用</h2><h2 id="1-2-操作系统的发展过程"><a href="#1-2-操作系统的发展过程" class="headerlink" title="1.2 操作系统的发展过程"></a>1.2 操作系统的发展过程</h2><h2 id="1-3-操作系统的基本特性"><a href="#1-3-操作系统的基本特性" class="headerlink" title="1.3 操作系统的基本特性"></a>1.3 操作系统的基本特性</h2><h2 id="1-4-操作系统的主要功能"><a href="#1-4-操作系统的主要功能" class="headerlink" title="1.4 操作系统的主要功能"></a>1.4 操作系统的主要功能</h2><h2 id="1-5-OS结构设计"><a href="#1-5-OS结构设计" class="headerlink" title="1.5 OS结构设计"></a>1.5 OS结构设计</h2><h1 id="第二章-进程管理"><a href="#第二章-进程管理" class="headerlink" title="第二章 进程管理"></a>第二章 进程管理</h1><h2 id="2-1-进程的基本概念"><a href="#2-1-进程的基本概念" class="headerlink" title="2.1 进程的基本概念"></a>2.1 进程的基本概念</h2><h2 id="2-2-进程控制"><a href="#2-2-进程控制" class="headerlink" title="2.2 进程控制"></a>2.2 进程控制</h2><h2 id="2-3-进程同步"><a href="#2-3-进程同步" class="headerlink" title="2.3 进程同步"></a>2.3 进程同步</h2><h2 id="2-4-经典进程的同步问题"><a href="#2-4-经典进程的同步问题" class="headerlink" title="2.4 经典进程的同步问题"></a>2.4 经典进程的同步问题</h2><h2 id="2-5-进程通信"><a href="#2-5-进程通信" class="headerlink" title="2.5 进程通信"></a>2.5 进程通信</h2><h2 id="2-6-线程"><a href="#2-6-线程" class="headerlink" title="2.6 线程"></a>2.6 线程</h2><h1 id="第三章-处理机调度与死锁"><a href="#第三章-处理机调度与死锁" class="headerlink" title="第三章 处理机调度与死锁"></a>第三章 处理机调度与死锁</h1><h2 id="3-1-处理机调度的层次"><a href="#3-1-处理机调度的层次" class="headerlink" title="3.1 处理机调度的层次"></a>3.1 处理机调度的层次</h2><h2 id="3-2-调度队列模型和调度准则"><a href="#3-2-调度队列模型和调度准则" class="headerlink" title="3.2 调度队列模型和调度准则"></a>3.2 调度队列模型和调度准则</h2><h2 id="3-3-调度算法"><a href="#3-3-调度算法" class="headerlink" title="3.3 调度算法"></a>3.3 调度算法</h2><h2 id="3-4-实时调度"><a href="#3-4-实时调度" class="headerlink" title="3.4 实时调度"></a>3.4 实时调度</h2><h2 id="3-5-产生死锁的原因和必要条件"><a href="#3-5-产生死锁的原因和必要条件" class="headerlink" title="3.5 产生死锁的原因和必要条件"></a>3.5 产生死锁的原因和必要条件</h2><h2 id="3-6-预防死锁的方法"><a href="#3-6-预防死锁的方法" class="headerlink" title="3.6 预防死锁的方法"></a>3.6 预防死锁的方法</h2><h2 id="3-7-死锁的检测与解除"><a href="#3-7-死锁的检测与解除" class="headerlink" title="3.7 死锁的检测与解除"></a>3.7 死锁的检测与解除</h2><h1 id="第四章-存储器管理"><a href="#第四章-存储器管理" class="headerlink" title="第四章 存储器管理"></a>第四章 存储器管理</h1><h2 id="4-1-存储器的层次结构"><a href="#4-1-存储器的层次结构" class="headerlink" title="4.1 存储器的层次结构"></a>4.1 存储器的层次结构</h2><h2 id="4-2-程序的装入和链接"><a href="#4-2-程序的装入和链接" class="headerlink" title="4.2 程序的装入和链接"></a>4.2 程序的装入和链接</h2><h2 id="4-3-连续分配方式"><a href="#4-3-连续分配方式" class="headerlink" title="4.3 连续分配方式"></a>4.3 连续分配方式</h2><h2 id="4-4-基本分页存储管理方式"><a href="#4-4-基本分页存储管理方式" class="headerlink" title="4.4 基本分页存储管理方式"></a>4.4 基本分页存储管理方式</h2><h2 id="4-5-基本分段存储管理方式"><a href="#4-5-基本分段存储管理方式" class="headerlink" title="4.5 基本分段存储管理方式"></a>4.5 基本分段存储管理方式</h2><h2 id="4-6-虚拟存储器的基本概念"><a href="#4-6-虚拟存储器的基本概念" class="headerlink" title="4.6 虚拟存储器的基本概念"></a>4.6 虚拟存储器的基本概念</h2><h2 id="4-7-请求分页存储管理方式"><a href="#4-7-请求分页存储管理方式" class="headerlink" title="4.7 请求分页存储管理方式"></a>4.7 请求分页存储管理方式</h2><h2 id="4-8-页面置换算法"><a href="#4-8-页面置换算法" class="headerlink" title="4.8 页面置换算法"></a>4.8 页面置换算法</h2><h2 id="4-9-请求分段存储管理方式"><a href="#4-9-请求分段存储管理方式" class="headerlink" title="4.9 请求分段存储管理方式"></a>4.9 请求分段存储管理方式</h2><h1 id="第五章-设备管理"><a href="#第五章-设备管理" class="headerlink" title="第五章 设备管理"></a>第五章 设备管理</h1><h2 id="5-1-I-O系统"><a href="#5-1-I-O系统" class="headerlink" title="5.1 I/O系统"></a>5.1 I/O系统</h2><h2 id="5-2-I-0控制方式"><a href="#5-2-I-0控制方式" class="headerlink" title="5.2 I/0控制方式"></a>5.2 I/0控制方式</h2><h2 id="5-3-缓冲管理"><a href="#5-3-缓冲管理" class="headerlink" title="5.3 缓冲管理"></a>5.3 缓冲管理</h2><h2 id="5-4-I-O软件"><a href="#5-4-I-O软件" class="headerlink" title="5.4 I/O软件"></a>5.4 I/O软件</h2><h2 id="5-5-设备分配"><a href="#5-5-设备分配" class="headerlink" title="5.5 设备分配"></a>5.5 设备分配</h2><h2 id="5-6-磁盘存储器的管理"><a href="#5-6-磁盘存储器的管理" class="headerlink" title="5.6 磁盘存储器的管理"></a>5.6 磁盘存储器的管理</h2><h1 id="第六章-文件管理"><a href="#第六章-文件管理" class="headerlink" title="第六章 文件管理"></a>第六章 文件管理</h1><h2 id="6-1-文件和文件系统"><a href="#6-1-文件和文件系统" class="headerlink" title="6.1 文件和文件系统"></a>6.1 文件和文件系统</h2><h2 id="6-2-文件的逻辑结构"><a href="#6-2-文件的逻辑结构" class="headerlink" title="6.2 文件的逻辑结构"></a>6.2 文件的逻辑结构</h2><h2 id="6-3-外存分配方式"><a href="#6-3-外存分配方式" class="headerlink" title="6.3 外存分配方式"></a>6.3 外存分配方式</h2><h2 id="6-4-目录管理"><a href="#6-4-目录管理" class="headerlink" title="6.4 目录管理"></a>6.4 目录管理</h2><h2 id="6-5-文件存储空间的管理"><a href="#6-5-文件存储空间的管理" class="headerlink" title="6.5 文件存储空间的管理"></a>6.5 文件存储空间的管理</h2><h2 id="6-6-文件共享与文件保护"><a href="#6-6-文件共享与文件保护" class="headerlink" title="6.6 文件共享与文件保护"></a>6.6 文件共享与文件保护</h2><h2 id="6-7-数据一致性控制"><a href="#6-7-数据一致性控制" class="headerlink" title="6.7 数据一致性控制"></a>6.7 数据一致性控制</h2><h1 id="第七章-操作系统接口"><a href="#第七章-操作系统接口" class="headerlink" title="第七章 操作系统接口"></a>第七章 操作系统接口</h1><h2 id="7-1-联机用户接口"><a href="#7-1-联机用户接口" class="headerlink" title="7.1 联机用户接口"></a>7.1 联机用户接口</h2><h2 id="7-2-Shell命令语言"><a href="#7-2-Shell命令语言" class="headerlink" title="7.2 Shell命令语言"></a>7.2 Shell命令语言</h2><h2 id="7-3-系统调用"><a href="#7-3-系统调用" class="headerlink" title="7.3 系统调用"></a>7.3 系统调用</h2><h2 id="7-4-UNIX系统调用"><a href="#7-4-UNIX系统调用" class="headerlink" title="7.4 UNIX系统调用"></a>7.4 UNIX系统调用</h2><h2 id="7-5-图形用户接口"><a href="#7-5-图形用户接口" class="headerlink" title="7.5 图形用户接口"></a>7.5 图形用户接口</h2><h1 id="第八章-网络操作系统"><a href="#第八章-网络操作系统" class="headerlink" title="第八章 网络操作系统"></a>第八章 网络操作系统</h1><h2 id="8-1-计算机网络概述"><a href="#8-1-计算机网络概述" class="headerlink" title="8.1 计算机网络概述"></a>8.1 计算机网络概述</h2><h2 id="8-2-网络体系结构"><a href="#8-2-网络体系结构" class="headerlink" title="8.2 网络体系结构"></a>8.2 网络体系结构</h2><h2 id="8-3-Internet与Intranet"><a href="#8-3-Internet与Intranet" class="headerlink" title="8.3 Internet与Intranet"></a>8.3 Internet与Intranet</h2><h2 id="8-4-客户，服务器模式"><a href="#8-4-客户，服务器模式" class="headerlink" title="8.4 客户，服务器模式"></a>8.4 客户，服务器模式</h2><h2 id="8-5-网络操作系统的功能"><a href="#8-5-网络操作系统的功能" class="headerlink" title="8.5 网络操作系统的功能"></a>8.5 网络操作系统的功能</h2><h2 id="8-6-网络操作系统提供的服务"><a href="#8-6-网络操作系统提供的服务" class="headerlink" title="8.6 网络操作系统提供的服务"></a>8.6 网络操作系统提供的服务</h2><h1 id="第九章-系统安全性"><a href="#第九章-系统安全性" class="headerlink" title="第九章 系统安全性"></a>第九章 系统安全性</h1><h2 id="9-1-系统安全的基本概念"><a href="#9-1-系统安全的基本概念" class="headerlink" title="9.1 系统安全的基本概念"></a>9.1 系统安全的基本概念</h2><h2 id="9-2-数据加密技术"><a href="#9-2-数据加密技术" class="headerlink" title="9.2 数据加密技术"></a>9.2 数据加密技术</h2><h2 id="9-3-认证技术"><a href="#9-3-认证技术" class="headerlink" title="9.3 认证技术"></a>9.3 认证技术</h2><h2 id="9-4-访问控制技术"><a href="#9-4-访问控制技术" class="headerlink" title="9.4 访问控制技术"></a>9.4 访问控制技术</h2><h2 id="9-5-计算机病毒"><a href="#9-5-计算机病毒" class="headerlink" title="9.5 计算机病毒"></a>9.5 计算机病毒</h2><h1 id="第十章-UNIX系统内核结构"><a href="#第十章-UNIX系统内核结构" class="headerlink" title="第十章 UNIX系统内核结构"></a>第十章 UNIX系统内核结构</h1><h2 id="10-1-UNIX系统概述"><a href="#10-1-UNIX系统概述" class="headerlink" title="10.1 UNIX系统概述"></a>10.1 UNIX系统概述</h2><h2 id="10-2-进程的描述和控制"><a href="#10-2-进程的描述和控制" class="headerlink" title="10.2 进程的描述和控制"></a>10.2 进程的描述和控制</h2><h2 id="10-3-进程的同步与通信"><a href="#10-3-进程的同步与通信" class="headerlink" title="10.3 进程的同步与通信"></a>10.3 进程的同步与通信</h2><h2 id="10-4-存储器管理"><a href="#10-4-存储器管理" class="headerlink" title="10.4 存储器管理"></a>10.4 存储器管理</h2><h2 id="10-5-设备管理"><a href="#10-5-设备管理" class="headerlink" title="10.5 设备管理"></a>10.5 设备管理</h2><h2 id="10-6-文件管理"><a href="#10-6-文件管理" class="headerlink" title="10.6 文件管理"></a>10.6 文件管理</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;第一章-操作系统引论&quot;&gt;&lt;a href=&quot;#第一章-操作系统引论&quot; class=&quot;headerlink&quot; title=&quot;第一章 操作系统引论&quot;&gt;&lt;/a&gt;第一章 操作系统引论&lt;/h1&gt;&lt;h2 id=&quot;1-1-操作系统的目标和作用&quot;&gt;&lt;a href=&quot;#1-1-操作系
-      
-    
-    </summary>
-    
-      <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
-    
-      <category term="012_operating_system" scheme="https://30s.github.io/categories/01-software-engineering/012-operating-system/"/>
-    
-    
-      <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
-    
-      <category term="Operating System" scheme="https://30s.github.io/tags/Operating-System/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ACM OJ集锦</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/0151_acm/acm_oj_collection/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/0151_acm/acm_oj_collection/</id>
-    <published>2010-09-01T12:00:00.000Z</published>
-    <updated>2018-03-07T12:27:37.258Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="ACM-OJ-Collection（排名不分先后）："><a href="#ACM-OJ-Collection（排名不分先后）：" class="headerlink" title="ACM OJ Collection（排名不分先后）："></a>ACM OJ Collection（排名不分先后）：</h1><h2 id="中国：-China"><a href="#中国：-China" class="headerlink" title="中国：(China)"></a>中国：(China)</h2><h3 id="华东地区："><a href="#华东地区：" class="headerlink" title="华东地区："></a>华东地区：</h3><h4 id="浙江："><a href="#浙江：" class="headerlink" title="浙江："></a>浙江：</h4><ul><li>杭州电子科技大学(HDU)：<a href="http://acm.hdu.edu.cn/" target="_blank" rel="noopener">http://acm.hdu.edu.cn/</a></li><li>浙江大学（ZJU）：<a href="http://acm.zju.edu.cn/" target="_blank" rel="noopener">http://acm.zju.edu.cn/</a></li><li>浙江工业大学（ZJUT）：<a href="http://acm.zjut.edu.cn/" target="_blank" rel="noopener">http://acm.zjut.edu.cn/</a></li><li>浙江师范大学（ZJNU）：<a href="http://acm.zjnu.cn/" target="_blank" rel="noopener">http://acm.zjnu.cn/</a></li><li>浙江工商（ZJGSU）：<a href="http://acm.zjgsu.edu.cn/" target="_blank" rel="noopener">http://acm.zjgsu.edu.cn/</a></li><li>宁波理工（NIT）：<a href="http://acm.nit.net.cn/" target="_blank" rel="noopener">http://acm.nit.net.cn/</a></li></ul><h4 id="上海："><a href="#上海：" class="headerlink" title="上海："></a>上海：</h4><ul><li>华东师范大学（ECNU）：<a href="http://acm.cs.ecnu.edu.cn/" target="_blank" rel="noopener">http://acm.cs.ecnu.edu.cn/</a></li><li>华东理工大学（ECUST）：<a href="http://acm.ecust.edu.cn/" target="_blank" rel="noopener">http://acm.ecust.edu.cn/</a></li><li>同济大学（TJU）：<a href="http://acm.tongji.edu.cn/" target="_blank" rel="noopener">http://acm.tongji.edu.cn/</a></li></ul><h4 id="江苏："><a href="#江苏：" class="headerlink" title="江苏："></a>江苏：</h4><ul><li>南京航空航天大学： <a href="http://acm.nuaa.edu.cn/" target="_blank" rel="noopener">http://acm.nuaa.edu.cn/</a></li></ul><h4 id="福建："><a href="#福建：" class="headerlink" title="福建："></a>福建：</h4><ul><li>福州大学（FZU）：<a href="http://acm.fzu.edu.cn/" target="_blank" rel="noopener">http://acm.fzu.edu.cn/</a></li><li>厦门大学（XMU）：<a href="http://acm.xmu.edu.cn/" target="_blank" rel="noopener">http://acm.xmu.edu.cn/</a></li><li>福建师范大学（FJNU）：<a href="http://acm.fjnu.edu.cn/" target="_blank" rel="noopener">http://acm.fjnu.edu.cn/</a></li></ul><h4 id="安徽："><a href="#安徽：" class="headerlink" title="安徽："></a>安徽：</h4><ul><li>中国科技大学（USTC）：<a href="http://acm.ustc.edu.cn/" target="_blank" rel="noopener">http://acm.ustc.edu.cn/</a></li></ul><h3 id="华北地区："><a href="#华北地区：" class="headerlink" title="华北地区："></a>华北地区：</h3><h4 id="北京："><a href="#北京：" class="headerlink" title="北京："></a>北京：</h4><ul><li>北京交大（BJTU）：<a href="http://acm.bjtu.edu.cn/" target="_blank" rel="noopener">http://acm.bjtu.edu.cn/</a></li><li>北京大学（PKU）：<a href="http://acm.pku.edu.cn/" target="_blank" rel="noopener">http://acm.pku.edu.cn/</a></li></ul><h4 id="天津："><a href="#天津：" class="headerlink" title="天津："></a>天津：</h4><ul><li>南开大学（NAIKAI）：<a href="http://acm.nankai.edu.cn/" target="_blank" rel="noopener">http://acm.nankai.edu.cn/</a></li><li>天津大学（TJU）：<a href="http://acm.tju.edu.cn/toj/" target="_blank" rel="noopener">http://acm.tju.edu.cn/toj/</a></li></ul><h3 id="东北地区："><a href="#东北地区：" class="headerlink" title="东北地区："></a>东北地区：</h3><h4 id="黑龙江："><a href="#黑龙江：" class="headerlink" title="黑龙江："></a>黑龙江：</h4><ul><li>哈尔滨工程大学（HRBEU）：<a href="http://acm.hrbeu.edu.cn/" target="_blank" rel="noopener">http://acm.hrbeu.edu.cn/</a></li></ul><h3 id="华南地区："><a href="#华南地区：" class="headerlink" title="华南地区："></a>华南地区：</h3><h4 id="广东："><a href="#广东：" class="headerlink" title="广东："></a>广东：</h4><ul><li>中山大学（ZSU）：<a href="http://acm.zsu.edu.cn/" target="_blank" rel="noopener">http://acm.zsu.edu.cn/</a></li></ul><h3 id="西南地区："><a href="#西南地区：" class="headerlink" title="西南地区："></a>西南地区：</h3><h4 id="四川："><a href="#四川：" class="headerlink" title="四川："></a>四川：</h4><ul><li>西南民大（SWUN）：<a href="http://acm.swun.edu.cn/" target="_blank" rel="noopener">http://acm.swun.edu.cn/</a></li></ul><h3 id="华中地区："><a href="#华中地区：" class="headerlink" title="华中地区："></a>华中地区：</h3><h4 id="湖北："><a href="#湖北：" class="headerlink" title="湖北："></a>湖北：</h4><ul><li>华中科技大学（HUST）：<a href="http://acm.hust.edu.cn/JudgeOnline/" target="_blank" rel="noopener">http://acm.hust.edu.cn/JudgeOnline/</a></li><li>武汉大学（WHU）：<a href="http://acm.whu.edu.cn/" target="_blank" rel="noopener">http://acm.whu.edu.cn/</a></li></ul><h3 id="港澳台地区："><a href="#港澳台地区：" class="headerlink" title="港澳台地区："></a>港澳台地区：</h3><h4 id="香港："><a href="#香港：" class="headerlink" title="香港："></a>香港：</h4><ul><li>香港大学(HKOI)：<a href="http://judge.hkoi.org/" target="_blank" rel="noopener">http://judge.hkoi.org/</a></li></ul><hr><h2 id="俄罗斯：-Russia"><a href="#俄罗斯：-Russia" class="headerlink" title="俄罗斯：(Russia)"></a>俄罗斯：(Russia)</h2><ul><li>乌拉尔大学（URAL）：<a href="http://acm.timus.ru/" target="_blank" rel="noopener">http://acm.timus.ru/</a></li><li>萨拉托夫大学（SGU）：<a href="http://acm.sgu.ru/" target="_blank" rel="noopener">http://acm.sgu.ru/</a></li><li>(vallod) ：<a href="http://acm.uva.es/" target="_blank" rel="noopener">http://acm.uva.es/</a></li><li>EL Judge(MIPT):：<a href="http://acm.mipt.ru/judge/problems.pl" target="_blank" rel="noopener">http://acm.mipt.ru/judge/problems.pl</a></li></ul><hr><h2 id="西班牙：-Spanish"><a href="#西班牙：-Spanish" class="headerlink" title="西班牙：(Spanish)"></a>西班牙：(Spanish)</h2><ul><li>瓦拉杜利德大学（UVA）：<a href="http://acm.uva.es/" target="_blank" rel="noopener">http://acm.uva.es/</a></li></ul><hr><h2 id="美国：-America"><a href="#美国：-America" class="headerlink" title="美国：(America)"></a>美国：(America)</h2><ul><li>USACO: <a href="http://train.usaco.org/usacogate" target="_blank" rel="noopener">http://train.usaco.org/usacogate</a></li></ul><hr><h3 id="波兰：-Poland"><a href="#波兰：-Poland" class="headerlink" title="波兰：(Poland)"></a>波兰：(Poland)</h3><ul><li>SPOJ：<a href="http://www.spoj.pl/" target="_blank" rel="noopener">http://www.spoj.pl/</a></li></ul><hr><h2 id="吉尔吉斯斯坦-：-Kirgizstan"><a href="#吉尔吉斯斯坦-：-Kirgizstan" class="headerlink" title="吉尔吉斯斯坦:：(Kirgizstan)"></a>吉尔吉斯斯坦:：(Kirgizstan)</h2><ul><li>KRSU: <a href="http://www.olymp.krsu.edu.kg/GeneralProblemset.aspx" target="_blank" rel="noopener">http://www.olymp.krsu.edu.kg/GeneralProblemset.aspx</a></li></ul><hr><h2 id="中国各大高校BBS"><a href="#中国各大高校BBS" class="headerlink" title="中国各大高校BBS:"></a>中国各大高校BBS:</h2><ul><li><a href="http://acm.hdu.edu.cn/forum/（杭电）" target="_blank" rel="noopener">http://acm.hdu.edu.cn/forum/（杭电）</a></li><li><a href="http://www.hdubbs.com/（杭电）" target="_blank" rel="noopener">http://www.hdubbs.com/（杭电）</a></li><li><a href="http://www.freecity.cn/（浙大）" target="_blank" rel="noopener">http://www.freecity.cn/（浙大）</a></li><li><a href="http://bbs.freecity.cn/(浙大)" target="_blank" rel="noopener">http://bbs.freecity.cn/(浙大)</a></li></ul><hr><h2 id="Others："><a href="#Others：" class="headerlink" title="Others："></a>Others：</h2><ul><li>Topcoder：<a href="http://www.topcoder.com/tc" target="_blank" rel="noopener">http://www.topcoder.com/tc</a></li><li>ACM-ICPC：<a href="http://icpc.baylor.edu/icpc/" target="_blank" rel="noopener">http://icpc.baylor.edu/icpc/</a></li><li>美国信息学奥林匹克竞赛官方网站：<a href="http://www.usaco.org/" target="_blank" rel="noopener">http://www.usaco.org/</a></li><li>全美计算机奥林匹克竞赛：<a href="http://ace.delos.com/usacogate" target="_blank" rel="noopener">http://ace.delos.com/usacogate</a></li><li>信息学初学者之家：<a href="http://oibh.ioiforum.org/" target="_blank" rel="noopener">http://oibh.ioiforum.org/</a></li><li>中国教育曙光网：<a href="http://www.chinaschool.org/aosai/" target="_blank" rel="noopener">http://www.chinaschool.org/aosai/</a></li><li>福建信息学奥林匹克：<a href="http://www.cfcs.com.cn/fjas/index.htm" target="_blank" rel="noopener">http://www.cfcs.com.cn/fjas/index.htm</a></li><li>IOI：<a href="http://olympiads.win.tue.nl/ioi/" target="_blank" rel="noopener">http://olympiads.win.tue.nl/ioi/</a></li><li>高效信息学在线判题系统（VIJOS）：<a href="http://www.vijos.cn/" target="_blank" rel="noopener">http://www.vijos.cn/</a></li><li>ACM的例程和测试数据：<a href="http://www.karrels.org/Ed/ACM/" target="_blank" rel="noopener">http://www.karrels.org/Ed/ACM/</a></li><li>ACM社区：<a href="http://www.608088.com/" target="_blank" rel="noopener">http://www.608088.com/</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;ACM-OJ-Collection（排名不分先后）：&quot;&gt;&lt;a href=&quot;#ACM-OJ-Collection（排名不分先后）：&quot; class=&quot;headerlink&quot; title=&quot;ACM OJ Collection（排名不分先后）：&quot;&gt;&lt;/a&gt;ACM OJ C
-      
-    
-    </summary>
-    
-      <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
-    
-      <category term="015_algorithm" scheme="https://30s.github.io/categories/01-software-engineering/015-algorithm/"/>
-    
-      <category term="0151_acm" scheme="https://30s.github.io/categories/01-software-engineering/015-algorithm/0151-acm/"/>
-    
-    
-      <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
-    
-      <category term="Algorithm" scheme="https://30s.github.io/tags/Algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据结构</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/014_data_structure/index/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/014_data_structure/index/</id>
-    <published>2010-09-01T12:00:00.000Z</published>
-    <updated>2018-03-06T10:37:56.830Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第1章-绪论"><a href="#第1章-绪论" class="headerlink" title="第1章 绪论"></a>第1章 绪论</h1><h2 id="1-1-什么是数据结构"><a href="#1-1-什么是数据结构" class="headerlink" title="1.1 什么是数据结构"></a>1.1 什么是数据结构</h2><h2 id="1-2-基本概念和术语"><a href="#1-2-基本概念和术语" class="headerlink" title="1.2 基本概念和术语"></a>1.2 基本概念和术语</h2><h2 id="1-3-抽象数据类型的表现与实现"><a href="#1-3-抽象数据类型的表现与实现" class="headerlink" title="1.3 抽象数据类型的表现与实现"></a>1.3 抽象数据类型的表现与实现</h2><h2 id="1-4-算法和算法分析"><a href="#1-4-算法和算法分析" class="headerlink" title="1.4 算法和算法分析"></a>1.4 算法和算法分析</h2><h1 id="第2章-线性表"><a href="#第2章-线性表" class="headerlink" title="第2章 线性表"></a>第2章 线性表</h1><h2 id="2-1-线性表的类型定义"><a href="#2-1-线性表的类型定义" class="headerlink" title="2.1 线性表的类型定义"></a>2.1 线性表的类型定义</h2><h2 id="2-2-线性表的顺序表示和实现"><a href="#2-2-线性表的顺序表示和实现" class="headerlink" title="2.2 线性表的顺序表示和实现"></a>2.2 线性表的顺序表示和实现</h2><h2 id="2-3-线性表的链式表示和实现"><a href="#2-3-线性表的链式表示和实现" class="headerlink" title="2.3 线性表的链式表示和实现"></a>2.3 线性表的链式表示和实现</h2><h2 id="2-4-一元多项式的表示及相加"><a href="#2-4-一元多项式的表示及相加" class="headerlink" title="2.4 一元多项式的表示及相加"></a>2.4 一元多项式的表示及相加</h2><h1 id="第3章-栈和队列"><a href="#第3章-栈和队列" class="headerlink" title="第3章 栈和队列"></a>第3章 栈和队列</h1><h2 id="3-1-栈"><a href="#3-1-栈" class="headerlink" title="3.1 栈"></a>3.1 栈</h2><h2 id="3-2-栈的应有和举例"><a href="#3-2-栈的应有和举例" class="headerlink" title="3.2 栈的应有和举例"></a>3.2 栈的应有和举例</h2><h2 id="3-3-栈与递归的实现"><a href="#3-3-栈与递归的实现" class="headerlink" title="3.3 栈与递归的实现"></a>3.3 栈与递归的实现</h2><h2 id="3-4-队列"><a href="#3-4-队列" class="headerlink" title="3.4 队列"></a>3.4 队列</h2><h2 id="3-5-离散事件模拟"><a href="#3-5-离散事件模拟" class="headerlink" title="3.5 离散事件模拟"></a>3.5 离散事件模拟</h2><h1 id="第4章-串"><a href="#第4章-串" class="headerlink" title="第4章 串"></a>第4章 串</h1><h2 id="4-1-串类型的定义"><a href="#4-1-串类型的定义" class="headerlink" title="4.1 串类型的定义"></a>4.1 串类型的定义</h2><h2 id="4-2-串的表示和实现"><a href="#4-2-串的表示和实现" class="headerlink" title="4.2 串的表示和实现"></a>4.2 串的表示和实现</h2><h2 id="4-3-串的模式匹配算法"><a href="#4-3-串的模式匹配算法" class="headerlink" title="4.3 串的模式匹配算法"></a>4.3 串的模式匹配算法</h2><h2 id="4-4-串操作应用举例"><a href="#4-4-串操作应用举例" class="headerlink" title="4.4 串操作应用举例"></a>4.4 串操作应用举例</h2><h1 id="第5章-数组和广义表"><a href="#第5章-数组和广义表" class="headerlink" title="第5章 数组和广义表"></a>第5章 数组和广义表</h1><h2 id="5-1-数组的定义"><a href="#5-1-数组的定义" class="headerlink" title="5.1 数组的定义"></a>5.1 数组的定义</h2><h2 id="5-2-数组的顺序表现和实现"><a href="#5-2-数组的顺序表现和实现" class="headerlink" title="5.2 数组的顺序表现和实现"></a>5.2 数组的顺序表现和实现</h2><h2 id="5-3-矩阵的压缩存储"><a href="#5-3-矩阵的压缩存储" class="headerlink" title="5.3 矩阵的压缩存储"></a>5.3 矩阵的压缩存储</h2><h2 id="5-4-广义表的定义"><a href="#5-4-广义表的定义" class="headerlink" title="5.4 广义表的定义"></a>5.4 广义表的定义</h2><h2 id="5-5-广义表的储存结构"><a href="#5-5-广义表的储存结构" class="headerlink" title="5.5 广义表的储存结构"></a>5.5 广义表的储存结构</h2><h2 id="5-6-m元多项式的表示"><a href="#5-6-m元多项式的表示" class="headerlink" title="5.6 m元多项式的表示"></a>5.6 m元多项式的表示</h2><h2 id="5-7-广义表的递归算法"><a href="#5-7-广义表的递归算法" class="headerlink" title="5.7 广义表的递归算法"></a>5.7 广义表的递归算法</h2><h1 id="第6章-树和二叉树"><a href="#第6章-树和二叉树" class="headerlink" title="第6章 树和二叉树"></a>第6章 树和二叉树</h1><h2 id="6-1-树的定义和基本术语"><a href="#6-1-树的定义和基本术语" class="headerlink" title="6.1 树的定义和基本术语"></a>6.1 树的定义和基本术语</h2><h2 id="6-2-二叉树"><a href="#6-2-二叉树" class="headerlink" title="6.2 二叉树"></a>6.2 二叉树</h2><h3 id="6-2-1-二叉树的定义"><a href="#6-2-1-二叉树的定义" class="headerlink" title="6.2.1 二叉树的定义"></a>6.2.1 二叉树的定义</h3><h3 id="6-2-2-二叉树的性质"><a href="#6-2-2-二叉树的性质" class="headerlink" title="6.2.2 二叉树的性质"></a>6.2.2 二叉树的性质</h3><h3 id="6-2-3-二叉树的存储结构"><a href="#6-2-3-二叉树的存储结构" class="headerlink" title="6.2.3 二叉树的存储结构"></a>6.2.3 二叉树的存储结构</h3><h2 id="6-3-遍历二叉树和线索二叉树"><a href="#6-3-遍历二叉树和线索二叉树" class="headerlink" title="6.3 遍历二叉树和线索二叉树"></a>6.3 遍历二叉树和线索二叉树</h2><h3 id="6-3-1-遍历二叉树"><a href="#6-3-1-遍历二叉树" class="headerlink" title="6.3.1 遍历二叉树"></a>6.3.1 遍历二叉树</h3><h3 id="6-3-2-线索二叉树"><a href="#6-3-2-线索二叉树" class="headerlink" title="6.3.2 线索二叉树"></a>6.3.2 线索二叉树</h3><h2 id="6-4-树和森林"><a href="#6-4-树和森林" class="headerlink" title="6.4 树和森林"></a>6.4 树和森林</h2><h3 id="6-4-1-树的存储结构"><a href="#6-4-1-树的存储结构" class="headerlink" title="6.4.1 树的存储结构"></a>6.4.1 树的存储结构</h3><h3 id="6-4-2-森林与二叉树的转换"><a href="#6-4-2-森林与二叉树的转换" class="headerlink" title="6.4.2 森林与二叉树的转换"></a>6.4.2 森林与二叉树的转换</h3><h3 id="6-4-3-树和森林的遍历"><a href="#6-4-3-树和森林的遍历" class="headerlink" title="6.4.3 树和森林的遍历"></a>6.4.3 树和森林的遍历</h3><h2 id="6-5-树与等价问题"><a href="#6-5-树与等价问题" class="headerlink" title="6.5 树与等价问题"></a>6.5 树与等价问题</h2><h2 id="6-6-赫夫曼树及其应用"><a href="#6-6-赫夫曼树及其应用" class="headerlink" title="6.6 赫夫曼树及其应用"></a>6.6 赫夫曼树及其应用</h2><h3 id="6-6-1-最优二叉树-赫夫曼树"><a href="#6-6-1-最优二叉树-赫夫曼树" class="headerlink" title="### 6.6.1 最优二叉树(赫夫曼树)"></a>### 6.6.1 最优二叉树(赫夫曼树)</h3><h3 id="6-6-2-赫夫曼编码"><a href="#6-6-2-赫夫曼编码" class="headerlink" title="6.6.2 赫夫曼编码"></a>6.6.2 赫夫曼编码</h3><h2 id="6-7-回溯法与树的遍历"><a href="#6-7-回溯法与树的遍历" class="headerlink" title="6.7 回溯法与树的遍历"></a>6.7 回溯法与树的遍历</h2><h2 id="6-8-树的计数"><a href="#6-8-树的计数" class="headerlink" title="6.8 树的计数"></a>6.8 树的计数</h2><h1 id="第7章-图"><a href="#第7章-图" class="headerlink" title="第7章 图"></a>第7章 图</h1><h2 id="7-1-图的定义和术语"><a href="#7-1-图的定义和术语" class="headerlink" title="7.1 图的定义和术语"></a>7.1 图的定义和术语</h2><h2 id="7-2-图的存储结构"><a href="#7-2-图的存储结构" class="headerlink" title="7.2 图的存储结构"></a>7.2 图的存储结构</h2><h3 id="7-2-1-数组表示法"><a href="#7-2-1-数组表示法" class="headerlink" title="7.2.1 数组表示法"></a>7.2.1 数组表示法</h3><h3 id="7-2-2-邻接表"><a href="#7-2-2-邻接表" class="headerlink" title="7.2.2 邻接表"></a>7.2.2 邻接表</h3><h3 id="7-2-3-十字链表"><a href="#7-2-3-十字链表" class="headerlink" title="7.2.3 十字链表"></a>7.2.3 十字链表</h3><h3 id="7-2-4-邻接多重表"><a href="#7-2-4-邻接多重表" class="headerlink" title="7.2.4 邻接多重表"></a>7.2.4 邻接多重表</h3><h2 id="7-3-图的遍历"><a href="#7-3-图的遍历" class="headerlink" title="7.3 图的遍历"></a>7.3 图的遍历</h2><h3 id="7-3-1-深度优先搜索"><a href="#7-3-1-深度优先搜索" class="headerlink" title="7.3.1 深度优先搜索"></a>7.3.1 深度优先搜索</h3><h3 id="7-3-2-广度优先搜索"><a href="#7-3-2-广度优先搜索" class="headerlink" title="7.3.2 广度优先搜索"></a>7.3.2 广度优先搜索</h3><h2 id="7-4-图的连通性问题"><a href="#7-4-图的连通性问题" class="headerlink" title="7.4 图的连通性问题"></a>7.4 图的连通性问题</h2><h3 id="7-4-1-无向图的连通分量和生成树"><a href="#7-4-1-无向图的连通分量和生成树" class="headerlink" title="7.4.1 无向图的连通分量和生成树"></a>7.4.1 无向图的连通分量和生成树</h3><h3 id="7-4-2-有向图的强连通分量"><a href="#7-4-2-有向图的强连通分量" class="headerlink" title="7.4.2 有向图的强连通分量"></a>7.4.2 有向图的强连通分量</h3><h3 id="7-4-3-最小生成树"><a href="#7-4-3-最小生成树" class="headerlink" title="7.4.3 最小生成树"></a>7.4.3 最小生成树</h3><h3 id="7-4-4-关节点和重连通分量"><a href="#7-4-4-关节点和重连通分量" class="headerlink" title="7.4.4 关节点和重连通分量"></a>7.4.4 关节点和重连通分量</h3><h2 id="7-5-有向无环图及其应用"><a href="#7-5-有向无环图及其应用" class="headerlink" title="7.5 有向无环图及其应用"></a>7.5 有向无环图及其应用</h2><h3 id="7-5-1-拓扑排序"><a href="#7-5-1-拓扑排序" class="headerlink" title="7.5.1 拓扑排序"></a>7.5.1 拓扑排序</h3><h3 id="7-5-2-关键路径"><a href="#7-5-2-关键路径" class="headerlink" title="7.5.2 关键路径"></a>7.5.2 关键路径</h3><h2 id="7-6-最短路径"><a href="#7-6-最短路径" class="headerlink" title="7.6 最短路径"></a>7.6 最短路径</h2><h3 id="7-6-1-从某个源点到其余各顶点的最短路径"><a href="#7-6-1-从某个源点到其余各顶点的最短路径" class="headerlink" title="7.6.1 从某个源点到其余各顶点的最短路径"></a>7.6.1 从某个源点到其余各顶点的最短路径</h3><h3 id="7-6-2-每一对顶点之间的最短路径"><a href="#7-6-2-每一对顶点之间的最短路径" class="headerlink" title="7.6.2 每一对顶点之间的最短路径"></a>7.6.2 每一对顶点之间的最短路径</h3><h1 id="第8章-动态存储管理"><a href="#第8章-动态存储管理" class="headerlink" title="第8章 动态存储管理"></a>第8章 动态存储管理</h1><h2 id="8-1-概述"><a href="#8-1-概述" class="headerlink" title="8.1 概述"></a>8.1 概述</h2><h2 id="8-2-可利用空间表及分配方法"><a href="#8-2-可利用空间表及分配方法" class="headerlink" title="8.2 可利用空间表及分配方法"></a>8.2 可利用空间表及分配方法</h2><h2 id="8-3-边界标识法"><a href="#8-3-边界标识法" class="headerlink" title="8.3 边界标识法"></a>8.3 边界标识法</h2><h3 id="8-3-1-可利用空间表的结构"><a href="#8-3-1-可利用空间表的结构" class="headerlink" title="8.3.1 可利用空间表的结构"></a>8.3.1 可利用空间表的结构</h3><h3 id="8-3-2-分配算法"><a href="#8-3-2-分配算法" class="headerlink" title="8.3.2 分配算法"></a>8.3.2 分配算法</h3><h3 id="8-3-3-回收算法"><a href="#8-3-3-回收算法" class="headerlink" title="8.3.3 回收算法"></a>8.3.3 回收算法</h3><h2 id="8-4-伙伴系统"><a href="#8-4-伙伴系统" class="headerlink" title="8.4 伙伴系统"></a>8.4 伙伴系统</h2><h3 id="8-4-1-可利用空间表的结构"><a href="#8-4-1-可利用空间表的结构" class="headerlink" title="8.4.1 可利用空间表的结构"></a>8.4.1 可利用空间表的结构</h3><h3 id="8-4-2-分配算法"><a href="#8-4-2-分配算法" class="headerlink" title="8.4.2 分配算法"></a>8.4.2 分配算法</h3><h3 id="8-4-3-回收算法"><a href="#8-4-3-回收算法" class="headerlink" title="8.4.3 回收算法"></a>8.4.3 回收算法</h3><h2 id="8-5-无用单元收集"><a href="#8-5-无用单元收集" class="headerlink" title="8.5 无用单元收集"></a>8.5 无用单元收集</h2><h2 id="8-6-存储紧缩"><a href="#8-6-存储紧缩" class="headerlink" title="8.6 存储紧缩"></a>8.6 存储紧缩</h2><h1 id="第9章-查找"><a href="#第9章-查找" class="headerlink" title="第9章 查找"></a>第9章 查找</h1><h2 id="9-1-静态查找表"><a href="#9-1-静态查找表" class="headerlink" title="9.1 静态查找表"></a>9.1 静态查找表</h2><h3 id="9-1-1-顺序表的查找"><a href="#9-1-1-顺序表的查找" class="headerlink" title="9.1.1 顺序表的查找"></a>9.1.1 顺序表的查找</h3><h3 id="9-1-2-有序表的查找"><a href="#9-1-2-有序表的查找" class="headerlink" title="9.1.2 有序表的查找"></a>9.1.2 有序表的查找</h3><h3 id="9-1-3-静态树表的查找"><a href="#9-1-3-静态树表的查找" class="headerlink" title="9.1.3 静态树表的查找"></a>9.1.3 静态树表的查找</h3><h3 id="9-1-4-索引顺序表的查找"><a href="#9-1-4-索引顺序表的查找" class="headerlink" title="9.1.4 索引顺序表的查找"></a>9.1.4 索引顺序表的查找</h3><h2 id="9-2-动态查找表"><a href="#9-2-动态查找表" class="headerlink" title="9.2 动态查找表"></a>9.2 动态查找表</h2><h3 id="9-2-1-二叉排序树和平衡二叉树"><a href="#9-2-1-二叉排序树和平衡二叉树" class="headerlink" title="9.2.1 二叉排序树和平衡二叉树"></a>9.2.1 二叉排序树和平衡二叉树</h3><h3 id="9-2-2-B树和B-树"><a href="#9-2-2-B树和B-树" class="headerlink" title="9.2.2 B树和B+树"></a>9.2.2 B树和B+树</h3><h3 id="9-2-3-键树"><a href="#9-2-3-键树" class="headerlink" title="9.2.3 键树"></a>9.2.3 键树</h3><h2 id="9-3-哈希表"><a href="#9-3-哈希表" class="headerlink" title="9.3 哈希表"></a>9.3 哈希表</h2><h3 id="9-3-1-什么是哈希表"><a href="#9-3-1-什么是哈希表" class="headerlink" title="9.3.1 什么是哈希表"></a>9.3.1 什么是哈希表</h3><h3 id="9-3-2-哈希函数的构造方法"><a href="#9-3-2-哈希函数的构造方法" class="headerlink" title="9.3.2 哈希函数的构造方法"></a>9.3.2 哈希函数的构造方法</h3><h3 id="9-3-3-处理冲突的方法"><a href="#9-3-3-处理冲突的方法" class="headerlink" title="9.3.3 处理冲突的方法"></a>9.3.3 处理冲突的方法</h3><h3 id="9-3-4-哈希表的查找及其分析"><a href="#9-3-4-哈希表的查找及其分析" class="headerlink" title="9.3.4 哈希表的查找及其分析"></a>9.3.4 哈希表的查找及其分析</h3><h1 id="第10章-内部排序"><a href="#第10章-内部排序" class="headerlink" title="第10章 内部排序"></a>第10章 内部排序</h1><h2 id="10-1-概述"><a href="#10-1-概述" class="headerlink" title="10.1 概述"></a>10.1 概述</h2><h2 id="10-2-插入排序"><a href="#10-2-插入排序" class="headerlink" title="10.2 插入排序"></a>10.2 插入排序</h2><h3 id="10-2-1-直接插入排序"><a href="#10-2-1-直接插入排序" class="headerlink" title="10.2.1 直接插入排序"></a>10.2.1 直接插入排序</h3><h3 id="10-2-2-其他插入排序"><a href="#10-2-2-其他插入排序" class="headerlink" title="10.2.2 其他插入排序"></a>10.2.2 其他插入排序</h3><h3 id="10-2-3-希尔排序"><a href="#10-2-3-希尔排序" class="headerlink" title="10.2.3 希尔排序"></a>10.2.3 希尔排序</h3><h2 id="10-3-快速排序"><a href="#10-3-快速排序" class="headerlink" title="10.3 快速排序"></a>10.3 快速排序</h2><h2 id="10-4-选择排序"><a href="#10-4-选择排序" class="headerlink" title="10.4 选择排序"></a>10.4 选择排序</h2><h3 id="10-4-1-简单选择排序"><a href="#10-4-1-简单选择排序" class="headerlink" title="10.4.1 简单选择排序"></a>10.4.1 简单选择排序</h3><h3 id="10-4-2-树形选择排序"><a href="#10-4-2-树形选择排序" class="headerlink" title="10.4.2 树形选择排序"></a>10.4.2 树形选择排序</h3><h3 id="10-4-3-堆排序"><a href="#10-4-3-堆排序" class="headerlink" title="10.4.3 堆排序"></a>10.4.3 堆排序</h3><h2 id="10-5-归并排序"><a href="#10-5-归并排序" class="headerlink" title="10.5 归并排序"></a>10.5 归并排序</h2><h2 id="10-6-基数排序"><a href="#10-6-基数排序" class="headerlink" title="10.6 基数排序"></a>10.6 基数排序</h2><h3 id="10-6-1-多关键字的排序"><a href="#10-6-1-多关键字的排序" class="headerlink" title="10.6.1 多关键字的排序"></a>10.6.1 多关键字的排序</h3><h3 id="10-6-2-链式基数排序"><a href="#10-6-2-链式基数排序" class="headerlink" title="10.6.2 链式基数排序"></a>10.6.2 链式基数排序</h3><h2 id="10-7-各种内部排序方法的比较讨论"><a href="#10-7-各种内部排序方法的比较讨论" class="headerlink" title="10.7 各种内部排序方法的比较讨论"></a>10.7 各种内部排序方法的比较讨论</h2><h1 id="第11章-外部排序"><a href="#第11章-外部排序" class="headerlink" title="第11章 外部排序"></a>第11章 外部排序</h1><h2 id="11-1-外存信息的存取"><a href="#11-1-外存信息的存取" class="headerlink" title="11.1 外存信息的存取"></a>11.1 外存信息的存取</h2><h2 id="11-2-外部排序的方法"><a href="#11-2-外部排序的方法" class="headerlink" title="11.2 外部排序的方法"></a>11.2 外部排序的方法</h2><h2 id="11-3-多路平衡归并的实现"><a href="#11-3-多路平衡归并的实现" class="headerlink" title="11.3 多路平衡归并的实现"></a>11.3 多路平衡归并的实现</h2><h2 id="11-4-置换一选择排序"><a href="#11-4-置换一选择排序" class="headerlink" title="11.4 置换一选择排序"></a>11.4 置换一选择排序</h2><h2 id="11-5-最佳归并树"><a href="#11-5-最佳归并树" class="headerlink" title="11.5 最佳归并树"></a>11.5 最佳归并树</h2><h1 id="第12章-文件"><a href="#第12章-文件" class="headerlink" title="第12章 文件"></a>第12章 文件</h1><h2 id="12-1-有关文件的基本概念"><a href="#12-1-有关文件的基本概念" class="headerlink" title="12.1 有关文件的基本概念"></a>12.1 有关文件的基本概念</h2><h2 id="12-2-顺序文件"><a href="#12-2-顺序文件" class="headerlink" title="12.2 顺序文件"></a>12.2 顺序文件</h2><h2 id="12-3-索引文件"><a href="#12-3-索引文件" class="headerlink" title="12.3 索引文件"></a>12.3 索引文件</h2><h2 id="12-4-ISAM文件和VSAM文件"><a href="#12-4-ISAM文件和VSAM文件" class="headerlink" title="12.4 ISAM文件和VSAM文件"></a>12.4 ISAM文件和VSAM文件</h2><h3 id="12-4-1-ISAM文件"><a href="#12-4-1-ISAM文件" class="headerlink" title="12.4.1 ISAM文件"></a>12.4.1 ISAM文件</h3><h3 id="12-4-2-VSAM文件"><a href="#12-4-2-VSAM文件" class="headerlink" title="12.4.2 VSAM文件"></a>12.4.2 VSAM文件</h3><h2 id="12-5-直接存取文件-散列文件"><a href="#12-5-直接存取文件-散列文件" class="headerlink" title="12.5 直接存取文件(散列文件)"></a>12.5 直接存取文件(散列文件)</h2><h2 id="12-6-多关键字文件"><a href="#12-6-多关键字文件" class="headerlink" title="12.6 多关键字文件"></a>12.6 多关键字文件</h2><h3 id="12-6-1-多重表文件"><a href="#12-6-1-多重表文件" class="headerlink" title="12.6.1 多重表文件"></a>12.6.1 多重表文件</h3><h3 id="12-6-2-倒排文件"><a href="#12-6-2-倒排文件" class="headerlink" title="12.6.2 倒排文件"></a>12.6.2 倒排文件</h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;第1章-绪论&quot;&gt;&lt;a href=&quot;#第1章-绪论&quot; class=&quot;headerlink&quot; title=&quot;第1章 绪论&quot;&gt;&lt;/a&gt;第1章 绪论&lt;/h1&gt;&lt;h2 id=&quot;1-1-什么是数据结构&quot;&gt;&lt;a href=&quot;#1-1-什么是数据结构&quot; class=&quot;header
-      
-    
-    </summary>
-    
-      <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
-    
-      <category term="014_data_structure" scheme="https://30s.github.io/categories/01-software-engineering/014-data-structure/"/>
-    
-    
-      <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
-    
-      <category term="Data Structure" scheme="https://30s.github.io/tags/Data-Structure/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>计算机网络</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/013_network/index/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/013_network/index/</id>
-    <published>2010-09-01T12:00:00.000Z</published>
-    <updated>2018-03-07T13:38:38.170Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第1章-概述"><a href="#第1章-概述" class="headerlink" title="第1章　概述"></a>第1章　概述</h1><h1 id="第2章-物理层"><a href="#第2章-物理层" class="headerlink" title="第2章　物理层"></a>第2章　物理层</h1><h1 id="第3章-数据链路层"><a href="#第3章-数据链路层" class="headerlink" title="第3章　数据链路层"></a>第3章　数据链路层</h1><h1 id="第4章-网络层"><a href="#第4章-网络层" class="headerlink" title="第4章　网络层"></a>第4章　网络层</h1><h1 id="第5章-运输层"><a href="#第5章-运输层" class="headerlink" title="第5章　运输层"></a>第5章　运输层</h1><h1 id="第6章-应用层"><a href="#第6章-应用层" class="headerlink" title="第6章　应用层"></a>第6章　应用层</h1><h1 id="第7章-网络安全"><a href="#第7章-网络安全" class="headerlink" title="第7章　网络安全"></a>第7章　网络安全</h1><h1 id="第8章-因特网上的音频-视频服务"><a href="#第8章-因特网上的音频-视频服务" class="headerlink" title="第8章　因特网上的音频/视频服务"></a>第8章　因特网上的音频/视频服务</h1><h1 id="第9章-无线网络"><a href="#第9章-无线网络" class="headerlink" title="第9章　无线网络"></a>第9章　无线网络</h1><h1 id="第10章-下一代因特网"><a href="#第10章-下一代因特网" class="headerlink" title="第10章　下一代因特网"></a>第10章　下一代因特网</h1>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;第1章-概述&quot;&gt;&lt;a href=&quot;#第1章-概述&quot; class=&quot;headerlink&quot; title=&quot;第1章　概述&quot;&gt;&lt;/a&gt;第1章　概述&lt;/h1&gt;&lt;h1 id=&quot;第2章-物理层&quot;&gt;&lt;a href=&quot;#第2章-物理层&quot; class=&quot;headerlink&quot; ti
-      
-    
-    </summary>
-    
-      <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
-    
-      <category term="013_network" scheme="https://30s.github.io/categories/01-software-engineering/013-network/"/>
-    
-    
-      <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
-    
-      <category term="Network" scheme="https://30s.github.io/tags/Network/"/>
-    
-  </entry>
-  
-  <entry>
     <title>算法设计与分析</title>
     <link href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/index/"/>
     <id>https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/index/</id>
@@ -219,20 +101,19 @@
   </entry>
   
   <entry>
-    <title>Java中常见的数据结构的区别</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/014_data_structure/Java%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/014_data_structure/Java中常见的数据结构的区别/</id>
-    <published>2010-09-01T04:00:00.000Z</published>
-    <updated>2018-03-07T13:47:13.490Z</updated>
+    <title>数据结构</title>
+    <link href="https://30s.github.io/2010/09/01/01_software_engineering/014_data_structure/index/"/>
+    <id>https://30s.github.io/2010/09/01/01_software_engineering/014_data_structure/index/</id>
+    <published>2010-09-01T12:00:00.000Z</published>
+    <updated>2018-03-06T10:37:56.830Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>Java中常见的数据结构的区别</strong></p><p>把多个数据按照一定的存储方式,存储起来,称存储方式之为数据结构.<br>数据的存储方式有很多,数组,队列,链表,栈,哈希表等等.<br>不同的数据结构,性能是不一样的,比如有的插入比较快,查询比较快,但是删除比较慢.<br>有的删除比较快,插入比较快,但是查询比较慢. 根据实际操作,合理选择即可.</p><p>ArrayList<br>和Vector是采用数组方式存储数据，此数组元素数大于实际存储的数据以便增加和插入元素，都允许直接序号索引元素，但是插入数据要设计到数组元素移动等内存操作，所以索引数据快插入数据慢，Vector由于使用了synchronized方法（线程安全）所以性能上比ArrayList要差，LinkedList使用双向链表实现存储，按序号索引数据需要进行向前或向后遍历，但是插入数据时只需要记录本项的前后项即可，所以插入数度较快！</p><p>不同的数据结构在做不同操作时,性能是有差异的,在业界计算性能叫做”大O算法”,我们简单分析以下就可以了.</p><p>分析ArrayList(基于数组的列表)在做CRUD时性能如何：</p><p>1:插入:且先不考虑扩容问题,扩容其实比较好性能(创建新数组,数组元素拷贝).</p><p>2:删除:把后面的元素整体向前移动.</p><p>　　如果删除最后一个元素: 此时操作1次.</p><p>　　如果删除第一个元素 : 此时操作N次.</p><p>　　平均:(N+1)/2次.</p><p>3:修改:操作1次.</p><p>4:查询:如果是根据索引来查询元素,就操作1次.<br>如果是根据元素来查询第一次/最后一次出现的位置: 若元素就在第一个位置:此时操作1次.<br>若元素在最后一个位置:此时操作N次. 平均:(N+1)/2次.</p><p>此时发现基于数组的列表(ArrayList),在删除操作上,比较慢.<br>在插入,修改,查询上,比较快.</p><p>简单分析LinkedList的算法性能:</p><p>1:插入操作: 单向列表:插入第一个只有1次操作. 插入最后一个:N次操作.<br>双向列表:插入第一个/最后一个都是1次. 但是,插入到中间位置:N/2次.</p><p>2:修改操作: N/2次操作.</p><p>3:查询操作:获取第一个和最后一个,只有1次操作. 查询中间的元素:N/2次.</p><p>4:删除操作:N/2次+1次.</p><p>操作第一个和最后一个是非常快的.<br>从性能上分析,删除/插入到中间位置操作改变上一个和下一个的引用地址相对于ArrayList的移位来说,较快.</p><p>线性表，链表，哈希表是常用的数据结构，在进行Java开发时，JDK已经为我们提供了一系列相应的类来实现基本的数据结构。这些类均在java.util包中。</p><p>List跟Set继承自Collection接口:<br>Collection<br>├List<br>│├LinkedList<br>│├ArrayList<br>│└Vector<br>│　└Stack<br>└Set<br>Map<br>├Hashtable<br>├HashMap<br>└WeakHashMap</p><p>Collection接口<br>　　Collection是最基本的集合接口，一个Collection代表一组Object，即Collection的元素（Elements）。一些Collection允许相同的元素而另一些不行。一些能排序而另一些不行。Java<br>SDK不提供直接继承自Collection的类，Java<br>SDK提供的类都是继承自Collection的“子接口”如List和Set。<br>　　所有实现Collection接口的类都必须提供两个标准的构造函数：无参数的构造函数用于创建一个空的Collection，有一个Collection参数的构造函数用于创建一个新的Collection，这个新的Collection与传入的Collection有相同的元素。后一个构造函数允许用户复制一个Collection。<br>　　如何遍历Collection中的每一个元素？不论Collection的实际类型如何，它都支持一个iterator()的方法，该方法返回一个迭代子，使用该迭代子即可逐一访问Collection中每一个元素。典型的用法如下：<br>　　　　Iterator it = collection.iterator(); // 获得一个迭代子<br>　　　　while(it.hasNext()) {<br>　　　　　　Object obj = it.next(); // 得到下一个元素<br>　　　　}<br>　　由Collection接口派生的两个接口是List和Set。</p><p>List接口<br>　　List是有序的Collection，使用此接口能够精确的控制每个元素插入的位置。用户能够使用索引（元素在List中的位置，类似于数组下标）来访问List中的元素，这类似于Java的数组。<br>和下面要提到的Set不同，List允许有相同的元素。<br>　　除了具有Collection接口必备的iterator()方法外，List还提供一个listIterator()方法，返回一个ListIterator接口，和标准的Iterator接口相比，ListIterator多了一些add()之类的方法，允许添加，删除，设定元素，还能向前或向后遍历。<br>　　实现List接口的常用类有LinkedList，ArrayList，Vector和Stack。</p><p>LinkedList类<br>　　LinkedList实现了List接口，允许null元素。此外LinkedList提供额外的get，remove，insert方法在LinkedList的首部或尾部。这些操作使LinkedList可被用作堆栈（stack），队列（queue）或双向队列（deque）。<br>　　注意LinkedList没有同步方法。如果多个线程同时访问一个List，则必须自己实现访问同步。一种解决方法是在创建List时构造一个同步的List：<br>　　　　List list = Collections.synchronizedList(new LinkedList(…));</p><p>ArrayList类<br>　　ArrayList实现了可变大小的数组。它允许所有元素，包括null。ArrayList没有同步。<br>size，isEmpty，get，set方法运行时间为常数。但是add方法开销为分摊的常数，添加n个元素需要t(n)的时间。其他的方法运行时间为线性。<br>　　每个ArrayList实例都有一个容量（Capacity），即用于存储元素的数组的大小。这个容量可随着不断添加新元素而自动增加，但是增长算法并没有定义。当需要插入大量元素时，在插入前可以调用ensureCapacity方法来增加ArrayList的容量以提高插入效率。<br>　　和LinkedList一样，ArrayList也是非同步的（unsynchronized）。</p><p>Vector类<br>　　Vector非常类似ArrayList，但是Vector是同步的。由Vector创建的Iterator，虽然和ArrayList创建的Iterator是同一接口，但是，因为Vector是同步的，当一个Iterator被创建而且正在被使用，另一个线程改变了Vector的状态（例如，添加或删除了一些元素），这时调用Iterator的方法时将抛出ConcurrentModificationException，因此必须捕获该异常。</p><p>Stack 类<br>　　Stack继承自Vector，实现一个后进先出的堆栈。Stack提供5个额外的方法使得Vector得以被当作堆栈使用。基本的push和pop方法，还有peek方法得到栈顶的元素，empty方法测试堆栈是否为空，search方法检测一个元素在堆栈中的位置。Stack刚创建后是空栈。</p><p>Set接口<br>　　Set是一种不包含重复的元素的Collection，即任意的两个元素e1和e2都有e1.equals(e2)=false，Set最多有一个null元素。<br>　　很明显，Set的构造函数有一个约束条件，传入的Collection参数不能包含重复的元素。<br>　　请注意：必须小心操作可变对象（Mutable<br>Object）。如果一个Set中的可变元素改变了自身状态导致Object.equals(Object)=true将导致一些问题。</p><p>Map接口<br>　　请注意，Map没有继承Collection接口，Map提供key到value的映射。一个Map中不能包含相同的key，每个key只能映射一个value。Map接口提供3种集合的视图，Map的内容可以被当作一组key集合，一组value集合，或者一组key-value映射。</p><p>Hashtable类<br>　　Hashtable继承Map接口，实现一个key-value映射的哈希表。任何非空（non-null）的对象都可作为key或者value。<br>　　添加数据使用put(key,<br>value)，取出数据使用get(key)，这两个基本操作的时间开销为常数。<br>Hashtable通过initial capacity和load factor两个参数调整性能。通常缺省的load<br>factor 0.75较好地实现了时间和空间的均衡。增大load<br>factor可以节省空间但相应的查找时间将增大，这会影响像get和put这样的操作。<br>使用Hashtable的简单示例如下，将1，2，3放到Hashtable中，他们的key分别是”one”，”two”，”three”：<br>　　　　Hashtable numbers = new Hashtable();<br>　　　　numbers.put(“one”, new Integer(1));<br>　　　　numbers.put(“two”, new Integer(2));<br>　　　　numbers.put(“three”, new Integer(3));<br>　　要取出一个数，比如2，用相应的key：<br>　　　　Integer n = (Integer)numbers.get(“two”);<br>　　　　System.out.println(“two = ” + n);<br>　　由于作为key的对象将通过计算其散列函数来确定与之对应的value的位置，因此任何作为key的对象都必须实现hashCode和equals方法。hashCode和equals方法继承自根类Object，如果你用自定义的类当作key的话，要相当小心，按照散列函数的定义，如果两个对象相同，即obj1.equals(obj2)=true，则它们的hashCode必须相同，但如果两个对象不同，则它们的hashCode不一定不同，如果两个不同对象的hashCode相同，这种现象称为冲突，冲突会导致操作哈希表的时间开销增大，所以尽量定义好的hashCode()方法，能加快哈希表的操作。<br>　　如果相同的对象有不同的hashCode，对哈希表的操作会出现意想不到的结果（期待的get方法返回null），要避免这种问题，只需要牢记一条：要同时复写equals方法和hashCode方法，而不要只写其中一个。<br>　　Hashtable是同步的。</p><p>HashMap类<br>　　HashMap和Hashtable类似，不同之处在于HashMap是非同步的，并且允许null，即null<br>value和null<br>key。，但是将HashMap视为Collection时（values()方法可返回Collection），其迭代子操作时间开销和HashMap的容量成比例。因此，如果迭代操作的性能相当重要的话，不要将HashMap的初始化容量设得过高，或者load<br>factor过低。</p><p>WeakHashMap类<br>　　WeakHashMap是一种改进的HashMap，它对key实行“弱引用”，如果一个key不再被外部所引用，那么该key可以被GC回收。</p><p>总结<br>　　如果涉及到堆栈，队列等操作，应该考虑用List，对于需要快速插入，删除元素，应该使用LinkedList，如果需要快速随机访问元素，应该使用ArrayList。<br>　　如果程序在单线程环境中，或者访问仅仅在一个线程中进行，考虑非同步的类，其效率较高，如果多个线程可能同时操作一个类，应该使用同步的类。<br>　　要特别注意对哈希表的操作，作为key的对象要正确复写equals和hashCode方法。</p><p>　　尽量返回接口而非实际的类型，如返回List而非ArrayList，这样如果以后需要将ArrayList换成LinkedList时，客户端代码不用改变。这就是针对抽象编程。</p><p>同步性<br>Vector是同步的。这个类中的一些方法保证了Vector中的对象是线程安全的。而ArrayList则是异步的，因此ArrayList中的对象并不是线程安全的。因为同步的要求会影响执行的效率，所以如果你不需要线程安全的集合那么使用ArrayList是一个很好的选择，这样可以避免由于同步带来的不必要的性能开销。<br>数据增长<br>从内部实现机制来讲ArrayList和Vector都是使用数组(Array)来控制集合中的对象。当你向这两种类型中增加元素的时候，如果元素的数目超出了内部数组目前的长度它们都需要扩展内部数组的长度，Vector缺省情况下自动增长原来一倍的数组长度，ArrayList是原来的50%,所以最后你获得的这个集合所占的空间总是比你实际需要的要大。所以如果你要在集合中保存大量的数据那么使用Vector有一些优势，因为你可以通过设置集合的初始化大小来避免不必要的资源开销。<br>使用模式<br>在ArrayList和Vector中，从一个指定的位置（通过索引）查找数据或是在集合的末尾增加、移除一个元素所花费的时间是一样的，这个时间我们用t(1)表示。但是，如果在集合的其他位置增加或移除元素那么花费的时间会呈线形增长：t(n-i)，其中n代表集合中元素的个数，i代表元素增加或移除元素的索引位置。为什么会这样呢？因为在进行上述操作的时候集合中第i和第i个元素之后的所有元素都要执行位移的操作。这一切意味着什么呢？<br>这意味着，你只是查找特定位置的元素或只在集合的末端增加、移除元素，那么使用Vector或ArrayList都可以。如果是其他操作，你最好选择其他的集合操作类。比如，LinkList集合类在增加或移除集合中任何位置的元素所花费的时间都是一样的?t(1)，但它在索引一个元素的使用缺比较慢－t(i),其中i是索引的位置.使用ArrayList也很容易，因为你可以简单的使用索引来代替创建iterator对象的操作。LinkList也会为每个插入的元素创建对象，所有你要明白它也会带来额外的开销。<br>最后，建议使用一个简单的数组（Array）来代替Vector或ArrayList。尤其是对于执行效率要求高的程序更应如此。因为使用数组(Array)避免了同步、额外的方法调用和不必要的重新分配空间的操作。</p><p><a href="https://www.cnblogs.com/kevinZhu/p/6953182.html" target="_blank" rel="noopener">https://www.cnblogs.com/kevinZhu/p/6953182.html</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="第1章-绪论"><a href="#第1章-绪论" class="headerlink" title="第1章 绪论"></a>第1章 绪论</h1><h2 id="1-1-什么是数据结构"><a href="#1-1-什么是数据结构" class="headerlink" title="1.1 什么是数据结构"></a>1.1 什么是数据结构</h2><h2 id="1-2-基本概念和术语"><a href="#1-2-基本概念和术语" class="headerlink" title="1.2 基本概念和术语"></a>1.2 基本概念和术语</h2><h2 id="1-3-抽象数据类型的表现与实现"><a href="#1-3-抽象数据类型的表现与实现" class="headerlink" title="1.3 抽象数据类型的表现与实现"></a>1.3 抽象数据类型的表现与实现</h2><h2 id="1-4-算法和算法分析"><a href="#1-4-算法和算法分析" class="headerlink" title="1.4 算法和算法分析"></a>1.4 算法和算法分析</h2><h1 id="第2章-线性表"><a href="#第2章-线性表" class="headerlink" title="第2章 线性表"></a>第2章 线性表</h1><h2 id="2-1-线性表的类型定义"><a href="#2-1-线性表的类型定义" class="headerlink" title="2.1 线性表的类型定义"></a>2.1 线性表的类型定义</h2><h2 id="2-2-线性表的顺序表示和实现"><a href="#2-2-线性表的顺序表示和实现" class="headerlink" title="2.2 线性表的顺序表示和实现"></a>2.2 线性表的顺序表示和实现</h2><h2 id="2-3-线性表的链式表示和实现"><a href="#2-3-线性表的链式表示和实现" class="headerlink" title="2.3 线性表的链式表示和实现"></a>2.3 线性表的链式表示和实现</h2><h2 id="2-4-一元多项式的表示及相加"><a href="#2-4-一元多项式的表示及相加" class="headerlink" title="2.4 一元多项式的表示及相加"></a>2.4 一元多项式的表示及相加</h2><h1 id="第3章-栈和队列"><a href="#第3章-栈和队列" class="headerlink" title="第3章 栈和队列"></a>第3章 栈和队列</h1><h2 id="3-1-栈"><a href="#3-1-栈" class="headerlink" title="3.1 栈"></a>3.1 栈</h2><h2 id="3-2-栈的应有和举例"><a href="#3-2-栈的应有和举例" class="headerlink" title="3.2 栈的应有和举例"></a>3.2 栈的应有和举例</h2><h2 id="3-3-栈与递归的实现"><a href="#3-3-栈与递归的实现" class="headerlink" title="3.3 栈与递归的实现"></a>3.3 栈与递归的实现</h2><h2 id="3-4-队列"><a href="#3-4-队列" class="headerlink" title="3.4 队列"></a>3.4 队列</h2><h2 id="3-5-离散事件模拟"><a href="#3-5-离散事件模拟" class="headerlink" title="3.5 离散事件模拟"></a>3.5 离散事件模拟</h2><h1 id="第4章-串"><a href="#第4章-串" class="headerlink" title="第4章 串"></a>第4章 串</h1><h2 id="4-1-串类型的定义"><a href="#4-1-串类型的定义" class="headerlink" title="4.1 串类型的定义"></a>4.1 串类型的定义</h2><h2 id="4-2-串的表示和实现"><a href="#4-2-串的表示和实现" class="headerlink" title="4.2 串的表示和实现"></a>4.2 串的表示和实现</h2><h2 id="4-3-串的模式匹配算法"><a href="#4-3-串的模式匹配算法" class="headerlink" title="4.3 串的模式匹配算法"></a>4.3 串的模式匹配算法</h2><h2 id="4-4-串操作应用举例"><a href="#4-4-串操作应用举例" class="headerlink" title="4.4 串操作应用举例"></a>4.4 串操作应用举例</h2><h1 id="第5章-数组和广义表"><a href="#第5章-数组和广义表" class="headerlink" title="第5章 数组和广义表"></a>第5章 数组和广义表</h1><h2 id="5-1-数组的定义"><a href="#5-1-数组的定义" class="headerlink" title="5.1 数组的定义"></a>5.1 数组的定义</h2><h2 id="5-2-数组的顺序表现和实现"><a href="#5-2-数组的顺序表现和实现" class="headerlink" title="5.2 数组的顺序表现和实现"></a>5.2 数组的顺序表现和实现</h2><h2 id="5-3-矩阵的压缩存储"><a href="#5-3-矩阵的压缩存储" class="headerlink" title="5.3 矩阵的压缩存储"></a>5.3 矩阵的压缩存储</h2><h2 id="5-4-广义表的定义"><a href="#5-4-广义表的定义" class="headerlink" title="5.4 广义表的定义"></a>5.4 广义表的定义</h2><h2 id="5-5-广义表的储存结构"><a href="#5-5-广义表的储存结构" class="headerlink" title="5.5 广义表的储存结构"></a>5.5 广义表的储存结构</h2><h2 id="5-6-m元多项式的表示"><a href="#5-6-m元多项式的表示" class="headerlink" title="5.6 m元多项式的表示"></a>5.6 m元多项式的表示</h2><h2 id="5-7-广义表的递归算法"><a href="#5-7-广义表的递归算法" class="headerlink" title="5.7 广义表的递归算法"></a>5.7 广义表的递归算法</h2><h1 id="第6章-树和二叉树"><a href="#第6章-树和二叉树" class="headerlink" title="第6章 树和二叉树"></a>第6章 树和二叉树</h1><h2 id="6-1-树的定义和基本术语"><a href="#6-1-树的定义和基本术语" class="headerlink" title="6.1 树的定义和基本术语"></a>6.1 树的定义和基本术语</h2><h2 id="6-2-二叉树"><a href="#6-2-二叉树" class="headerlink" title="6.2 二叉树"></a>6.2 二叉树</h2><h3 id="6-2-1-二叉树的定义"><a href="#6-2-1-二叉树的定义" class="headerlink" title="6.2.1 二叉树的定义"></a>6.2.1 二叉树的定义</h3><h3 id="6-2-2-二叉树的性质"><a href="#6-2-2-二叉树的性质" class="headerlink" title="6.2.2 二叉树的性质"></a>6.2.2 二叉树的性质</h3><h3 id="6-2-3-二叉树的存储结构"><a href="#6-2-3-二叉树的存储结构" class="headerlink" title="6.2.3 二叉树的存储结构"></a>6.2.3 二叉树的存储结构</h3><h2 id="6-3-遍历二叉树和线索二叉树"><a href="#6-3-遍历二叉树和线索二叉树" class="headerlink" title="6.3 遍历二叉树和线索二叉树"></a>6.3 遍历二叉树和线索二叉树</h2><h3 id="6-3-1-遍历二叉树"><a href="#6-3-1-遍历二叉树" class="headerlink" title="6.3.1 遍历二叉树"></a>6.3.1 遍历二叉树</h3><h3 id="6-3-2-线索二叉树"><a href="#6-3-2-线索二叉树" class="headerlink" title="6.3.2 线索二叉树"></a>6.3.2 线索二叉树</h3><h2 id="6-4-树和森林"><a href="#6-4-树和森林" class="headerlink" title="6.4 树和森林"></a>6.4 树和森林</h2><h3 id="6-4-1-树的存储结构"><a href="#6-4-1-树的存储结构" class="headerlink" title="6.4.1 树的存储结构"></a>6.4.1 树的存储结构</h3><h3 id="6-4-2-森林与二叉树的转换"><a href="#6-4-2-森林与二叉树的转换" class="headerlink" title="6.4.2 森林与二叉树的转换"></a>6.4.2 森林与二叉树的转换</h3><h3 id="6-4-3-树和森林的遍历"><a href="#6-4-3-树和森林的遍历" class="headerlink" title="6.4.3 树和森林的遍历"></a>6.4.3 树和森林的遍历</h3><h2 id="6-5-树与等价问题"><a href="#6-5-树与等价问题" class="headerlink" title="6.5 树与等价问题"></a>6.5 树与等价问题</h2><h2 id="6-6-赫夫曼树及其应用"><a href="#6-6-赫夫曼树及其应用" class="headerlink" title="6.6 赫夫曼树及其应用"></a>6.6 赫夫曼树及其应用</h2><h3 id="6-6-1-最优二叉树-赫夫曼树"><a href="#6-6-1-最优二叉树-赫夫曼树" class="headerlink" title="### 6.6.1 最优二叉树(赫夫曼树)"></a>### 6.6.1 最优二叉树(赫夫曼树)</h3><h3 id="6-6-2-赫夫曼编码"><a href="#6-6-2-赫夫曼编码" class="headerlink" title="6.6.2 赫夫曼编码"></a>6.6.2 赫夫曼编码</h3><h2 id="6-7-回溯法与树的遍历"><a href="#6-7-回溯法与树的遍历" class="headerlink" title="6.7 回溯法与树的遍历"></a>6.7 回溯法与树的遍历</h2><h2 id="6-8-树的计数"><a href="#6-8-树的计数" class="headerlink" title="6.8 树的计数"></a>6.8 树的计数</h2><h1 id="第7章-图"><a href="#第7章-图" class="headerlink" title="第7章 图"></a>第7章 图</h1><h2 id="7-1-图的定义和术语"><a href="#7-1-图的定义和术语" class="headerlink" title="7.1 图的定义和术语"></a>7.1 图的定义和术语</h2><h2 id="7-2-图的存储结构"><a href="#7-2-图的存储结构" class="headerlink" title="7.2 图的存储结构"></a>7.2 图的存储结构</h2><h3 id="7-2-1-数组表示法"><a href="#7-2-1-数组表示法" class="headerlink" title="7.2.1 数组表示法"></a>7.2.1 数组表示法</h3><h3 id="7-2-2-邻接表"><a href="#7-2-2-邻接表" class="headerlink" title="7.2.2 邻接表"></a>7.2.2 邻接表</h3><h3 id="7-2-3-十字链表"><a href="#7-2-3-十字链表" class="headerlink" title="7.2.3 十字链表"></a>7.2.3 十字链表</h3><h3 id="7-2-4-邻接多重表"><a href="#7-2-4-邻接多重表" class="headerlink" title="7.2.4 邻接多重表"></a>7.2.4 邻接多重表</h3><h2 id="7-3-图的遍历"><a href="#7-3-图的遍历" class="headerlink" title="7.3 图的遍历"></a>7.3 图的遍历</h2><h3 id="7-3-1-深度优先搜索"><a href="#7-3-1-深度优先搜索" class="headerlink" title="7.3.1 深度优先搜索"></a>7.3.1 深度优先搜索</h3><h3 id="7-3-2-广度优先搜索"><a href="#7-3-2-广度优先搜索" class="headerlink" title="7.3.2 广度优先搜索"></a>7.3.2 广度优先搜索</h3><h2 id="7-4-图的连通性问题"><a href="#7-4-图的连通性问题" class="headerlink" title="7.4 图的连通性问题"></a>7.4 图的连通性问题</h2><h3 id="7-4-1-无向图的连通分量和生成树"><a href="#7-4-1-无向图的连通分量和生成树" class="headerlink" title="7.4.1 无向图的连通分量和生成树"></a>7.4.1 无向图的连通分量和生成树</h3><h3 id="7-4-2-有向图的强连通分量"><a href="#7-4-2-有向图的强连通分量" class="headerlink" title="7.4.2 有向图的强连通分量"></a>7.4.2 有向图的强连通分量</h3><h3 id="7-4-3-最小生成树"><a href="#7-4-3-最小生成树" class="headerlink" title="7.4.3 最小生成树"></a>7.4.3 最小生成树</h3><h3 id="7-4-4-关节点和重连通分量"><a href="#7-4-4-关节点和重连通分量" class="headerlink" title="7.4.4 关节点和重连通分量"></a>7.4.4 关节点和重连通分量</h3><h2 id="7-5-有向无环图及其应用"><a href="#7-5-有向无环图及其应用" class="headerlink" title="7.5 有向无环图及其应用"></a>7.5 有向无环图及其应用</h2><h3 id="7-5-1-拓扑排序"><a href="#7-5-1-拓扑排序" class="headerlink" title="7.5.1 拓扑排序"></a>7.5.1 拓扑排序</h3><h3 id="7-5-2-关键路径"><a href="#7-5-2-关键路径" class="headerlink" title="7.5.2 关键路径"></a>7.5.2 关键路径</h3><h2 id="7-6-最短路径"><a href="#7-6-最短路径" class="headerlink" title="7.6 最短路径"></a>7.6 最短路径</h2><h3 id="7-6-1-从某个源点到其余各顶点的最短路径"><a href="#7-6-1-从某个源点到其余各顶点的最短路径" class="headerlink" title="7.6.1 从某个源点到其余各顶点的最短路径"></a>7.6.1 从某个源点到其余各顶点的最短路径</h3><h3 id="7-6-2-每一对顶点之间的最短路径"><a href="#7-6-2-每一对顶点之间的最短路径" class="headerlink" title="7.6.2 每一对顶点之间的最短路径"></a>7.6.2 每一对顶点之间的最短路径</h3><h1 id="第8章-动态存储管理"><a href="#第8章-动态存储管理" class="headerlink" title="第8章 动态存储管理"></a>第8章 动态存储管理</h1><h2 id="8-1-概述"><a href="#8-1-概述" class="headerlink" title="8.1 概述"></a>8.1 概述</h2><h2 id="8-2-可利用空间表及分配方法"><a href="#8-2-可利用空间表及分配方法" class="headerlink" title="8.2 可利用空间表及分配方法"></a>8.2 可利用空间表及分配方法</h2><h2 id="8-3-边界标识法"><a href="#8-3-边界标识法" class="headerlink" title="8.3 边界标识法"></a>8.3 边界标识法</h2><h3 id="8-3-1-可利用空间表的结构"><a href="#8-3-1-可利用空间表的结构" class="headerlink" title="8.3.1 可利用空间表的结构"></a>8.3.1 可利用空间表的结构</h3><h3 id="8-3-2-分配算法"><a href="#8-3-2-分配算法" class="headerlink" title="8.3.2 分配算法"></a>8.3.2 分配算法</h3><h3 id="8-3-3-回收算法"><a href="#8-3-3-回收算法" class="headerlink" title="8.3.3 回收算法"></a>8.3.3 回收算法</h3><h2 id="8-4-伙伴系统"><a href="#8-4-伙伴系统" class="headerlink" title="8.4 伙伴系统"></a>8.4 伙伴系统</h2><h3 id="8-4-1-可利用空间表的结构"><a href="#8-4-1-可利用空间表的结构" class="headerlink" title="8.4.1 可利用空间表的结构"></a>8.4.1 可利用空间表的结构</h3><h3 id="8-4-2-分配算法"><a href="#8-4-2-分配算法" class="headerlink" title="8.4.2 分配算法"></a>8.4.2 分配算法</h3><h3 id="8-4-3-回收算法"><a href="#8-4-3-回收算法" class="headerlink" title="8.4.3 回收算法"></a>8.4.3 回收算法</h3><h2 id="8-5-无用单元收集"><a href="#8-5-无用单元收集" class="headerlink" title="8.5 无用单元收集"></a>8.5 无用单元收集</h2><h2 id="8-6-存储紧缩"><a href="#8-6-存储紧缩" class="headerlink" title="8.6 存储紧缩"></a>8.6 存储紧缩</h2><h1 id="第9章-查找"><a href="#第9章-查找" class="headerlink" title="第9章 查找"></a>第9章 查找</h1><h2 id="9-1-静态查找表"><a href="#9-1-静态查找表" class="headerlink" title="9.1 静态查找表"></a>9.1 静态查找表</h2><h3 id="9-1-1-顺序表的查找"><a href="#9-1-1-顺序表的查找" class="headerlink" title="9.1.1 顺序表的查找"></a>9.1.1 顺序表的查找</h3><h3 id="9-1-2-有序表的查找"><a href="#9-1-2-有序表的查找" class="headerlink" title="9.1.2 有序表的查找"></a>9.1.2 有序表的查找</h3><h3 id="9-1-3-静态树表的查找"><a href="#9-1-3-静态树表的查找" class="headerlink" title="9.1.3 静态树表的查找"></a>9.1.3 静态树表的查找</h3><h3 id="9-1-4-索引顺序表的查找"><a href="#9-1-4-索引顺序表的查找" class="headerlink" title="9.1.4 索引顺序表的查找"></a>9.1.4 索引顺序表的查找</h3><h2 id="9-2-动态查找表"><a href="#9-2-动态查找表" class="headerlink" title="9.2 动态查找表"></a>9.2 动态查找表</h2><h3 id="9-2-1-二叉排序树和平衡二叉树"><a href="#9-2-1-二叉排序树和平衡二叉树" class="headerlink" title="9.2.1 二叉排序树和平衡二叉树"></a>9.2.1 二叉排序树和平衡二叉树</h3><h3 id="9-2-2-B树和B-树"><a href="#9-2-2-B树和B-树" class="headerlink" title="9.2.2 B树和B+树"></a>9.2.2 B树和B+树</h3><h3 id="9-2-3-键树"><a href="#9-2-3-键树" class="headerlink" title="9.2.3 键树"></a>9.2.3 键树</h3><h2 id="9-3-哈希表"><a href="#9-3-哈希表" class="headerlink" title="9.3 哈希表"></a>9.3 哈希表</h2><h3 id="9-3-1-什么是哈希表"><a href="#9-3-1-什么是哈希表" class="headerlink" title="9.3.1 什么是哈希表"></a>9.3.1 什么是哈希表</h3><h3 id="9-3-2-哈希函数的构造方法"><a href="#9-3-2-哈希函数的构造方法" class="headerlink" title="9.3.2 哈希函数的构造方法"></a>9.3.2 哈希函数的构造方法</h3><h3 id="9-3-3-处理冲突的方法"><a href="#9-3-3-处理冲突的方法" class="headerlink" title="9.3.3 处理冲突的方法"></a>9.3.3 处理冲突的方法</h3><h3 id="9-3-4-哈希表的查找及其分析"><a href="#9-3-4-哈希表的查找及其分析" class="headerlink" title="9.3.4 哈希表的查找及其分析"></a>9.3.4 哈希表的查找及其分析</h3><h1 id="第10章-内部排序"><a href="#第10章-内部排序" class="headerlink" title="第10章 内部排序"></a>第10章 内部排序</h1><h2 id="10-1-概述"><a href="#10-1-概述" class="headerlink" title="10.1 概述"></a>10.1 概述</h2><h2 id="10-2-插入排序"><a href="#10-2-插入排序" class="headerlink" title="10.2 插入排序"></a>10.2 插入排序</h2><h3 id="10-2-1-直接插入排序"><a href="#10-2-1-直接插入排序" class="headerlink" title="10.2.1 直接插入排序"></a>10.2.1 直接插入排序</h3><h3 id="10-2-2-其他插入排序"><a href="#10-2-2-其他插入排序" class="headerlink" title="10.2.2 其他插入排序"></a>10.2.2 其他插入排序</h3><h3 id="10-2-3-希尔排序"><a href="#10-2-3-希尔排序" class="headerlink" title="10.2.3 希尔排序"></a>10.2.3 希尔排序</h3><h2 id="10-3-快速排序"><a href="#10-3-快速排序" class="headerlink" title="10.3 快速排序"></a>10.3 快速排序</h2><h2 id="10-4-选择排序"><a href="#10-4-选择排序" class="headerlink" title="10.4 选择排序"></a>10.4 选择排序</h2><h3 id="10-4-1-简单选择排序"><a href="#10-4-1-简单选择排序" class="headerlink" title="10.4.1 简单选择排序"></a>10.4.1 简单选择排序</h3><h3 id="10-4-2-树形选择排序"><a href="#10-4-2-树形选择排序" class="headerlink" title="10.4.2 树形选择排序"></a>10.4.2 树形选择排序</h3><h3 id="10-4-3-堆排序"><a href="#10-4-3-堆排序" class="headerlink" title="10.4.3 堆排序"></a>10.4.3 堆排序</h3><h2 id="10-5-归并排序"><a href="#10-5-归并排序" class="headerlink" title="10.5 归并排序"></a>10.5 归并排序</h2><h2 id="10-6-基数排序"><a href="#10-6-基数排序" class="headerlink" title="10.6 基数排序"></a>10.6 基数排序</h2><h3 id="10-6-1-多关键字的排序"><a href="#10-6-1-多关键字的排序" class="headerlink" title="10.6.1 多关键字的排序"></a>10.6.1 多关键字的排序</h3><h3 id="10-6-2-链式基数排序"><a href="#10-6-2-链式基数排序" class="headerlink" title="10.6.2 链式基数排序"></a>10.6.2 链式基数排序</h3><h2 id="10-7-各种内部排序方法的比较讨论"><a href="#10-7-各种内部排序方法的比较讨论" class="headerlink" title="10.7 各种内部排序方法的比较讨论"></a>10.7 各种内部排序方法的比较讨论</h2><h1 id="第11章-外部排序"><a href="#第11章-外部排序" class="headerlink" title="第11章 外部排序"></a>第11章 外部排序</h1><h2 id="11-1-外存信息的存取"><a href="#11-1-外存信息的存取" class="headerlink" title="11.1 外存信息的存取"></a>11.1 外存信息的存取</h2><h2 id="11-2-外部排序的方法"><a href="#11-2-外部排序的方法" class="headerlink" title="11.2 外部排序的方法"></a>11.2 外部排序的方法</h2><h2 id="11-3-多路平衡归并的实现"><a href="#11-3-多路平衡归并的实现" class="headerlink" title="11.3 多路平衡归并的实现"></a>11.3 多路平衡归并的实现</h2><h2 id="11-4-置换一选择排序"><a href="#11-4-置换一选择排序" class="headerlink" title="11.4 置换一选择排序"></a>11.4 置换一选择排序</h2><h2 id="11-5-最佳归并树"><a href="#11-5-最佳归并树" class="headerlink" title="11.5 最佳归并树"></a>11.5 最佳归并树</h2><h1 id="第12章-文件"><a href="#第12章-文件" class="headerlink" title="第12章 文件"></a>第12章 文件</h1><h2 id="12-1-有关文件的基本概念"><a href="#12-1-有关文件的基本概念" class="headerlink" title="12.1 有关文件的基本概念"></a>12.1 有关文件的基本概念</h2><h2 id="12-2-顺序文件"><a href="#12-2-顺序文件" class="headerlink" title="12.2 顺序文件"></a>12.2 顺序文件</h2><h2 id="12-3-索引文件"><a href="#12-3-索引文件" class="headerlink" title="12.3 索引文件"></a>12.3 索引文件</h2><h2 id="12-4-ISAM文件和VSAM文件"><a href="#12-4-ISAM文件和VSAM文件" class="headerlink" title="12.4 ISAM文件和VSAM文件"></a>12.4 ISAM文件和VSAM文件</h2><h3 id="12-4-1-ISAM文件"><a href="#12-4-1-ISAM文件" class="headerlink" title="12.4.1 ISAM文件"></a>12.4.1 ISAM文件</h3><h3 id="12-4-2-VSAM文件"><a href="#12-4-2-VSAM文件" class="headerlink" title="12.4.2 VSAM文件"></a>12.4.2 VSAM文件</h3><h2 id="12-5-直接存取文件-散列文件"><a href="#12-5-直接存取文件-散列文件" class="headerlink" title="12.5 直接存取文件(散列文件)"></a>12.5 直接存取文件(散列文件)</h2><h2 id="12-6-多关键字文件"><a href="#12-6-多关键字文件" class="headerlink" title="12.6 多关键字文件"></a>12.6 多关键字文件</h2><h3 id="12-6-1-多重表文件"><a href="#12-6-1-多重表文件" class="headerlink" title="12.6.1 多重表文件"></a>12.6.1 多重表文件</h3><h3 id="12-6-2-倒排文件"><a href="#12-6-2-倒排文件" class="headerlink" title="12.6.2 倒排文件"></a>12.6.2 倒排文件</h3>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;strong&gt;Java中常见的数据结构的区别&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;把多个数据按照一定的存储方式,存储起来,称存储方式之为数据结构.&lt;br&gt;数据的存储方式有很多,数组,队列,链表,栈,哈希表等等.&lt;br&gt;不同的数据结构,性能是不一样的,比如有的插入比较快,查询比
+        &lt;h1 id=&quot;第1章-绪论&quot;&gt;&lt;a href=&quot;#第1章-绪论&quot; class=&quot;headerlink&quot; title=&quot;第1章 绪论&quot;&gt;&lt;/a&gt;第1章 绪论&lt;/h1&gt;&lt;h2 id=&quot;1-1-什么是数据结构&quot;&gt;&lt;a href=&quot;#1-1-什么是数据结构&quot; class=&quot;header
       
     
     </summary>
@@ -249,86 +130,19 @@
   </entry>
   
   <entry>
-    <title>Linux内核剖析</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/013_network/0131_http/HTTP2%E5%B9%95%E5%90%8E%E5%8E%9F%E7%90%86/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/013_network/0131_http/HTTP2幕后原理/</id>
-    <published>2010-09-01T04:00:00.000Z</published>
-    <updated>2018-03-07T13:43:50.517Z</updated>
+    <title>操作系统</title>
+    <link href="https://30s.github.io/2010/09/01/01_software_engineering/012_operating_system/index/"/>
+    <id>https://30s.github.io/2010/09/01/01_software_engineering/012_operating_system/index/</id>
+    <published>2010-09-01T12:00:00.000Z</published>
+    <updated>2018-03-06T10:37:56.385Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="HTTP-2-幕后原理"><a href="#HTTP-2-幕后原理" class="headerlink" title="HTTP/2 幕后原理"></a>HTTP/2 幕后原理</h1><p><strong>HTTP/2 的请求/响应复用、报头压缩和服务器推送如何提升网站性能</strong></p><p>HTTP/2 的首要目标是改善 Web 应用程序用户的体验。作为一个二进制协议，它拥有包括轻量型、安全和快速在内的所有优势。HTTP/2 保留了原始 HTTP 协议的语义，但更改了在系统之间传输数据的方式。这些复杂细节主要由客户端和服务器管理，所以网站和应用程序无需重大更改即可享受 HTTP/2 的优势。</p><p>本文将概述 HTTP/2，包括它试图解决的问题，以及它的大量新的性能增强特性 — 包括请求/响应复用、报头压缩和服务器推送。</p><h2 id="HTTP-的历史"><a href="#HTTP-的历史" class="headerlink" title="HTTP 的历史"></a>HTTP 的历史</h2><p>在深入介绍 HTTP/2 协议的细节之前，让我们回到过去并回顾一下HTTP 中的起源。</p><p>该协议于 1989 年首次曝光，以 HTTP 0.9 的形式面世。Timothy Berners-Lee 在瑞士日内瓦附近的 CERN 上首次提到它时，它仅包含 1 行代码。唯一的方法是 <code>GET</code>，还有一个像下面这个示例这样简单的请求：<code>GET /index.html</code>。响应同样很简单，仅包含所请求的文件。</p><p>HTTP 0.9 不是一个正式标准，通过这种方式引用它是为了将它与随后的正式版本区分开。1996 年，推出了 HTTP 1.0 作为 IEFT 标准（依据 <a href="https://tools.ietf.org/search/rfc1945" target="_blank" rel="noopener">RFC 1945</a>）。1999 年，在 <a href="https://tools.ietf.org/search/rfc2616" target="_blank" rel="noopener">RFC 2616</a> 中发布了 HTTP 1.1。第一个主要版本中的缺点促使人们在 1999 年进行了一次小幅修订，引入了大量可选特性和零碎细节 — 并消除了一些不好的方面。</p><p>几乎没有浏览器（或服务器）实现会采用该协议的每个方面，这导致不同浏览器间的用户体验不一致。显然，浏览器供应商无法实现 HTTP 1.1 中引入的 HTTP 管道的性能增强特性。</p><p><strong>您可以亲自查看</strong>：在最近的一次<a href="https://blog.cloudflare.com/http-2-demo-under-the-hood/" target="_blank" rel="noopener">演示</a>中，Cloudflare 通过 HTTP 1.1 和 HTTP/2 加载了 200 个图像切片，然后比较了加载时间。</p><p>随着网络的使用变得更加普遍，性能需求呈指数级增长，而对 HTTP 的需求阻碍了性能提升。开发人员开始创建工具来克服该协议的不足。例如，HTTP 对 TCP 套接字的低效使用限制了性能，所以开发人员退而使用精心设计的服务器架构(racks of servers)来满足应用程序需求。从这个角度讲，未能让管道正常工作，促使人们开始着重反思 HTTP 的需求。</p><p>15 年后，才成立了 <a href="https://datatracker.ietf.org/wg/httpbis/charter/" target="_blank" rel="noopener">HTTPbis</a> 工作组来正式识别该协议的棘手问题，并最终起草对 HTTP/2 的预期。怀着显著改善最终用户对 HTTP 1.1 延迟的认知的使命，该工作组的协议推荐包含针对 “线头阻塞” 问题、报头压缩和服务器推送的精选解决方案。<a href="https://tools.ietf.org/html/rfc7540" target="_blank" rel="noopener">RFC 7540</a> (HTTP/2) 和 <a href="https://tools.ietf.org/html/rfc7541" target="_blank" rel="noopener">7541</a> (HPACK) 的结合，预示着 Web 应用程序性能将急剧提升。</p><h2 id="HTTP-的现状"><a href="#HTTP-的现状" class="headerlink" title="HTTP 的现状"></a>HTTP 的现状</h2><p>自万维网诞生以来，网页变得愈加复杂。<a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" rel="noopener">第一批网页</a>非常简单，仅包含文本：没有图像，没有 CSS，没有 JavaScript，只有普通的 HTML。快进到今天，平均每个网页就包含 100 多个下载资源，大小约为 2,500 KB。总传输大小自 <a href="http://httparchive.org/trends.php?s=All&amp;minlabel=May+1+2012&amp;maxlabel=May+1+2017#bytesTotal&amp;reqTotal" target="_blank" rel="noopener">2012 年 5 月</a>以来增长了 250%，这种持续增长没有出现缓和迹象。</p><h5 id="图-1-总传输大小和总请求数-2012-2017-，来源：HTTPArchive"><a href="#图-1-总传输大小和总请求数-2012-2017-，来源：HTTPArchive" class="headerlink" title="图 1. 总传输大小和总请求数 (2012-2017)，来源：HTTPArchive"></a>图 1. 总传输大小和总请求数 (2012-2017)，来源：<a href="http://httparchive.org/trends.php?s=All&amp;minlabel=May+1+2012&amp;maxlabel=May+1+2017#bytesTotal&amp;reqTotal" target="_blank" rel="noopener">HTTPArchive</a></h5><p><img src="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/requests.png" alt="该图显示了 2012-2017 年的总传输大小和请求数增长情况。"></p><h3 id="工具和变通方案"><a href="#工具和变通方案" class="headerlink" title="工具和变通方案"></a>工具和变通方案</h3><p>尽管互联网确实能快速提供高度复杂的内容，但出现这样的结果并不是因为 HTTP 1.1 协议（_尽管_采用了该协议）。在当前版本中，HTTP 无法满足如今的 Web 体验需求。因此，Web 开发人员针对这些性能问题提供了一系列变通方案。让我们来看一些比较流行的工具和它们修补的问题。</p><h4 id="线头阻塞"><a href="#线头阻塞" class="headerlink" title="线头阻塞"></a>线头阻塞</h4><p>HTTP 1.0 仅允许通过一个 TCP 连接发出一个请求。这引发了所谓的 “线头阻塞” 问题，迫使浏览器等待缓慢的响应。HTTP 1.1 通过_管道_解决了这个问题，管道使浏览器能并行发出多个请求。但是，浏览器供应商很难实现管道，而且大多数浏览器（包括 Firefox）在发布时都会默认禁用该特性。Chrome 甚至完全删除了它。</p><h4 id="多个-TCP-连接"><a href="#多个-TCP-连接" class="headerlink" title="多个 TCP 连接"></a>多个 TCP 连接</h4><p>打开 TCP 连接需要很高的成本，而且我们对客户端应如何使用它们知之甚少。唯一的协议规定是，每个主机最多可以打开 <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec8.html#sec8.1.4" target="_blank" rel="noopener">2</a>个连接。由于只有 2 个 TCP 连接，开发人员为了能够展示一个现代页面需要竞争这两个名额 — 所以他们找到了一种方法来绕过这一限制。</p><p>通过使用一种称为<em>域分片（domain sharding）</em>的流行技术，开发人员能创建多个主机，每个主机提供一个网站所需资源的一部分。切分已变得非常普遍，网页加载期间打开的平均 TCP 连接数量也因此达到约 35 个（来源：<a href="http://httparchive.org/trends.php?s=All&amp;minlabel=May+1+2012&amp;maxlabel=May+1+2017#_connections" target="_blank" rel="noopener">HTTPArchive</a>）。</p><p>浏览器供应商不甘示弱，他们也违反了该协议，任意增加浏览器实现中允许的开放连接数量。这有助于并行化各个浏览器中的资源加载，但没有充分利用 TCP 套接字。下表显示了每个主机名允许打开的端口的最高数量，以及最流行的 3 个浏览器在这方面的不同。</p><h5 id="表-1-并行打开的-TCP-连接的最大数量（来源：browserscope-org"><a href="#表-1-并行打开的-TCP-连接的最大数量（来源：browserscope-org" class="headerlink" title="表 1. 并行打开的 TCP 连接的最大数量（来源：browserscope.org)"></a>表 1. 并行打开的 TCP 连接的最大数量（来源：<a href="https://www.browserscope.org/" target="_blank" rel="noopener">browserscope.org</a>)</h5><table><thead><tr><th>浏览器</th><th>每个主机名的最大并行连接数</th></tr></thead><tbody><tr><td>Chrome</td><td>24</td></tr><tr><td>Firefox</td><td>6</td></tr><tr><td>Internet Explorer 12</td><td>11</td></tr></tbody></table><p>浏览器实现中的不一致意味着，用户冲浪体验的质量取决于他们选择的浏览器，而不是网站的设计和构思有多精巧。</p><h4 id="资源内联和级联"><a href="#资源内联和级联" class="headerlink" title="资源内联和级联"></a>资源内联和级联</h4><p>为了追求更高性能，Web 应用程序开发人员采用的聪明技巧并不只有域切分。</p><ul><li><strong>文件串联</strong>创建一个包含全部所需资源的大文件。为网站的所有 CSS 创建一个文件，为 JavaScript 创建一个文件，为包含网站图标的图像子画面表创建另一个文件。</li><li><strong>资源内联</strong>将 CSS 和 JavaScript 直接嵌入在 HTML 中，这使得嵌入图像也成为可能。对图像进行 base64 编码，然后在加载网页时进行解码。</li></ul><p>这些技术都不可取，尤其是从设计角度讲。在这两种情况下，页面的结构都与样式组合在一起，图像解码也会消耗很多时间。缓存也无法轻松实现。</p><p>但是，如果目标只是减少请求的文件数量，那么这些变通方案是成功的。随着文件请求减少，需要打开的 TCP 套接字也会减少。</p><h2 id="最吸引人的特性"><a href="#最吸引人的特性" class="headerlink" title="最吸引人的特性"></a>最吸引人的特性</h2><p>HTTP/2 的大多数实用特性归功于 Google 在 SPDY 协议上开展的工作。在 HTTPbis 工作组开始起草 HTTP/2 RFC 的第一个版本时，SPDY 已证明一个主要 HTTP 版本更新切实可行。因为已经部署并开始采用 SPDY，所以有证据表明更新的协议在自然环境下具有更高的性能。</p><p>HTTP/2 成功的关键在于，它实现了显著的性能改善，同时保持了 HTTP 范例，以及 HTTP 和 HTTPS 模式。该工作组规定，向 HTTP/2 的迁移必须透明，而且使用者不会受到任何影响。</p><p>该协议最吸引人的特性包括：</p><ul><li>新升级路径</li><li>二进制分帧</li><li>请求/响应复用</li><li>报头压缩</li><li>流优先化</li><li>服务器推送</li><li>流控制</li></ul><p>让我们来查看每个特性。</p><h3 id="新升级路径"><a href="#新升级路径" class="headerlink" title="新升级路径"></a>新升级路径</h3><p>HTTP/2 升级路径与标准路径稍有不同，省去了一些协商。对于基于 HTTP/2 的安全连接，无法通过升级标头请求切换协议，并收到一条让人安心的“101 switching”HTTP 状态。相反，通过使用一个名为应用层协议协商 (ALPN) 的新扩展，客户端向服务器告知它能理解的通信协议（按偏好排序）。服务器然后使用该列表中它也理解的第一个协议作为响应。</p><p>SPDY 需要一个安全连接，虽然社区迫于压力会建立这样的连接，但 HTTP/2 规范没有强制要求这么做。但是，所有主要浏览器供应商都仅在 TLS 上实现 HTTP/2，而且不支持不安全的连接。这实际上会迫使 Web 应用程序实现者对所有 HTTP/2 流量使用 TLS（来源：<a href="http://caniuse.com/#search=http2" target="_blank" rel="noopener">caniuse.com</a>）。curl 用户仍可采用通过 HTTP 升级标头的升级路径，因为它将实现既明确又安全的连接。</p><h3 id="二进制协议"><a href="#二进制协议" class="headerlink" title="二进制协议"></a>二进制协议</h3><p>或许 HTTP/2 的最重要改变是转换为二进制协议。对于开发人员，这可以说是性能增强的焦点。新协议称为<em>二进制分帧层（binary framing layer）</em>，它重新设计了编码机制，而没有修改方法、动词和标头的熟悉语义。</p><p>最重要的是，所有通信都在单个 TCP 连接上执行，而且该连接在整个对话期间一直处于打开状态。这可能得益于二进制协议将通信分解为帧的方式：这些帧交织在客户端与服务器之间的双向逻辑流中。</p><h4 id="连接的拓扑结构"><a href="#连接的拓扑结构" class="headerlink" title="连接的拓扑结构"></a>连接的拓扑结构</h4><p>正如我提到的，在 HTTP/2 的新范例中，仅在客户端与服务器之间建立了一个 TCP 连接，而且该连接在交互持续期间一直处于打开状态。在此连接上，消息是通过逻辑流进行传递的。一条_消息_包含一个完整的帧序列。在经过整理后，这些帧表示一个响应或请求。</p><p>图 2 演示了连接组件之间的关系，展示了一个用于建立多个流的连接。在流 1 中，发送了一条请求消息，并返回了相应的响应消息。</p><h5 id="图-2-HTTP-2-连接的拓扑结构"><a href="#图-2-HTTP-2-连接的拓扑结构" class="headerlink" title="图 2. HTTP/2 连接的拓扑结构"></a>图 2. HTTP/2 连接的拓扑结构</h5><p><img src="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/topology.png" alt="HTTP/2 连接的拓扑结构演示。"></p><p>我们将分别查看每个概念。</p><h4 id="连接和流"><a href="#连接和流" class="headerlink" title="连接和流"></a>连接和流</h4><p>仅与一个对等节点建立一个连接，并在该连接上传输多个流。因为流可以交织，所以可以同时快速的传输多个流。</p><h4 id="消息"><a href="#消息" class="headerlink" title="消息"></a>消息</h4><p>_消息_是一组帧。在对等节点上重建这些帧时，它们形成一个完整的请求或响应。特定消息的帧在同一个流上发送，这意味着一个请求或响应只能映射到一个可识别的流。</p><h4 id="帧"><a href="#帧" class="headerlink" title="帧"></a>帧</h4><p>_帧_是通信的基本单位。每个帧有一个标头，其中包含帧的长度和类型、一些布尔标志、一个保留位和一个流标识符，如图 3 所示。</p><h5 id="图-3-帧分解"><a href="#图-3-帧分解" class="headerlink" title="图 3. 帧分解"></a>图 3. 帧分解</h5><p><img src="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/frames.png" alt="分解一个帧。"></p><h4 id="长度"><a href="#长度" class="headerlink" title="长度"></a>长度</h4><p><em>length 字段</em>记录帧的大小，它最多可在一个 <code>DATA</code> 帧中携带 2<sup>24</sup> 个字节（约 16 MB），但默认的最大值设置为 2<sup>14</sup> 个字节 (16 KB)。帧大小可以通过协商调得更高一点。</p><h4 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h4><p><em>type 字段</em>标识帧的用途，可以是以下 10 种类型之一：</p><ul><li><code>HEADERS</code>：帧仅包含 HTTP 标头信息。</li><li><code>DATA</code>：帧包含消息的所有或部分有效负载。</li><li><code>PRIORITY</code>：指定分配给流的重要性。</li><li><code>RST_STREAM</code>：错误通知：一个推送承诺遭到拒绝。终止流。</li><li><code>SETTINGS</code>：指定连接配置。</li><li><code>PUSH_PROMISE</code>：通知一个将资源推送到客户端的意图。</li><li><code>PING</code>：检测信号和往返时间。</li><li><code>GOAWAY</code>：停止为当前连接生成流的停止通知。</li><li><code>WINDOW_UPDATE</code>：用于管理流的流控制。</li><li><code>CONTINUATION</code>：用于延续某个标头碎片序列。</li></ul><p>参见规范的 <a href="https://tools.ietf.org/html/rfc7540#section-11.2" target="_blank" rel="noopener">11.2 节</a>了解每种帧类型的功能的更多细节。</p><h4 id="标志"><a href="#标志" class="headerlink" title="标志"></a>标志</h4><p><em>flag 字段</em>是一个布尔值，指定帧的状态信息：</p><ul><li><code>DATA</code> 帧可定义两个布尔标志：<code>END_STREAM</code> 和 <code>PADDED</code>，前者表示数据流结束，后者表示存在填充数据。</li><li><code>HEADERS</code> 帧可以将相同的标志指定为 <code>DATA</code> 帧，并添加两个额外的标志：<code>END_HEADERS</code> 和 <code>PRIORITY</code>，前者表示标头帧结束，后者表示设置了流优先级。</li><li><code>PUSH_PROMISE</code> 帧可以设置 <code>END_HEADERS</code> 和 <code>PADDED</code> 标志。</li></ul><p>所有其他帧类型都无法设置标志。</p><h4 id="流标识符"><a href="#流标识符" class="headerlink" title="流标识符"></a>流标识符</h4><p><em>流标识符</em>用于跟踪逻辑流的帧成员关系。成员每次仅属于一条消息和流。流可以提供优先级建议，这有助于确定分配给它的网络资源。我稍后会更详细地解释流优先化。</p><h3 id="请求-响应复用"><a href="#请求-响应复用" class="headerlink" title="请求/响应复用"></a>请求/响应复用</h3><p>单一 TCP 连接的问题在于，一次只能发出一个请求，所以客户端必须等到收到响应后才能发出另一个请求。这就是 “线头阻塞” 问题。正如之前讨论的，典型的变通方案是打开多个连接；每个请求一个连接。但是，如果可以将消息分解为更小的独立部分并通过连接发送，此问题就会迎刃而解。</p><p>这正是 HTTP/2 希望达到的目标。将消息分解为帧，为每帧分配一个流标识符，然后在一个 TCP 连接上独立发送它们。此技术实现了完全双向的请求和响应消息复用，如下图所示。</p><h5 id="图-4-在-TCP-连接上交织的帧"><a href="#图-4-在-TCP-连接上交织的帧" class="headerlink" title="图 4. 在 TCP 连接上交织的帧"></a>图 4. 在 TCP 连接上交织的帧</h5><p><img src="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/streams.png" alt="在 TCP 连接上交织的帧。"></p><p>图 4 中的图解显示在一个连接上快速传输了 3 个流。服务器发送两个响应，客户端发送一个请求。</p><p>在流 1 中，服务器为一个响应发送 <code>HEADERS</code> 帧；在流 2 中，它为另一个响应发送 <code>HEADERS</code> 帧，随后为两个响应发送 <code>DATA</code> 帧。两个响应按如图所示的方式交织。在服务器发送响应的过程中，客户端发送一条新消息的 <code>HEADERS</code> 和 <code>DATA</code> 帧作为请求。这些帧也与响应帧交织在一起，如下图所示。</p><h5 id="图-5-HTTP-2-将请求-响应帧交织在一起"><a href="#图-5-HTTP-2-将请求-响应帧交织在一起" class="headerlink" title="图 5. HTTP/2 将请求/响应帧交织在一起"></a>图 5. HTTP/2 将请求/响应帧交织在一起</h5><p><img src="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/interweaved_streams.png" alt="HTTP/2 将请求/响应帧交织在一起。"></p><p>所有帧在另一端重新组装，以形成完整的请求或响应消息。</p><p>帧交织有许多好处：</p><ul><li>所有请求和响应都在一个套接字上发生。</li><li>所有响应或请求都无法相互阻塞。</li><li>减少了延迟。</li><li>提高了页面加载速度。</li><li>消除了对 HTTP 1.1 工具的需求。</li></ul><h5 id="图-6-将-HTTP-请求映射到-HTTP-2-帧"><a href="#图-6-将-HTTP-请求映射到-HTTP-2-帧" class="headerlink" title="图 6. 将 HTTP 请求映射到 HTTP/2 帧"></a>图 6. 将 HTTP 请求映射到 HTTP/2 帧</h5><p><img src="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/mapping_request.png" alt="将 HTTP 请求映射到 HTTP/2 帧。"></p><p>我们将左侧的一个 HTTP 请求映射到右侧的一个 <code>HEADERS</code> 帧。</p><p>在 <code>HEADERS</code> 帧中，设置了两个标志。第一个是 <code>END_STREAM</code>，它设置为 true（由加号表示），表明该帧是给定请求的最后一帧。<code>END_HEADERS</code> 标志也设置为 true，表明该帧是流中最后一个包含标头信息的帧。</p><p><code>HEADERS</code> 帧中的标头属性反映了 HTTP 1.1 请求中设置的属性。因为 HTTP/2 一定要保持 HTTP 协议的语义，所以必须这么做。</p><p>接下来，让我们来看看该请求的响应。</p><h4 id="将-HTTP-请求映射到帧"><a href="#将-HTTP-请求映射到帧" class="headerlink" title="将 HTTP 请求映射到帧"></a>将 HTTP 请求映射到帧</h4><p>图 7 的左侧是一个 HTTP 1.1 标头响应。右侧是使用两个 HTTP/2 帧表示的同一个响应：<code>HEADERS</code> 和 <code>DATA</code>。</p><h5 id="图-7-将-HTTP-响应映射到-HTTP-2-帧"><a href="#图-7-将-HTTP-响应映射到-HTTP-2-帧" class="headerlink" title="图 7. 将 HTTP 响应映射到 HTTP/2 帧"></a>图 7. 将 HTTP 响应映射到 HTTP/2 帧</h5><p><img src="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/mapping_response.png" alt="将 HTTP 响应映射到 HTTP/2 帧。"></p><p>在 <code>HEADERS</code> 帧中，<code>END_STREAM</code> 表明该帧不是流中的最后一帧，而 <code>END_HEADER</code> 表明它是最后一个包含标头信息的帧。在 <code>DATA</code>帧中，<code>END_STREAM</code> 表明它是最后一帧。</p><h3 id="报头压缩"><a href="#报头压缩" class="headerlink" title="报头压缩"></a>报头压缩</h3><p>HTTP/2 协议拥有配套的 HPACK。HPACK 的目的是减少客户端请求与服务器响应之间的标头信息重复所导致的开销。<em>报头压缩</em>的实现方式是，要求客户端和服务器都维护之前看见的标头字段的列表。未来在构建引用了已看见标头列表的消息时可以使用此列表。</p><h5 id="图-8-压缩同一个连接上的两个请求的标头"><a href="#图-8-压缩同一个连接上的两个请求的标头" class="headerlink" title="图 8. 压缩同一个连接上的两个请求的标头"></a>图 8. 压缩同一个连接上的两个请求的标头</h5><p><img src="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/hpack_header_compression.png" alt="压缩同一个连接上的两个请求的标头。"></p><p>在图 8 中的两个请求中，标头信息是重复的。唯一的不同在请求的资源上（已采用黄色突出显示）。HPACK 报头压缩可以在这里派上用场。在第一个请求后，它仅需发送与前一个标头的不同之处，因为服务器保留着以前看见的标头的列表。除非设置了标头值，否则会假设后续请求拥有与之前的请求相同的标头值。</p><h3 id="流优先化"><a href="#流优先化" class="headerlink" title="流优先化"></a>流优先化</h3><p>消息帧通过流进行发送。每个流都分配了一个优先级，用于确定它的处理顺序，以及它将收到的资源量。</p><p>将该优先级输入到给定流的标头帧或优先级帧中，优先级可以是 0 到 256 之间的任何数字。</p><p>可以定义依赖关系，允许在一个资源之前加载另一个资源。也可以将优先级组合到一个<em>依赖树</em>中，让开发人员对分配给每个流的重要性有更多控制权。</p><h5 id="图-9-用于流优先化的依赖树"><a href="#图-9-用于流优先化的依赖树" class="headerlink" title="图 9. 用于流优先化的依赖树"></a>图 9. 用于流优先化的依赖树</h5><p><img src="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/stream_priority.png" alt="用于流优先化的依赖树。"></p><p>在图 9 中，字母表示流标识符，数字表示分配给每个流的权重。树的根是流 A，首先会向它分配资源，然后才向依赖它的流 B 和 C 分配资源。为流 B 分配了 40% 的可用资源，流 C 收到了 60% 的可用资源。流 C 是流 D 和 E 的父流，二者分别从其父流收到相同的资源配额。</p><p>流优先级仅是对服务器的建议，可以动态更改或完全忽略。在起草 HTTP/2 协议的过程中，工作组认为允许客户端强迫服务器遵守特定资源分配是不对的。相反，服务器可以自由调整优先级，使其与自己的能力匹配。</p><h3 id="服务器推送"><a href="#服务器推送" class="headerlink" title="服务器推送"></a>服务器推送</h3><p><em>服务器推送</em>使服务器能预测客户端请求的资源需求。然后，在完成请求处理之前，它可以将这些资源发送到客户端。</p><p>要了解服务器推送的好处，可以考虑一个包含图像和其他依赖项（比如 CSS 和 JavaScript 文件）的网页。客户端发出一个针对该网页的请求。服务器然后分析所请求的页面，确定呈现它所需的资源，并主动将这些资源发送到客户端的缓存。在执行所有这些操作的同时，服务器仍在处理原始网页请求。客户端收到原始网页请求的响应时，它需要的资源已经位于缓存中。</p><p>那么 HTTP/2 如何管理服务器推送而不会让客户端过载？针对希望发送的每个资源，服务器会发送一个 <code>PUSH_PROMISE</code> 帧，但客户端可通过发送 <code>RST_STREAM</code> 帧作为响应来拒绝推送（例如，如果浏览器的缓存中已包含该资源）。重要的是所有<code>PUSH_PROMISE</code> 都在响应数据之前发送，所以客户端知道它需要请求哪些资源。</p><h3 id="流控制"><a href="#流控制" class="headerlink" title="流控制"></a>流控制</h3><p><em>流控制</em>管理数据的传输，使发送者不会让接收者不堪重负。它允许接收者停止或减少发送的数据量。例如，参阅一个提供点播视频的流媒体服务。观看者观看一个视频流时，服务器正在向客户端发送数据。如果视频暂停，客户端会通知服务器停止发送视频数据，以避免耗尽它的缓存。</p><p>打开一个连接后，服务器和客户端会立即交换 <code>SETTINGS</code> 帧来确定流控制窗口的大小。默认情况下，该大小设置为约 65 KB，但可通过发出一个 <code>WINDOW_UPDATE</code> 帧为流控制设置不同的大小。</p><h2 id="HTTP-2-的普及情况"><a href="#HTTP-2-的普及情况" class="headerlink" title="HTTP/2 的普及情况"></a>HTTP/2 的普及情况</h2><p>供应商几乎都采用了 HTTP/2。在浏览器领域，<a href="http://caniuse.com/#search=http2" target="_blank" rel="noopener">所有主要浏览器</a>目前都只支持基于 TLS 的新协议。在编写本文时，全球的支持率已超过 80%。</p><p>服务器支持率也有所增加，所有主要服务器系列的当前版本都支持 HTTP/2。您的托管服务提供商很可能已支持 HTTP/2。可以在 HTTP/2 规范的 <a href="https://github.com/http2/http2-spec/wiki/Implementations" target="_blank" rel="noopener">Wiki 页面</a>上跟踪它的所有已知服务器实现。</p><p>工具支持也很丰富，所有您<a href="https://github.com/http2/http2-spec/wiki/Tools" target="_blank" rel="noopener">最喜欢的实用工具</a>都支持 HTTP/2。Wireshark 对希望调试服务器与客户端之间的 HTTP/2 通信的开发人员最重要。</p><h2 id="HTTP-2-与您的关系"><a href="#HTTP-2-与您的关系" class="headerlink" title="HTTP/2 与您的关系"></a>HTTP/2 与您的关系</h2><p>Web 用户不关心您使用何种协议来提供内容，只要它速度够快就行。您可能已通过优化网站加载资源的方式，努力为客户提供他们想要的资源。借助 HTTP/2，您不再需要串联文件，将图标整理到一个图像中，设置大量域，或者内联资源。</p><p>简言之，HTTP/2 避免了对变通方案的需求。事实上，继续使用我在本文中介绍的性能工具，可能阻碍您的网站从 HTTP/2 性能增强中受益。</p><p>所以对大多数开发人员而言，最重要的问题是：现在是否适合针对 HTTP/2 重构我的网站？在我看来，这很大程度上取决于与应用程序组成和所使用的浏览器相关的因素。以下是一个平衡法则：您不希望不公平对待使用旧浏览器的用户，但希望提供更快的整体用户体验。</p><p>针对 HTTP/2 的优化是一个未知领域，尤其是在最佳实践方面。它不仅仅是消除变通方案并期待获得最佳成果的一种途径。我们每个人都必须亲自研究。在此过程中，我们会发现提升性能的新方法、HTTP/2 在自然环境下的运行效果，哪个服务器拥有最高性能的实现，等等。</p><p>对 Web 开发而言，HTTP/2 代表着一个美好的新世界。大胆的开发人员在接受它带来的挑战的同时也将获得收益。</p><h4 id="相关主题"><a href="#相关主题" class="headerlink" title="相关主题"></a>相关主题</h4><ul><li><a href="https://daniel.haxx.se/http2/" target="_blank" rel="noopener">HTTP/2 解释</a></li><li><a href="https://insouciant.org/tech/http-slash-2-considerations-and-tradeoffs" target="_blank" rel="noopener">迁移到 HTTP/2：考虑因素和权衡</a></li><li><a href="https://hpbn.co/http2/" target="_blank" rel="noopener">高性能浏览器连网（第 12 章）</a></li><li><a href="https://readlearncode.com/servlet-4-features/" target="_blank" rel="noopener">Java EE Servlet 4.0 特性</a></li></ul><p><a href="https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/index.html" target="_blank" rel="noopener">https://www.ibm.com/developerworks/cn/web/wa-http2-under-the-hood/index.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;HTTP-2-幕后原理&quot;&gt;&lt;a href=&quot;#HTTP-2-幕后原理&quot; class=&quot;headerlink&quot; title=&quot;HTTP/2 幕后原理&quot;&gt;&lt;/a&gt;HTTP/2 幕后原理&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;HTTP/2 的请求/响应复用、报头压缩和服务器推送
-      
-    
-    </summary>
-    
-      <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
-    
-      <category term="013_network" scheme="https://30s.github.io/categories/01-software-engineering/013-network/"/>
-    
-      <category term="0131_http" scheme="https://30s.github.io/categories/01-software-engineering/013-network/0131-http/"/>
-    
-    
-      <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
-    
-      <category term="Operating System" scheme="https://30s.github.io/tags/Operating-System/"/>
-    
-      <category term="Http" scheme="https://30s.github.io/tags/Http/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TCP/IP应用程序的通信连接模式</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/013_network/0132_tcp_ip/TCPIP%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%9E%E6%8E%A5%E6%A8%A1%E5%BC%8F/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/013_network/0132_tcp_ip/TCPIP应用程序的通信连接模式/</id>
-    <published>2010-09-01T04:00:00.000Z</published>
-    <updated>2018-03-07T13:43:50.968Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="TCP-IP-应用程序的通信连接模式"><a href="#TCP-IP-应用程序的通信连接模式" class="headerlink" title="TCP/IP 应用程序的通信连接模式"></a>TCP/IP 应用程序的通信连接模式</h1><p><strong>TCP/IP 应用层与应用程序</strong></p><ul><li><p>TCP/IP 起源于二十世纪 60 年代末美国政府资助的一个分组交换网络研究项目，它是一个真正的开放协议，很多不同厂家生产各种型号的计算机，它们运行完全不同的操作系统，但 TCP/IP 协议组件允许它们互相进行通信。现在 TCP/IP 已经从一个只供一些科学家使用的小实验网成长为一个由成千上万的计算机和用户构成的全球化网络，TCP/IP 也已成为全球因特网（Internet）的基础，越来越多的 TCP/IP 互联网应用和企业商业应用正在改变着世界。</p></li><li><p>TCP/IP 通讯协议采用了四层的层级模型结构（注：这与 OSI 七层模型不相同），每一层都调用它的下一层所提供的网络任务来完成自己的需求。TCP/IP 的每一层都是由一系列协议来定义的。这 4 层分别为：</p><ul><li><strong>应用层 (Application)</strong>：应用层是个很广泛的概念，有一些基本相同的系统级 TCP/IP 应用以及应用协议，也有许多的企业商业应用和互联网应用。</li><li><strong>传输层 (Transport)</strong>：传输层包括 UDP 和 TCP，UDP 几乎不对报文进行检查，而 TCP 提供传输保证。</li><li><strong>网络层 (Network)</strong>：网络层协议由一系列协议组成，包括 ICMP、IGMP、RIP、OSPF、IP(v4,v6) 等。</li><li><p><strong>链路层 (Link)</strong>：又称为物理数据网络接口层，负责报文传输。</p><p>图１显示了 TCP/IP 层级模型结构，应用层之间的协议通过逐级调用传输层（Transport layer）、网络层（Network Layer）和物理数据链路层（Physical Data Link）而可以实现应用层的应用程序通信互联。</p><p>应用层需要关心应用程序的逻辑细节，而不是数据在网络中的传输活动。应用层其下三层则处理真正的通信细节。在 Internet 整个发展过程中的所有思想和着重点都以一种称为 RFC（Request For Comments）的文档格式存在。针对每一种特定的 TCP/IP 应用，有相应的 RFC 文档。一些典型的 TCP/IP 应用有 FTP、Telnet、SMTP、SNTP、REXEC、TFTP、LPD、SNMP、NFS、INETD 等。RFC 使一些基本相同的 TCP/IP 应用程序实现了标准化，从而使得不同厂家开发的应用程序可以互相通信。</p><h5 id="图-１-TCP-IP-层级模型结构"><a href="#图-１-TCP-IP-层级模型结构" class="headerlink" title="图 １ TCP/IP 层级模型结构"></a>图 １ TCP/IP 层级模型结构</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image002.gif" alt="图 １ TCP/IP 层级模型结构"></p><p>然而除了这些已经实现标准化的系统级 TCP/IP 应用程序外，在企业商业应用和互联网应用开发中，存在着大量的商业应用程序通信互联问题。如图 １ 显示，其中的应用层所包含应用程序主要可以分成两类，即系统级应用和商业应用，互联网商业应用是商业应用中的主要形式之一。</p><p>不同开发商和用户在开发各自商业应用通信程序时也存在有许多不同的设计方式。关于 TCP/IP 应用层以下的技术文献与书籍早已是汗牛充栋，但是关于 TCP/IP 应用本身，尤其是关于商业应用的通信设计模式技术讨论方面的文章还是比较少的。TCP/IP 应用通信设计模式实际上是在 TCP/IP 基础编程之上的一种应用编程设计方式，也属于一种应用层协议范畴，其可以包含有 TCP/IP 地址族模式设计、I/O 模式设计、通信连接模式设计以及通信数据格式设计等。鉴于目前讨论 TCP/IP 商业应用程序设计模式问题这方面的文章还很少见，本文尝试给出一些通信连接模式设计中共同的概念与一些典型的设计模式，在以后的文章中将继续讨论地址族模式设计、I/O 模式设计、以及通信数据格式设计等方面的模式设计实现话题。</p><p>通信连接模式设计主要考虑内容有：</p></li><li><p>通信两端程序建立通信方式</p></li><li>通信连接方式</li><li><p>通信报文发送与接收方式</p><p>以下内容将介绍建立通信的 Client/Server 模型，然后逐一介绍通信连接模式设计所需要考虑的这些内容。</p><h2 id="传输层接口-APIs-与-TCP-IP-应用程序-C-S-模型"><a href="#传输层接口-APIs-与-TCP-IP-应用程序-C-S-模型" class="headerlink" title="传输层接口 APIs 与 TCP/IP 应用程序 C/S 模型"></a>传输层接口 APIs 与 TCP/IP 应用程序 C/S 模型</h2><h3 id="传输层接口-APIs"><a href="#传输层接口-APIs" class="headerlink" title="传输层接口 APIs"></a>传输层接口 APIs</h3><p>TCP/IP 应用层位于传输层之上，TCP/IP 应用程序需要调用传输层的接口才能实现应用程序之间通信。目前使用最广泛的传输层的应用编程接口是套接字接口（Socket）。Socket APIs 是于 1983 年在 Berkeley Socket Distribution (BSD) Unix 中引进的。 1986 年 AT&amp;T 公司引进了另一种不同的网络层编程接口 TLI（Transport Layer Interface），1988 年 AT&amp;T 发布了一种修改版的 TLI，叫做 XTI（X/open Transport interface）。XTI/TLI 和 Socket 是用来处理相同任务的不同方法。关于 TCP/IP APIs 使用文章与书籍已相当多，本文则是侧重于如何组合使用这些 APIs 来进行 TCP/IP 应用程序连接模式设计，并归纳出几种基本应用连接模式。</p><p>如图 ２ 显示，应用层是通过调用传输层接口 APIs（Socket 或 XTI/TLI）来与传输层和网络层进行通信的。</p><h5 id="图-２-传输层接口"><a href="#图-２-传输层接口" class="headerlink" title="图 ２ 传输层接口"></a>图 ２ 传输层接口</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image004.gif" alt="图 ２ 传输层接口"></p><p>不管是使用何种编程接口，要在两个机器或两个程序之间建立通信，通信双方必须建立互相一致的通信模式。如果双方的通信设计模式不一致就无法建立有效的通信连接。</p><p>以下是经常使用的 socket APIs，是建立 TCP/IP 应用程序的标准接口，也是影响 TCP/IP 应用程序通信方式的几个主要 APIs，不同 APIs 组合再结合系统调用可以实现不同方式的应用。Sockets 支持多种传输层和网络层协议，支持面向连接和无连接的数据传输，允许应用分布式工作。</p></li><li><p>socket()：是用来创建一个 socket，socket 表示通信中的一个节点，其可以在一个网络中被命名，用 socket 描述符表示，socket 描述符类似于 Unix 中的文件描述符。</p></li><li>bind()：是用来把本地 IP 层地址和 TCP 层端口赋予 socket。</li><li>listen() ：把未连接的 socket 转化成一个等待可连接的 socket，允许该 socket 可以被请求连接，并指定该 socket 允许的最大连接数。</li><li>accept()：是等待一个连接的进入，连接成功后，产生一个新的 socket 描述符，这个新的描述符用来建立与客户端的连接。</li><li>connect()：用来建立一个与服务端的连接。</li><li>send()：发送一个数据缓冲区，类似 Unix 的文件函数 write()。另外 sendto() 是用在无连接的 UDP 程序中，用来发送自带寻址信息的数据包。</li><li>recv()：接收一个数据缓冲区，类似 Unix 的文件函数 readI()。另外 recvfrom() 是用在无连接的 UDP 程序中，用来接收自带寻址信息的数据包。</li><li><p>close()：关闭一个连接</p><h3 id="Client-Server-模型"><a href="#Client-Server-模型" class="headerlink" title="Client/Server 模型"></a>Client/Server 模型</h3><p>Sockets 是以 Client 和 Server 交互通信方式来使用的。典型的系统配置是把 Server 放在一台机器中，而把 Client 放在另一台机器中，Client 连接到 Server 交换信息。一个 socket 有一系列典型的事件流。例如，在面向连接的 Client/Server 模型中，Server 端的 socket 总是等待一个 Client 端的请求。要实现这个请求，Server 端首先需要建立能够被 Client 使用的地址，当地址建立后，Server 等待 Client 请求服务。当一个 Client 通过 socket 连接到 Server 后，Client 与 Server 之间就可以进行信息交换。Client/Server 是通信程序设计的基本模式。从软件开发的角度讲，TCP/IP 应用程序都是基于 Client/Server 方式的。注意本篇文章以下 Client/Server 概念是针对程序内部调用 Socket API 所讲的概念，与针对整个程序甚至针对机器而讲的客户端 / 服务器概念有所不同。用 Server APIs 建立的程序可以被当作客户端使用，用 Client APIs 建立的程序也可以被用作服务器端使用。建立 Server 需要的 APIs 有 socket(), bind(), listen(), accept()，建立 Client 需要的 APIs 有 Socket(), Connect()。在实际应用开发中，同一个程序里往往同时可以有 Client 和 Server 的代码，或者多种形式的组合。在实际应用编程中，针对 Socket APIs 不同有效组合，结合系统调用可以有多种复杂的设计变化。</p><p>面向连接的应用编程存在三类基本的不同级别的设计方式范畴，根据 Socket APIs 从上到下顺序依次是：</p></li><li><p>Client/Server 通信建立方式</p></li><li>Client/Server 通信连接方式</li><li><p>Client/Server 通信发送与接收方式</p><p>下面内容以面向连接的 Socket 应用编程为例来说明这几种不同通信范畴的设计实现。</p><h2 id="Client-Server-建立方式设计概述"><a href="#Client-Server-建立方式设计概述" class="headerlink" title="Client/Server 建立方式设计概述"></a>Client/Server 建立方式设计概述</h2><h3 id="一个-Client-连接一个-Server"><a href="#一个-Client-连接一个-Server" class="headerlink" title="一个 Client 连接一个 Server"></a>一个 Client 连接一个 Server</h3><p>如果只有两台机器之间连接，那么一个是 Client，另一个是 Server，如下面图 3 所示。这是最简单的 TCP/IP 的应用，也是 TCP/IP 应用早期的 Peer to Peer (P2P) 概念。其流程基本如图 ４ 所示。</p><h5 id="图-３-TCP-IP-应用单点-Client-Server"><a href="#图-３-TCP-IP-应用单点-Client-Server" class="headerlink" title="图 ３ TCP/IP 应用单点 Client/Server"></a>图 ３ TCP/IP 应用单点 Client/Server</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image006.gif" alt="图 ３ TCP/IP 应用单点 Client/Server"></p><p>图 4 显示了 TCP/IP 应用编程最基本的 Client/Server 模式，显示了基本的 Client/Server 通信所需要调用的 Socket APIs 以及顺序。</p><h5 id="图-４-TCP-IP-应用编程基本-Client-Server-模式"><a href="#图-４-TCP-IP-应用编程基本-Client-Server-模式" class="headerlink" title="图 ４ TCP/IP 应用编程基本 Client/Server 模式"></a>图 ４ TCP/IP 应用编程基本 Client/Server 模式</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image008.gif" alt="图 ４ TCP/IP 应用编程基本 Client/Server 模式"></p><h3 id="多个-Client-连接一个-Server"><a href="#多个-Client-连接一个-Server" class="headerlink" title="多个 Client 连接一个 Server"></a>多个 Client 连接一个 Server</h3><p>多个 Client 同时连接一个 Server 是 TCP/IP 应用的主流形式，如图 ５ 所示，其中 Client 连接数可以从几个到成千上万。</p><h5 id="图-５-TCP-IP-应用多-Client-端的-Client-Server"><a href="#图-５-TCP-IP-应用多-Client-端的-Client-Server" class="headerlink" title="图 ５ TCP/IP 应用多 Client 端的 Client/Server"></a>图 ５ TCP/IP 应用多 Client 端的 Client/Server</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image008.gif" alt="图 ５ TCP/IP 应用多 Client 端的 Client/Server"></p><p>由于 socket APIs 缺省方式下都是阻塞方式的，实现多个 Client 同时连接一个 Server 就需要特别的设计。其实现方式可以有多种不同的设计，这其中也涉及 I/O 模式设计。下面将展开介绍其中几种设计形式。</p><p><strong>利用一个 Client 连接一个 Server 形式实现多 Client 连接</strong></p><p>从程序设计角度讲，只要 Client 和 Server 端口是一对一形式，那么就属于一个 Client 连接一个 Server 形式。在处理多个 Client 端连接时，Server 端轮流使用多个端口建立多个 Client-Server 连接，连接关闭后，被释放端口可以被循环使用。在这种多连接形式中需要谨慎处理 Client 端如何获取使用 Server 端的可用端口。比如图 ６ 显示 Server 有一个服务于所有进程的进程可以先把 Server 端的可用端口发送给 Client 端，Client 端再使用该端口建立连接来处理业务。Server 针对每一个 Client 连接用一个专门的进程来处理。由于可用端口数有限，Server 用一个有限循环来处理每一个可用的端口连接。由于新端口需要用 bind() 来绑定，所以需要从 bind() 开始到 close() 结束都需要包含在循环体内。</p><h5 id="图-６-利用一对一-Client-Server-模式实现多-Client-连接"><a href="#图-６-利用一对一-Client-Server-模式实现多-Client-连接" class="headerlink" title="图 ６ 利用一对一 Client-Server 模式实现多 Client 连接"></a>图 ６ 利用一对一 Client-Server 模式实现多 Client 连接</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image012.gif" alt="图 ６ 利用一对一 Client-Server 模式实现多 Client 连接"></p><p><strong>使用多个 accept() 实现多 Client 连接</strong></p><p>多进程 Server 一般有一个专注进程是服务于每一个连接的。当 Client 端完成连接后，专注进程可以循环被另外的连接使用。使用多个 accept() 也可以实现处理多 Client 连接。多 accept() 的 Server 也只有一个 socket()，一个 bind()，一个 listen()，这与通常情况一样。但是它建立许多工作子进程，每一个工作子进程都有 accept()，这样可以为每一个 Client 建立 socket 描述符。如图 ７ 所示，由于 accept() 连接成功后，会产生一个新的 socket 描述符，这样通过循环多进程利用 accept() 产生的多 socket 描述符就可以与多个 Client 进行连接通信。循环体是从 accept() 开始到 close() 结束的。</p><h5 id="图-７-使用多-accept-实现多-Client-连接"><a href="#图-７-使用多-accept-实现多-Client-连接" class="headerlink" title="图 ７ 使用多 accept() 实现多 Client 连接"></a>图 ７ 使用多 accept() 实现多 Client 连接</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image014.gif" alt="图 ７ 使用多 accept() 实现多 Client 连接"></p><p><strong>使用并发 Server 模式实现多 Client 连接</strong></p><p>并发服务器模式曾经是 TCP/IP 的主流应用程序设计模式，得到广泛使用，目前互联网上仍有相当多的应用使用此种模式。其设计思路是在 accept 之后 fork 出一个子进程。因为 socket 会产生监听 socket 描述符 listenfd，accept 会产生连接 socket 描述符 connfd。连接建立后，子进程继承连接描述符服务于 Client，父进程则继续使用监听描述符等待另外一个 Client 的连接请求，以产生另外一个连接 socket 描述符和子进程。如图 ８ 所示，accept() 接收到一个 Client 连接后，产生一个新的 socket 描述符，通过 fork() 系统调用，用一个子进程来处理该 socket 描述符的连接服务。而父进程可以立即返回到 accept()，等待一个新的 Client 请求，这就是典型的并发服务器模式。并发服务器模式同时处理的最大并发 Client 连接数由 listen() 的第二个参数来指定。</p><h5 id="图-８-TCP-IP-应用并发-Server"><a href="#图-８-TCP-IP-应用并发-Server" class="headerlink" title="图 ８ TCP/IP 应用并发 Server"></a>图 ８ TCP/IP 应用并发 Server</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image016.gif" alt="图 ８ TCP/IP 应用并发 Server"></p><p><strong>使用 I/O 多路技术实现多 Client 连接</strong></p><p>以上三种连接设计，多 Server 端口、多 accept() 和并发服务器模式，都是通过 fork() 系统调用产生多进程来实现多 Client 连接的。使用 I/O 多路技术也可以同时处理多个输入与输出问题，即用一个进程同时处理多个文件描述符。I/O 多路技术是通过 select() 或 poll() 系统调用实现的。poll() 与 select() 功能完全相同，但是 poll() 可以更少使用内存资源以及有更少的错误发生。select() 调用需要与操作文件描述符集的 APIs 配合使用。select() 系统调用可以使一个进程检测多个等待的 I/O 是否准备好，当没有设备准备好时，select() 处于阻塞状态中，其中任一设备准备好后，select() 函数返回调用。select() API 本身也有一个超时时间参数，超时时间到后，无论是否有设备准备好，都返回调用。其流程如图 9 所示。在 socket APIs listen() 和 accept() 之间插入 select() 调用。使用这三个宏 FD_ZERO()、FD_CLR() 和 FD_SET()，在调用 select() 前设置 socket 描述符屏蔽位，在调用 select() 后使用 FD_ISSET 来检测 socket 描述符集中对应于 socket 描述符的位是否被设置。 FD_ISSET() 就相当通知了一个 socket 描述符是否可以被使用，如果该 socket 描述符可用，则可对该 socket 描述符进行读写通信操作。通常，操作系统通过宏 FD_SETSIZE 来声明在一个进程中 select() 所能操作的文件或 socket 描述符的最大数目。更详细的 I/O 多路技术实现，可以参考其他相关文献。</p><h5 id="图-９-I-O-多路技术实现多连接的-Server"><a href="#图-９-I-O-多路技术实现多连接的-Server" class="headerlink" title="图 ９ I/O 多路技术实现多连接的 Server"></a>图 ９ I/O 多路技术实现多连接的 Server</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image018.gif" alt="图 ９ I/O 多路技术实现多连接的 Server"></p><h3 id="一个-Client-连接多个-Server"><a href="#一个-Client-连接多个-Server" class="headerlink" title="一个 Client 连接多个 Server"></a>一个 Client 连接多个 Server</h3><p>一个 Client 连接多个 Server 这种方式很少见，主要用于一个客户需要向多个服务器发送请求情况，比如一个 Client 端扫描连接多个 Server 端情况。如图 １０ 所示。此种方式设计主要是 Client 端应用程序的逻辑设计，通常需要在 Client 端设计逻辑循环来连接多个 Server，在此不做更多描述。</p><h5 id="图-１０-单-Client-对多-Server"><a href="#图-１０-单-Client-对多-Server" class="headerlink" title="图 １０ 单 Client 对多 Server"></a>图 １０ 单 Client 对多 Server</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image020.gif" alt="图 １０ 单 Client 对多 Server"></p><h3 id="复杂-Client-Server-设计与现代-P2P"><a href="#复杂-Client-Server-设计与现代-P2P" class="headerlink" title="复杂 Client/Server 设计与现代 P2P"></a>复杂 Client/Server 设计与现代 P2P</h3><p>最近几年，对等网络技术 ( Peer-to-Peer，简称 P2P) 迅速成为计算机界关注的热门话题之一，以及影响 Internet 未来的科技之一。与早期点对点 (Peer to Peer) 的 Client/Server 模式不同，现在的 P2P 模式是指每个结点既可充当服务器，为其他结点提供服务，同时也可作为客户端享用其他结点提供的服务。实际上 P2P 模式仍然是基于 Client/Server 模式的，每个通信节点都既是 Server，又是 Client，P2P 是基于复杂 Client/Server 设计的 TCP/IP 应用。图 １１ 显示 P2P 模式下两个用户 PC 之间的对等连接。</p><h5 id="图-１１-P2P-模式"><a href="#图-１１-P2P-模式" class="headerlink" title="图 １１ P2P 模式"></a>图 １１ P2P 模式</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image022.gif" alt="图 １１ P2P 模式"></p><p>在技术上，P2P 本身是基于 TCP/IP Client/Server 技术的一种设计模式思想， P2P 也属于网络应用层技术，与 Web 和 FTP 等应用是并列的。只是 P2P 应用在设计实现上更要复杂的多。P2P 技术实现的协同工作是无需专门的服务器支持的 (Serverless)，这里的服务器概念与 Client/Server 中的 Server 概念是不一样的。在传统意义上中心服务器机器上往往运行的是 TCP/IP 应用的 Server 端程序，所以传统意义上的 Server 概念在机器与应用上是重合的。如果更改 TCP/IP 的应用设计，使应用程序既可做 Server 又可做 Client，就可以实现无中心服务器的 P2P 模式。</p><p>在设计模式上，P2P 模式实现了网络终端用户不依赖中心服务器或者服务商而直接进行信息和数据交换的可能，因此 P2P 正在改变着整个互联网的一些基础应用，从而极大地增加了用户之间的信息沟通和交流能力。目前互联网的 P2P 应用与网络都正在飞速发展，一些典型的 P2P 应用程序比如有 BitTorrent, eDonkey 等，另外一些即时通信（IM）类软件比如 MSN、QQ 等也正在向无中心服务器模式转变。无中心服务器的 Internet 应用程序大大降低应用提供商的运营成本，而且减少人们对于 Server 稳定性的依赖。</p><h2 id="Client-Server-通信连接方式设计"><a href="#Client-Server-通信连接方式设计" class="headerlink" title="Client/Server 通信连接方式设计"></a>Client/Server 通信连接方式设计</h2><p>Client/Server 通信方式建立后，下一步就需要考虑通信连接的方式，主要有两种方式的连接，即长连接通信与短连接通信。通信连接方式涉及到的 APIs 主要是 connect() 和 accept()。要实现某种 Client/Server 方式，就必须考虑用某种特定的连接方式。</p><h3 id="短连接通信"><a href="#短连接通信" class="headerlink" title="短连接通信"></a>短连接通信</h3><p>短连接通信是指 Client 方与 Server 方每进行一次通信报文收发交易时才进行通讯连接，交易完毕后立即断开连接。此种方式常用于多个 Client 连接一个 Server 情况，常用于机构与用户之间通信，比如 OLTP（联机事务处理）类应用。在短连接情况下，Client 端完成任务后，就关闭连接并退出。在 Server 端，可以通过循环 accept()，使 Server 不会退出，并连续处理 Client 的请求。图 １２ 显示了一般情况下短连接通信模式的 Socket 事件流，不同设计的连接多 Client 的 Server 有不同的循环流程。</p><h5 id="图-１２-短连接模式通信"><a href="#图-１２-短连接模式通信" class="headerlink" title="图 １２ 短连接模式通信"></a>图 １２ 短连接模式通信</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image024.gif" alt="图 １２ 短连接模式通信"></p><h3 id="长连接通信"><a href="#长连接通信" class="headerlink" title="长连接通信"></a>长连接通信</h3><p>长连接通信是指 Client 方与 Server 方先建立通讯连接，连接建立后不会断开，然后再进行报文发送和接收，报文发送与接收完毕后，原来连接不会断开而继续存在，因此可以连续进行交易报文的发送与接收。这种方式下由于通讯连接一直存在，其 TCP/IP 状态是 Established，可以用操作系统的命令 netstat 查看连接是否建立。由于在长连接情况下，Client 端和 Server 端一样可以固定使用一个端口，所以长连接下的 Client 也需要使用 bind() 来绑定 Client 的端口。在长连接方式下，需要循环读写通信数据。为了区分每一次交易的通信数据，每一次交易数据常常需要在数据头部指定该次交易的长度，接收 API 需要首先读出该长度，然后再按该长度读出指定长度的字节。长连接方式常用于一个 Client 端对一个 Server 端的通讯，一般常用于机构与机构之间的商业应用通信，以处理机构之间连续的大量的信息数据交换。或者说可用于两个系统之间持续的信息交流情况。通常为了加快两个系统之间的信息交流，通常还需要建立几条长连接的并行通信线路。图 １３ 显示了一般情况下长连接通信模式的 socket 事件流，可见其最大特点是 Client 和 Server 都有循环体，而且循环体只包含读写 APIs。</p><h5 id="图-１３-长连接模式通信"><a href="#图-１３-长连接模式通信" class="headerlink" title="图 １３ 长连接模式通信"></a>图 １３ 长连接模式通信</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image026.gif" alt="图 １３ 长连接模式通信"></p><h2 id="Client-Server-通信发送与接收方式设计"><a href="#Client-Server-通信发送与接收方式设计" class="headerlink" title="Client/Server 通信发送与接收方式设计"></a>Client/Server 通信发送与接收方式设计</h2><p>在通信数据发送与接收之间也存在不同的方式，即同步和异步两种方式。这里的同步和异步与 I/O 层次的同异步概念不同。主要涉及 socket APIs recv() 和 send() 的不同组合方式。</p><h3 id="同步发送与接收"><a href="#同步发送与接收" class="headerlink" title="同步发送与接收"></a>同步发送与接收</h3><p>从应用程序设计的角度讲，报文发送和接收是同步进行的，既报文发送后，发送方等待接收方返回消息报文。同步方式一般需要考虑超时问题，即报文发出去后发送方不能无限等待，需要设定超时时间，超过该时间后发送方不再处于等待状态中，而直接被通知超时返回。同步发送与接收经常与短连接通信方式结合使用，称为同步短连接通信方式，其 socket 事件流程可如上面的图 １２ 所示。</p><h3 id="异步发送与接收"><a href="#异步发送与接收" class="headerlink" title="异步发送与接收"></a>异步发送与接收</h3><p>从应用程序设计的角度讲，发送方只管发送数据，不需要等待接收任何返回数据，而接收方只管接收数据，这就是应用层的异步发送与接收方式。要实现异步方式，通常情况下报文发送和接收是用两个不同的进程来分别处理的，即发送与接收是分开的，相互独立的，互不影响。异步发送与接收经常与长连接通信方式结合使用，称为异步长连接通信方式。从应用逻辑角度讲，这种方式又可分双工和单工两种情况。</p><p><strong>异步双工</strong></p><p>异步双工是指应用通信的接收和发送在同一个程序中，而有两个不同的子进程分别负责发送和接收，异步双工模式是比较复杂的一种通信方式，有时候经常会出现在不同机构之间的两套系统之间的通信。比如银行与银行之间的信息交流。它也可以适用在现代 P2P 程序中。如图 １４ 所示，Server 和 Client 端分别 fork 出两个子进程，形成两对子进程之间的连接，两个连接都是单向的，一个连接是用于发送，另一个连接用于接收，这样方式的连接就被称为异步双工方式连接。</p><h5 id="图-１４-长连接异步双工模式"><a href="#图-１４-长连接异步双工模式" class="headerlink" title="图 １４ 长连接异步双工模式"></a>图 １４ 长连接异步双工模式</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image028.gif" alt="图 １４ 长连接异步双工模式"></p><p><strong>异步单工</strong></p><p>应用通信的接收和发送是用两个不同的程序来完成，这种异步是利用两对不同程序依靠应用逻辑来实现的。图 １５ 显示了长连接方式下的异步单工模式，在通信的 A 和 B 端，分别有两套 Server 和 Client 程序，B 端的 Client 连接 A 端的 Server，A 端的 Server 只负责接收 B 端 Client 发送的报文。A 端的 Client 连接 B 端的 Server，A 端 Client 只负责向 B 端 Server 发送报文。</p><h5 id="图-１５-长连接异步单工模式"><a href="#图-１５-长连接异步单工模式" class="headerlink" title="图 １５ 长连接异步单工模式"></a>图 １５ 长连接异步单工模式</h5><p><img src="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/image030.gif" alt="图 １５ 长连接异步单工模式"></p><h2 id="典型通信连接模式"><a href="#典型通信连接模式" class="headerlink" title="典型通信连接模式"></a>典型通信连接模式</h2><p>综上所述，在实际 TCP/IP 应用程序设计中，就连接模式而言，我们需要考虑 Client/Server 建立方式、Client/Server 连接方式、Client/Server 发送与接收方式这三个不同级别的设计方式。实际 TCP/IP 应用程序连接模式可以是以上三类不同级别 Client/Server 方式的组合。比如一般 TCP/IP 相关书籍上提供的 TCP/IP 范例程序大都是同步短连接的 Client/Server 程序。有的组合是基本没有实用价值的，比较常用的有价值的组合是以下几种：</p></li><li><p>同步短连接 Server/Client</p></li><li>同步长连接 Server/Client</li><li>异步短连接 Server/Client</li><li>异步长连接双工 Server/Client</li><li><p>异步长连接单工 Server/Client</p><p>其中异步长连接双工是较为复杂的一种通信方式，有时候经常会出现在不同银行或不同城市之间的两套系统之间的通信，比如国家金卡工程。由于这几种通信方式比较固定，所以可以预先编制这几种通信方式的模板程序。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本文探讨了 TCP/IP 应用程序中连接模式的设计。在以后的文章中还将继续讨论 TCP/IP 应用程序设计中的其他方面的设计话题，包括地址族模式设计、I/O 模式设计、以及通信数据格式设计等。</p><p><a href="https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/" target="_blank" rel="noopener">https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/</a></p></li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="第一章-操作系统引论"><a href="#第一章-操作系统引论" class="headerlink" title="第一章 操作系统引论"></a>第一章 操作系统引论</h1><h2 id="1-1-操作系统的目标和作用"><a href="#1-1-操作系统的目标和作用" class="headerlink" title="1.1 操作系统的目标和作用"></a>1.1 操作系统的目标和作用</h2><h2 id="1-2-操作系统的发展过程"><a href="#1-2-操作系统的发展过程" class="headerlink" title="1.2 操作系统的发展过程"></a>1.2 操作系统的发展过程</h2><h2 id="1-3-操作系统的基本特性"><a href="#1-3-操作系统的基本特性" class="headerlink" title="1.3 操作系统的基本特性"></a>1.3 操作系统的基本特性</h2><h2 id="1-4-操作系统的主要功能"><a href="#1-4-操作系统的主要功能" class="headerlink" title="1.4 操作系统的主要功能"></a>1.4 操作系统的主要功能</h2><h2 id="1-5-OS结构设计"><a href="#1-5-OS结构设计" class="headerlink" title="1.5 OS结构设计"></a>1.5 OS结构设计</h2><h1 id="第二章-进程管理"><a href="#第二章-进程管理" class="headerlink" title="第二章 进程管理"></a>第二章 进程管理</h1><h2 id="2-1-进程的基本概念"><a href="#2-1-进程的基本概念" class="headerlink" title="2.1 进程的基本概念"></a>2.1 进程的基本概念</h2><h2 id="2-2-进程控制"><a href="#2-2-进程控制" class="headerlink" title="2.2 进程控制"></a>2.2 进程控制</h2><h2 id="2-3-进程同步"><a href="#2-3-进程同步" class="headerlink" title="2.3 进程同步"></a>2.3 进程同步</h2><h2 id="2-4-经典进程的同步问题"><a href="#2-4-经典进程的同步问题" class="headerlink" title="2.4 经典进程的同步问题"></a>2.4 经典进程的同步问题</h2><h2 id="2-5-进程通信"><a href="#2-5-进程通信" class="headerlink" title="2.5 进程通信"></a>2.5 进程通信</h2><h2 id="2-6-线程"><a href="#2-6-线程" class="headerlink" title="2.6 线程"></a>2.6 线程</h2><h1 id="第三章-处理机调度与死锁"><a href="#第三章-处理机调度与死锁" class="headerlink" title="第三章 处理机调度与死锁"></a>第三章 处理机调度与死锁</h1><h2 id="3-1-处理机调度的层次"><a href="#3-1-处理机调度的层次" class="headerlink" title="3.1 处理机调度的层次"></a>3.1 处理机调度的层次</h2><h2 id="3-2-调度队列模型和调度准则"><a href="#3-2-调度队列模型和调度准则" class="headerlink" title="3.2 调度队列模型和调度准则"></a>3.2 调度队列模型和调度准则</h2><h2 id="3-3-调度算法"><a href="#3-3-调度算法" class="headerlink" title="3.3 调度算法"></a>3.3 调度算法</h2><h2 id="3-4-实时调度"><a href="#3-4-实时调度" class="headerlink" title="3.4 实时调度"></a>3.4 实时调度</h2><h2 id="3-5-产生死锁的原因和必要条件"><a href="#3-5-产生死锁的原因和必要条件" class="headerlink" title="3.5 产生死锁的原因和必要条件"></a>3.5 产生死锁的原因和必要条件</h2><h2 id="3-6-预防死锁的方法"><a href="#3-6-预防死锁的方法" class="headerlink" title="3.6 预防死锁的方法"></a>3.6 预防死锁的方法</h2><h2 id="3-7-死锁的检测与解除"><a href="#3-7-死锁的检测与解除" class="headerlink" title="3.7 死锁的检测与解除"></a>3.7 死锁的检测与解除</h2><h1 id="第四章-存储器管理"><a href="#第四章-存储器管理" class="headerlink" title="第四章 存储器管理"></a>第四章 存储器管理</h1><h2 id="4-1-存储器的层次结构"><a href="#4-1-存储器的层次结构" class="headerlink" title="4.1 存储器的层次结构"></a>4.1 存储器的层次结构</h2><h2 id="4-2-程序的装入和链接"><a href="#4-2-程序的装入和链接" class="headerlink" title="4.2 程序的装入和链接"></a>4.2 程序的装入和链接</h2><h2 id="4-3-连续分配方式"><a href="#4-3-连续分配方式" class="headerlink" title="4.3 连续分配方式"></a>4.3 连续分配方式</h2><h2 id="4-4-基本分页存储管理方式"><a href="#4-4-基本分页存储管理方式" class="headerlink" title="4.4 基本分页存储管理方式"></a>4.4 基本分页存储管理方式</h2><h2 id="4-5-基本分段存储管理方式"><a href="#4-5-基本分段存储管理方式" class="headerlink" title="4.5 基本分段存储管理方式"></a>4.5 基本分段存储管理方式</h2><h2 id="4-6-虚拟存储器的基本概念"><a href="#4-6-虚拟存储器的基本概念" class="headerlink" title="4.6 虚拟存储器的基本概念"></a>4.6 虚拟存储器的基本概念</h2><h2 id="4-7-请求分页存储管理方式"><a href="#4-7-请求分页存储管理方式" class="headerlink" title="4.7 请求分页存储管理方式"></a>4.7 请求分页存储管理方式</h2><h2 id="4-8-页面置换算法"><a href="#4-8-页面置换算法" class="headerlink" title="4.8 页面置换算法"></a>4.8 页面置换算法</h2><h2 id="4-9-请求分段存储管理方式"><a href="#4-9-请求分段存储管理方式" class="headerlink" title="4.9 请求分段存储管理方式"></a>4.9 请求分段存储管理方式</h2><h1 id="第五章-设备管理"><a href="#第五章-设备管理" class="headerlink" title="第五章 设备管理"></a>第五章 设备管理</h1><h2 id="5-1-I-O系统"><a href="#5-1-I-O系统" class="headerlink" title="5.1 I/O系统"></a>5.1 I/O系统</h2><h2 id="5-2-I-0控制方式"><a href="#5-2-I-0控制方式" class="headerlink" title="5.2 I/0控制方式"></a>5.2 I/0控制方式</h2><h2 id="5-3-缓冲管理"><a href="#5-3-缓冲管理" class="headerlink" title="5.3 缓冲管理"></a>5.3 缓冲管理</h2><h2 id="5-4-I-O软件"><a href="#5-4-I-O软件" class="headerlink" title="5.4 I/O软件"></a>5.4 I/O软件</h2><h2 id="5-5-设备分配"><a href="#5-5-设备分配" class="headerlink" title="5.5 设备分配"></a>5.5 设备分配</h2><h2 id="5-6-磁盘存储器的管理"><a href="#5-6-磁盘存储器的管理" class="headerlink" title="5.6 磁盘存储器的管理"></a>5.6 磁盘存储器的管理</h2><h1 id="第六章-文件管理"><a href="#第六章-文件管理" class="headerlink" title="第六章 文件管理"></a>第六章 文件管理</h1><h2 id="6-1-文件和文件系统"><a href="#6-1-文件和文件系统" class="headerlink" title="6.1 文件和文件系统"></a>6.1 文件和文件系统</h2><h2 id="6-2-文件的逻辑结构"><a href="#6-2-文件的逻辑结构" class="headerlink" title="6.2 文件的逻辑结构"></a>6.2 文件的逻辑结构</h2><h2 id="6-3-外存分配方式"><a href="#6-3-外存分配方式" class="headerlink" title="6.3 外存分配方式"></a>6.3 外存分配方式</h2><h2 id="6-4-目录管理"><a href="#6-4-目录管理" class="headerlink" title="6.4 目录管理"></a>6.4 目录管理</h2><h2 id="6-5-文件存储空间的管理"><a href="#6-5-文件存储空间的管理" class="headerlink" title="6.5 文件存储空间的管理"></a>6.5 文件存储空间的管理</h2><h2 id="6-6-文件共享与文件保护"><a href="#6-6-文件共享与文件保护" class="headerlink" title="6.6 文件共享与文件保护"></a>6.6 文件共享与文件保护</h2><h2 id="6-7-数据一致性控制"><a href="#6-7-数据一致性控制" class="headerlink" title="6.7 数据一致性控制"></a>6.7 数据一致性控制</h2><h1 id="第七章-操作系统接口"><a href="#第七章-操作系统接口" class="headerlink" title="第七章 操作系统接口"></a>第七章 操作系统接口</h1><h2 id="7-1-联机用户接口"><a href="#7-1-联机用户接口" class="headerlink" title="7.1 联机用户接口"></a>7.1 联机用户接口</h2><h2 id="7-2-Shell命令语言"><a href="#7-2-Shell命令语言" class="headerlink" title="7.2 Shell命令语言"></a>7.2 Shell命令语言</h2><h2 id="7-3-系统调用"><a href="#7-3-系统调用" class="headerlink" title="7.3 系统调用"></a>7.3 系统调用</h2><h2 id="7-4-UNIX系统调用"><a href="#7-4-UNIX系统调用" class="headerlink" title="7.4 UNIX系统调用"></a>7.4 UNIX系统调用</h2><h2 id="7-5-图形用户接口"><a href="#7-5-图形用户接口" class="headerlink" title="7.5 图形用户接口"></a>7.5 图形用户接口</h2><h1 id="第八章-网络操作系统"><a href="#第八章-网络操作系统" class="headerlink" title="第八章 网络操作系统"></a>第八章 网络操作系统</h1><h2 id="8-1-计算机网络概述"><a href="#8-1-计算机网络概述" class="headerlink" title="8.1 计算机网络概述"></a>8.1 计算机网络概述</h2><h2 id="8-2-网络体系结构"><a href="#8-2-网络体系结构" class="headerlink" title="8.2 网络体系结构"></a>8.2 网络体系结构</h2><h2 id="8-3-Internet与Intranet"><a href="#8-3-Internet与Intranet" class="headerlink" title="8.3 Internet与Intranet"></a>8.3 Internet与Intranet</h2><h2 id="8-4-客户，服务器模式"><a href="#8-4-客户，服务器模式" class="headerlink" title="8.4 客户，服务器模式"></a>8.4 客户，服务器模式</h2><h2 id="8-5-网络操作系统的功能"><a href="#8-5-网络操作系统的功能" class="headerlink" title="8.5 网络操作系统的功能"></a>8.5 网络操作系统的功能</h2><h2 id="8-6-网络操作系统提供的服务"><a href="#8-6-网络操作系统提供的服务" class="headerlink" title="8.6 网络操作系统提供的服务"></a>8.6 网络操作系统提供的服务</h2><h1 id="第九章-系统安全性"><a href="#第九章-系统安全性" class="headerlink" title="第九章 系统安全性"></a>第九章 系统安全性</h1><h2 id="9-1-系统安全的基本概念"><a href="#9-1-系统安全的基本概念" class="headerlink" title="9.1 系统安全的基本概念"></a>9.1 系统安全的基本概念</h2><h2 id="9-2-数据加密技术"><a href="#9-2-数据加密技术" class="headerlink" title="9.2 数据加密技术"></a>9.2 数据加密技术</h2><h2 id="9-3-认证技术"><a href="#9-3-认证技术" class="headerlink" title="9.3 认证技术"></a>9.3 认证技术</h2><h2 id="9-4-访问控制技术"><a href="#9-4-访问控制技术" class="headerlink" title="9.4 访问控制技术"></a>9.4 访问控制技术</h2><h2 id="9-5-计算机病毒"><a href="#9-5-计算机病毒" class="headerlink" title="9.5 计算机病毒"></a>9.5 计算机病毒</h2><h1 id="第十章-UNIX系统内核结构"><a href="#第十章-UNIX系统内核结构" class="headerlink" title="第十章 UNIX系统内核结构"></a>第十章 UNIX系统内核结构</h1><h2 id="10-1-UNIX系统概述"><a href="#10-1-UNIX系统概述" class="headerlink" title="10.1 UNIX系统概述"></a>10.1 UNIX系统概述</h2><h2 id="10-2-进程的描述和控制"><a href="#10-2-进程的描述和控制" class="headerlink" title="10.2 进程的描述和控制"></a>10.2 进程的描述和控制</h2><h2 id="10-3-进程的同步与通信"><a href="#10-3-进程的同步与通信" class="headerlink" title="10.3 进程的同步与通信"></a>10.3 进程的同步与通信</h2><h2 id="10-4-存储器管理"><a href="#10-4-存储器管理" class="headerlink" title="10.4 存储器管理"></a>10.4 存储器管理</h2><h2 id="10-5-设备管理"><a href="#10-5-设备管理" class="headerlink" title="10.5 设备管理"></a>10.5 设备管理</h2><h2 id="10-6-文件管理"><a href="#10-6-文件管理" class="headerlink" title="10.6 文件管理"></a>10.6 文件管理</h2>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;TCP-IP-应用程序的通信连接模式&quot;&gt;&lt;a href=&quot;#TCP-IP-应用程序的通信连接模式&quot; class=&quot;headerlink&quot; title=&quot;TCP/IP 应用程序的通信连接模式&quot;&gt;&lt;/a&gt;TCP/IP 应用程序的通信连接模式&lt;/h1&gt;&lt;p&gt;&lt;stron
-      
-    
-    </summary>
-    
-      <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
-    
-      <category term="013_network" scheme="https://30s.github.io/categories/01-software-engineering/013-network/"/>
-    
-      <category term="0132_tcp_ip" scheme="https://30s.github.io/categories/01-software-engineering/013-network/0132-tcp-ip/"/>
-    
-    
-      <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
-    
-      <category term="Operating System" scheme="https://30s.github.io/tags/Operating-System/"/>
-    
-      <category term="TCP IP" scheme="https://30s.github.io/tags/TCP-IP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux内核剖析</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/012_operating_system/0121_linux/Linux%E5%86%85%E6%A0%B8%E5%89%96%E6%9E%90/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/012_operating_system/0121_linux/Linux内核剖析/</id>
-    <published>2010-09-01T04:00:00.000Z</published>
-    <updated>2018-03-07T13:43:50.830Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Linux内核剖析"><a href="#Linux内核剖析" class="headerlink" title="Linux内核剖析"></a>Linux内核剖析</h1><p><strong>历史和体系结构分析</strong></p><p>由于本文的目标是对 Linux 内核进行介绍并探索其体系结构和主要组件，因此首先回顾一下 Linux 的简短历史，然后从较高的层次审视 Linux 内核的体系结构，最后介绍它的主要子系统。Linux 内核具有超过 600 万行的代码，因此本文不可能进行完整的介绍。请使用指向其他内容的链接进一步学习。</p><h2 id="Linux-的简短历史"><a href="#Linux-的简短历史" class="headerlink" title="Linux 的简短历史"></a>Linux 的简短历史</h2><p>尽管 Linux 绝对是最流行的开源操作系统，但是相对于其他操作系统的漫长历史来说，Linux 的历史非常短暂。在计算机出现早期，程序员是使用硬件语言在裸硬件上进行开发的。缺少操作系统就意味着在某个时间只有一个应用程序（和一个用户）可以使用这些庞大而又昂贵的设备。早期的操作系统是在 20 世纪 50 年代开发的，用来提供简单的开发体验。包括为 IBM 701 开发的 General Motors Operating System（GMOS）和 North American Aviation 为 IBM 709 开发的 FORTRAN Monitor System（FMS）。</p><p>在 20 世纪 60 年代，MIT（Massachusetts Institute of Technology）和一些公司为 GE-645 开发了一个名为 Multics（Multiplexed Information and Computing Service）的实验性的操作系统。这个操作系统的开发者之一 AT&amp;T 后来退出了 Multics，并在 1970 年开发了自己的名为 Unics 的操作系统。与这个操作系统一同诞生的是 C 语言，C 语言就是为此而开发的，然后它们使用 C 语言对操作系统进行了重写，使操作系统开发具有可移植性。</p><p>二十年后，Andrew Tanenbaum 创建了一个微内核版本的 UNIX®，名为 MINIX（代表 minimal UNIX），它可以在小型的个人计算机上运行。这个开源操作系统在 20 世纪 90 年代激发了 Linus Torvalds 开发 Linux 的灵感（请参看图 1 所示）。</p><h5 id="图-1-主要-Linux-内核发行版简史"><a href="#图-1-主要-Linux-内核发行版简史" class="headerlink" title="图 1. 主要 Linux 内核发行版简史"></a>图 1. 主要 Linux 内核发行版简史</h5><h1 id=""><a href="#" class="headerlink" title=""></a><img src="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/figure1.jpg" alt="主要 Linux 内核发行版简史"></h1><p>Linux 快速从一个个人项目进化成为一个全球数千人参与的开发项目。对于 Linux 来说，最为重要的决策之一是采用 GPL（GNU General Public License）。在 GPL 保护之下，Linux 内核可以防止商业使用，并且它还从 GNU 项目（Richard Stallman 开发，其源代码要比 Linux 内核大得多）的用户空间开发受益。这允许使用一些非常有用的应用程序，例如 GCC（GNU Compiler Collection）和各种 shell 支持。</p><h2 id="Linux-内核简介"><a href="#Linux-内核简介" class="headerlink" title="Linux 内核简介"></a>Linux 内核简介</h2><p>现在让我们从一个比较高的高度来审视一下 GNU/Linux 操作系统的体系结构。您可以从两个层次上来考虑操作系统，如图 2 所示。</p><h5 id="图-2-GNU-Linux-操作系统的基本体系结构"><a href="#图-2-GNU-Linux-操作系统的基本体系结构" class="headerlink" title="图 2. GNU/Linux 操作系统的基本体系结构"></a>图 2. GNU/Linux 操作系统的基本体系结构</h5><h1 id="-1"><a href="#-1" class="headerlink" title=""></a><img src="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/figure2.jpg" alt=" GNU/Linux 操作系统的基本体系结构"></h1><p>最上面是用户（或应用程序）空间。这是用户应用程序执行的地方。用户空间之下是内核空间，Linux 内核正是位于这里。</p><p>GNU C Library （glibc）也在这里。它提供了连接内核的系统调用接口，还提供了在用户空间应用程序和内核之间进行转换的机制。这点非常重要，因为内核和用户空间的应用程序使用的是不同的保护地址空间。每个用户空间的进程都使用自己的虚拟地址空间，而内核则占用单独的地址空间。 更多信息，请参看 <a href="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/#artrelatedtopics" target="_blank" rel="noopener">参考资料</a> 一节中的链接。</p><p>Linux 内核可以进一步划分成 3 层。最上面是系统调用接口，它实现了一些基本的功能，例如 <code>read</code> 和 <code>write</code>。系统调用接口之下是内核代码，可以更精确地定义为独立于体系结构的内核代码。这些代码是 Linux 所支持的所有处理器体系结构所通用的。在这些代码之下是依赖于体系结构的代码，构成了通常称为 BSP（Board Support Package）的部分。这些代码用作给定体系结构的处理器和特定于平台的代码。</p><h2 id="Linux-内核的属性"><a href="#Linux-内核的属性" class="headerlink" title="Linux 内核的属性"></a>Linux 内核的属性</h2><p>在讨论大型而复杂的系统的体系结构时，可以从很多角度来审视系统。体系结构分析的一个目标是提供一种方法更好地理解源代码，这正是本文的目的。</p><p>Linux 内核实现了很多重要的体系结构属性。在或高或低的层次上，内核被划分为多个子系统。Linux 也可以看作是一个整体，因为它会将所有这些基本服务都集成到内核中。这与微内核的体系结构不同，后者会提供一些基本的服务，例如通信、I/O、内存和进程管理，更具体的服务都是插入到微内核层中的。每种内核都有自己的优点，不过这里并不对此进行讨论。</p><p>随着时间的流逝，Linux 内核在内存和 CPU 使用方面具有较高的效率，并且非常稳定。但是对于 Linux 来说，最为有趣的是在这种大小和复杂性的前提下，依然具有良好的可移植性。Linux 编译后可在大量处理器和具有不同体系结构约束和需求的平台上运行。一个例子是 Linux 可以在一个具有内存管理单元（MMU）的处理器上运行，也可以在那些不提供 MMU 的处理器上运行。Linux 内核的 uClinux 移植提供了对非 MMU 的支持。更详细信息请参看 <a href="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/#artrelatedtopics" target="_blank" rel="noopener">参考资料</a> 一节的内容。</p><h2 id="Linux-内核的主要子系统"><a href="#Linux-内核的主要子系统" class="headerlink" title="Linux 内核的主要子系统"></a>Linux 内核的主要子系统</h2><p>现在使用图 3 中的分类说明 Linux 内核的主要组件。</p><h5 id="图-3-Linux-内核的一个体系结构透视图"><a href="#图-3-Linux-内核的一个体系结构透视图" class="headerlink" title="图 3. Linux 内核的一个体系结构透视图"></a>图 3. Linux 内核的一个体系结构透视图</h5><h1 id="-2"><a href="#-2" class="headerlink" title=""></a><img src="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/figure3.jpg" alt="Linux 内核的一个体系结构透视图"></h1><h3 id="系统调用接口"><a href="#系统调用接口" class="headerlink" title="系统调用接口"></a>系统调用接口</h3><p>SCI 层提供了某些机制执行从用户空间到内核的函数调用。正如前面讨论的一样，这个接口依赖于体系结构，甚至在相同的处理器家族内也是如此。SCI 实际上是一个非常有用的函数调用多路复用和多路分解服务。在 ./linux/kernel 中您可以找到 SCI 的实现，并在 ./linux/arch 中找到依赖于体系结构的部分。有关这个组件的更详细信息可以在 <a href="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/#artrelatedtopics" target="_blank" rel="noopener">参考资料</a> 一节中找到。</p><h3 id="进程管理"><a href="#进程管理" class="headerlink" title="进程管理"></a>进程管理</h3><p>进程管理的重点是进程的执行。在内核中，这些进程称为_线程<em>，代表了单独的处理器虚拟化（线程代码、数据、堆栈和 CPU 寄存器）。在用户空间，通常使用</em>进程_ 这个术语，不过 Linux 实现并没有区分这两个概念（进程和线程）。内核通过 SCI 提供了一个应用程序编程接口（API）来创建一个新进程（fork、exec 或 Portable Operating System Interface [POSIX] 函数），停止进程（kill、exit），并在它们之间进行通信和同步（signal 或者 POSIX 机制）。</p><p>进程管理还包括处理活动进程之间共享 CPU 的需求。内核实现了一种新型的调度算法，不管有多少个线程在竞争 CPU，这种算法都可以在固定时间内进行操作。这种算法就称为 O(1) 调度程序，这个名字就表示它调度多个线程所使用的时间和调度一个线程所使用的时间是相同的。 O(1) 调度程序也可以支持多处理器（称为对称多处理器或 SMP）。您可以在 ./linux/kernel 中找到进程管理的源代码，在 ./linux/arch 中可以找到依赖于体系结构的源代码。在 <a href="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/#artrelatedtopics" target="_blank" rel="noopener">参考资料</a> 一节中可以了解有关这个算法的更多内容。</p><h3 id="内存管理"><a href="#内存管理" class="headerlink" title="内存管理"></a>内存管理</h3><p>内核所管理的另外一个重要资源是内存。为了提高效率，如果由硬件管理虚拟内存，内存是按照所谓的<em>内存页</em> 方式进行管理的（对于大部分体系结构来说都是 4KB）。Linux 包括了管理可用内存的方式，以及物理和虚拟映射所使用的硬件机制。</p><p>不过内存管理要管理的可不止 4KB 缓冲区。Linux 提供了对 4KB 缓冲区的抽象，例如 slab 分配器。这种内存管理模式使用 4KB 缓冲区为基数，然后从中分配结构，并跟踪内存页使用情况，比如哪些内存页是满的，哪些页面没有完全使用，哪些页面为空。这样就允许该模式根据系统需要来动态调整内存使用。</p><p>为了支持多个用户使用内存，有时会出现可用内存被消耗光的情况。由于这个原因，页面可以移出内存并放入磁盘中。这个过程称为_交换_，因为页面会被从内存交换到硬盘上。内存管理的源代码可以在 ./linux/mm 中找到。</p><h3 id="虚拟文件系统"><a href="#虚拟文件系统" class="headerlink" title="虚拟文件系统"></a>虚拟文件系统</h3><p>虚拟文件系统（VFS）是 Linux 内核中非常有用的一个方面，因为它为文件系统提供了一个通用的接口抽象。VFS 在 SCI 和内核所支持的文件系统之间提供了一个交换层（请参看图 4）。</p><h5 id="图-4-VFS-在用户和文件系统之间提供了一个交换层"><a href="#图-4-VFS-在用户和文件系统之间提供了一个交换层" class="headerlink" title="图 4. VFS 在用户和文件系统之间提供了一个交换层"></a>图 4. VFS 在用户和文件系统之间提供了一个交换层</h5><h1 id="-3"><a href="#-3" class="headerlink" title=""></a><img src="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/figure4.jpg" alt="VFS 在用户和文件系统之间提供了一个交换层"></h1><p>在 VFS 上面，是对诸如 open、close、read 和 write 之类的函数的一个通用 API 抽象。在 VFS 下面是文件系统抽象，它定义了上层函数的实现方式。它们是给定文件系统（超过 50 个）的插件。文件系统的源代码可以在 ./linux/fs 中找到。</p><p>文件系统层之下是缓冲区缓存，它为文件系统层提供了一个通用函数集（与具体文件系统无关）。这个缓存层通过将数据保留一段时间（或者随即预先读取数据以便在需要是就可用）优化了对物理设备的访问。缓冲区缓存之下是设备驱动程序，它实现了特定物理设备的接口。</p><h3 id="网络堆栈"><a href="#网络堆栈" class="headerlink" title="网络堆栈"></a>网络堆栈</h3><p>网络堆栈在设计上遵循模拟协议本身的分层体系结构。回想一下，Internet Protocol (IP) 是传输协议（通常称为传输控制协议或 TCP）下面的核心网络层协议。TCP 上面是 socket 层，它是通过 SCI 进行调用的。</p><p>socket 层是网络子系统的标准 API，它为各种网络协议提供了一个用户接口。从原始帧访问到 IP 协议数据单元（PDU），再到 TCP 和 User Datagram Protocol (UDP)，socket 层提供了一种标准化的方法来管理连接，并在各个终点之间移动数据。内核中网络源代码可以在 ./linux/net 中找到。</p><h3 id="设备驱动程序"><a href="#设备驱动程序" class="headerlink" title="设备驱动程序"></a>设备驱动程序</h3><p>Linux 内核中有大量代码都在设备驱动程序中，它们能够运转特定的硬件设备。Linux 源码树提供了一个驱动程序子目录，这个目录又进一步划分为各种支持设备，例如 Bluetooth、I2C、serial 等。设备驱动程序的代码可以在 ./linux/drivers 中找到。</p><h3 id="依赖体系结构的代码"><a href="#依赖体系结构的代码" class="headerlink" title="依赖体系结构的代码"></a>依赖体系结构的代码</h3><p>尽管 Linux 很大程度上独立于所运行的体系结构，但是有些元素则必须考虑体系结构才能正常操作并实现更高效率。./linux/arch 子目录定义了内核源代码中依赖于体系结构的部分，其中包含了各种特定于体系结构的子目录（共同组成了 BSP）。对于一个典型的桌面系统来说，使用的是 i386 目录。每个体系结构子目录都包含了很多其他子目录，每个子目录都关注内核中的一个特定方面，例如引导、内核、内存管理等。这些依赖体系结构的代码可以在 ./linux/arch 中找到。</p><h2 id="Linux-内核的一些有用特性"><a href="#Linux-内核的一些有用特性" class="headerlink" title="Linux 内核的一些有用特性"></a>Linux 内核的一些有用特性</h2><p>如果 Linux 内核的可移植性和效率还不够好，Linux 还提供了其他一些特性，它们无法划分到上面的分类中。</p><p>作为一个生产操作系统和开源软件，Linux 是测试新协议及其增强的良好平台。Linux 支持大量网络协议，包括典型的 TCP/IP，以及高速网络的扩展（大于 1 Gigabit Ethernet [GbE] 和 10 GbE）。Linux 也可以支持诸如流控制传输协议（SCTP）之类的协议，它提供了很多比 TCP 更高级的特性（是传输层协议的接替者）。</p><p>Linux 还是一个动态内核，支持动态添加或删除软件组件。被称为动态可加载内核模块，它们可以在引导时根据需要（当前特定设备需要这个模块）或在任何时候由用户插入。</p><p>Linux 最新的一个增强是可以用作其他操作系统的操作系统（称为系统管理程序）。最近，对内核进行了修改，称为基于内核的虚拟机（KVM）。这个修改为用户空间启用了一个新的接口，它可以允许其他操作系统在启用了 KVM 的内核之上运行。除了运行 Linux 的其他实例之外， Microsoft® Windows® 也可以进行虚拟化。惟一的限制是底层处理器必须支持新的虚拟化指令。更多信息请参看 <a href="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/#artrelatedtopics" target="_blank" rel="noopener">参考资料</a> 一节的内容。</p><h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><p>本文对 Linux 内核体系结构及其特性和功能进行了简要介绍。有关内核的详细内容，可以参考每个 Linux 发行版中附带的 Documentation 目录。请一定查看本文末尾的 <a href="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/#artrelatedtopics" target="_blank" rel="noopener">参考资料</a> 一节，了解有关本文中所讨论主题的更详细信息。</p><p><a href="https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/" target="_blank" rel="noopener">https://www.ibm.com/developerworks/cn/linux/l-linux-kernel/</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Linux内核剖析&quot;&gt;&lt;a href=&quot;#Linux内核剖析&quot; class=&quot;headerlink&quot; title=&quot;Linux内核剖析&quot;&gt;&lt;/a&gt;Linux内核剖析&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;历史和体系结构分析&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;由于本文的目标是
+        &lt;h1 id=&quot;第一章-操作系统引论&quot;&gt;&lt;a href=&quot;#第一章-操作系统引论&quot; class=&quot;headerlink&quot; title=&quot;第一章 操作系统引论&quot;&gt;&lt;/a&gt;第一章 操作系统引论&lt;/h1&gt;&lt;h2 id=&quot;1-1-操作系统的目标和作用&quot;&gt;&lt;a href=&quot;#1-1-操作系
       
     
     </summary>
@@ -337,269 +151,525 @@
     
       <category term="012_operating_system" scheme="https://30s.github.io/categories/01-software-engineering/012-operating-system/"/>
     
-      <category term="0121_linux" scheme="https://30s.github.io/categories/01-software-engineering/012-operating-system/0121-linux/"/>
-    
     
       <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
     
       <category term="Operating System" scheme="https://30s.github.io/tags/Operating-System/"/>
     
-      <category term="Linux" scheme="https://30s.github.io/tags/Linux/"/>
-    
   </entry>
   
   <entry>
-    <title>windows端口占用关闭进程</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/012_operating_system/0122_windows/windows%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E5%85%B3%E9%97%AD%E8%BF%9B%E7%A8%8B/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/012_operating_system/0122_windows/windows端口占用关闭进程/</id>
-    <published>2010-09-01T04:00:00.000Z</published>
-    <updated>2018-03-07T13:45:28.752Z</updated>
+    <title>计算机网络</title>
+    <link href="https://30s.github.io/2010/09/01/01_software_engineering/013_network/index/"/>
+    <id>https://30s.github.io/2010/09/01/01_software_engineering/013_network/index/</id>
+    <published>2010-09-01T12:00:00.000Z</published>
+    <updated>2018-03-07T13:38:38.170Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="windows端口占用关闭进程"><a href="#windows端口占用关闭进程" class="headerlink" title="windows端口占用关闭进程"></a>windows端口占用关闭进程</h1><p>在windows命令行窗口下键入如下命令：</p><p>netstat -aon</p><p>在Local Address下面可以看到被占用的端口号情况。比如80端口被PID为3096的进程占用了。</p><p>假如是希望查找指定的端口号被占用情况，可以使用如下命令：</p><p>netstat -aon | findstr “80”</p><p>此命令就会查找到端口号中包含”80”的端口占用情况</p><p>知道了占用9000端口号的进程是PID为3096的进程，用下面的命令来查看具体的该进程的名称，使用如下命令：</p><p>tasklist | findstr “3096”</p><p>假如这个进程占用了你的端口号，那么用这个方法干掉它。<br>用Ctrl+Alt+Delete调出windows任务管理器窗口，可以直接通过名称找到这个占用的进程，然后选择结束进程。也可以通过PID号找到这个进程。点击&lt;查看&gt;-&gt;&lt;选择列&gt;，勾选&lt;PID(进程标识符号)&gt;，找到并结束进程。<br>另外一个方法就是继续使用命令：<br>C:>taskkill /f /t /javaw.exe</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="第1章-概述"><a href="#第1章-概述" class="headerlink" title="第1章　概述"></a>第1章　概述</h1><h1 id="第2章-物理层"><a href="#第2章-物理层" class="headerlink" title="第2章　物理层"></a>第2章　物理层</h1><h1 id="第3章-数据链路层"><a href="#第3章-数据链路层" class="headerlink" title="第3章　数据链路层"></a>第3章　数据链路层</h1><h1 id="第4章-网络层"><a href="#第4章-网络层" class="headerlink" title="第4章　网络层"></a>第4章　网络层</h1><h1 id="第5章-运输层"><a href="#第5章-运输层" class="headerlink" title="第5章　运输层"></a>第5章　运输层</h1><h1 id="第6章-应用层"><a href="#第6章-应用层" class="headerlink" title="第6章　应用层"></a>第6章　应用层</h1><h1 id="第7章-网络安全"><a href="#第7章-网络安全" class="headerlink" title="第7章　网络安全"></a>第7章　网络安全</h1><h1 id="第8章-因特网上的音频-视频服务"><a href="#第8章-因特网上的音频-视频服务" class="headerlink" title="第8章　因特网上的音频/视频服务"></a>第8章　因特网上的音频/视频服务</h1><h1 id="第9章-无线网络"><a href="#第9章-无线网络" class="headerlink" title="第9章　无线网络"></a>第9章　无线网络</h1><h1 id="第10章-下一代因特网"><a href="#第10章-下一代因特网" class="headerlink" title="第10章　下一代因特网"></a>第10章　下一代因特网</h1>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;windows端口占用关闭进程&quot;&gt;&lt;a href=&quot;#windows端口占用关闭进程&quot; class=&quot;headerlink&quot; title=&quot;windows端口占用关闭进程&quot;&gt;&lt;/a&gt;windows端口占用关闭进程&lt;/h1&gt;&lt;p&gt;在windows命令行窗口下键入如下
+        &lt;h1 id=&quot;第1章-概述&quot;&gt;&lt;a href=&quot;#第1章-概述&quot; class=&quot;headerlink&quot; title=&quot;第1章　概述&quot;&gt;&lt;/a&gt;第1章　概述&lt;/h1&gt;&lt;h1 id=&quot;第2章-物理层&quot;&gt;&lt;a href=&quot;#第2章-物理层&quot; class=&quot;headerlink&quot; ti
       
     
     </summary>
     
       <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
     
-      <category term="012_operating_system" scheme="https://30s.github.io/categories/01-software-engineering/012-operating-system/"/>
-    
-      <category term="0122_windows" scheme="https://30s.github.io/categories/01-software-engineering/012-operating-system/0122-windows/"/>
+      <category term="013_network" scheme="https://30s.github.io/categories/01-software-engineering/013-network/"/>
     
     
       <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
     
-      <category term="Operating System" scheme="https://30s.github.io/tags/Operating-System/"/>
-    
-      <category term="Windows" scheme="https://30s.github.io/tags/Windows/"/>
+      <category term="Network" scheme="https://30s.github.io/tags/Network/"/>
     
   </entry>
   
   <entry>
-    <title>重要经历</title>
-    <link href="https://30s.github.io/2009/09/01/09_important_experience/index/"/>
-    <id>https://30s.github.io/2009/09/01/09_important_experience/index/</id>
-    <published>2009-09-01T12:00:00.000Z</published>
-    <updated>2018-03-06T10:31:51.290Z</updated>
+    <title>ACM OJ集锦</title>
+    <link href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/0151_acm/acm_oj_collection/"/>
+    <id>https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/0151_acm/acm_oj_collection/</id>
+    <published>2010-09-01T12:00:00.000Z</published>
+    <updated>2018-03-07T12:27:37.258Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="重要经历"><a href="#重要经历" class="headerlink" title="重要经历"></a>重要经历</h1><p>生命里的每一个点都会最终连成线。如果不好好捋一捋，永远是一团乱麻。</p><ul><li><strong>home</strong> 家庭</li><li><strong>school</strong> 学校<ul><li>middle_little 中小学</li><li>degree 学位<ul><li>bachelor 学士<ul><li>acm 算法竞赛</li><li>shangxuetang 培训</li><li>bachelor_project 毕业设计</li></ul></li><li>master 硕士<ul><li>scholar 学术</li><li>e_business 电商</li><li>start_up 创业</li><li>master_project 毕业设计</li></ul></li><li>doctor 博士</li></ul></li></ul></li><li><strong>study</strong> 学习<ul><li>cert_exam 考证</li><li>chinese_classics 国学</li><li>health 养生</li><li>language 语言</li><li>study_plan 学习计划</li><li>super_memory 超强记忆</li></ul></li><li><strong>work</strong> 工作<ul><li>erp 企业应用</li><li>smart_home 智能家居</li><li>iot 物联网</li></ul></li><li><strong>sport</strong> 运动<ul><li>badminton 羽毛球</li><li>basketball 篮球</li><li>football 足球</li><li>run 跑步</li><li>walk 徒步</li></ul></li><li><strong>food</strong> 美食</li><li><strong>media</strong> 影音<ul><li>guitar 吉他</li><li>music 音乐</li><li>movie 电影</li></ul></li><li><strong>joy</strong> 娱乐<ul><li>toy 玩具<ul><li>four_drive 四驱车</li><li>magic_cube 魔方</li></ul></li><li>game 游戏<ul><li>pc_game 电脑游戏<ul><li>cs 反恐精英</li><li>fifa 实况足球</li><li>nba 2K篮球</li></ul></li><li>portable_game 掌机游戏<ul><li>nitendo 任天堂</li><li>sony PlayPortableStation系列</li></ul></li></ul></li></ul></li><li><strong>travel</strong> 旅游</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="ACM-OJ-Collection（排名不分先后）："><a href="#ACM-OJ-Collection（排名不分先后）：" class="headerlink" title="ACM OJ Collection（排名不分先后）："></a>ACM OJ Collection（排名不分先后）：</h1><h2 id="中国：-China"><a href="#中国：-China" class="headerlink" title="中国：(China)"></a>中国：(China)</h2><h3 id="华东地区："><a href="#华东地区：" class="headerlink" title="华东地区："></a>华东地区：</h3><h4 id="浙江："><a href="#浙江：" class="headerlink" title="浙江："></a>浙江：</h4><ul><li>杭州电子科技大学(HDU)：<a href="http://acm.hdu.edu.cn/" target="_blank" rel="noopener">http://acm.hdu.edu.cn/</a></li><li>浙江大学（ZJU）：<a href="http://acm.zju.edu.cn/" target="_blank" rel="noopener">http://acm.zju.edu.cn/</a></li><li>浙江工业大学（ZJUT）：<a href="http://acm.zjut.edu.cn/" target="_blank" rel="noopener">http://acm.zjut.edu.cn/</a></li><li>浙江师范大学（ZJNU）：<a href="http://acm.zjnu.cn/" target="_blank" rel="noopener">http://acm.zjnu.cn/</a></li><li>浙江工商（ZJGSU）：<a href="http://acm.zjgsu.edu.cn/" target="_blank" rel="noopener">http://acm.zjgsu.edu.cn/</a></li><li>宁波理工（NIT）：<a href="http://acm.nit.net.cn/" target="_blank" rel="noopener">http://acm.nit.net.cn/</a></li></ul><h4 id="上海："><a href="#上海：" class="headerlink" title="上海："></a>上海：</h4><ul><li>华东师范大学（ECNU）：<a href="http://acm.cs.ecnu.edu.cn/" target="_blank" rel="noopener">http://acm.cs.ecnu.edu.cn/</a></li><li>华东理工大学（ECUST）：<a href="http://acm.ecust.edu.cn/" target="_blank" rel="noopener">http://acm.ecust.edu.cn/</a></li><li>同济大学（TJU）：<a href="http://acm.tongji.edu.cn/" target="_blank" rel="noopener">http://acm.tongji.edu.cn/</a></li></ul><h4 id="江苏："><a href="#江苏：" class="headerlink" title="江苏："></a>江苏：</h4><ul><li>南京航空航天大学： <a href="http://acm.nuaa.edu.cn/" target="_blank" rel="noopener">http://acm.nuaa.edu.cn/</a></li></ul><h4 id="福建："><a href="#福建：" class="headerlink" title="福建："></a>福建：</h4><ul><li>福州大学（FZU）：<a href="http://acm.fzu.edu.cn/" target="_blank" rel="noopener">http://acm.fzu.edu.cn/</a></li><li>厦门大学（XMU）：<a href="http://acm.xmu.edu.cn/" target="_blank" rel="noopener">http://acm.xmu.edu.cn/</a></li><li>福建师范大学（FJNU）：<a href="http://acm.fjnu.edu.cn/" target="_blank" rel="noopener">http://acm.fjnu.edu.cn/</a></li></ul><h4 id="安徽："><a href="#安徽：" class="headerlink" title="安徽："></a>安徽：</h4><ul><li>中国科技大学（USTC）：<a href="http://acm.ustc.edu.cn/" target="_blank" rel="noopener">http://acm.ustc.edu.cn/</a></li></ul><h3 id="华北地区："><a href="#华北地区：" class="headerlink" title="华北地区："></a>华北地区：</h3><h4 id="北京："><a href="#北京：" class="headerlink" title="北京："></a>北京：</h4><ul><li>北京交大（BJTU）：<a href="http://acm.bjtu.edu.cn/" target="_blank" rel="noopener">http://acm.bjtu.edu.cn/</a></li><li>北京大学（PKU）：<a href="http://acm.pku.edu.cn/" target="_blank" rel="noopener">http://acm.pku.edu.cn/</a></li></ul><h4 id="天津："><a href="#天津：" class="headerlink" title="天津："></a>天津：</h4><ul><li>南开大学（NAIKAI）：<a href="http://acm.nankai.edu.cn/" target="_blank" rel="noopener">http://acm.nankai.edu.cn/</a></li><li>天津大学（TJU）：<a href="http://acm.tju.edu.cn/toj/" target="_blank" rel="noopener">http://acm.tju.edu.cn/toj/</a></li></ul><h3 id="东北地区："><a href="#东北地区：" class="headerlink" title="东北地区："></a>东北地区：</h3><h4 id="黑龙江："><a href="#黑龙江：" class="headerlink" title="黑龙江："></a>黑龙江：</h4><ul><li>哈尔滨工程大学（HRBEU）：<a href="http://acm.hrbeu.edu.cn/" target="_blank" rel="noopener">http://acm.hrbeu.edu.cn/</a></li></ul><h3 id="华南地区："><a href="#华南地区：" class="headerlink" title="华南地区："></a>华南地区：</h3><h4 id="广东："><a href="#广东：" class="headerlink" title="广东："></a>广东：</h4><ul><li>中山大学（ZSU）：<a href="http://acm.zsu.edu.cn/" target="_blank" rel="noopener">http://acm.zsu.edu.cn/</a></li></ul><h3 id="西南地区："><a href="#西南地区：" class="headerlink" title="西南地区："></a>西南地区：</h3><h4 id="四川："><a href="#四川：" class="headerlink" title="四川："></a>四川：</h4><ul><li>西南民大（SWUN）：<a href="http://acm.swun.edu.cn/" target="_blank" rel="noopener">http://acm.swun.edu.cn/</a></li></ul><h3 id="华中地区："><a href="#华中地区：" class="headerlink" title="华中地区："></a>华中地区：</h3><h4 id="湖北："><a href="#湖北：" class="headerlink" title="湖北："></a>湖北：</h4><ul><li>华中科技大学（HUST）：<a href="http://acm.hust.edu.cn/JudgeOnline/" target="_blank" rel="noopener">http://acm.hust.edu.cn/JudgeOnline/</a></li><li>武汉大学（WHU）：<a href="http://acm.whu.edu.cn/" target="_blank" rel="noopener">http://acm.whu.edu.cn/</a></li></ul><h3 id="港澳台地区："><a href="#港澳台地区：" class="headerlink" title="港澳台地区："></a>港澳台地区：</h3><h4 id="香港："><a href="#香港：" class="headerlink" title="香港："></a>香港：</h4><ul><li>香港大学(HKOI)：<a href="http://judge.hkoi.org/" target="_blank" rel="noopener">http://judge.hkoi.org/</a></li></ul><hr><h2 id="俄罗斯：-Russia"><a href="#俄罗斯：-Russia" class="headerlink" title="俄罗斯：(Russia)"></a>俄罗斯：(Russia)</h2><ul><li>乌拉尔大学（URAL）：<a href="http://acm.timus.ru/" target="_blank" rel="noopener">http://acm.timus.ru/</a></li><li>萨拉托夫大学（SGU）：<a href="http://acm.sgu.ru/" target="_blank" rel="noopener">http://acm.sgu.ru/</a></li><li>(vallod) ：<a href="http://acm.uva.es/" target="_blank" rel="noopener">http://acm.uva.es/</a></li><li>EL Judge(MIPT):：<a href="http://acm.mipt.ru/judge/problems.pl" target="_blank" rel="noopener">http://acm.mipt.ru/judge/problems.pl</a></li></ul><hr><h2 id="西班牙：-Spanish"><a href="#西班牙：-Spanish" class="headerlink" title="西班牙：(Spanish)"></a>西班牙：(Spanish)</h2><ul><li>瓦拉杜利德大学（UVA）：<a href="http://acm.uva.es/" target="_blank" rel="noopener">http://acm.uva.es/</a></li></ul><hr><h2 id="美国：-America"><a href="#美国：-America" class="headerlink" title="美国：(America)"></a>美国：(America)</h2><ul><li>USACO: <a href="http://train.usaco.org/usacogate" target="_blank" rel="noopener">http://train.usaco.org/usacogate</a></li></ul><hr><h3 id="波兰：-Poland"><a href="#波兰：-Poland" class="headerlink" title="波兰：(Poland)"></a>波兰：(Poland)</h3><ul><li>SPOJ：<a href="http://www.spoj.pl/" target="_blank" rel="noopener">http://www.spoj.pl/</a></li></ul><hr><h2 id="吉尔吉斯斯坦-：-Kirgizstan"><a href="#吉尔吉斯斯坦-：-Kirgizstan" class="headerlink" title="吉尔吉斯斯坦:：(Kirgizstan)"></a>吉尔吉斯斯坦:：(Kirgizstan)</h2><ul><li>KRSU: <a href="http://www.olymp.krsu.edu.kg/GeneralProblemset.aspx" target="_blank" rel="noopener">http://www.olymp.krsu.edu.kg/GeneralProblemset.aspx</a></li></ul><hr><h2 id="中国各大高校BBS"><a href="#中国各大高校BBS" class="headerlink" title="中国各大高校BBS:"></a>中国各大高校BBS:</h2><ul><li><a href="http://acm.hdu.edu.cn/forum/（杭电）" target="_blank" rel="noopener">http://acm.hdu.edu.cn/forum/（杭电）</a></li><li><a href="http://www.hdubbs.com/（杭电）" target="_blank" rel="noopener">http://www.hdubbs.com/（杭电）</a></li><li><a href="http://www.freecity.cn/（浙大）" target="_blank" rel="noopener">http://www.freecity.cn/（浙大）</a></li><li><a href="http://bbs.freecity.cn/(浙大)" target="_blank" rel="noopener">http://bbs.freecity.cn/(浙大)</a></li></ul><hr><h2 id="Others："><a href="#Others：" class="headerlink" title="Others："></a>Others：</h2><ul><li>Topcoder：<a href="http://www.topcoder.com/tc" target="_blank" rel="noopener">http://www.topcoder.com/tc</a></li><li>ACM-ICPC：<a href="http://icpc.baylor.edu/icpc/" target="_blank" rel="noopener">http://icpc.baylor.edu/icpc/</a></li><li>美国信息学奥林匹克竞赛官方网站：<a href="http://www.usaco.org/" target="_blank" rel="noopener">http://www.usaco.org/</a></li><li>全美计算机奥林匹克竞赛：<a href="http://ace.delos.com/usacogate" target="_blank" rel="noopener">http://ace.delos.com/usacogate</a></li><li>信息学初学者之家：<a href="http://oibh.ioiforum.org/" target="_blank" rel="noopener">http://oibh.ioiforum.org/</a></li><li>中国教育曙光网：<a href="http://www.chinaschool.org/aosai/" target="_blank" rel="noopener">http://www.chinaschool.org/aosai/</a></li><li>福建信息学奥林匹克：<a href="http://www.cfcs.com.cn/fjas/index.htm" target="_blank" rel="noopener">http://www.cfcs.com.cn/fjas/index.htm</a></li><li>IOI：<a href="http://olympiads.win.tue.nl/ioi/" target="_blank" rel="noopener">http://olympiads.win.tue.nl/ioi/</a></li><li>高效信息学在线判题系统（VIJOS）：<a href="http://www.vijos.cn/" target="_blank" rel="noopener">http://www.vijos.cn/</a></li><li>ACM的例程和测试数据：<a href="http://www.karrels.org/Ed/ACM/" target="_blank" rel="noopener">http://www.karrels.org/Ed/ACM/</a></li><li>ACM社区：<a href="http://www.608088.com/" target="_blank" rel="noopener">http://www.608088.com/</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;重要经历&quot;&gt;&lt;a href=&quot;#重要经历&quot; class=&quot;headerlink&quot; title=&quot;重要经历&quot;&gt;&lt;/a&gt;重要经历&lt;/h1&gt;&lt;p&gt;生命里的每一个点都会最终连成线。如果不好好捋一捋，永远是一团乱麻。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;home&lt;/s
+        &lt;h1 id=&quot;ACM-OJ-Collection（排名不分先后）：&quot;&gt;&lt;a href=&quot;#ACM-OJ-Collection（排名不分先后）：&quot; class=&quot;headerlink&quot; title=&quot;ACM OJ Collection（排名不分先后）：&quot;&gt;&lt;/a&gt;ACM OJ C
       
     
     </summary>
     
-      <category term="09_important_experience" scheme="https://30s.github.io/categories/09-important-experience/"/>
+      <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
+    
+      <category term="015_algorithm" scheme="https://30s.github.io/categories/01-software-engineering/015-algorithm/"/>
+    
+      <category term="0151_acm" scheme="https://30s.github.io/categories/01-software-engineering/015-algorithm/0151-acm/"/>
     
     
-      <category term="Important Experience" scheme="https://30s.github.io/tags/Important-Experience/"/>
+      <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
+    
+      <category term="Algorithm" scheme="https://30s.github.io/tags/Algorithm/"/>
     
   </entry>
   
   <entry>
-    <title>项目管理</title>
-    <link href="https://30s.github.io/2009/09/01/08_project_manage/index/"/>
-    <id>https://30s.github.io/2009/09/01/08_project_manage/index/</id>
-    <published>2009-09-01T11:00:00.000Z</published>
-    <updated>2018-03-06T10:31:51.379Z</updated>
+    <title>Apache-Commons包作用说明</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/apache_commons/Apache-Commons%E5%8C%85%E4%BD%9C%E7%94%A8%E8%AF%B4%E6%98%8E/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/apache_commons/Apache-Commons包作用说明/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:54:12.230Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="项目管理"><a href="#项目管理" class="headerlink" title="项目管理"></a>项目管理</h1><p>技术是一个团队的力量</p><ul><li><strong>scrum</strong> 敏捷开发<ul><li>scrum_tool 敏捷工具<ul><li>microsoft_project</li><li>zentao</li></ul></li></ul></li><li><strong>devops</strong> 开发运维<ul><li>continuous_integration 持续集成<ul><li>nexus</li><li>hudson</li><li>jenkins</li><li>sonarqube</li></ul></li><li>ops<ul><li>hardware</li><li>software</li></ul></li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="Apache-Commons包作用说明"><a href="#Apache-Commons包作用说明" class="headerlink" title="Apache-Commons包作用说明"></a>Apache-Commons包作用说明</h1><p><a href="http://blog.csdn.net/qq877507054/article/details/51395859" target="_blank" rel="noopener">http://blog.csdn.net/qq877507054/article/details/51395859</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;项目管理&quot;&gt;&lt;a href=&quot;#项目管理&quot; class=&quot;headerlink&quot; title=&quot;项目管理&quot;&gt;&lt;/a&gt;项目管理&lt;/h1&gt;&lt;p&gt;技术是一个团队的力量&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;scrum&lt;/strong&gt; 敏捷开发&lt;ul&gt;
-&lt;li&gt;sc
-      
-    
-    </summary>
-    
-      <category term="08_project_manage" scheme="https://30s.github.io/categories/08-project-manage/"/>
-    
-    
-      <category term="Project Manage" scheme="https://30s.github.io/tags/Project-Manage/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>架构设计</title>
-    <link href="https://30s.github.io/2009/09/01/07_frame_design/index/"/>
-    <id>https://30s.github.io/2009/09/01/07_frame_design/index/</id>
-    <published>2009-09-01T10:00:00.000Z</published>
-    <updated>2018-03-06T10:31:51.223Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="架构设计"><a href="#架构设计" class="headerlink" title="架构设计"></a>架构设计</h1><p>高屋建瓴，水到渠成</p><ul><li><strong>app_scene</strong> 应用场景</li><li><strong>app_solution</strong> 解决方案</li><li><strong>industry_case</strong> 行业案例<ul><li>erp 企业应用</li><li>smart_home 智能家居</li><li>iot 物联网</li></ul></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;架构设计&quot;&gt;&lt;a href=&quot;#架构设计&quot; class=&quot;headerlink&quot; title=&quot;架构设计&quot;&gt;&lt;/a&gt;架构设计&lt;/h1&gt;&lt;p&gt;高屋建瓴，水到渠成&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;app_scene&lt;/strong&gt; 应用场景&lt;/li&gt;
-&lt;l
-      
-    
-    </summary>
-    
-      <category term="07_frame_design" scheme="https://30s.github.io/categories/07-frame-design/"/>
-    
-    
-      <category term="Frame Design" scheme="https://30s.github.io/tags/Frame-Design/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>技术框架</title>
-    <link href="https://30s.github.io/2009/09/01/06_tech_frame/index/"/>
-    <id>https://30s.github.io/2009/09/01/06_tech_frame/index/</id>
-    <published>2009-09-01T09:00:00.000Z</published>
-    <updated>2018-03-06T10:31:51.336Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="技术框架"><a href="#技术框架" class="headerlink" title="技术框架"></a>技术框架</h1><p>无数前辈工程实践的结晶</p><ul><li><strong>j2ee</strong> java企业开发</li><li><strong>component</strong> 框架组件<ul><li>component_base 组件基础<ul><li>data_decode 数据编解码<ul><li>xml</li><li>json</li><li>gson</li><li>protocol_buffer</li></ul></li><li>protocol 通信协议<ul><li>mqtt</li></ul></li><li>network 网络<ul><li>netty NIO框架</li><li>cdn</li></ul></li><li>docker 容器</li></ul></li><li>rpc<ul><li>netty_rpc</li><li>dubbo</li><li>dubbox</li><li>thrift</li><li>finagle</li><li>grpc</li><li>motan</li><li>navi-pbrpc</li><li>pigeon</li><li>poppy</li><li>venus</li></ul></li><li>mq<ul><li>activemq</li><li>hivemq</li><li>kafka</li></ul></li><li>security 安全<ul><li>aes</li><li>md5</li><li>rsa</li><li>shiro</li><li>cas 单点登录</li></ul></li></ul></li><li><strong>project_frame</strong> 项目框架<ul><li>spring<ul><li>spring_boot</li><li>spring_mvc</li><li>spring_jdbc</li><li>spring_data</li><li>spring_security</li><li>spring_cloud</li><li>spring_data_flow</li></ul></li><li>struts</li><li>orm<ul><li>hibernate</li><li>mybatis</li></ul></li></ul></li><li><strong>project_case</strong> 工程案例<ul><li>ddd 领域驱动设计<ul><li>jdon</li><li>axon</li><li>enode</li></ul></li><li>bigdata<ul><li>db 数据库技术<ul><li>mycat</li><li>hive</li><li>impala</li></ul></li><li>etl<ul><li>flume</li><li>storm</li></ul></li><li>dispacher<ul><li>corntab</li><li>oozie</li><li>zookeeper</li></ul></li><li>distribute_compute<ul><li>hadoop</li><li>spark</li></ul></li></ul></li><li>platform<ul><li>elk<ul><li>elasticsearch</li><li>filebeat</li><li>logstash</li><li>kibana</li></ul></li><li>engine<ul><li>commend_engine</li><li>search_engine<ul><li>lucene</li><li>solr</li><li>xunsearch</li></ul></li></ul></li><li>openstack</li><li>fusion_insight</li></ul></li><li>spider 爬虫<ul><li>webmagic</li></ul></li></ul></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;技术框架&quot;&gt;&lt;a href=&quot;#技术框架&quot; class=&quot;headerlink&quot; title=&quot;技术框架&quot;&gt;&lt;/a&gt;技术框架&lt;/h1&gt;&lt;p&gt;无数前辈工程实践的结晶&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;j2ee&lt;/strong&gt; java企业开发&lt;/li&gt;
-&lt;
-      
-    
-    </summary>
-    
-      <category term="06_tech_frame" scheme="https://30s.github.io/categories/06-tech-frame/"/>
-    
-    
-      <category term="Tech Frame" scheme="https://30s.github.io/tags/Tech-Frame/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>数据存储</title>
-    <link href="https://30s.github.io/2009/09/01/05_data_storage/index/"/>
-    <id>https://30s.github.io/2009/09/01/05_data_storage/index/</id>
-    <published>2009-09-01T08:00:00.000Z</published>
-    <updated>2018-03-06T10:31:51.587Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="数据存储"><a href="#数据存储" class="headerlink" title="数据存储"></a>数据存储</h1><p>数据从哪里来，到哪里去</p><ul><li><strong>rdbs</strong> 关系向数据库<ul><li>mysql</li><li>oracle</li></ul></li><li><strong>cache</strong> 缓存<ul><li>redis</li><li>memcache</li><li>guava_cache</li><li>session_share 会话共享</li></ul></li><li><strong>dfs</strong> 分布式文件系统<ul><li>fastdfs</li><li>hdfs</li></ul></li><li><strong>nosql</strong><ul><li>mongodb</li><li>tsdb 时序数据库<ul><li>postgresql</li><li>opentsdb</li><li>influxdb</li></ul></li><li>hbase</li></ul></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;数据存储&quot;&gt;&lt;a href=&quot;#数据存储&quot; class=&quot;headerlink&quot; title=&quot;数据存储&quot;&gt;&lt;/a&gt;数据存储&lt;/h1&gt;&lt;p&gt;数据从哪里来，到哪里去&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;rdbs&lt;/strong&gt; 关系向数据库&lt;ul&gt;
-&lt;li&gt;
-      
-    
-    </summary>
-    
-      <category term="05_data_storage" scheme="https://30s.github.io/categories/05-data-storage/"/>
-    
-    
-      <category term="Data Storage" scheme="https://30s.github.io/tags/Data-Storage/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>代码开发</title>
-    <link href="https://30s.github.io/2009/09/01/04_code_r&amp;d/index/"/>
-    <id>https://30s.github.io/2009/09/01/04_code_r&amp;d/index/</id>
-    <published>2009-09-01T07:00:00.000Z</published>
-    <updated>2018-03-06T10:31:51.506Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="代码开发"><a href="#代码开发" class="headerlink" title="代码开发"></a>代码开发</h1><p>前辈编码套路经验总结</p><ul><li><strong>ooa</strong> 面向对象分析</li><li><strong>ood</strong> 面向对象设计</li><li><strong>design_pattern</strong> 设计模式</li><li><strong>soa</strong> 面向服务架构</li><li><strong>ddd</strong> 领域驱动设计<ul><li>cqrs</li></ul></li><li><strong>code_review</strong> 代码审查<ul><li>review_tool 审查工具<ul><li>ali_guidelines</li><li>checkstyle</li><li>findbugs</li><li>pmd</li></ul></li></ul></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;代码开发&quot;&gt;&lt;a href=&quot;#代码开发&quot; class=&quot;headerlink&quot; title=&quot;代码开发&quot;&gt;&lt;/a&gt;代码开发&lt;/h1&gt;&lt;p&gt;前辈编码套路经验总结&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ooa&lt;/strong&gt; 面向对象分析&lt;/li&gt;
-&lt;li&gt;&lt;
-      
-    
-    </summary>
-    
-      <category term="04_code_r&amp;d" scheme="https://30s.github.io/categories/04-code-r-d/"/>
-    
-    
-      <category term="Code R&amp;D" scheme="https://30s.github.io/tags/Code-R-D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>应用开发</title>
-    <link href="https://30s.github.io/2009/09/01/03_application_r&amp;d/index/"/>
-    <id>https://30s.github.io/2009/09/01/03_application_r&amp;d/index/</id>
-    <published>2009-09-01T06:00:00.000Z</published>
-    <updated>2018-03-06T10:31:51.553Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="应用开发"><a href="#应用开发" class="headerlink" title="应用开发"></a>应用开发</h1><p>工欲善其事，必先利其器</p><ul><li><strong>ide</strong> 集成开发环境<ul><li>eclipse</li><li>myeclipse</li><li>android_studio</li><li>xcode</li><li>idea</li><li>webstorm</li></ul></li><li><strong>server</strong> 服务程序<ul><li>nginx</li><li>tengine</li><li>jetty</li><li>tomcat</li></ul></li><li><strong>build_tool</strong> 构建工具<ul><li>maven</li><li>gradle</li></ul></li><li><strong>version_control</strong> 版本控制<ul><li>svn 集中式</li><li>git 分布式<ul><li>github</li><li>gitee</li><li>coding</li></ul></li></ul></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;应用开发&quot;&gt;&lt;a href=&quot;#应用开发&quot; class=&quot;headerlink&quot; title=&quot;应用开发&quot;&gt;&lt;/a&gt;应用开发&lt;/h1&gt;&lt;p&gt;工欲善其事，必先利其器&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ide&lt;/strong&gt; 集成开发环境&lt;ul&gt;
-&lt;li&gt;e
-      
-    
-    </summary>
-    
-      <category term="03_application_r&amp;d" scheme="https://30s.github.io/categories/03-application-r-d/"/>
-    
-    
-      <category term="Application R&amp;D" scheme="https://30s.github.io/tags/Application-R-D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>编程语言</title>
-    <link href="https://30s.github.io/2009/09/01/02_code_language/index/"/>
-    <id>https://30s.github.io/2009/09/01/02_code_language/index/</id>
-    <published>2009-09-01T05:00:00.000Z</published>
-    <updated>2018-03-06T10:31:51.465Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="编程语言"><a href="#编程语言" class="headerlink" title="编程语言"></a>编程语言</h1><p>入门计算机以来，熟悉的开发语言</p><ul><li><strong>c/c++</strong> ACM就靠这和Dev_cpp了</li><li><strong>java</strong> 主线<ul><li>java_base 语言基础<ul><li>dynamic_proxy</li></ul></li><li>jvm 环境基础<ul><li>class_loader 类加载器</li><li>memory_model 内存模型</li><li>gc 垃圾回收</li></ul></li><li>set_utils 集合工具<ul><li>array_list</li><li>linked_list</li><li>hashmap</li><li>treemap</li><li>concurrent_hashmap</li><li>apache_commons</li></ul></li><li>io 输入输出流<ul><li>nio</li></ul></li><li>net 网络<ul><li>socket</li><li>tcp_ip</li></ul></li><li>thread 多线程<ul><li>thread_pool 线程池</li></ul></li><li>concurrent_package 并发包</li><li>optimize 性能优化<ul><li>asynchronous 异步</li><li>optimize_lock 锁优化</li></ul></li></ul></li><li><strong>script</strong> 脚本辅助<ul><li>javascript 应用显示层的基础技术</li><li>linux_shell 后端开发的必备技能<ul><li>awk</li></ul></li><li>python 热门且应用广泛</li></ul></li><li><strong>web</strong> 网页相关<ul><li>html 页面显示</li><li>web_cache 缓存<ul><li>cookie 客户端小量缓存</li><li>session 服务端小量缓存</li></ul></li><li>template_engine 模板引擎<ul><li>velocity</li><li>thymeleaf</li><li>freemarker</li></ul></li></ul></li><li><strong>android</strong> 智能硬件APP<ul><li>ui 界面交互</li><li>component 四大组件</li><li>net 网络通信</li><li>jni 本地通信库</li><li>ble 蓝牙</li></ul></li><li><strong>object_c</strong> 黑苹果Hackintosh的Xcode</li><li><strong>nodejs</strong> 微信公众号，营销、控制智能硬件</li><li><strong>wechat_program</strong> 还是微信，感受了小程序的第一缕春风</li><li><strong>angularjs</strong> 前后端分离</li><li><strong>scala</strong> 大数据高并发(Java Ship)</li><li><strong>golang</strong> 与scala对比研习(C/C++ Ship)</li><li><strong>php</strong> 各种cms（WordPress、DedeCMS、PhpCMS）里diy</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;编程语言&quot;&gt;&lt;a href=&quot;#编程语言&quot; class=&quot;headerlink&quot; title=&quot;编程语言&quot;&gt;&lt;/a&gt;编程语言&lt;/h1&gt;&lt;p&gt;入门计算机以来，熟悉的开发语言&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;c/c++&lt;/strong&gt; ACM就靠这和Dev
+        &lt;h1 id=&quot;Apache-Commons包作用说明&quot;&gt;&lt;a href=&quot;#Apache-Commons包作用说明&quot; class=&quot;headerlink&quot; title=&quot;Apache-Commons包作用说明&quot;&gt;&lt;/a&gt;Apache-Commons包作用说明&lt;/h1&gt;&lt;p&gt;&lt;a
       
     
     </summary>
     
       <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
     
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0223_set_utils" scheme="https://30s.github.io/categories/02-code-language/022-java/0223-set-utils/"/>
+    
     
       <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Set Utils" scheme="https://30s.github.io/tags/Set-Utils/"/>
+    
+      <category term="Apache Commons" scheme="https://30s.github.io/tags/Apache-Commons/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CGLIB(Code Generation Library)详解</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/dynamic_proxy/cglib/CGLIB(Code%20Generation%20Library)%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/dynamic_proxy/cglib/CGLIB(Code Generation Library)详解/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:42:00.990Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CGLIB-Code-Generation-Library-详解"><a href="#CGLIB-Code-Generation-Library-详解" class="headerlink" title="CGLIB(Code Generation Library)详解"></a>CGLIB(Code Generation Library)详解</h1><p><a href="http://blog.csdn.net/danchu/article/details/70238002" target="_blank" rel="noopener">http://blog.csdn.net/danchu/article/details/70238002</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CGLIB-Code-Generation-Library-详解&quot;&gt;&lt;a href=&quot;#CGLIB-Code-Generation-Library-详解&quot; class=&quot;headerlink&quot; title=&quot;CGLIB(Code Generation Librar
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0221_java_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0221-java-base/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Java Base" scheme="https://30s.github.io/tags/Java-Base/"/>
+    
+      <category term="CGLIB" scheme="https://30s.github.io/tags/CGLIB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TreeMap详细介绍(源码解析)和使用示例</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/treemap/TreeMap%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D(%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)%E5%92%8C%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/treemap/TreeMap详细介绍(源码解析)和使用示例/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:56:59.364Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="TreeMap详细介绍-源码解析-和使用示例"><a href="#TreeMap详细介绍-源码解析-和使用示例" class="headerlink" title="TreeMap详细介绍(源码解析)和使用示例"></a>TreeMap详细介绍(源码解析)和使用示例</h1><p><a href="http://www.cnblogs.com/skywang12345/p/3310928.html" target="_blank" rel="noopener">http://www.cnblogs.com/skywang12345/p/3310928.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;TreeMap详细介绍-源码解析-和使用示例&quot;&gt;&lt;a href=&quot;#TreeMap详细介绍-源码解析-和使用示例&quot; class=&quot;headerlink&quot; title=&quot;TreeMap详细介绍(源码解析)和使用示例&quot;&gt;&lt;/a&gt;TreeMap详细介绍(源码解析)和使用
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0223_set_utils" scheme="https://30s.github.io/categories/02-code-language/022-java/0223-set-utils/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Set Utils" scheme="https://30s.github.io/tags/Set-Utils/"/>
+    
+      <category term="TreeMap" scheme="https://30s.github.io/tags/TreeMap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LinkedList详细介绍(源码解析)和使用示例</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/linked_list/LinkedList%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D(%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)%E5%92%8C%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/linked_list/LinkedList详细介绍(源码解析)和使用示例/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:56:59.443Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="LinkedList详细介绍-源码解析-和使用示例"><a href="#LinkedList详细介绍-源码解析-和使用示例" class="headerlink" title="LinkedList详细介绍(源码解析)和使用示例"></a>LinkedList详细介绍(源码解析)和使用示例</h1><p><a href="http://www.cnblogs.com/skywang12345/p/3308807.html" target="_blank" rel="noopener">http://www.cnblogs.com/skywang12345/p/3308807.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;LinkedList详细介绍-源码解析-和使用示例&quot;&gt;&lt;a href=&quot;#LinkedList详细介绍-源码解析-和使用示例&quot; class=&quot;headerlink&quot; title=&quot;LinkedList详细介绍(源码解析)和使用示例&quot;&gt;&lt;/a&gt;LinkedList详
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0223_set_utils" scheme="https://30s.github.io/categories/02-code-language/022-java/0223-set-utils/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Set Utils" scheme="https://30s.github.io/tags/Set-Utils/"/>
+    
+      <category term="LinkedList" scheme="https://30s.github.io/tags/LinkedList/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HashMap详细介绍(源码解析)和使用示例</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/hashmap/HashMap%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D(%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)%E5%92%8C%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/hashmap/HashMap详细介绍(源码解析)和使用示例/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:56:59.531Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="HashMap详细介绍-源码解析-和使用示例"><a href="#HashMap详细介绍-源码解析-和使用示例" class="headerlink" title="HashMap详细介绍(源码解析)和使用示例"></a>HashMap详细介绍(源码解析)和使用示例</h1><p><a href="https://www.cnblogs.com/skywang12345/p/3310835.html" target="_blank" rel="noopener">https://www.cnblogs.com/skywang12345/p/3310835.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;HashMap详细介绍-源码解析-和使用示例&quot;&gt;&lt;a href=&quot;#HashMap详细介绍-源码解析-和使用示例&quot; class=&quot;headerlink&quot; title=&quot;HashMap详细介绍(源码解析)和使用示例&quot;&gt;&lt;/a&gt;HashMap详细介绍(源码解析)和使用
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0223_set_utils" scheme="https://30s.github.io/categories/02-code-language/022-java/0223-set-utils/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Set Utils" scheme="https://30s.github.io/tags/Set-Utils/"/>
+    
+      <category term="HashMap" scheme="https://30s.github.io/tags/HashMap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深入分析ConcurrentHashMap</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/concurrent_hashmap/%E6%B7%B1%E5%85%A5%E5%88%86%E6%9E%90ConcurrentHashMap/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/concurrent_hashmap/深入分析ConcurrentHashMap/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:56:59.486Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="深入分析ConcurrentHashMap"><a href="#深入分析ConcurrentHashMap" class="headerlink" title="深入分析ConcurrentHashMap"></a>深入分析ConcurrentHashMap</h1><p><a href="http://ifeve.com/concurrenthashmap/" target="_blank" rel="noopener">http://ifeve.com/concurrenthashmap/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;深入分析ConcurrentHashMap&quot;&gt;&lt;a href=&quot;#深入分析ConcurrentHashMap&quot; class=&quot;headerlink&quot; title=&quot;深入分析ConcurrentHashMap&quot;&gt;&lt;/a&gt;深入分析ConcurrentHashMap&lt;/
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0223_set_utils" scheme="https://30s.github.io/categories/02-code-language/022-java/0223-set-utils/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Set Utils" scheme="https://30s.github.io/tags/Set-Utils/"/>
+    
+      <category term="ConcurrentHashMap" scheme="https://30s.github.io/tags/ConcurrentHashMap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>浅析java内存模型</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/memory_model/%E6%B5%85%E6%9E%90java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/memory_model/浅析java内存模型/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:51:23.786Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="浅析java内存模型"><a href="#浅析java内存模型" class="headerlink" title="浅析java内存模型"></a>浅析java内存模型</h1><p><a href="https://www.cnblogs.com/lewis0077/p/5143268.html" target="_blank" rel="noopener">https://www.cnblogs.com/lewis0077/p/5143268.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;浅析java内存模型&quot;&gt;&lt;a href=&quot;#浅析java内存模型&quot; class=&quot;headerlink&quot; title=&quot;浅析java内存模型&quot;&gt;&lt;/a&gt;浅析java内存模型&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/lewis
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0222_jvm" scheme="https://30s.github.io/categories/02-code-language/022-java/0222-jvm/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Jvm" scheme="https://30s.github.io/tags/Jvm/"/>
+    
+      <category term="Memory Model" scheme="https://30s.github.io/tags/Memory-Model/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ArrayList详解</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/array_list/ArrayList%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/array_list/ArrayList详解/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:56:59.585Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ArrayList详解"><a href="#ArrayList详解" class="headerlink" title="ArrayList详解"></a>ArrayList详解</h1><p><a href="http://blog.csdn.net/u012877472/article/details/50852933" target="_blank" rel="noopener">http://blog.csdn.net/u012877472/article/details/50852933</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;ArrayList详解&quot;&gt;&lt;a href=&quot;#ArrayList详解&quot; class=&quot;headerlink&quot; title=&quot;ArrayList详解&quot;&gt;&lt;/a&gt;ArrayList详解&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/u012
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0223_set_utils" scheme="https://30s.github.io/categories/02-code-language/022-java/0223-set-utils/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Set Utils" scheme="https://30s.github.io/tags/Set-Utils/"/>
+    
+      <category term="ArrayList" scheme="https://30s.github.io/tags/ArrayList/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AbstractQueuedSynchronizer源码解读</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/abstract_queued_synchronizer/AbstractQueuedSynchronizer%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/abstract_queued_synchronizer/AbstractQueuedSynchronizer源码解读/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:40:42.327Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="AbstractQueuedSynchronizer源码解读"><a href="#AbstractQueuedSynchronizer源码解读" class="headerlink" title="AbstractQueuedSynchronizer源码解读"></a>AbstractQueuedSynchronizer源码解读</h1><p><a href="https://www.cnblogs.com/micrari/p/6937995.html" target="_blank" rel="noopener">https://www.cnblogs.com/micrari/p/6937995.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;AbstractQueuedSynchronizer源码解读&quot;&gt;&lt;a href=&quot;#AbstractQueuedSynchronizer源码解读&quot; class=&quot;headerlink&quot; title=&quot;AbstractQueuedSynchronizer源码解读&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0221_java_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0221-java-base/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Java Base" scheme="https://30s.github.io/tags/Java-Base/"/>
+    
+      <category term="Abstract Queued Synchronizer" scheme="https://30s.github.io/tags/Abstract-Queued-Synchronizer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>浅谈CAS(Compare and Swap) 原理</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/compare_and_swap/%E6%B5%85%E8%B0%88CAS(Compare%20and%20Swap)%20%E5%8E%9F%E7%90%86/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/compare_and_swap/浅谈CAS(Compare and Swap) 原理/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:41:06.343Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="浅谈CAS-Compare-and-Swap-原理"><a href="#浅谈CAS-Compare-and-Swap-原理" class="headerlink" title="浅谈CAS(Compare and Swap) 原理"></a>浅谈CAS(Compare and Swap) 原理</h1><p><a href="https://www.cnblogs.com/Leo_wl/p/6899716.html" target="_blank" rel="noopener">https://www.cnblogs.com/Leo_wl/p/6899716.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;浅谈CAS-Compare-and-Swap-原理&quot;&gt;&lt;a href=&quot;#浅谈CAS-Compare-and-Swap-原理&quot; class=&quot;headerlink&quot; title=&quot;浅谈CAS(Compare and Swap) 原理&quot;&gt;&lt;/a&gt;浅谈CAS(Comp
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0221_java_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0221-java-base/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Java Base" scheme="https://30s.github.io/tags/Java-Base/"/>
+    
+      <category term="Compare and Swap" scheme="https://30s.github.io/tags/Compare-and-Swap/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux写时拷贝技术(copy-on-write)</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/copy_on_write/Linux%E5%86%99%E6%97%B6%E6%8B%B7%E8%B4%9D%E6%8A%80%E6%9C%AF(copy-on-write)/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/copy_on_write/Linux写时拷贝技术(copy-on-write)/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:41:36.686Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Linux写时拷贝技术-copy-on-write"><a href="#Linux写时拷贝技术-copy-on-write" class="headerlink" title="Linux写时拷贝技术(copy-on-write)"></a>Linux写时拷贝技术(copy-on-write)</h1><p><a href="https://www.cnblogs.com/biyeymyhjob/archive/2012/07/20/2601655.html" target="_blank" rel="noopener">https://www.cnblogs.com/biyeymyhjob/archive/2012/07/20/2601655.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Linux写时拷贝技术-copy-on-write&quot;&gt;&lt;a href=&quot;#Linux写时拷贝技术-copy-on-write&quot; class=&quot;headerlink&quot; title=&quot;Linux写时拷贝技术(copy-on-write)&quot;&gt;&lt;/a&gt;Linux写时拷贝技
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0221_java_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0221-java-base/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Java Base" scheme="https://30s.github.io/tags/Java-Base/"/>
+    
+      <category term="Copy on Write" scheme="https://30s.github.io/tags/Copy-on-Write/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CGLIB(Code Generation Library)详解</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/class_loader/java%E4%B8%AD%E7%9A%84ClassLoader%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/class_loader/java中的ClassLoader详解/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:51:23.453Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="java中的ClassLoader详解"><a href="#java中的ClassLoader详解" class="headerlink" title="java中的ClassLoader详解"></a>java中的ClassLoader详解</h1><p><a href="http://blog.csdn.net/briblue/article/details/54973413" target="_blank" rel="noopener">http://blog.csdn.net/briblue/article/details/54973413</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;java中的ClassLoader详解&quot;&gt;&lt;a href=&quot;#java中的ClassLoader详解&quot; class=&quot;headerlink&quot; title=&quot;java中的ClassLoader详解&quot;&gt;&lt;/a&gt;java中的ClassLoader详解&lt;/h1&gt;&lt;p&gt;&lt;a
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0222_jvm" scheme="https://30s.github.io/categories/02-code-language/022-java/0222-jvm/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Jvm" scheme="https://30s.github.io/tags/Jvm/"/>
+    
+      <category term="ClassLoader" scheme="https://30s.github.io/tags/ClassLoader/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaGC介绍</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/gc/JavaGC%E4%BB%8B%E7%BB%8D/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/gc/JavaGC介绍/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:51:23.852Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="JavaGC介绍"><a href="#JavaGC介绍" class="headerlink" title="JavaGC介绍"></a>JavaGC介绍</h1><p><a href="http://blog.csdn.net/d6619309/article/details/53358250" target="_blank" rel="noopener">http://blog.csdn.net/d6619309/article/details/53358250</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;JavaGC介绍&quot;&gt;&lt;a href=&quot;#JavaGC介绍&quot; class=&quot;headerlink&quot; title=&quot;JavaGC介绍&quot;&gt;&lt;/a&gt;JavaGC介绍&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/d6619309/article
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0222_jvm" scheme="https://30s.github.io/categories/02-code-language/022-java/0222-jvm/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Jvm" scheme="https://30s.github.io/tags/Jvm/"/>
+    
+      <category term="Gc" scheme="https://30s.github.io/tags/Gc/"/>
     
   </entry>
   
