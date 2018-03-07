@@ -398,556 +398,17 @@
       
         
           
-            <h1 id="开源项目：Jdon-Framework"><a href="#开源项目：Jdon-Framework" class="headerlink" title="开源项目：Jdon Framework"></a>开源项目：<a href="http://www.jdon.com/jdonframework/" target="_blank" rel="noopener">Jdon Framework</a></h1><p><a href="http://www.jdon.com/jdonframework/download.html" target="_blank" rel="noopener">下载</a>      <a href="http://www.jdon.com/jdonframework/manual.htm" target="_blank" rel="noopener">文档</a>       <a href="http://www.jdon.com/jdonframework/app.htm" target="_blank" rel="noopener">演示</a>      <a href="http://en.jdon.com/" target="_blank" rel="noopener">jdon英文</a>       <a href="https://github.com/banq/jdonframework" target="_blank" rel="noopener">Github项目</a></p>
-<blockquote>
-<p>项目新闻：<br>2017-06 增加了类似erLang/akka的Actor并发模型的账户转账测试代码和多核并发测试代码，验证Jdon框架支持无锁并发和内存事务<br>2015-05-06  Jdon框架研发思考<br>2014-01-16 Jdonframework PPT进入SlideShare 2013前Top 1%<br>2013-09-29 6.6.8 CQRS Command/Event异步并发输入输出。</p>
-</blockquote>
-<p>　　Jdon Framework是一个实施DDD+CQRS+EventSourcing架构的Java reactive开源框架，能够快速地将领域驱动设计(DDD)落地为异步、高并发、高吞吐量的Java应用系统 。</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/01_software_engineering/014_data_structure/index/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="博乐园">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2010/09/01/01_software_engineering/014_data_structure/index/" itemprop="url">数据结构</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T20:00:00+08:00">2010-09-01</time>
-            
-
-            
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/" itemprop="url" rel="index"><span itemprop="name">01_software_engineering</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/014-data-structure/" itemprop="url" rel="index"><span itemprop="name">014_data_structure</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="第1章-绪论"><a href="#第1章-绪论" class="headerlink" title="第1章 绪论"></a>第1章 绪论</h1><h2 id="1-1-什么是数据结构"><a href="#1-1-什么是数据结构" class="headerlink" title="1.1 什么是数据结构"></a>1.1 什么是数据结构</h2><h2 id="1-2-基本概念和术语"><a href="#1-2-基本概念和术语" class="headerlink" title="1.2 基本概念和术语"></a>1.2 基本概念和术语</h2><h2 id="1-3-抽象数据类型的表现与实现"><a href="#1-3-抽象数据类型的表现与实现" class="headerlink" title="1.3 抽象数据类型的表现与实现"></a>1.3 抽象数据类型的表现与实现</h2><h2 id="1-4-算法和算法分析"><a href="#1-4-算法和算法分析" class="headerlink" title="1.4 算法和算法分析"></a>1.4 算法和算法分析</h2><h1 id="第2章-线性表"><a href="#第2章-线性表" class="headerlink" title="第2章 线性表"></a>第2章 线性表</h1><h2 id="2-1-线性表的类型定义"><a href="#2-1-线性表的类型定义" class="headerlink" title="2.1 线性表的类型定义"></a>2.1 线性表的类型定义</h2><h2 id="2-2-线性表的顺序表示和实现"><a href="#2-2-线性表的顺序表示和实现" class="headerlink" title="2.2 线性表的顺序表示和实现"></a>2.2 线性表的顺序表示和实现</h2><h2 id="2-3-线性表的链式表示和实现"><a href="#2-3-线性表的链式表示和实现" class="headerlink" title="2.3 线性表的链式表示和实现"></a>2.3 线性表的链式表示和实现</h2><h2 id="2-4-一元多项式的表示及相加"><a href="#2-4-一元多项式的表示及相加" class="headerlink" title="2.4 一元多项式的表示及相加"></a>2.4 一元多项式的表示及相加</h2><h1 id="第3章-栈和队列"><a href="#第3章-栈和队列" class="headerlink" title="第3章 栈和队列"></a>第3章 栈和队列</h1><h2 id="3-1-栈"><a href="#3-1-栈" class="headerlink" title="3.1 栈"></a>3.1 栈</h2><h2 id="3-2-栈的应有和举例"><a href="#3-2-栈的应有和举例" class="headerlink" title="3.2 栈的应有和举例"></a>3.2 栈的应有和举例</h2><h2 id="3-3-栈与递归的实现"><a href="#3-3-栈与递归的实现" class="headerlink" title="3.3 栈与递归的实现"></a>3.3 栈与递归的实现</h2><h2 id="3-4-队列"><a href="#3-4-队列" class="headerlink" title="3.4 队列"></a>3.4 队列</h2><h2 id="3-5-离散事件模拟"><a href="#3-5-离散事件模拟" class="headerlink" title="3.5 离散事件模拟"></a>3.5 离散事件模拟</h2><h1 id="第4章-串"><a href="#第4章-串" class="headerlink" title="第4章 串"></a>第4章 串</h1><h2 id="4-1-串类型的定义"><a href="#4-1-串类型的定义" class="headerlink" title="4.1 串类型的定义"></a>4.1 串类型的定义</h2><h2 id="4-2-串的表示和实现"><a href="#4-2-串的表示和实现" class="headerlink" title="4.2 串的表示和实现"></a>4.2 串的表示和实现</h2><h2 id="4-3-串的模式匹配算法"><a href="#4-3-串的模式匹配算法" class="headerlink" title="4.3 串的模式匹配算法"></a>4.3 串的模式匹配算法</h2><h2 id="4-4-串操作应用举例"><a href="#4-4-串操作应用举例" class="headerlink" title="4.4 串操作应用举例"></a>4.4 串操作应用举例</h2><h1 id="第5章-数组和广义表"><a href="#第5章-数组和广义表" class="headerlink" title="第5章 数组和广义表"></a>第5章 数组和广义表</h1><h2 id="5-1-数组的定义"><a href="#5-1-数组的定义" class="headerlink" title="5.1 数组的定义"></a>5.1 数组的定义</h2><h2 id="5-2-数组的顺序表现和实现"><a href="#5-2-数组的顺序表现和实现" class="headerlink" title="5.2 数组的顺序表现和实现"></a>5.2 数组的顺序表现和实现</h2><h2 id="5-3-矩阵的压缩存储"><a href="#5-3-矩阵的压缩存储" class="headerlink" title="5.3 矩阵的压缩存储"></a>5.3 矩阵的压缩存储</h2><h2 id="5-4-广义表的定义"><a href="#5-4-广义表的定义" class="headerlink" title="5.4 广义表的定义"></a>5.4 广义表的定义</h2><h2 id="5-5-广义表的储存结构"><a href="#5-5-广义表的储存结构" class="headerlink" title="5.5 广义表的储存结构"></a>5.5 广义表的储存结构</h2><h2 id="5-6-m元多项式的表示"><a href="#5-6-m元多项式的表示" class="headerlink" title="5.6 m元多项式的表示"></a>5.6 m元多项式的表示</h2><h2 id="5-7-广义表的递归算法"><a href="#5-7-广义表的递归算法" class="headerlink" title="5.7 广义表的递归算法"></a>5.7 广义表的递归算法</h2><h1 id="第6章-树和二叉树"><a href="#第6章-树和二叉树" class="headerlink" title="第6章 树和二叉树"></a>第6章 树和二叉树</h1><h2 id="6-1-树的定义和基本术语"><a href="#6-1-树的定义和基本术语" class="headerlink" title="6.1 树的定义和基本术语"></a>6.1 树的定义和基本术语</h2><h2 id="6-2-二叉树"><a href="#6-2-二叉树" class="headerlink" title="6.2 二叉树"></a>6.2 二叉树</h2><h3 id="6-2-1-二叉树的定义"><a href="#6-2-1-二叉树的定义" class="headerlink" title="6.2.1 二叉树的定义"></a>6.2.1 二叉树的定义</h3><h3 id="6-2-2-二叉树的性质"><a href="#6-2-2-二叉树的性质" class="headerlink" title="6.2.2 二叉树的性质"></a>6.2.2 二叉树的性质</h3><h3 id="6-2-3-二叉树的存储结构"><a href="#6-2-3-二叉树的存储结构" class="headerlink" title="6.2.3 二叉树的存储结构"></a>6.2.3 二叉树的存储结构</h3><h2 id="6-3-遍历二叉树和线索二叉树"><a href="#6-3-遍历二叉树和线索二叉树" class="headerlink" title="6.3 遍历二叉树和线索二叉树"></a>6.3 遍历二叉树和线索二叉树</h2><h3 id="6-3-1-遍历二叉树"><a href="#6-3-1-遍历二叉树" class="headerlink" title="6.3.1 遍历二叉树"></a>6.3.1 遍历二叉树</h3><h3 id="6-3-2-线索二叉树"><a href="#6-3-2-线索二叉树" class="headerlink" title="6.3.2 线索二叉树"></a>6.3.2 线索二叉树</h3><h2 id="6-4-树和森林"><a href="#6-4-树和森林" class="headerlink" title="6.4 树和森林"></a>6.4 树和森林</h2><h3 id="6-4-1-树的存储结构"><a href="#6-4-1-树的存储结构" class="headerlink" title="6.4.1 树的存储结构"></a>6.4.1 树的存储结构</h3><h3 id="6-4-2-森林与二叉树的转换"><a href="#6-4-2-森林与二叉树的转换" class="headerlink" title="6.4.2 森林与二叉树的转换"></a>6.4.2 森林与二叉树的转换</h3><h3 id="6-4-3-树和森林的遍历"><a href="#6-4-3-树和森林的遍历" class="headerlink" title="6.4.3 树和森林的遍历"></a>6.4.3 树和森林的遍历</h3><h2 id="6-5-树与等价问题"><a href="#6-5-树与等价问题" class="headerlink" title="6.5 树与等价问题"></a>6.5 树与等价问题</h2><h2 id="6-6-赫夫曼树及其应用"><a href="#6-6-赫夫曼树及其应用" class="headerlink" title="6.6 赫夫曼树及其应用"></a>6.6 赫夫曼树及其应用</h2><h3 id="6-6-1-最优二叉树-赫夫曼树"><a href="#6-6-1-最优二叉树-赫夫曼树" class="headerlink" title="### 6.6.1 最优二叉树(赫夫曼树)"></a>### 6.6.1 最优二叉树(赫夫曼树)</h3><h3 id="6-6-2-赫夫曼编码"><a href="#6-6-2-赫夫曼编码" class="headerlink" title="6.6.2 赫夫曼编码"></a>6.6.2 赫夫曼编码</h3><h2 id="6-7-回溯法与树的遍历"><a href="#6-7-回溯法与树的遍历" class="headerlink" title="6.7 回溯法与树的遍历"></a>6.7 回溯法与树的遍历</h2><h2 id="6-8-树的计数"><a href="#6-8-树的计数" class="headerlink" title="6.8 树的计数"></a>6.8 树的计数</h2><h1 id="第7章-图"><a href="#第7章-图" class="headerlink" title="第7章 图"></a>第7章 图</h1><h2 id="7-1-图的定义和术语"><a href="#7-1-图的定义和术语" class="headerlink" title="7.1 图的定义和术语"></a>7.1 图的定义和术语</h2><h2 id="7-2-图的存储结构"><a href="#7-2-图的存储结构" class="headerlink" title="7.2 图的存储结构"></a>7.2 图的存储结构</h2><h3 id="7-2-1-数组表示法"><a href="#7-2-1-数组表示法" class="headerlink" title="7.2.1 数组表示法"></a>7.2.1 数组表示法</h3><h3 id="7-2-2-邻接表"><a href="#7-2-2-邻接表" class="headerlink" title="7.2.2 邻接表"></a>7.2.2 邻接表</h3><h3 id="7-2-3-十字链表"><a href="#7-2-3-十字链表" class="headerlink" title="7.2.3 十字链表"></a>7.2.3 十字链表</h3><h3 id="7-2-4-邻接多重表"><a href="#7-2-4-邻接多重表" class="headerlink" title="7.2.4 邻接多重表"></a>7.2.4 邻接多重表</h3><h2 id="7-3-图的遍历"><a href="#7-3-图的遍历" class="headerlink" title="7.3 图的遍历"></a>7.3 图的遍历</h2><h3 id="7-3-1-深度优先搜索"><a href="#7-3-1-深度优先搜索" class="headerlink" title="7.3.1 深度优先搜索"></a>7.3.1 深度优先搜索</h3><h3 id="7-3-2-广度优先搜索"><a href="#7-3-2-广度优先搜索" class="headerlink" title="7.3.2 广度优先搜索"></a>7.3.2 广度优先搜索</h3><h2 id="7-4-图的连通性问题"><a href="#7-4-图的连通性问题" class="headerlink" title="7.4 图的连通性问题"></a>7.4 图的连通性问题</h2><h3 id="7-4-1-无向图的连通分量和生成树"><a href="#7-4-1-无向图的连通分量和生成树" class="headerlink" title="7.4.1 无向图的连通分量和生成树"></a>7.4.1 无向图的连通分量和生成树</h3><h3 id="7-4-2-有向图的强连通分量"><a href="#7-4-2-有向图的强连通分量" class="headerlink" title="7.4.2 有向图的强连通分量"></a>7.4.2 有向图的强连通分量</h3><h3 id="7-4-3-最小生成树"><a href="#7-4-3-最小生成树" class="headerlink" title="7.4.3 最小生成树"></a>7.4.3 最小生成树</h3><h3 id="7-4-4-关节点和重连通分量"><a href="#7-4-4-关节点和重连通分量" class="headerlink" title="7.4.4 关节点和重连通分量"></a>7.4.4 关节点和重连通分量</h3><h2 id="7-5-有向无环图及其应用"><a href="#7-5-有向无环图及其应用" class="headerlink" title="7.5 有向无环图及其应用"></a>7.5 有向无环图及其应用</h2><h3 id="7-5-1-拓扑排序"><a href="#7-5-1-拓扑排序" class="headerlink" title="7.5.1 拓扑排序"></a>7.5.1 拓扑排序</h3><h3 id="7-5-2-关键路径"><a href="#7-5-2-关键路径" class="headerlink" title="7.5.2 关键路径"></a>7.5.2 关键路径</h3><h2 id="7-6-最短路径"><a href="#7-6-最短路径" class="headerlink" title="7.6 最短路径"></a>7.6 最短路径</h2><h3 id="7-6-1-从某个源点到其余各顶点的最短路径"><a href="#7-6-1-从某个源点到其余各顶点的最短路径" class="headerlink" title="7.6.1 从某个源点到其余各顶点的最短路径"></a>7.6.1 从某个源点到其余各顶点的最短路径</h3><h3 id="7-6-2-每一对顶点之间的最短路径"><a href="#7-6-2-每一对顶点之间的最短路径" class="headerlink" title="7.6.2 每一对顶点之间的最短路径"></a>7.6.2 每一对顶点之间的最短路径</h3><h1 id="第8章-动态存储管理"><a href="#第8章-动态存储管理" class="headerlink" title="第8章 动态存储管理"></a>第8章 动态存储管理</h1><h2 id="8-1-概述"><a href="#8-1-概述" class="headerlink" title="8.1 概述"></a>8.1 概述</h2><h2 id="8-2-可利用空间表及分配方法"><a href="#8-2-可利用空间表及分配方法" class="headerlink" title="8.2 可利用空间表及分配方法"></a>8.2 可利用空间表及分配方法</h2><h2 id="8-3-边界标识法"><a href="#8-3-边界标识法" class="headerlink" title="8.3 边界标识法"></a>8.3 边界标识法</h2><h3 id="8-3-1-可利用空间表的结构"><a href="#8-3-1-可利用空间表的结构" class="headerlink" title="8.3.1 可利用空间表的结构"></a>8.3.1 可利用空间表的结构</h3><h3 id="8-3-2-分配算法"><a href="#8-3-2-分配算法" class="headerlink" title="8.3.2 分配算法"></a>8.3.2 分配算法</h3><h3 id="8-3-3-回收算法"><a href="#8-3-3-回收算法" class="headerlink" title="8.3.3 回收算法"></a>8.3.3 回收算法</h3><h2 id="8-4-伙伴系统"><a href="#8-4-伙伴系统" class="headerlink" title="8.4 伙伴系统"></a>8.4 伙伴系统</h2><h3 id="8-4-1-可利用空间表的结构"><a href="#8-4-1-可利用空间表的结构" class="headerlink" title="8.4.1 可利用空间表的结构"></a>8.4.1 可利用空间表的结构</h3><h3 id="8-4-2-分配算法"><a href="#8-4-2-分配算法" class="headerlink" title="8.4.2 分配算法"></a>8.4.2 分配算法</h3><h3 id="8-4-3-回收算法"><a href="#8-4-3-回收算法" class="headerlink" title="8.4.3 回收算法"></a>8.4.3 回收算法</h3><h2 id="8-5-无用单元收集"><a href="#8-5-无用单元收集" class="headerlink" title="8.5 无用单元收集"></a>8.5 无用单元收集</h2><h2 id="8-6-存储紧缩"><a href="#8-6-存储紧缩" class="headerlink" title="8.6 存储紧缩"></a>8.6 存储紧缩</h2><h1 id="第9章-查找"><a href="#第9章-查找" class="headerlink" title="第9章 查找"></a>第9章 查找</h1><h2 id="9-1-静态查找表"><a href="#9-1-静态查找表" class="headerlink" title="9.1 静态查找表"></a>9.1 静态查找表</h2><h3 id="9-1-1-顺序表的查找"><a href="#9-1-1-顺序表的查找" class="headerlink" title="9.1.1 顺序表的查找"></a>9.1.1 顺序表的查找</h3><h3 id="9-1-2-有序表的查找"><a href="#9-1-2-有序表的查找" class="headerlink" title="9.1.2 有序表的查找"></a>9.1.2 有序表的查找</h3><h3 id="9-1-3-静态树表的查找"><a href="#9-1-3-静态树表的查找" class="headerlink" title="9.1.3 静态树表的查找"></a>9.1.3 静态树表的查找</h3><h3 id="9-1-4-索引顺序表的查找"><a href="#9-1-4-索引顺序表的查找" class="headerlink" title="9.1.4 索引顺序表的查找"></a>9.1.4 索引顺序表的查找</h3><h2 id="9-2-动态查找表"><a href="#9-2-动态查找表" class="headerlink" title="9.2 动态查找表"></a>9.2 动态查找表</h2><h3 id="9-2-1-二叉排序树和平衡二叉树"><a href="#9-2-1-二叉排序树和平衡二叉树" class="headerlink" title="9.2.1 二叉排序树和平衡二叉树"></a>9.2.1 二叉排序树和平衡二叉树</h3><h3 id="9-2-2-B树和B-树"><a href="#9-2-2-B树和B-树" class="headerlink" title="9.2.2 B树和B+树"></a>9.2.2 B树和B+树</h3><h3 id="9-2-3-键树"><a href="#9-2-3-键树" class="headerlink" title="9.2.3 键树"></a>9.2.3 键树</h3><h2 id="9-3-哈希表"><a href="#9-3-哈希表" class="headerlink" title="9.3 哈希表"></a>9.3 哈希表</h2><h3 id="9-3-1-什么是哈希表"><a href="#9-3-1-什么是哈希表" class="headerlink" title="9.3.1 什么是哈希表"></a>9.3.1 什么是哈希表</h3><h3 id="9-3-2-哈希函数的构造方法"><a href="#9-3-2-哈希函数的构造方法" class="headerlink" title="9.3.2 哈希函数的构造方法"></a>9.3.2 哈希函数的构造方法</h3><h3 id="9-3-3-处理冲突的方法"><a href="#9-3-3-处理冲突的方法" class="headerlink" title="9.3.3 处理冲突的方法"></a>9.3.3 处理冲突的方法</h3><h3 id="9-3-4-哈希表的查找及其分析"><a href="#9-3-4-哈希表的查找及其分析" class="headerlink" title="9.3.4 哈希表的查找及其分析"></a>9.3.4 哈希表的查找及其分析</h3><h1 id="第10章-内部排序"><a href="#第10章-内部排序" class="headerlink" title="第10章 内部排序"></a>第10章 内部排序</h1><h2 id="10-1-概述"><a href="#10-1-概述" class="headerlink" title="10.1 概述"></a>10.1 概述</h2><h2 id="10-2-插入排序"><a href="#10-2-插入排序" class="headerlink" title="10.2 插入排序"></a>10.2 插入排序</h2><h3 id="10-2-1-直接插入排序"><a href="#10-2-1-直接插入排序" class="headerlink" title="10.2.1 直接插入排序"></a>10.2.1 直接插入排序</h3><h3 id="10-2-2-其他插入排序"><a href="#10-2-2-其他插入排序" class="headerlink" title="10.2.2 其他插入排序"></a>10.2.2 其他插入排序</h3><h3 id="10-2-3-希尔排序"><a href="#10-2-3-希尔排序" class="headerlink" title="10.2.3 希尔排序"></a>10.2.3 希尔排序</h3><h2 id="10-3-快速排序"><a href="#10-3-快速排序" class="headerlink" title="10.3 快速排序"></a>10.3 快速排序</h2><h2 id="10-4-选择排序"><a href="#10-4-选择排序" class="headerlink" title="10.4 选择排序"></a>10.4 选择排序</h2><h3 id="10-4-1-简单选择排序"><a href="#10-4-1-简单选择排序" class="headerlink" title="10.4.1 简单选择排序"></a>10.4.1 简单选择排序</h3><h3 id="10-4-2-树形选择排序"><a href="#10-4-2-树形选择排序" class="headerlink" title="10.4.2 树形选择排序"></a>10.4.2 树形选择排序</h3><h3 id="10-4-3-堆排序"><a href="#10-4-3-堆排序" class="headerlink" title="10.4.3 堆排序"></a>10.4.3 堆排序</h3><h2 id="10-5-归并排序"><a href="#10-5-归并排序" class="headerlink" title="10.5 归并排序"></a>10.5 归并排序</h2><h2 id="10-6-基数排序"><a href="#10-6-基数排序" class="headerlink" title="10.6 基数排序"></a>10.6 基数排序</h2><h3 id="10-6-1-多关键字的排序"><a href="#10-6-1-多关键字的排序" class="headerlink" title="10.6.1 多关键字的排序"></a>10.6.1 多关键字的排序</h3><h3 id="10-6-2-链式基数排序"><a href="#10-6-2-链式基数排序" class="headerlink" title="10.6.2 链式基数排序"></a>10.6.2 链式基数排序</h3><h2 id="10-7-各种内部排序方法的比较讨论"><a href="#10-7-各种内部排序方法的比较讨论" class="headerlink" title="10.7 各种内部排序方法的比较讨论"></a>10.7 各种内部排序方法的比较讨论</h2><h1 id="第11章-外部排序"><a href="#第11章-外部排序" class="headerlink" title="第11章 外部排序"></a>第11章 外部排序</h1><h2 id="11-1-外存信息的存取"><a href="#11-1-外存信息的存取" class="headerlink" title="11.1 外存信息的存取"></a>11.1 外存信息的存取</h2><h2 id="11-2-外部排序的方法"><a href="#11-2-外部排序的方法" class="headerlink" title="11.2 外部排序的方法"></a>11.2 外部排序的方法</h2><h2 id="11-3-多路平衡归并的实现"><a href="#11-3-多路平衡归并的实现" class="headerlink" title="11.3 多路平衡归并的实现"></a>11.3 多路平衡归并的实现</h2><h2 id="11-4-置换一选择排序"><a href="#11-4-置换一选择排序" class="headerlink" title="11.4 置换一选择排序"></a>11.4 置换一选择排序</h2><h2 id="11-5-最佳归并树"><a href="#11-5-最佳归并树" class="headerlink" title="11.5 最佳归并树"></a>11.5 最佳归并树</h2><h1 id="第12章-文件"><a href="#第12章-文件" class="headerlink" title="第12章 文件"></a>第12章 文件</h1><h2 id="12-1-有关文件的基本概念"><a href="#12-1-有关文件的基本概念" class="headerlink" title="12.1 有关文件的基本概念"></a>12.1 有关文件的基本概念</h2><h2 id="12-2-顺序文件"><a href="#12-2-顺序文件" class="headerlink" title="12.2 顺序文件"></a>12.2 顺序文件</h2><h2 id="12-3-索引文件"><a href="#12-3-索引文件" class="headerlink" title="12.3 索引文件"></a>12.3 索引文件</h2><h2 id="12-4-ISAM文件和VSAM文件"><a href="#12-4-ISAM文件和VSAM文件" class="headerlink" title="12.4 ISAM文件和VSAM文件"></a>12.4 ISAM文件和VSAM文件</h2><h3 id="12-4-1-ISAM文件"><a href="#12-4-1-ISAM文件" class="headerlink" title="12.4.1 ISAM文件"></a>12.4.1 ISAM文件</h3><h3 id="12-4-2-VSAM文件"><a href="#12-4-2-VSAM文件" class="headerlink" title="12.4.2 VSAM文件"></a>12.4.2 VSAM文件</h3><h2 id="12-5-直接存取文件-散列文件"><a href="#12-5-直接存取文件-散列文件" class="headerlink" title="12.5 直接存取文件(散列文件)"></a>12.5 直接存取文件(散列文件)</h2><h2 id="12-6-多关键字文件"><a href="#12-6-多关键字文件" class="headerlink" title="12.6 多关键字文件"></a>12.6 多关键字文件</h2><h3 id="12-6-1-多重表文件"><a href="#12-6-1-多重表文件" class="headerlink" title="12.6.1 多重表文件"></a>12.6.1 多重表文件</h3><h3 id="12-6-2-倒排文件"><a href="#12-6-2-倒排文件" class="headerlink" title="12.6.2 倒排文件"></a>12.6.2 倒排文件</h3>
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/index/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="博乐园">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2010/09/01/01_software_engineering/015_algorithm/index/" itemprop="url">算法设计与分析</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T20:00:00+08:00">2010-09-01</time>
-            
-
-            
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/" itemprop="url" rel="index"><span itemprop="name">01_software_engineering</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/015-algorithm/" itemprop="url" rel="index"><span itemprop="name">015_algorithm</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="第1章-算法概述"><a href="#第1章-算法概述" class="headerlink" title="第1章　算法概述"></a>第1章　算法概述</h1><h2 id="1-1-算法与程序"><a href="#1-1-算法与程序" class="headerlink" title="1.1　算法与程序"></a>1.1　算法与程序</h2><h2 id="1-2-算法复杂性分析"><a href="#1-2-算法复杂性分析" class="headerlink" title="1.2　算法复杂性分析"></a>1.2　算法复杂性分析</h2><h1 id="第2章-递归与分治策略"><a href="#第2章-递归与分治策略" class="headerlink" title="第2章　递归与分治策略"></a>第2章　递归与分治策略</h1><h2 id="2-1-递归的概念"><a href="#2-1-递归的概念" class="headerlink" title="2.1　递归的概念"></a>2.1　递归的概念</h2><h2 id="2-2-分治法的基本思想"><a href="#2-2-分治法的基本思想" class="headerlink" title="2.2　分治法的基本思想"></a>2.2　分治法的基本思想</h2><h2 id="2-3-二分搜索技术"><a href="#2-3-二分搜索技术" class="headerlink" title="2.3　二分搜索技术"></a>2.3　二分搜索技术</h2><h2 id="2-4-大整数的乘法"><a href="#2-4-大整数的乘法" class="headerlink" title="2.4　大整数的乘法"></a>2.4　大整数的乘法</h2><h2 id="2-5-Strassen矩阵乘法"><a href="#2-5-Strassen矩阵乘法" class="headerlink" title="2.5　Strassen矩阵乘法"></a>2.5　Strassen矩阵乘法</h2><h2 id="2-6-棋盘覆盖"><a href="#2-6-棋盘覆盖" class="headerlink" title="2.6　棋盘覆盖"></a>2.6　棋盘覆盖</h2><h2 id="2-7-合并排序"><a href="#2-7-合并排序" class="headerlink" title="2.7　合并排序"></a>2.7　合并排序</h2><h2 id="2-8-快速排序"><a href="#2-8-快速排序" class="headerlink" title="2.8　快速排序"></a>2.8　快速排序</h2><h2 id="2-9-线性时间选择"><a href="#2-9-线性时间选择" class="headerlink" title="2.9　线性时间选择"></a>2.9　线性时间选择</h2><h2 id="2-10-最接近点对问题"><a href="#2-10-最接近点对问题" class="headerlink" title="2.10　最接近点对问题"></a>2.10　最接近点对问题</h2><h2 id="2-11-循环赛日程表"><a href="#2-11-循环赛日程表" class="headerlink" title="2.11　循环赛日程表"></a>2.11　循环赛日程表</h2><h1 id="第3章-动态规划"><a href="#第3章-动态规划" class="headerlink" title="第3章　动态规划"></a>第3章　动态规划</h1><h2 id="3-1-矩阵连乘问题"><a href="#3-1-矩阵连乘问题" class="headerlink" title="3.1　矩阵连乘问题"></a>3.1　矩阵连乘问题</h2><h2 id="3-2-动态规划算法的基本要素"><a href="#3-2-动态规划算法的基本要素" class="headerlink" title="3.2　动态规划算法的基本要素"></a>3.2　动态规划算法的基本要素</h2><h2 id="3-3-最长公共子序列"><a href="#3-3-最长公共子序列" class="headerlink" title="3.3　最长公共子序列"></a>3.3　最长公共子序列</h2><h2 id="3-4-最大子段和"><a href="#3-4-最大子段和" class="headerlink" title="3.4　最大子段和"></a>3.4　最大子段和</h2><h2 id="3-5-凸多边形最优三角剖分"><a href="#3-5-凸多边形最优三角剖分" class="headerlink" title="3.5　凸多边形最优三角剖分"></a>3.5　凸多边形最优三角剖分</h2><h2 id="3-6-多边形游戏"><a href="#3-6-多边形游戏" class="headerlink" title="3.6　多边形游戏"></a>3.6　多边形游戏</h2><h2 id="3-7-图像压缩"><a href="#3-7-图像压缩" class="headerlink" title="3.7　图像压缩"></a>3.7　图像压缩</h2><h2 id="3-8-电路布线"><a href="#3-8-电路布线" class="headerlink" title="3.8　电路布线"></a>3.8　电路布线</h2><h2 id="3-9-流水作业调度"><a href="#3-9-流水作业调度" class="headerlink" title="3.9　流水作业调度"></a>3.9　流水作业调度</h2><h2 id="3-10-0-1背包问题"><a href="#3-10-0-1背包问题" class="headerlink" title="3.10　0-1背包问题"></a>3.10　0-1背包问题</h2><h2 id="3-11-最优二叉搜索树"><a href="#3-11-最优二叉搜索树" class="headerlink" title="3.11　最优二叉搜索树"></a>3.11　最优二叉搜索树</h2><h2 id="3-12-动态规划加速原理"><a href="#3-12-动态规划加速原理" class="headerlink" title="3.12　动态规划加速原理"></a>3.12　动态规划加速原理</h2><h1 id="第4章-贪心算法"><a href="#第4章-贪心算法" class="headerlink" title="第4章　贪心算法"></a>第4章　贪心算法</h1><h1 id="第5章-回溯法"><a href="#第5章-回溯法" class="headerlink" title="第5章　回溯法"></a>第5章　回溯法</h1><h1 id="第6章-分支限界法"><a href="#第6章-分支限界法" class="headerlink" title="第6章　分支限界法"></a>第6章　分支限界法</h1><h1 id="第7章-随机化算法"><a href="#第7章-随机化算法" class="headerlink" title="第7章　随机化算法"></a>第7章　随机化算法</h1><h1 id="第8章-线性规划与网络流"><a href="#第8章-线性规划与网络流" class="headerlink" title="第8章　线性规划与网络流"></a>第8章　线性规划与网络流</h1><h1 id="第9章-NP完全性理论与近似算法"><a href="#第9章-NP完全性理论与近似算法" class="headerlink" title="第9章　NP完全性理论与近似算法"></a>第9章　NP完全性理论与近似算法</h1>
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/0151_acm_oj_collection/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="博乐园">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2010/09/01/01_software_engineering/015_algorithm/0151_acm_oj_collection/" itemprop="url">ACM OJ集锦</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T20:00:00+08:00">2010-09-01</time>
-            
-
-            
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/" itemprop="url" rel="index"><span itemprop="name">01_software_engineering</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/015-algorithm/" itemprop="url" rel="index"><span itemprop="name">015_algorithm</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/015-algorithm/0151-acm-oj-collection/" itemprop="url" rel="index"><span itemprop="name">0151_acm_oj_collection</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="ACM-OJ-Collection（排名不分先后）："><a href="#ACM-OJ-Collection（排名不分先后）：" class="headerlink" title="ACM OJ Collection（排名不分先后）："></a>ACM OJ Collection（排名不分先后）：</h1><h2 id="中国：-China"><a href="#中国：-China" class="headerlink" title="中国：(China)"></a>中国：(China)</h2><h3 id="华东地区："><a href="#华东地区：" class="headerlink" title="华东地区："></a>华东地区：</h3><h4 id="浙江："><a href="#浙江：" class="headerlink" title="浙江："></a>浙江：</h4><ul>
-<li>杭州电子科技大学(HDU)：<a href="http://acm.hdu.edu.cn/" target="_blank" rel="noopener">http://acm.hdu.edu.cn/</a></li>
-<li>浙江大学（ZJU）：<a href="http://acm.zju.edu.cn/" target="_blank" rel="noopener">http://acm.zju.edu.cn/</a></li>
-<li>浙江工业大学（ZJUT）：<a href="http://acm.zjut.edu.cn/" target="_blank" rel="noopener">http://acm.zjut.edu.cn/</a></li>
-<li>浙江师范大学（ZJNU）：<a href="http://acm.zjnu.cn/" target="_blank" rel="noopener">http://acm.zjnu.cn/</a></li>
-<li>浙江工商（ZJGSU）：<a href="http://acm.zjgsu.edu.cn/" target="_blank" rel="noopener">http://acm.zjgsu.edu.cn/</a></li>
-<li>宁波理工（NIT）：<a href="http://acm.nit.net.cn/" target="_blank" rel="noopener">http://acm.nit.net.cn/</a></li>
-</ul>
-<h4 id="上海："><a href="#上海：" class="headerlink" title="上海："></a>上海：</h4><ul>
-<li>华东师范大学（ECNU）：<a href="http://acm.cs.ecnu.edu.cn/" target="_blank" rel="noopener">http://acm.cs.ecnu.edu.cn/</a></li>
-<li>华东理工大学（ECUST）：<a href="http://acm.ecust.edu.cn/" target="_blank" rel="noopener">http://acm.ecust.edu.cn/</a></li>
-<li>同济大学（TJU）：<a href="http://acm.tongji.edu.cn/" target="_blank" rel="noopener">http://acm.tongji.edu.cn/</a></li>
-</ul>
-<h4 id="江苏："><a href="#江苏：" class="headerlink" title="江苏："></a>江苏：</h4><ul>
-<li>南京航空航天大学： <a href="http://acm.nuaa.edu.cn/" target="_blank" rel="noopener">http://acm.nuaa.edu.cn/</a></li>
-</ul>
-<h4 id="福建："><a href="#福建：" class="headerlink" title="福建："></a>福建：</h4><ul>
-<li>福州大学（FZU）：<a href="http://acm.fzu.edu.cn/" target="_blank" rel="noopener">http://acm.fzu.edu.cn/</a></li>
-<li>厦门大学（XMU）：<a href="http://acm.xmu.edu.cn/" target="_blank" rel="noopener">http://acm.xmu.edu.cn/</a></li>
-<li>福建师范大学（FJNU）：<a href="http://acm.fjnu.edu.cn/" target="_blank" rel="noopener">http://acm.fjnu.edu.cn/</a></li>
-</ul>
-<h4 id="安徽："><a href="#安徽：" class="headerlink" title="安徽："></a>安徽：</h4><ul>
-<li>中国科技大学（USTC）：<a href="http://acm.ustc.edu.cn/" target="_blank" rel="noopener">http://acm.ustc.edu.cn/</a></li>
-</ul>
-<h3 id="华北地区："><a href="#华北地区：" class="headerlink" title="华北地区："></a>华北地区：</h3><h4 id="北京："><a href="#北京：" class="headerlink" title="北京："></a>北京：</h4><ul>
-<li>北京交大（BJTU）：<a href="http://acm.bjtu.edu.cn/" target="_blank" rel="noopener">http://acm.bjtu.edu.cn/</a></li>
-<li>北京大学（PKU）：<a href="http://acm.pku.edu.cn/" target="_blank" rel="noopener">http://acm.pku.edu.cn/</a></li>
-</ul>
-<h4 id="天津："><a href="#天津：" class="headerlink" title="天津："></a>天津：</h4><ul>
-<li>南开大学（NAIKAI）：<a href="http://acm.nankai.edu.cn/" target="_blank" rel="noopener">http://acm.nankai.edu.cn/</a></li>
-<li>天津大学（TJU）：<a href="http://acm.tju.edu.cn/toj/" target="_blank" rel="noopener">http://acm.tju.edu.cn/toj/</a></li>
-</ul>
-<h3 id="东北地区："><a href="#东北地区：" class="headerlink" title="东北地区："></a>东北地区：</h3><h4 id="黑龙江："><a href="#黑龙江：" class="headerlink" title="黑龙江："></a>黑龙江：</h4><ul>
-<li>哈尔滨工程大学（HRBEU）：<a href="http://acm.hrbeu.edu.cn/" target="_blank" rel="noopener">http://acm.hrbeu.edu.cn/</a></li>
-</ul>
-<h3 id="华南地区："><a href="#华南地区：" class="headerlink" title="华南地区："></a>华南地区：</h3><h4 id="广东："><a href="#广东：" class="headerlink" title="广东："></a>广东：</h4><ul>
-<li>中山大学（ZSU）：<a href="http://acm.zsu.edu.cn/" target="_blank" rel="noopener">http://acm.zsu.edu.cn/</a></li>
-</ul>
-<h3 id="西南地区："><a href="#西南地区：" class="headerlink" title="西南地区："></a>西南地区：</h3><h4 id="四川："><a href="#四川：" class="headerlink" title="四川："></a>四川：</h4><ul>
-<li>西南民大（SWUN）：<a href="http://acm.swun.edu.cn/" target="_blank" rel="noopener">http://acm.swun.edu.cn/</a></li>
-</ul>
-<h3 id="华中地区："><a href="#华中地区：" class="headerlink" title="华中地区："></a>华中地区：</h3><h4 id="湖北："><a href="#湖北：" class="headerlink" title="湖北："></a>湖北：</h4><ul>
-<li>华中科技大学（HUST）：<a href="http://acm.hust.edu.cn/JudgeOnline/" target="_blank" rel="noopener">http://acm.hust.edu.cn/JudgeOnline/</a></li>
-<li>武汉大学（WHU）：<a href="http://acm.whu.edu.cn/" target="_blank" rel="noopener">http://acm.whu.edu.cn/</a></li>
-</ul>
-<h3 id="港澳台地区："><a href="#港澳台地区：" class="headerlink" title="港澳台地区："></a>港澳台地区：</h3><h4 id="香港："><a href="#香港：" class="headerlink" title="香港："></a>香港：</h4><ul>
-<li>香港大学(HKOI)：<a href="http://judge.hkoi.org/" target="_blank" rel="noopener">http://judge.hkoi.org/</a></li>
-</ul>
-<hr>
-<h2 id="俄罗斯：-Russia"><a href="#俄罗斯：-Russia" class="headerlink" title="俄罗斯：(Russia)"></a>俄罗斯：(Russia)</h2><ul>
-<li>乌拉尔大学（URAL）：<a href="http://acm.timus.ru/" target="_blank" rel="noopener">http://acm.timus.ru/</a></li>
-<li>萨拉托夫大学（SGU）：<a href="http://acm.sgu.ru/" target="_blank" rel="noopener">http://acm.sgu.ru/</a></li>
-<li>(vallod) ：<a href="http://acm.uva.es/" target="_blank" rel="noopener">http://acm.uva.es/</a></li>
-<li>EL Judge(MIPT):：<a href="http://acm.mipt.ru/judge/problems.pl" target="_blank" rel="noopener">http://acm.mipt.ru/judge/problems.pl</a></li>
-</ul>
-<hr>
-<h2 id="西班牙：-Spanish"><a href="#西班牙：-Spanish" class="headerlink" title="西班牙：(Spanish)"></a>西班牙：(Spanish)</h2><ul>
-<li>瓦拉杜利德大学（UVA）：<a href="http://acm.uva.es/" target="_blank" rel="noopener">http://acm.uva.es/</a></li>
-</ul>
-<hr>
-<h2 id="美国：-America"><a href="#美国：-America" class="headerlink" title="美国：(America)"></a>美国：(America)</h2><ul>
-<li>USACO: <a href="http://train.usaco.org/usacogate" target="_blank" rel="noopener">http://train.usaco.org/usacogate</a></li>
-</ul>
-<hr>
-<h3 id="波兰：-Poland"><a href="#波兰：-Poland" class="headerlink" title="波兰：(Poland)"></a>波兰：(Poland)</h3><ul>
-<li>SPOJ：<a href="http://www.spoj.pl/" target="_blank" rel="noopener">http://www.spoj.pl/</a></li>
-</ul>
-<hr>
-<h2 id="吉尔吉斯斯坦-：-Kirgizstan"><a href="#吉尔吉斯斯坦-：-Kirgizstan" class="headerlink" title="吉尔吉斯斯坦:：(Kirgizstan)"></a>吉尔吉斯斯坦:：(Kirgizstan)</h2><ul>
-<li>KRSU: <a href="http://www.olymp.krsu.edu.kg/GeneralProblemset.aspx" target="_blank" rel="noopener">http://www.olymp.krsu.edu.kg/GeneralProblemset.aspx</a></li>
-</ul>
-<hr>
-<h2 id="中国各大高校BBS"><a href="#中国各大高校BBS" class="headerlink" title="中国各大高校BBS:"></a>中国各大高校BBS:</h2><ul>
-<li><a href="http://acm.hdu.edu.cn/forum/（杭电）" target="_blank" rel="noopener">http://acm.hdu.edu.cn/forum/（杭电）</a></li>
-<li><a href="http://www.hdubbs.com/（杭电）" target="_blank" rel="noopener">http://www.hdubbs.com/（杭电）</a></li>
-<li><a href="http://www.freecity.cn/（浙大）" target="_blank" rel="noopener">http://www.freecity.cn/（浙大）</a></li>
-<li><a href="http://bbs.freecity.cn/(浙大)" target="_blank" rel="noopener">http://bbs.freecity.cn/(浙大)</a></li>
-</ul>
-<hr>
-<h2 id="Others："><a href="#Others：" class="headerlink" title="Others："></a>Others：</h2><ul>
-<li>Topcoder：<a href="http://www.topcoder.com/tc" target="_blank" rel="noopener">http://www.topcoder.com/tc</a></li>
-<li>ACM-ICPC：<a href="http://icpc.baylor.edu/icpc/" target="_blank" rel="noopener">http://icpc.baylor.edu/icpc/</a></li>
-<li>美国信息学奥林匹克竞赛官方网站：<a href="http://www.usaco.org/" target="_blank" rel="noopener">http://www.usaco.org/</a></li>
-<li>全美计算机奥林匹克竞赛：<a href="http://ace.delos.com/usacogate" target="_blank" rel="noopener">http://ace.delos.com/usacogate</a></li>
-<li>信息学初学者之家：<a href="http://oibh.ioiforum.org/" target="_blank" rel="noopener">http://oibh.ioiforum.org/</a></li>
-<li>中国教育曙光网：<a href="http://www.chinaschool.org/aosai/" target="_blank" rel="noopener">http://www.chinaschool.org/aosai/</a></li>
-<li>福建信息学奥林匹克：<a href="http://www.cfcs.com.cn/fjas/index.htm" target="_blank" rel="noopener">http://www.cfcs.com.cn/fjas/index.htm</a></li>
-<li>IOI：<a href="http://olympiads.win.tue.nl/ioi/" target="_blank" rel="noopener">http://olympiads.win.tue.nl/ioi/</a></li>
-<li>高效信息学在线判题系统（VIJOS）：<a href="http://www.vijos.cn/" target="_blank" rel="noopener">http://www.vijos.cn/</a></li>
-<li>ACM的例程和测试数据：<a href="http://www.karrels.org/Ed/ACM/" target="_blank" rel="noopener">http://www.karrels.org/Ed/ACM/</a></li>
-<li>ACM社区：<a href="http://www.608088.com/" target="_blank" rel="noopener">http://www.608088.com/</a></li>
-</ul>
-
-          
+          开源项目：Jdon Framework下载      文档       演示      jdon英文       Github项目
+
+项目新闻：2017-06 增加了类似erLang/akka的Actor并发模型的账户转账测试代码和多核并发测试代码，验证Jdon框架支持无锁并发和内存事务2015-0
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/01/01/06_tech_frame/064_project_case/0641_ddd/jdon/jdon_framework/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1094,8 +555,335 @@
       
         
           
-            <h1 id="第一章-操作系统引论"><a href="#第一章-操作系统引论" class="headerlink" title="第一章 操作系统引论"></a>第一章 操作系统引论</h1><h2 id="1-1-操作系统的目标和作用"><a href="#1-1-操作系统的目标和作用" class="headerlink" title="1.1 操作系统的目标和作用"></a>1.1 操作系统的目标和作用</h2><h2 id="1-2-操作系统的发展过程"><a href="#1-2-操作系统的发展过程" class="headerlink" title="1.2 操作系统的发展过程"></a>1.2 操作系统的发展过程</h2><h2 id="1-3-操作系统的基本特性"><a href="#1-3-操作系统的基本特性" class="headerlink" title="1.3 操作系统的基本特性"></a>1.3 操作系统的基本特性</h2><h2 id="1-4-操作系统的主要功能"><a href="#1-4-操作系统的主要功能" class="headerlink" title="1.4 操作系统的主要功能"></a>1.4 操作系统的主要功能</h2><h2 id="1-5-OS结构设计"><a href="#1-5-OS结构设计" class="headerlink" title="1.5 OS结构设计"></a>1.5 OS结构设计</h2><h1 id="第二章-进程管理"><a href="#第二章-进程管理" class="headerlink" title="第二章 进程管理"></a>第二章 进程管理</h1><h2 id="2-1-进程的基本概念"><a href="#2-1-进程的基本概念" class="headerlink" title="2.1 进程的基本概念"></a>2.1 进程的基本概念</h2><h2 id="2-2-进程控制"><a href="#2-2-进程控制" class="headerlink" title="2.2 进程控制"></a>2.2 进程控制</h2><h2 id="2-3-进程同步"><a href="#2-3-进程同步" class="headerlink" title="2.3 进程同步"></a>2.3 进程同步</h2><h2 id="2-4-经典进程的同步问题"><a href="#2-4-经典进程的同步问题" class="headerlink" title="2.4 经典进程的同步问题"></a>2.4 经典进程的同步问题</h2><h2 id="2-5-进程通信"><a href="#2-5-进程通信" class="headerlink" title="2.5 进程通信"></a>2.5 进程通信</h2><h2 id="2-6-线程"><a href="#2-6-线程" class="headerlink" title="2.6 线程"></a>2.6 线程</h2><h1 id="第三章-处理机调度与死锁"><a href="#第三章-处理机调度与死锁" class="headerlink" title="第三章 处理机调度与死锁"></a>第三章 处理机调度与死锁</h1><h2 id="3-1-处理机调度的层次"><a href="#3-1-处理机调度的层次" class="headerlink" title="3.1 处理机调度的层次"></a>3.1 处理机调度的层次</h2><h2 id="3-2-调度队列模型和调度准则"><a href="#3-2-调度队列模型和调度准则" class="headerlink" title="3.2 调度队列模型和调度准则"></a>3.2 调度队列模型和调度准则</h2><h2 id="3-3-调度算法"><a href="#3-3-调度算法" class="headerlink" title="3.3 调度算法"></a>3.3 调度算法</h2><h2 id="3-4-实时调度"><a href="#3-4-实时调度" class="headerlink" title="3.4 实时调度"></a>3.4 实时调度</h2><h2 id="3-5-产生死锁的原因和必要条件"><a href="#3-5-产生死锁的原因和必要条件" class="headerlink" title="3.5 产生死锁的原因和必要条件"></a>3.5 产生死锁的原因和必要条件</h2><h2 id="3-6-预防死锁的方法"><a href="#3-6-预防死锁的方法" class="headerlink" title="3.6 预防死锁的方法"></a>3.6 预防死锁的方法</h2><h2 id="3-7-死锁的检测与解除"><a href="#3-7-死锁的检测与解除" class="headerlink" title="3.7 死锁的检测与解除"></a>3.7 死锁的检测与解除</h2><h1 id="第四章-存储器管理"><a href="#第四章-存储器管理" class="headerlink" title="第四章 存储器管理"></a>第四章 存储器管理</h1><h2 id="4-1-存储器的层次结构"><a href="#4-1-存储器的层次结构" class="headerlink" title="4.1 存储器的层次结构"></a>4.1 存储器的层次结构</h2><h2 id="4-2-程序的装入和链接"><a href="#4-2-程序的装入和链接" class="headerlink" title="4.2 程序的装入和链接"></a>4.2 程序的装入和链接</h2><h2 id="4-3-连续分配方式"><a href="#4-3-连续分配方式" class="headerlink" title="4.3 连续分配方式"></a>4.3 连续分配方式</h2><h2 id="4-4-基本分页存储管理方式"><a href="#4-4-基本分页存储管理方式" class="headerlink" title="4.4 基本分页存储管理方式"></a>4.4 基本分页存储管理方式</h2><h2 id="4-5-基本分段存储管理方式"><a href="#4-5-基本分段存储管理方式" class="headerlink" title="4.5 基本分段存储管理方式"></a>4.5 基本分段存储管理方式</h2><h2 id="4-6-虚拟存储器的基本概念"><a href="#4-6-虚拟存储器的基本概念" class="headerlink" title="4.6 虚拟存储器的基本概念"></a>4.6 虚拟存储器的基本概念</h2><h2 id="4-7-请求分页存储管理方式"><a href="#4-7-请求分页存储管理方式" class="headerlink" title="4.7 请求分页存储管理方式"></a>4.7 请求分页存储管理方式</h2><h2 id="4-8-页面置换算法"><a href="#4-8-页面置换算法" class="headerlink" title="4.8 页面置换算法"></a>4.8 页面置换算法</h2><h2 id="4-9-请求分段存储管理方式"><a href="#4-9-请求分段存储管理方式" class="headerlink" title="4.9 请求分段存储管理方式"></a>4.9 请求分段存储管理方式</h2><h1 id="第五章-设备管理"><a href="#第五章-设备管理" class="headerlink" title="第五章 设备管理"></a>第五章 设备管理</h1><h2 id="5-1-I-O系统"><a href="#5-1-I-O系统" class="headerlink" title="5.1 I/O系统"></a>5.1 I/O系统</h2><h2 id="5-2-I-0控制方式"><a href="#5-2-I-0控制方式" class="headerlink" title="5.2 I/0控制方式"></a>5.2 I/0控制方式</h2><h2 id="5-3-缓冲管理"><a href="#5-3-缓冲管理" class="headerlink" title="5.3 缓冲管理"></a>5.3 缓冲管理</h2><h2 id="5-4-I-O软件"><a href="#5-4-I-O软件" class="headerlink" title="5.4 I/O软件"></a>5.4 I/O软件</h2><h2 id="5-5-设备分配"><a href="#5-5-设备分配" class="headerlink" title="5.5 设备分配"></a>5.5 设备分配</h2><h2 id="5-6-磁盘存储器的管理"><a href="#5-6-磁盘存储器的管理" class="headerlink" title="5.6 磁盘存储器的管理"></a>5.6 磁盘存储器的管理</h2><h1 id="第六章-文件管理"><a href="#第六章-文件管理" class="headerlink" title="第六章 文件管理"></a>第六章 文件管理</h1><h2 id="6-1-文件和文件系统"><a href="#6-1-文件和文件系统" class="headerlink" title="6.1 文件和文件系统"></a>6.1 文件和文件系统</h2><h2 id="6-2-文件的逻辑结构"><a href="#6-2-文件的逻辑结构" class="headerlink" title="6.2 文件的逻辑结构"></a>6.2 文件的逻辑结构</h2><h2 id="6-3-外存分配方式"><a href="#6-3-外存分配方式" class="headerlink" title="6.3 外存分配方式"></a>6.3 外存分配方式</h2><h2 id="6-4-目录管理"><a href="#6-4-目录管理" class="headerlink" title="6.4 目录管理"></a>6.4 目录管理</h2><h2 id="6-5-文件存储空间的管理"><a href="#6-5-文件存储空间的管理" class="headerlink" title="6.5 文件存储空间的管理"></a>6.5 文件存储空间的管理</h2><h2 id="6-6-文件共享与文件保护"><a href="#6-6-文件共享与文件保护" class="headerlink" title="6.6 文件共享与文件保护"></a>6.6 文件共享与文件保护</h2><h2 id="6-7-数据一致性控制"><a href="#6-7-数据一致性控制" class="headerlink" title="6.7 数据一致性控制"></a>6.7 数据一致性控制</h2><h1 id="第七章-操作系统接口"><a href="#第七章-操作系统接口" class="headerlink" title="第七章 操作系统接口"></a>第七章 操作系统接口</h1><h2 id="7-1-联机用户接口"><a href="#7-1-联机用户接口" class="headerlink" title="7.1 联机用户接口"></a>7.1 联机用户接口</h2><h2 id="7-2-Shell命令语言"><a href="#7-2-Shell命令语言" class="headerlink" title="7.2 Shell命令语言"></a>7.2 Shell命令语言</h2><h2 id="7-3-系统调用"><a href="#7-3-系统调用" class="headerlink" title="7.3 系统调用"></a>7.3 系统调用</h2><h2 id="7-4-UNIX系统调用"><a href="#7-4-UNIX系统调用" class="headerlink" title="7.4 UNIX系统调用"></a>7.4 UNIX系统调用</h2><h2 id="7-5-图形用户接口"><a href="#7-5-图形用户接口" class="headerlink" title="7.5 图形用户接口"></a>7.5 图形用户接口</h2><h1 id="第八章-网络操作系统"><a href="#第八章-网络操作系统" class="headerlink" title="第八章 网络操作系统"></a>第八章 网络操作系统</h1><h2 id="8-1-计算机网络概述"><a href="#8-1-计算机网络概述" class="headerlink" title="8.1 计算机网络概述"></a>8.1 计算机网络概述</h2><h2 id="8-2-网络体系结构"><a href="#8-2-网络体系结构" class="headerlink" title="8.2 网络体系结构"></a>8.2 网络体系结构</h2><h2 id="8-3-Internet与Intranet"><a href="#8-3-Internet与Intranet" class="headerlink" title="8.3 Internet与Intranet"></a>8.3 Internet与Intranet</h2><h2 id="8-4-客户，服务器模式"><a href="#8-4-客户，服务器模式" class="headerlink" title="8.4 客户，服务器模式"></a>8.4 客户，服务器模式</h2><h2 id="8-5-网络操作系统的功能"><a href="#8-5-网络操作系统的功能" class="headerlink" title="8.5 网络操作系统的功能"></a>8.5 网络操作系统的功能</h2><h2 id="8-6-网络操作系统提供的服务"><a href="#8-6-网络操作系统提供的服务" class="headerlink" title="8.6 网络操作系统提供的服务"></a>8.6 网络操作系统提供的服务</h2><h1 id="第九章-系统安全性"><a href="#第九章-系统安全性" class="headerlink" title="第九章 系统安全性"></a>第九章 系统安全性</h1><h2 id="9-1-系统安全的基本概念"><a href="#9-1-系统安全的基本概念" class="headerlink" title="9.1 系统安全的基本概念"></a>9.1 系统安全的基本概念</h2><h2 id="9-2-数据加密技术"><a href="#9-2-数据加密技术" class="headerlink" title="9.2 数据加密技术"></a>9.2 数据加密技术</h2><h2 id="9-3-认证技术"><a href="#9-3-认证技术" class="headerlink" title="9.3 认证技术"></a>9.3 认证技术</h2><h2 id="9-4-访问控制技术"><a href="#9-4-访问控制技术" class="headerlink" title="9.4 访问控制技术"></a>9.4 访问控制技术</h2><h2 id="9-5-计算机病毒"><a href="#9-5-计算机病毒" class="headerlink" title="9.5 计算机病毒"></a>9.5 计算机病毒</h2><h1 id="第十章-UNIX系统内核结构"><a href="#第十章-UNIX系统内核结构" class="headerlink" title="第十章 UNIX系统内核结构"></a>第十章 UNIX系统内核结构</h1><h2 id="10-1-UNIX系统概述"><a href="#10-1-UNIX系统概述" class="headerlink" title="10.1 UNIX系统概述"></a>10.1 UNIX系统概述</h2><h2 id="10-2-进程的描述和控制"><a href="#10-2-进程的描述和控制" class="headerlink" title="10.2 进程的描述和控制"></a>10.2 进程的描述和控制</h2><h2 id="10-3-进程的同步与通信"><a href="#10-3-进程的同步与通信" class="headerlink" title="10.3 进程的同步与通信"></a>10.3 进程的同步与通信</h2><h2 id="10-4-存储器管理"><a href="#10-4-存储器管理" class="headerlink" title="10.4 存储器管理"></a>10.4 存储器管理</h2><h2 id="10-5-设备管理"><a href="#10-5-设备管理" class="headerlink" title="10.5 设备管理"></a>10.5 设备管理</h2><h2 id="10-6-文件管理"><a href="#10-6-文件管理" class="headerlink" title="10.6 文件管理"></a>10.6 文件管理</h2>
+          第一章 操作系统引论1.1 操作系统的目标和作用1.2 操作系统的发展过程1.3 操作系统的基本特性1.4 操作系统的主要功能1.5 OS结构设计第二章 进程管理2.1 进程的基本概念2.2 进程控制2.3 进程同步2.4 经典进程的同步问题2.5 进程通信2.6 线程第三章 处理机调度与死锁3.1
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/01_software_engineering/012_operating_system/index/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/0151_acm/acm_oj_collection/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="博乐园">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2010/09/01/01_software_engineering/015_algorithm/0151_acm/acm_oj_collection/" itemprop="url">ACM OJ集锦</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T20:00:00+08:00">2010-09-01</time>
+            
+
+            
+            
+
+            
+          </span>
+
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/" itemprop="url" rel="index"><span itemprop="name">01_software_engineering</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/015-algorithm/" itemprop="url" rel="index"><span itemprop="name">015_algorithm</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/015-algorithm/0151-acm/" itemprop="url" rel="index"><span itemprop="name">0151_acm</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          ACM OJ Collection（排名不分先后）：中国：(China)华东地区：浙江：
+杭州电子科技大学(HDU)：http://acm.hdu.edu.cn/
+浙江大学（ZJU）：http://acm.zju.edu.cn/
+浙江工业大学（ZJUT）：http://acm.zjut.edu.cn
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/01_software_engineering/015_algorithm/0151_acm/acm_oj_collection/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/01_software_engineering/014_data_structure/index/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="博乐园">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2010/09/01/01_software_engineering/014_data_structure/index/" itemprop="url">数据结构</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T20:00:00+08:00">2010-09-01</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/" itemprop="url" rel="index"><span itemprop="name">01_software_engineering</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/014-data-structure/" itemprop="url" rel="index"><span itemprop="name">014_data_structure</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          第1章 绪论1.1 什么是数据结构1.2 基本概念和术语1.3 抽象数据类型的表现与实现1.4 算法和算法分析第2章 线性表2.1 线性表的类型定义2.2 线性表的顺序表示和实现2.3 线性表的链式表示和实现2.4 一元多项式的表示及相加第3章 栈和队列3.1 栈3.2 栈的应有和举例3.3 栈与递
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/01_software_engineering/014_data_structure/index/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1242,8 +1030,170 @@
       
         
           
-            <h1 id="第1章-概述"><a href="#第1章-概述" class="headerlink" title="第1章　概述"></a>第1章　概述</h1><h1 id="第2章-物理层"><a href="#第2章-物理层" class="headerlink" title="第2章　物理层"></a>第2章　物理层</h1><h1 id="第3章-数据链路层"><a href="#第3章-数据链路层" class="headerlink" title="第3章　数据链路层"></a>第3章　数据链路层</h1><h1 id="第4章-网络层"><a href="#第4章-网络层" class="headerlink" title="第4章　网络层"></a>第4章　网络层</h1><h1 id="第5章-运输层"><a href="#第5章-运输层" class="headerlink" title="第5章　运输层"></a>第5章　运输层</h1><h1 id="第6章-应用层"><a href="#第6章-应用层" class="headerlink" title="第6章　应用层"></a>第6章　应用层</h1><h1 id="第7章-网络安全"><a href="#第7章-网络安全" class="headerlink" title="第7章　网络安全"></a>第7章　网络安全</h1><h1 id="第8章-因特网上的音频-视频服务"><a href="#第8章-因特网上的音频-视频服务" class="headerlink" title="第8章　因特网上的音频/视频服务"></a>第8章　因特网上的音频/视频服务</h1><h1 id="第9章-无线网络"><a href="#第9章-无线网络" class="headerlink" title="第9章　无线网络"></a>第9章　无线网络</h1><h1 id="第10章-下一代因特网"><a href="#第10章-下一代因特网" class="headerlink" title="第10章　下一代因特网"></a>第10章　下一代因特网</h1>
+          第1章　概述第2章　物理层第3章　数据链路层第4章　网络层第5章　运输层第6章　应用层第7章　网络安全第8章　因特网上的音频/视频服务第9章　无线网络第10章　下一代因特网
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/01_software_engineering/013_network/index/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/index/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="博乐园">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2010/09/01/01_software_engineering/015_algorithm/index/" itemprop="url">算法设计与分析</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T20:00:00+08:00">2010-09-01</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/" itemprop="url" rel="index"><span itemprop="name">01_software_engineering</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/015-algorithm/" itemprop="url" rel="index"><span itemprop="name">015_algorithm</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          第1章　算法概述1.1　算法与程序1.2　算法复杂性分析第2章　递归与分治策略2.1　递归的概念2.2　分治法的基本思想2.3　二分搜索技术2.4　大整数的乘法2.5　Strassen矩阵乘法2.6　棋盘覆盖2.7　合并排序2.8　快速排序2.9　线性时间选择2.10　最接近点对问题2.11　循环赛
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/01_software_engineering/015_algorithm/index/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1390,14 +1340,17 @@
       
         
           
-            <h1 id="第1篇-概论"><a href="#第1篇-概论" class="headerlink" title="第1篇 概论"></a>第1篇 概论</h1><h2 id="第1章-计算机系统概论"><a href="#第1章-计算机系统概论" class="headerlink" title="第1章 计算机系统概论"></a>第1章 计算机系统概论</h2><h3 id="1-1-计算机系统简介"><a href="#1-1-计算机系统简介" class="headerlink" title="1.1 计算机系统简介"></a>1.1 计算机系统简介</h3><h3 id="1-2-计算机的基本组成"><a href="#1-2-计算机的基本组成" class="headerlink" title="1.2 计算机的基本组成"></a>1.2 计算机的基本组成</h3><p>　　控制器，运算器，存储器，输入设备，输出设备。</p>
-<h3 id="1-3-计算机硬件的主要技术指标"><a href="#1-3-计算机硬件的主要技术指标" class="headerlink" title="1.3 计算机硬件的主要技术指标"></a>1.3 计算机硬件的主要技术指标</h3><p>　　CPU的字长、时钟主频、运算速度、容量与可靠性。</p>
-<h2 id="第2章-计算机的发展及应用"><a href="#第2章-计算机的发展及应用" class="headerlink" title="第2章 计算机的发展及应用"></a>第2章 计算机的发展及应用</h2><h3 id="2-1-计算机的发展史"><a href="#2-1-计算机的发展史" class="headerlink" title="2.1 计算机的发展史"></a>2.1 计算机的发展史</h3><h3 id="2-2-计算机的应用"><a href="#2-2-计算机的应用" class="headerlink" title="2.2 计算机的应用"></a>2.2 计算机的应用</h3><h3 id="2-3-计算机的展望"><a href="#2-3-计算机的展望" class="headerlink" title="2.3 计算机的展望"></a>2.3 计算机的展望</h3><hr>
-<h1 id="第2篇-计算机系统的硬件结构"><a href="#第2篇-计算机系统的硬件结构" class="headerlink" title="第2篇 计算机系统的硬件结构"></a>第2篇 计算机系统的硬件结构</h1><p><img src="https://botlab.oss-cn-shenzhen.aliyuncs.com/blog/img/01_software_engineering/computer_hardware_composite.jpg" alt="计算机系统硬件组成"></p>
-<h2 id="第3章-系统总线"><a href="#第3章-系统总线" class="headerlink" title="第3章 系统总线"></a>第3章 系统总线</h2><h3 id="3-1-总线的基本概念"><a href="#3-1-总线的基本概念" class="headerlink" title="3.1 总线的基本概念"></a>3.1 总线的基本概念</h3><h3 id="3-2-总线的分类"><a href="#3-2-总线的分类" class="headerlink" title="3.2 总线的分类"></a>3.2 总线的分类</h3><h3 id="3-3-总线特性及性能指标"><a href="#3-3-总线特性及性能指标" class="headerlink" title="3.3 总线特性及性能指标"></a>3.3 总线特性及性能指标</h3><h3 id="3-4-总线结构"><a href="#3-4-总线结构" class="headerlink" title="3.4 总线结构"></a>3.4 总线结构</h3><h3 id="3-5-总线控制"><a href="#3-5-总线控制" class="headerlink" title="3.5 总线控制"></a>3.5 总线控制</h3><h2 id="第4章-存储器"><a href="#第4章-存储器" class="headerlink" title="第4章 存储器"></a>第4章 存储器</h2><h3 id="4-1-概述"><a href="#4-1-概述" class="headerlink" title="4.1 概述"></a>4.1 概述</h3><h3 id="4-2-主存储器"><a href="#4-2-主存储器" class="headerlink" title="4.2 主存储器"></a>4.2 主存储器</h3><h3 id="4-3-高速缓冲存储器"><a href="#4-3-高速缓冲存储器" class="headerlink" title="4.3 高速缓冲存储器"></a>4.3 高速缓冲存储器</h3><h3 id="4-4-辅助存储器"><a href="#4-4-辅助存储器" class="headerlink" title="4.4 辅助存储器"></a>4.4 辅助存储器</h3><h2 id="第5章-输入输出系统"><a href="#第5章-输入输出系统" class="headerlink" title="第5章 输入输出系统"></a>第5章 输入输出系统</h2><h3 id="5-1-概述"><a href="#5-1-概述" class="headerlink" title="5.1 概述"></a>5.1 概述</h3><h3 id="5-2-I-O设备"><a href="#5-2-I-O设备" class="headerlink" title="5.2 I/O设备"></a>5.2 I/O设备</h3><h3 id="5-3-I-O接口"><a href="#5-3-I-O接口" class="headerlink" title="5.3 I/O接口"></a>5.3 I/O接口</h3><h3 id="5-4-程序查询方式"><a href="#5-4-程序查询方式" class="headerlink" title="5.4 程序查询方式"></a>5.4 程序查询方式</h3><h3 id="5-5-程序中断方式"><a href="#5-5-程序中断方式" class="headerlink" title="5.5 程序中断方式"></a>5.5 程序中断方式</h3><h3 id="5-6-DMA方式"><a href="#5-6-DMA方式" class="headerlink" title="5.6 DMA方式"></a>5.6 DMA方式</h3><h3 id="附录5A-ASCⅡ码"><a href="#附录5A-ASCⅡ码" class="headerlink" title="附录5A ASCⅡ码"></a>附录5A ASCⅡ码</h3><h3 id="附录5B-BCD码"><a href="#附录5B-BCD码" class="headerlink" title="附录5B BCD码"></a>附录5B BCD码</h3><h3 id="附录5C-奇偶校检码"><a href="#附录5C-奇偶校检码" class="headerlink" title="附录5C 奇偶校检码"></a>附录5C 奇偶校检码</h3><hr>
-<h1 id="第3篇-中央处理器"><a href="#第3篇-中央处理器" class="headerlink" title="第3篇 中央处理器"></a>第3篇 中央处理器</h1><h2 id="第6章-计算机的运算方法"><a href="#第6章-计算机的运算方法" class="headerlink" title="第6章 计算机的运算方法"></a>第6章 计算机的运算方法</h2><h3 id="6-1-无符号数和有符号数"><a href="#6-1-无符号数和有符号数" class="headerlink" title="6.1 无符号数和有符号数"></a>6.1 无符号数和有符号数</h3><h3 id="6-2-数的定点表示和浮点表示"><a href="#6-2-数的定点表示和浮点表示" class="headerlink" title="6.2 数的定点表示和浮点表示"></a>6.2 数的定点表示和浮点表示</h3><h3 id="6-3-定点运算"><a href="#6-3-定点运算" class="headerlink" title="6.3 定点运算"></a>6.3 定点运算</h3><h3 id="6-4-浮点四则运算"><a href="#6-4-浮点四则运算" class="headerlink" title="6.4 浮点四则运算"></a>6.4 浮点四则运算</h3><h3 id="6-5-算术逻辑单元"><a href="#6-5-算术逻辑单元" class="headerlink" title="6.5 算术逻辑单元"></a>6.5 算术逻辑单元</h3><h3 id="附录6A-各种进位制"><a href="#附录6A-各种进位制" class="headerlink" title="附录6A 各种进位制"></a>附录6A 各种进位制</h3><h3 id="附录6B-阵列乘法器和阵列除法器"><a href="#附录6B-阵列乘法器和阵列除法器" class="headerlink" title="附录6B 阵列乘法器和阵列除法器"></a>附录6B 阵列乘法器和阵列除法器</h3><h3 id="附录6C-7418l逻辑电路"><a href="#附录6C-7418l逻辑电路" class="headerlink" title="附录6C 7418l逻辑电路"></a>附录6C 7418l逻辑电路</h3><h2 id="第7章-指令系统"><a href="#第7章-指令系统" class="headerlink" title="第7章 指令系统"></a>第7章 指令系统</h2><h3 id="7-1-机器指令"><a href="#7-1-机器指令" class="headerlink" title="7.1 机器指令"></a>7.1 机器指令</h3><h3 id="7-2-操作数类型和操作类型"><a href="#7-2-操作数类型和操作类型" class="headerlink" title="7.2 操作数类型和操作类型"></a>7.2 操作数类型和操作类型</h3><h3 id="7-3-寻址方式"><a href="#7-3-寻址方式" class="headerlink" title="7.3 寻址方式"></a>7.3 寻址方式</h3><h3 id="7-4-指令格式举例"><a href="#7-4-指令格式举例" class="headerlink" title="7.4 指令格式举例"></a>7.4 指令格式举例</h3><h3 id="7-5-RISC技术"><a href="#7-5-RISC技术" class="headerlink" title="7.5 RISC技术"></a>7.5 RISC技术</h3><h2 id="第8章-CPU的结构和功能"><a href="#第8章-CPU的结构和功能" class="headerlink" title="第8章 CPU的结构和功能"></a>第8章 CPU的结构和功能</h2><h3 id="8-1-CPU的结构"><a href="#8-1-CPU的结构" class="headerlink" title="8.1 CPU的结构"></a>8.1 CPU的结构</h3><h3 id="8-2-指令周期"><a href="#8-2-指令周期" class="headerlink" title="8.2 指令周期"></a>8.2 指令周期</h3><h3 id="8-3-指令流水"><a href="#8-3-指令流水" class="headerlink" title="8.3 指令流水"></a>8.3 指令流水</h3><h3 id="8-4-中断系统"><a href="#8-4-中断系统" class="headerlink" title="8.4 中断系统"></a>8.4 中断系统</h3><hr>
-<h1 id="第4篇-控制单元"><a href="#第4篇-控制单元" class="headerlink" title="第4篇 控制单元"></a>第4篇 控制单元</h1><h2 id="第9章-控制单元的功能"><a href="#第9章-控制单元的功能" class="headerlink" title="第9章 控制单元的功能"></a>第9章 控制单元的功能</h2><h3 id="9-1-微操作命令的分析"><a href="#9-1-微操作命令的分析" class="headerlink" title="9.1 微操作命令的分析"></a>9.1 微操作命令的分析</h3><h3 id="9-2-控制单元的功能"><a href="#9-2-控制单元的功能" class="headerlink" title="9.2 控制单元的功能"></a>9.2 控制单元的功能</h3><h2 id="第10章-控制单元的设计"><a href="#第10章-控制单元的设计" class="headerlink" title="第10章 控制单元的设计"></a>第10章 控制单元的设计</h2><h3 id="10-1-组合逻辑设计"><a href="#10-1-组合逻辑设计" class="headerlink" title="10.1 组合逻辑设计"></a>10.1 组合逻辑设计</h3><h3 id="10-2-微程序设计"><a href="#10-2-微程序设计" class="headerlink" title="10.2 微程序设计"></a>10.2 微程序设计</h3>
-          
+          第1篇 概论第1章 计算机系统概论1.1 计算机系统简介1.2 计算机的基本组成　　控制器，运算器，存储器，输入设备，输出设备。
+1.3 计算机硬件的主要技术指标　　CPU的字长、时钟主频、运算速度、容量与可靠性。
+第2章 计算机的发展及应用2.1 计算机的发展史2.2 计算机的应用2.3 计算机的
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/01_software_engineering/011_computer_principle/index/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1449,7 +1402,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2009/09/01/09_important_experience/index/">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/01_software_engineering/014_data_structure/Java中常见的数据结构的区别/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -1468,7 +1421,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2009/09/01/09_important_experience/index/" itemprop="url">重要经历</a></h1>
+                <a class="post-title-link" href="/2010/09/01/01_software_engineering/014_data_structure/Java中常见的数据结构的区别/" itemprop="url">Java中常见的数据结构的区别</a></h1>
         
 
         <div class="post-meta">
@@ -1480,7 +1433,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2009-09-01T20:00:00+08:00">2009-09-01</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T12:00:00+08:00">2010-09-01</time>
             
 
             
@@ -1501,7 +1454,14 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/09-important-experience/" itemprop="url" rel="index"><span itemprop="name">09_important_experience</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/" itemprop="url" rel="index"><span itemprop="name">01_software_engineering</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/014-data-structure/" itemprop="url" rel="index"><span itemprop="name">014_data_structure</span></a></span>
 
                 
                 
@@ -1537,86 +1497,16 @@
       
         
           
-            <h1 id="重要经历"><a href="#重要经历" class="headerlink" title="重要经历"></a>重要经历</h1><p>生命里的每一个点都会最终连成线。如果不好好捋一捋，永远是一团乱麻。</p>
-<ul>
-<li><strong>home</strong> 家庭</li>
-<li><strong>school</strong> 学校<ul>
-<li>middle_little 中小学</li>
-<li>degree 学位<ul>
-<li>bachelor 学士<ul>
-<li>acm 算法竞赛</li>
-<li>shangxuetang 培训</li>
-<li>bachelor_project 毕业设计</li>
-</ul>
-</li>
-<li>master 硕士<ul>
-<li>scholar 学术</li>
-<li>e_business 电商</li>
-<li>start_up 创业</li>
-<li>master_project 毕业设计</li>
-</ul>
-</li>
-<li>doctor 博士</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>study</strong> 学习<ul>
-<li>cert_exam 考证</li>
-<li>chinese_classics 国学</li>
-<li>health 养生</li>
-<li>language 语言</li>
-<li>study_plan 学习计划</li>
-<li>super_memory 超强记忆</li>
-</ul>
-</li>
-<li><strong>work</strong> 工作<ul>
-<li>erp 企业应用</li>
-<li>smart_home 智能家居</li>
-<li>iot 物联网</li>
-</ul>
-</li>
-<li><strong>sport</strong> 运动<ul>
-<li>badminton 羽毛球</li>
-<li>basketball 篮球</li>
-<li>football 足球</li>
-<li>run 跑步</li>
-<li>walk 徒步</li>
-</ul>
-</li>
-<li><strong>food</strong> 美食</li>
-<li><strong>media</strong> 影音<ul>
-<li>guitar 吉他</li>
-<li>music 音乐</li>
-<li>movie 电影</li>
-</ul>
-</li>
-<li><strong>joy</strong> 娱乐<ul>
-<li>toy 玩具<ul>
-<li>four_drive 四驱车</li>
-<li>magic_cube 魔方</li>
-</ul>
-</li>
-<li>game 游戏<ul>
-<li>pc_game 电脑游戏<ul>
-<li>cs 反恐精英</li>
-<li>fifa 实况足球</li>
-<li>nba 2K篮球</li>
-</ul>
-</li>
-<li>portable_game 掌机游戏<ul>
-<li>nitendo 任天堂</li>
-<li>sony PlayPortableStation系列</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>travel</strong> 旅游</li>
-</ul>
-
-          
+          Java中常见的数据结构的区别
+把多个数据按照一定的存储方式,存储起来,称存储方式之为数据结构.数据的存储方式有很多,数组,队列,链表,栈,哈希表等等.不同的数据结构,性能是不一样的,比如有的插入比较快,查询比较快,但是删除比较慢.有的删除比较快,插入比较快,但是查询比较慢. 根据实际操作,合理选择
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/01_software_engineering/014_data_structure/Java中常见的数据结构的区别/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1668,7 +1558,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2009/09/01/08_project_manage/index/">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/01_software_engineering/013_network/0131_http/HTTP2幕后原理/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -1687,7 +1577,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2009/09/01/08_project_manage/index/" itemprop="url">项目管理</a></h1>
+                <a class="post-title-link" href="/2010/09/01/01_software_engineering/013_network/0131_http/HTTP2幕后原理/" itemprop="url">Linux内核剖析</a></h1>
         
 
         <div class="post-meta">
@@ -1699,7 +1589,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2009-09-01T19:00:00+08:00">2009-09-01</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T12:00:00+08:00">2010-09-01</time>
             
 
             
@@ -1720,7 +1610,21 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/08-project-manage/" itemprop="url" rel="index"><span itemprop="name">08_project_manage</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/" itemprop="url" rel="index"><span itemprop="name">01_software_engineering</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/013-network/" itemprop="url" rel="index"><span itemprop="name">013_network</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/013-network/0131-http/" itemprop="url" rel="index"><span itemprop="name">0131_http</span></a></span>
 
                 
                 
@@ -1756,34 +1660,16 @@
       
         
           
-            <h1 id="项目管理"><a href="#项目管理" class="headerlink" title="项目管理"></a>项目管理</h1><p>技术是一个团队的力量</p>
-<ul>
-<li><strong>scrum</strong> 敏捷开发<ul>
-<li>scrum_tool 敏捷工具<ul>
-<li>microsoft_project</li>
-<li>zentao</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>devops</strong> 开发运维<ul>
-<li>continuous_integration 持续集成<ul>
-<li>nexus</li>
-<li>hudson</li>
-<li>jenkins</li>
-<li>sonarqube</li>
-</ul>
-</li>
-<li>ops<ul>
-<li>hardware</li>
-<li>software</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-          
+          HTTP/2 幕后原理HTTP/2 的请求/响应复用、报头压缩和服务器推送如何提升网站性能
+HTTP/2 的首要目标是改善 Web 应用程序用户的体验。作为一个二进制协议，它拥有包括轻量型、安全和快速在内的所有优势。HTTP/2 保留了原始 HTTP 协议的语义，但更改了在系统之间传输数据的方式。这
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/01_software_engineering/013_network/0131_http/HTTP2幕后原理/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1835,7 +1721,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2009/09/01/07_frame_design/index/">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/01_software_engineering/013_network/0132_tcp_ip/TCPIP应用程序的通信连接模式/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -1854,7 +1740,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2009/09/01/07_frame_design/index/" itemprop="url">架构设计</a></h1>
+                <a class="post-title-link" href="/2010/09/01/01_software_engineering/013_network/0132_tcp_ip/TCPIP应用程序的通信连接模式/" itemprop="url">TCP/IP应用程序的通信连接模式</a></h1>
         
 
         <div class="post-meta">
@@ -1866,7 +1752,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2009-09-01T18:00:00+08:00">2009-09-01</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T12:00:00+08:00">2010-09-01</time>
             
 
             
@@ -1887,7 +1773,21 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/07-frame-design/" itemprop="url" rel="index"><span itemprop="name">07_frame_design</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/" itemprop="url" rel="index"><span itemprop="name">01_software_engineering</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/013-network/" itemprop="url" rel="index"><span itemprop="name">013_network</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/01-software-engineering/013-network/0132-tcp-ip/" itemprop="url" rel="index"><span itemprop="name">0132_tcp_ip</span></a></span>
 
                 
                 
@@ -1923,19 +1823,17 @@
       
         
           
-            <h1 id="架构设计"><a href="#架构设计" class="headerlink" title="架构设计"></a>架构设计</h1><p>高屋建瓴，水到渠成</p>
-<ul>
-<li><strong>app_scene</strong> 应用场景</li>
-<li><strong>app_solution</strong> 解决方案</li>
-<li><strong>industry_case</strong> 行业案例<ul>
-<li>erp 企业应用</li>
-<li>smart_home 智能家居</li>
-<li>iot 物联网</li>
-</ul>
-</li>
-</ul>
+          TCP/IP 应用程序的通信连接模式TCP/IP 应用层与应用程序
 
-          
+TCP/IP 起源于二十世纪 60 年代末美国政府资助的一个分组交换网络研究项目，它是一个真正的开放协议，很多不同厂家生产各种型号的计算机，它们运行完全不同的操作系统，但 TCP/IP 协议组件允许它们互相进行通信。现在 TCP/
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/01_software_engineering/013_network/0132_tcp_ip/TCPIP应用程序的通信连接模式/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1976,7 +1874,7 @@
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -2019,7 +1917,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">16</span>
+                    <span class="site-state-item-count">21</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -2062,7 +1960,15 @@
                     
                       
                     
-                    <span class="site-state-item-count">15</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">19</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -2111,7 +2017,15 @@
                     
                       
                     
-                    <span class="site-state-item-count">18</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">22</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
