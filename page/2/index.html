@@ -310,7 +310,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络编程：UDP DatagramSocket/">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java中线程池ThreadPoolExecutor原理探究/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -329,7 +329,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络编程：UDP DatagramSocket/" itemprop="url">Java网络编程：UDP DatagramSocket</a></h1>
+                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java中线程池ThreadPoolExecutor原理探究/" itemprop="url">Java中线程池ThreadPoolExecutor原理探究</a></h1>
         
 
         <div class="post-meta">
@@ -376,7 +376,7 @@
                   ， 
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0225-net/" itemprop="url" rel="index"><span itemprop="name">0225_net</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0226-thread/" itemprop="url" rel="index"><span itemprop="name">0226_thread</span></a></span>
 
                 
                 
@@ -412,15 +412,12 @@
       
         
           
-          
-Java网络编程：UDP DatagramSocket原文地址
-DatagramSocket类是java通过UDP通信的途径。UDP仍位于IP层的上面。 你可以用DatagramSocket类发送和接收UDP数据包。
-UDP 和TCP
-UDP工作方式和TCP有点不同。当你通过TCP发送数据时，你先
+          Java中线程池ThreadPoolExecutor原理探究
+一、 前言线程池主要解决两个问题：一方面当执行大量异步任务时候线程池能够提供较好的性能，这是因为使用线程池可以使每个任务的调用开销减少（因为线程池线程是可复用的）。另一方面线程池提供了一种资源限制和管理的手段，比如当执行一系列任务时候对线
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络编程：UDP DatagramSocket/#more" rel="contents">
+            <a class="btn" href="/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java中线程池ThreadPoolExecutor原理探究/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -476,7 +473,7 @@ UDP工作方式和TCP有点不同。当你通过TCP发送数据时，你先
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络教程之Socket/">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络教程ServerSocket/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -495,7 +492,7 @@ UDP工作方式和TCP有点不同。当你通过TCP发送数据时，你先
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络教程之Socket/" itemprop="url">Java网络教程之Socket</a></h1>
+                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络教程ServerSocket/" itemprop="url">Java网络教程：ServerSocket</a></h1>
         
 
         <div class="post-meta">
@@ -579,14 +576,502 @@ UDP工作方式和TCP有点不同。当你通过TCP发送数据时，你先
         
           
           
-Java网络教程之Socket原文地址  译者：贾毅
-当我们想要在Java中使用TCP/IP通过网络连接到服务器时，就需要创建java.net.Socket对象并连接到服务器。假如希望使用Java NIO，也可以创建Java NIO中的SocketChannel对象。
-创建**Socket**
-下
+Java网络教程: ServerSocket原文链接 作者：Jakob Jenkov 译者：homesick
+用java.net.ServerSocket实现java服务通过TCP/IP监听客户端连接，你也可以用Java NIO 来代替java网络标准API，这时候需要用到 ServerSocke
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络教程之Socket/#more" rel="contents">
+            <a class="btn" href="/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络教程ServerSocket/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java中调度线程池ScheduledThreadPoolExecutor原理探究/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="博乐园">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java中调度线程池ScheduledThreadPoolExecutor原理探究/" itemprop="url">Java中调度线程池ScheduledThreadPoolExecutor原理探究</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T13:00:00+08:00">2010-09-01</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/" itemprop="url" rel="index"><span itemprop="name">02_code_language</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/" itemprop="url" rel="index"><span itemprop="name">022_java</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0226-thread/" itemprop="url" rel="index"><span itemprop="name">0226_thread</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          Java中调度线程池ScheduledThreadPoolExecutor原理探究
+一、 前言前面讲解过Java中线程池ThreadPoolExecutor原理探究，ThreadPoolExecutor是Executors中一部分功能，下面来介绍另外一部分功能也就是ScheduledThreadPo
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java中调度线程池ScheduledThreadPoolExecutor原理探究/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发，如何解决，什么方式解决/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="博乐园">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发，如何解决，什么方式解决/" itemprop="url">Java高并发，如何解决，什么方式解决</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T13:00:00+08:00">2010-09-01</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/" itemprop="url" rel="index"><span itemprop="name">02_code_language</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/" itemprop="url" rel="index"><span itemprop="name">022_java</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0228-optimize/" itemprop="url" rel="index"><span itemprop="name">0228_optimize</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          Java高并发，如何解决，什么方式解决https://www.cnblogs.com/lr393993507/p/5909804.html
+
+          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发，如何解决，什么方式解决/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发异步应用案例/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="博乐园">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发异步应用案例/" itemprop="url">Java高并发异步应用案例</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T13:00:00+08:00">2010-09-01</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/" itemprop="url" rel="index"><span itemprop="name">02_code_language</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/" itemprop="url" rel="index"><span itemprop="name">022_java</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0228-optimize/" itemprop="url" rel="index"><span itemprop="name">0228_optimize</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          Java高并发异步应用案例
+Java高并发异步应用案例原文地址：http://chuansong.me/n/355827651252
+泰康在线微信公众号系泰康在线财产保险股份有限公司旗下平台，希望可以通过持续不断的创新，提升客户对于保险的认知及体验，通过对大数据技术的应用，精准的为客户设计产品以及提
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发异步应用案例/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -805,7 +1290,7 @@ Java网络教程之Socket原文地址  译者：贾毅
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/treemap/TreeMap详细介绍(源码解析)和使用示例/">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/tcp_ip/TCP IP十个入门问题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -824,7 +1309,7 @@ Java网络教程之Socket原文地址  译者：贾毅
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0223_set_utils/treemap/TreeMap详细介绍(源码解析)和使用示例/" itemprop="url">TreeMap详细介绍(源码解析)和使用示例</a></h1>
+                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0225_net/tcp_ip/TCP IP十个入门问题/" itemprop="url">TCP/IP十个入门问题</a></h1>
         
 
         <div class="post-meta">
@@ -871,7 +1356,7 @@ Java网络教程之Socket原文地址  译者：贾毅
                   ， 
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0223-set-utils/" itemprop="url" rel="index"><span itemprop="name">0223_set_utils</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0225-net/" itemprop="url" rel="index"><span itemprop="name">0225_net</span></a></span>
 
                 
                 
@@ -907,12 +1392,14 @@ Java网络教程之Socket原文地址  译者：贾毅
       
         
           
-          TreeMap详细介绍(源码解析)和使用示例http://www.cnblogs.com/skywang12345/p/3310928.html
-
-          
+          TCP IP十个入门问题
+本文整理了一些TCP/IP协议簇中需要必知必会的十大问题，既是面试高频问题，又是程序员必备基础素养。
+1、TCP/IP模型
+TCP/IP协议模型（Transmission Control Protocol/Internet Protocol），包含了一系列构成互联网基础的网
+          ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2010/09/01/02_code_language/022_java/0223_set_utils/treemap/TreeMap详细介绍(源码解析)和使用示例/#more" rel="contents">
+            <a class="btn" href="/2010/09/01/02_code_language/022_java/0225_net/tcp_ip/TCP IP十个入门问题/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -968,7 +1455,7 @@ Java网络教程之Socket原文地址  译者：贾毅
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/linked_list/LinkedList详细介绍(源码解析)和使用示例/">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0229_web_page/Java开发知识库/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -987,7 +1474,7 @@ Java网络教程之Socket原文地址  译者：贾毅
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0223_set_utils/linked_list/LinkedList详细介绍(源码解析)和使用示例/" itemprop="url">LinkedList详细介绍(源码解析)和使用示例</a></h1>
+                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0229_web_page/Java开发知识库/" itemprop="url">Java开发知识库</a></h1>
         
 
         <div class="post-meta">
@@ -1034,7 +1521,7 @@ Java网络教程之Socket原文地址  译者：贾毅
                   ， 
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0223-set-utils/" itemprop="url" rel="index"><span itemprop="name">0223_set_utils</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0229-knowledge-base/" itemprop="url" rel="index"><span itemprop="name">0229_knowledge_base</span></a></span>
 
                 
                 
@@ -1070,12 +1557,14 @@ Java网络教程之Socket原文地址  译者：贾毅
       
         
           
-          LinkedList详细介绍(源码解析)和使用示例http://www.cnblogs.com/skywang12345/p/3308807.html
+          Java开发知识库
+IBM开发社区 https://www.ibm.com/developerworks/cn/java/
+
 
           
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2010/09/01/02_code_language/022_java/0223_set_utils/linked_list/LinkedList详细介绍(源码解析)和使用示例/#more" rel="contents">
+            <a class="btn" href="/2010/09/01/02_code_language/022_java/0229_web_page/Java开发知识库/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1131,7 +1620,7 @@ Java网络教程之Socket原文地址  译者：贾毅
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/abstract_queued_synchronizer/AbstractQueuedSynchronizer源码解读/">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0227_concurrent_package/定制并发类系列/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -1150,7 +1639,7 @@ Java网络教程之Socket原文地址  译者：贾毅
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0221_java_base/abstract_queued_synchronizer/AbstractQueuedSynchronizer源码解读/" itemprop="url">AbstractQueuedSynchronizer源码解读</a></h1>
+                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0227_concurrent_package/定制并发类系列/" itemprop="url">定制并发类系列</a></h1>
         
 
         <div class="post-meta">
@@ -1197,7 +1686,7 @@ Java网络教程之Socket原文地址  译者：贾毅
                   ， 
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0221-java-base/" itemprop="url" rel="index"><span itemprop="name">0221_java_base</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0227-concurrent/" itemprop="url" rel="index"><span itemprop="name">0227_concurrent</span></a></span>
 
                 
                 
@@ -1233,12 +1722,17 @@ Java网络教程之Socket原文地址  译者：贾毅
       
         
           
-          AbstractQueuedSynchronizer源码解读https://www.cnblogs.com/micrari/p/6937995.html
+          定制并发类系列
+声明：本文是《 Java 7 Concurrency Cookbook 》的第七章，作者： Javier Fernández González     译者：许巧辉 
+在这个文章中，我们将包含：
 
-          
+定制ThreadPoolExecutor类
+实现一个基于优先级的Executor类
+实
+          ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2010/09/01/02_code_language/022_java/0221_java_base/abstract_queued_synchronizer/AbstractQueuedSynchronizer源码解读/#more" rel="contents">
+            <a class="btn" href="/2010/09/01/02_code_language/022_java/0227_concurrent_package/定制并发类系列/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1294,7 +1788,7 @@ Java网络教程之Socket原文地址  译者：贾毅
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/copy_on_write/Linux写时拷贝技术(copy-on-write)/">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络编程：UDP DatagramSocket/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -1313,7 +1807,7 @@ Java网络教程之Socket原文地址  译者：贾毅
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0221_java_base/copy_on_write/Linux写时拷贝技术(copy-on-write)/" itemprop="url">Linux写时拷贝技术(copy-on-write)</a></h1>
+                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络编程：UDP DatagramSocket/" itemprop="url">Java网络编程：UDP DatagramSocket</a></h1>
         
 
         <div class="post-meta">
@@ -1360,7 +1854,7 @@ Java网络教程之Socket原文地址  译者：贾毅
                   ， 
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0221-java-base/" itemprop="url" rel="index"><span itemprop="name">0221_java_base</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0225-net/" itemprop="url" rel="index"><span itemprop="name">0225_net</span></a></span>
 
                 
                 
@@ -1396,501 +1890,15 @@ Java网络教程之Socket原文地址  译者：贾毅
       
         
           
-          Linux写时拷贝技术(copy-on-write)https://www.cnblogs.com/biyeymyhjob/archive/2012/07/20/2601655.html
-
           
+Java网络编程：UDP DatagramSocket原文地址
+DatagramSocket类是java通过UDP通信的途径。UDP仍位于IP层的上面。 你可以用DatagramSocket类发送和接收UDP数据包。
+UDP 和TCP
+UDP工作方式和TCP有点不同。当你通过TCP发送数据时，你先
+          ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2010/09/01/02_code_language/022_java/0221_java_base/copy_on_write/Linux写时拷贝技术(copy-on-write)/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/compare_and_swap/浅谈CAS(Compare and Swap) 原理/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="博乐园">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0221_java_base/compare_and_swap/浅谈CAS(Compare and Swap) 原理/" itemprop="url">浅谈CAS(Compare and Swap) 原理</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T13:00:00+08:00">2010-09-01</time>
-            
-
-            
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/" itemprop="url" rel="index"><span itemprop="name">02_code_language</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/" itemprop="url" rel="index"><span itemprop="name">022_java</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0221-java-base/" itemprop="url" rel="index"><span itemprop="name">0221_java_base</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          浅谈CAS(Compare and Swap) 原理https://www.cnblogs.com/Leo_wl/p/6899716.html
-
-          
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2010/09/01/02_code_language/022_java/0221_java_base/compare_and_swap/浅谈CAS(Compare and Swap) 原理/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/class_loader/java中的ClassLoader详解/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="博乐园">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0222_jvm/class_loader/java中的ClassLoader详解/" itemprop="url">CGLIB(Code Generation Library)详解</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T13:00:00+08:00">2010-09-01</time>
-            
-
-            
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/" itemprop="url" rel="index"><span itemprop="name">02_code_language</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/" itemprop="url" rel="index"><span itemprop="name">022_java</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0222-jvm/" itemprop="url" rel="index"><span itemprop="name">0222_jvm</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          java中的ClassLoader详解http://blog.csdn.net/briblue/article/details/54973413
-
-          
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2010/09/01/02_code_language/022_java/0222_jvm/class_loader/java中的ClassLoader详解/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/memory_model/浅析java内存模型/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="博乐园">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2010/09/01/02_code_language/022_java/0222_jvm/memory_model/浅析java内存模型/" itemprop="url">浅析java内存模型</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T13:00:00+08:00">2010-09-01</time>
-            
-
-            
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/" itemprop="url" rel="index"><span itemprop="name">02_code_language</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/" itemprop="url" rel="index"><span itemprop="name">022_java</span></a></span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0222-jvm/" itemprop="url" rel="index"><span itemprop="name">0222_jvm</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          浅析java内存模型https://www.cnblogs.com/lewis0077/p/5143268.html
-
-          
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2010/09/01/02_code_language/022_java/0222_jvm/memory_model/浅析java内存模型/#more" rel="contents">
+            <a class="btn" href="/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络编程：UDP DatagramSocket/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1935,7 +1943,7 @@ Java网络教程之Socket原文地址  译者：贾毅
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1978,7 +1986,7 @@ Java网络教程之Socket原文地址  译者：贾毅
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">39</span>
+                    <span class="site-state-item-count">47</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -2041,7 +2049,15 @@ Java网络教程之Socket原文地址  译者：贾毅
                     
                       
                     
-                    <span class="site-state-item-count">25</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">29</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -2140,7 +2156,21 @@ Java网络教程之Socket原文地址  译者：贾毅
                     
                       
                     
-                    <span class="site-state-item-count">43</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">50</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>

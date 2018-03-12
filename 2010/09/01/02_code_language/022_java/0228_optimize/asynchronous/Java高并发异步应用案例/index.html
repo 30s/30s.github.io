@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+
+
+
+
+<html class="theme-next gemini" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.0.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.0.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.0.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.0.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.0.4" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '6.0.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: 'HCO73LOQGJ',
+      apiKey: 'f2f305cb68e7aa423db3e79198806d47',
+      indexName: 'botlab',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  
+  <meta name="keywords" content="Code Language,Java,Optimize,Asynchronous," />
+
+
+<meta name="description" content="Java高并发异步应用案例 Java高并发异步应用案例原文地址：http://chuansong.me/n/355827651252 泰康在线微信公众号系泰康在线财产保险股份有限公司旗下平台，希望可以通过持续不断的创新，提升客户对于保险的认知及体验，通过对大数据技术的应用，精准的为客户设计产品以及提供服务。泰康在线微信公众号，现有1000多万粉丝。在日常的运营中，借助于红包奖励、卡券分享、消息通知">
+<meta name="keywords" content="Code Language,Java,Optimize,Asynchronous">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java高并发异步应用案例">
+<meta property="og:url" content="https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发异步应用案例/index.html">
+<meta property="og:site_name" content="博乐园">
+<meta property="og:description" content="Java高并发异步应用案例 Java高并发异步应用案例原文地址：http://chuansong.me/n/355827651252 泰康在线微信公众号系泰康在线财产保险股份有限公司旗下平台，希望可以通过持续不断的创新，提升客户对于保险的认知及体验，通过对大数据技术的应用，精准的为客户设计产品以及提供服务。泰康在线微信公众号，现有1000多万粉丝。在日常的运营中，借助于红包奖励、卡券分享、消息通知">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160403008-298152675.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160422790-920115059.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160446477-2129802282.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160509040-2040984410.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160526915-1233965664.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160549118-772353050.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160758571-551925328.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160602540-322185955.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160612540-1814206405.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160830040-140146429.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160847211-658956502.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160900602-1899411962.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160914665-743037908.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160932305-1430035066.png">
+<meta property="og:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160959430-520072022.png">
+<meta property="og:updated_time" content="2018-03-12T22:13:26.514Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Java高并发异步应用案例">
+<meta name="twitter:description" content="Java高并发异步应用案例 Java高并发异步应用案例原文地址：http://chuansong.me/n/355827651252 泰康在线微信公众号系泰康在线财产保险股份有限公司旗下平台，希望可以通过持续不断的创新，提升客户对于保险的认知及体验，通过对大数据技术的应用，精准的为客户设计产品以及提供服务。泰康在线微信公众号，现有1000多万粉丝。在日常的运营中，借助于红包奖励、卡券分享、消息通知">
+<meta name="twitter:image" content="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160403008-298152675.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="博乐园" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发异步应用案例/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+  <title>Java高并发异步应用案例 | 博乐园</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"> <div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">博乐园</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Coding bots ...</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于我</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签云</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-th"></i> <br />技能树</a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />时光轴</a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+  
+
+
+
+ </div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发异步应用案例/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="博乐园">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Java高并发异步应用案例</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2010-09-01T13:00:00+08:00">2010-09-01</time>
+            
+
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/" itemprop="url" rel="index"><span itemprop="name">02_code_language</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/" itemprop="url" rel="index"><span itemprop="name">022_java</span></a></span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/02-code-language/022-java/0228-optimize/" itemprop="url" rel="index"><span itemprop="name">0228_optimize</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="Java高并发异步应用案例"><a href="#Java高并发异步应用案例" class="headerlink" title="Java高并发异步应用案例"></a>Java高并发异步应用案例</h1><ul>
+<li><h1 id="Java高并发异步应用案例-1"><a href="#Java高并发异步应用案例-1" class="headerlink" title="Java高并发异步应用案例"></a><a href="http://www.cnblogs.com/davidwang456/articles/6548394.html" target="_blank" rel="noopener">Java高并发异步应用案例</a></h1><p>原文地址：<a href="http://chuansong.me/n/355827651252" target="_blank" rel="noopener">http://chuansong.me/n/355827651252</a></p>
+<p>泰康在线微信公众号系泰康在线财产保险股份有限公司旗下平台，希望可以通过持续不断的创新，提升客户对于保险的认知及体验，通过对大数据技术的应用，精准的为客户设计产品以及提供服务。泰康在线微信公众号，现有1000多万粉丝。在日常的运营中，借助于红包奖励、卡券分享、消息通知、微信分享等手段，通过好的内容，好的活动、好的产品以及相应的精准营销来增强用户的粘性和活跃度。</p>
+<p>在日常运营中，公众号会通过给用户下发营销或者科普类的消息来通知客户。 根据经验，微信消息下发后10分钟后流量会逐步上升，30分钟左右到达峰值，1个小时后会显著下降。在这个时间段内，系统的压力会很大。</p>
+<p>在系统设计和改进中，系统的很多场景使用异步进行实现，一方面能缩短主流程的时间处理，另一方面能够通过异步队列进行一定程度的削峰。今天重点介绍单个JVM内的异步优化实践，不涉及分布式时的异步优化实践。在异步执行时，可以调用远程的服务集群来实现一定的任务分解。</p>
+<p>部署示意图</p>
+<p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160403008-298152675.png" alt=""></p>
+<p>整个系统都部署在公有云上，虚拟机上有部署1个Nginx，4个Tomcat，Nginx使用随机的方式负载均衡到Tomcat上面。虚机之间通过LB将客户请求转发到Nginx上面负载均衡，Nginx再将请求分配到tomcat应用服务器上。</p>
+<p>由多台应用服务器，对外服务提供Rest服务，在每个Tomcat内部使用异步队列。同时由一台控制服务器，进行异步任务的补偿任务和管理功能。Tomcat和Redis使用多级缓存来降低对Redis的压力，并减少依赖。</p>
+<p>为什么要在虚机上部署Nginx将请求转发到Tomcat，而不是由LB直接转发到Tomcat。这是因为LB能够支持的IP个数是有限的。</p>
+<p>典型的用户场景</p>
+<p><strong>在公众号的运营过程中，典型的事件包括：</strong></p>
+<ul>
+<li><p>发送短信验证码</p>
+</li>
+<li><p>购买成功或者抽奖成功短信通知</p>
+</li>
+<li><p>卡券或优惠券发放</p>
+</li>
+<li><p>发放微信红包</p>
+</li>
+<li><p>微信消息通知</p>
+</li>
+<li><p>订单流程处理</p>
+</li>
+<li><p>定时批处理（比如数据同步）</p>
+</li>
+<li><p>工作流性质的异步任务（未完成异步任务补偿）</p>
+</li>
+</ul>
+<p><strong>面详细说明不同场景能够异步的原因：</strong></p>
+<ol>
+<li><p>不同场景（用户注册，用户购买产品等）下的短信验证码发送，可以使用异步方式发送： 一方面是因为客户这个时效性要求没有那样高，另一方面在特定时间范围内用户没有收到验证码，用户可以点击再次发送验证码。</p>
+</li>
+<li><p>购买成功或者抽奖成功后短信或者邮件通知，可以通过异步的方式进行。 因为涉及用户的利益，要谨慎对待。一方面一定要把数据先存到数据库或者日志里面（注意信息安全^-^,别存敏感明文信息或者加密存储），然后再放入到异步队列中执行。</p>
+<p>另一个方面，要考虑到应用服务意外停止时，没有发送成功数据的补偿机制。 这种情况不常见，并且为了减少耦合和当前异步程序的复杂度。我们使用单独的服务上部署异步任务补偿程序，来扫描未完成的任务，并且进行重放（一定要注意严谨性）。</p>
+</li>
+<li><p>优惠券和卡券的发放，跟购买成功或抽奖成功的方式类似。\u000b可以在当前活动高峰后延时发放，并且使用异步的方式进行。</p>
+</li>
+<li><p>微信红包，因为需要跟微信进行交互，并且微信会通知客户红包的情况，可以使用异步的方式进行。 当涉及资金或者礼品时，一定要谨慎对待设计，并且需要有方便进行异步任务停止和启动的功能。</p>
+</li>
+<li><p>微信消息通知，因为跟微信进行交互，成功后微信进行通知，可以使用异步。 这个跟短信验证码类似。</p>
+</li>
+<li><p>订单流程处理，可以使用异步，因为涉及到后续步骤可以使用简单工作流来完成。有几个开源的框架可以参考。</p>
+</li>
+<li><p>数据同步或者异步任务补偿，因为是延时处理，可以使用异步进行处理。在使用时，可以配合定时任务，比如cron4j来周期性的进行补偿。适合后面总-分-总的任务处理模式。</p>
+</li>
+</ol>
+<p>针对这些“无处不在的异步”，后面详细分析其内在模型。</p>
+<p>无处不在的异步</p>
+<p>下图包含了4种典型的异步队列模型（图片来源于网络）：</p>
+<p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160422790-920115059.png" alt=""></p>
+<p>一个生产者生产数据，一个消费者消费数据，一般用在后台处理的业务逻辑中。</p>
+<ul>
+<li><p>一个生产者生产数据，多个消费者消费数据（这里面有两种情况：同一个消息，可以被多个消费者分别消费。或者多个消费者组成一个组，一个消费者消费一个数据）。</p>
+</li>
+<li><p>多个生产者生产数据，单个消费者消费数据，可以用在限流或者排队等候单一资源处理的场景中。</p>
+</li>
+<li><p>多个生产者分别生产数据，多个消费者消费数据（这里面有两种情况：同一个消息，可以被多个消费者分别消费。或者多个消费者组成一个组，一个消费者消费一个数据）。</p>
+</li>
+</ul>
+<p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160446477-2129802282.png" alt=""></p>
+<p>总分总任务模型：特别适第一个线程取出一批数据放到队列中（比如select）；由多个线程分别执行业务逻辑；执行后的结果由一个线程来执行（比如update操作，这样能够防止数据库锁）</p>
+<p>这是从技术上分析的几种常见模型，在实践中涉及怎样选择框架。</p>
+<ol>
+<li><p>使用堵塞队列的线程池</p>
+</li>
+<li><p>使用固定步长或固定时间的队列</p>
+</li>
+<li><p>使用Disruptor</p>
+</li>
+<li><p>使用MQ或Kafka</p>
+</li>
+</ol>
+<p><strong>使用线程池实现异步 （支持多生产者，多消费者）</strong></p>
+<p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160509040-2040984410.png" alt=""></strong></p>
+<p>特点：可以使用JDK自带的线程池实现异步，编程简单，资料多。建议在并发量小的场景下优先选择。</p>
+<p><strong>使用Guava Queues （支持多生产者单消费者）</strong></p>
+<p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160526915-1233965664.png" alt=""></strong></p>
+<p>特点：异步批量队列，在队列到达指定长度，或者到达指定时间后，批量进行数据处理。适合于对响应时间要求低，能够容忍一定的数据丢失的场景。比如短小文本数据的批量保存。</p>
+<p>在经过一段时间调研后，我们发现Disruptor更能满足我们需要。</p>
+<p>首先介绍一下Disruptor的强悍的性能。</p>
+<p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160549118-772353050.png" alt=""></p>
+<p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160758571-551925328.png" alt=""></p>
+<p><em><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160602540-322185955.png" alt=""></em></p>
+<p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160612540-1814206405.png" alt=""></p>
+<p>这张图包含我列举的上述的异步队列模型景，因此很有代表意义。Disruptor因为使用无锁的队列方式，具有很高的性能。具体的原理不详述，大家可以搜索看到。Disruptor支持上面典型场景，并且灵活使用Disruptor的工作流机制，能简化编程。</p>
+<blockquote>
+<ul>
+<li>英文文章入门：<a href="https://github.com/LMAX-Exchange/disruptor/wiki/Getting-Started" target="_blank" rel="noopener">https://github.com/LMAX-Exchange/disruptor/wiki/Getting-Started</a></li>
+</ul>
+<ul>
+<li>中文的demo链接：<a href="http://my.oschina.net/u/2273085/blog/507735?p=1" target="_blank" rel="noopener">http://my.oschina.net/u/2273085/blog/507735?p=1</a></li>
+</ul>
+<ul>
+<li>并发框架Disruptor相关译文：<a href="http://ifeve.com/disruptor/" target="_blank" rel="noopener">http://ifeve.com/disruptor/</a></li>
+</ul>
+</blockquote>
+<p>再贴一下官方的测试结果。</p>
+<p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160830040-140146429.png" alt=""></p>
+<p>下面从代码层面说明disruptor的几种用法。</p>
+<p><strong>使用Disruptor（单生产者多消费者）</strong></p>
+<p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160847211-658956502.png" alt=""></strong></p>
+<p>Disruptor 提供了多个 WaitStrategy的实现，每种策略都具有不同性能和优缺点，根据实际运行环境的 CPU 的硬件特点选择恰当的策略，并配合特定的 JVM的配置参数，能够实现不同的性能提升。 例如，BlockingWaitStrategy、SleepingWaitStrategy、YieldingWaitStrategy 等，其中：</p>
+<ul>
+<li><p>BlockingWaitStrategy 是最低效的策略，但其对CPU的消耗最小并且在各种不同部署环境中能提供更加一致的性能表现；</p>
+</li>
+<li><p>SleepingWaitStrategy 的性能表现跟 BlockingWaitStrategy 差不多，对 CPU的消耗也类似，但其对生产者线程的影响最小，适合用于异步日志类似的场景；</p>
+</li>
+<li><p>YieldingWaitStrategy的性能是最好的，适合用于低延迟的系统。在要求极高性能且事件处理线数小于 CPU逻辑核心数的场景中，推荐使用此策略；例如，CPU开启超线程的特性。</p>
+</li>
+</ul>
+<p>我们现在使用BlockingWaitStrategy这种模式。</p>
+<p><strong>使用Disruptor（多生产者多消费者）</strong></p>
+<p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160900602-1899411962.png" alt=""></strong></p>
+<p>使用Disruptor（多生产者多消费者）</p>
+<p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160914665-743037908.png" alt=""></p>
+<p>这个例子中，使用类似线程池的消费组处理数据。</p>
+<p><strong>多步模式工作流：Disruptor</strong></p>
+<p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160932305-1430035066.png" alt=""></strong></p>
+<p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160959430-520072022.png" alt=""></p>
+<p>使用异步后的烦恼</p>
+<p><strong>烦恼一： 数据丢失的风险</strong></p>
+<p>解决方式：先写日志或数据库，后放入异步队列.</p>
+<p><strong>烦恼二：对其他系统的压力变大</strong></p>
+<p>解决方式：使用一定的限流和熔断，对其他系统进行保护。</p>
+<p><strong>烦恼三：数据保存后异步任务未执行</strong></p>
+<p>解决方式：使用异步任务补偿的方式，定期从数据库中获取数据，放到队列中进行执行，执行后更新数据状态位。</p>
+<p><strong>烦恼四：怎样队列长设置和消费者数量</strong></p>
+<p>解决方式：使用实际的压力测试来获得队列长度。或者使用排队论的数学公式得到初步的值,然后进行实际压测。</p>
+<p><strong>最后介绍一下项目中的经验：</strong></p>
+<ul>
+<li><p>量力而行：根据业务特点进行技术选型，业务量小尽量避免使用异步。有所为，有所不为</p>
+</li>
+<li><p>数据说话：异步时一定要进行必要的压力测试</p>
+</li>
+<li><p>先找出系统的关键点：优化单体系统内的性能，再通过整体系统分解来全局优化</p>
+</li>
+<li><p>根据团队和项目的特点选择框架。</p>
+</li>
+</ul>
+<p><a href="https://www.cnblogs.com/davidwang456/articles/6548394.html" target="_blank" rel="noopener">https://www.cnblogs.com/davidwang456/articles/6548394.html</a></p>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Code-Language/" rel="tag"># Code Language</a>
+          
+            <a href="/tags/Java/" rel="tag"># Java</a>
+          
+            <a href="/tags/Optimize/" rel="tag"># Optimize</a>
+          
+            <a href="/tags/Asynchronous/" rel="tag"># Asynchronous</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2010/09/01/02_code_language/022_java/0221_java_base/dynamic_proxy/cglib/CGLIB(Code Generation Library)详解/" rel="next" title="CGLIB(Code Generation Library)详解">
+                <i class="fa fa-chevron-left"></i> CGLIB(Code Generation Library)详解
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发，如何解决，什么方式解决/" rel="prev" title="Java高并发，如何解决，什么方式解决">
+                Java高并发，如何解决，什么方式解决 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">47</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">29</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">50</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/30s" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:ai@botlab.com.cn" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Java高并发异步应用案例"><span class="nav-text">Java高并发异步应用案例</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Java高并发异步应用案例-1"><span class="nav-text">Java高并发异步应用案例</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.0.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.0.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.0.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.0.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.0.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.0.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.0.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.0.4"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

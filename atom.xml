@@ -43,35 +43,6 @@
   </entry>
   
   <entry>
-    <title>算法设计与分析</title>
-    <link href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/index/"/>
-    <id>https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/index/</id>
-    <published>2010-09-01T12:00:00.000Z</published>
-    <updated>2018-03-06T10:40:00.753Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第1章-算法概述"><a href="#第1章-算法概述" class="headerlink" title="第1章　算法概述"></a>第1章　算法概述</h1><h2 id="1-1-算法与程序"><a href="#1-1-算法与程序" class="headerlink" title="1.1　算法与程序"></a>1.1　算法与程序</h2><h2 id="1-2-算法复杂性分析"><a href="#1-2-算法复杂性分析" class="headerlink" title="1.2　算法复杂性分析"></a>1.2　算法复杂性分析</h2><h1 id="第2章-递归与分治策略"><a href="#第2章-递归与分治策略" class="headerlink" title="第2章　递归与分治策略"></a>第2章　递归与分治策略</h1><h2 id="2-1-递归的概念"><a href="#2-1-递归的概念" class="headerlink" title="2.1　递归的概念"></a>2.1　递归的概念</h2><h2 id="2-2-分治法的基本思想"><a href="#2-2-分治法的基本思想" class="headerlink" title="2.2　分治法的基本思想"></a>2.2　分治法的基本思想</h2><h2 id="2-3-二分搜索技术"><a href="#2-3-二分搜索技术" class="headerlink" title="2.3　二分搜索技术"></a>2.3　二分搜索技术</h2><h2 id="2-4-大整数的乘法"><a href="#2-4-大整数的乘法" class="headerlink" title="2.4　大整数的乘法"></a>2.4　大整数的乘法</h2><h2 id="2-5-Strassen矩阵乘法"><a href="#2-5-Strassen矩阵乘法" class="headerlink" title="2.5　Strassen矩阵乘法"></a>2.5　Strassen矩阵乘法</h2><h2 id="2-6-棋盘覆盖"><a href="#2-6-棋盘覆盖" class="headerlink" title="2.6　棋盘覆盖"></a>2.6　棋盘覆盖</h2><h2 id="2-7-合并排序"><a href="#2-7-合并排序" class="headerlink" title="2.7　合并排序"></a>2.7　合并排序</h2><h2 id="2-8-快速排序"><a href="#2-8-快速排序" class="headerlink" title="2.8　快速排序"></a>2.8　快速排序</h2><h2 id="2-9-线性时间选择"><a href="#2-9-线性时间选择" class="headerlink" title="2.9　线性时间选择"></a>2.9　线性时间选择</h2><h2 id="2-10-最接近点对问题"><a href="#2-10-最接近点对问题" class="headerlink" title="2.10　最接近点对问题"></a>2.10　最接近点对问题</h2><h2 id="2-11-循环赛日程表"><a href="#2-11-循环赛日程表" class="headerlink" title="2.11　循环赛日程表"></a>2.11　循环赛日程表</h2><h1 id="第3章-动态规划"><a href="#第3章-动态规划" class="headerlink" title="第3章　动态规划"></a>第3章　动态规划</h1><h2 id="3-1-矩阵连乘问题"><a href="#3-1-矩阵连乘问题" class="headerlink" title="3.1　矩阵连乘问题"></a>3.1　矩阵连乘问题</h2><h2 id="3-2-动态规划算法的基本要素"><a href="#3-2-动态规划算法的基本要素" class="headerlink" title="3.2　动态规划算法的基本要素"></a>3.2　动态规划算法的基本要素</h2><h2 id="3-3-最长公共子序列"><a href="#3-3-最长公共子序列" class="headerlink" title="3.3　最长公共子序列"></a>3.3　最长公共子序列</h2><h2 id="3-4-最大子段和"><a href="#3-4-最大子段和" class="headerlink" title="3.4　最大子段和"></a>3.4　最大子段和</h2><h2 id="3-5-凸多边形最优三角剖分"><a href="#3-5-凸多边形最优三角剖分" class="headerlink" title="3.5　凸多边形最优三角剖分"></a>3.5　凸多边形最优三角剖分</h2><h2 id="3-6-多边形游戏"><a href="#3-6-多边形游戏" class="headerlink" title="3.6　多边形游戏"></a>3.6　多边形游戏</h2><h2 id="3-7-图像压缩"><a href="#3-7-图像压缩" class="headerlink" title="3.7　图像压缩"></a>3.7　图像压缩</h2><h2 id="3-8-电路布线"><a href="#3-8-电路布线" class="headerlink" title="3.8　电路布线"></a>3.8　电路布线</h2><h2 id="3-9-流水作业调度"><a href="#3-9-流水作业调度" class="headerlink" title="3.9　流水作业调度"></a>3.9　流水作业调度</h2><h2 id="3-10-0-1背包问题"><a href="#3-10-0-1背包问题" class="headerlink" title="3.10　0-1背包问题"></a>3.10　0-1背包问题</h2><h2 id="3-11-最优二叉搜索树"><a href="#3-11-最优二叉搜索树" class="headerlink" title="3.11　最优二叉搜索树"></a>3.11　最优二叉搜索树</h2><h2 id="3-12-动态规划加速原理"><a href="#3-12-动态规划加速原理" class="headerlink" title="3.12　动态规划加速原理"></a>3.12　动态规划加速原理</h2><h1 id="第4章-贪心算法"><a href="#第4章-贪心算法" class="headerlink" title="第4章　贪心算法"></a>第4章　贪心算法</h1><h1 id="第5章-回溯法"><a href="#第5章-回溯法" class="headerlink" title="第5章　回溯法"></a>第5章　回溯法</h1><h1 id="第6章-分支限界法"><a href="#第6章-分支限界法" class="headerlink" title="第6章　分支限界法"></a>第6章　分支限界法</h1><h1 id="第7章-随机化算法"><a href="#第7章-随机化算法" class="headerlink" title="第7章　随机化算法"></a>第7章　随机化算法</h1><h1 id="第8章-线性规划与网络流"><a href="#第8章-线性规划与网络流" class="headerlink" title="第8章　线性规划与网络流"></a>第8章　线性规划与网络流</h1><h1 id="第9章-NP完全性理论与近似算法"><a href="#第9章-NP完全性理论与近似算法" class="headerlink" title="第9章　NP完全性理论与近似算法"></a>第9章　NP完全性理论与近似算法</h1>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;第1章-算法概述&quot;&gt;&lt;a href=&quot;#第1章-算法概述&quot; class=&quot;headerlink&quot; title=&quot;第1章　算法概述&quot;&gt;&lt;/a&gt;第1章　算法概述&lt;/h1&gt;&lt;h2 id=&quot;1-1-算法与程序&quot;&gt;&lt;a href=&quot;#1-1-算法与程序&quot; class=&quot;he
-      
-    
-    </summary>
-    
-      <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
-    
-      <category term="015_algorithm" scheme="https://30s.github.io/categories/01-software-engineering/015-algorithm/"/>
-    
-    
-      <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
-    
-      <category term="Algorithm" scheme="https://30s.github.io/tags/Algorithm/"/>
-    
-  </entry>
-  
-  <entry>
     <title>计算机组成原理</title>
     <link href="https://30s.github.io/2010/09/01/01_software_engineering/011_computer_principle/index/"/>
     <id>https://30s.github.io/2010/09/01/01_software_engineering/011_computer_principle/index/</id>
@@ -188,6 +159,35 @@
   </entry>
   
   <entry>
+    <title>算法设计与分析</title>
+    <link href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/index/"/>
+    <id>https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/index/</id>
+    <published>2010-09-01T12:00:00.000Z</published>
+    <updated>2018-03-06T10:40:00.753Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第1章-算法概述"><a href="#第1章-算法概述" class="headerlink" title="第1章　算法概述"></a>第1章　算法概述</h1><h2 id="1-1-算法与程序"><a href="#1-1-算法与程序" class="headerlink" title="1.1　算法与程序"></a>1.1　算法与程序</h2><h2 id="1-2-算法复杂性分析"><a href="#1-2-算法复杂性分析" class="headerlink" title="1.2　算法复杂性分析"></a>1.2　算法复杂性分析</h2><h1 id="第2章-递归与分治策略"><a href="#第2章-递归与分治策略" class="headerlink" title="第2章　递归与分治策略"></a>第2章　递归与分治策略</h1><h2 id="2-1-递归的概念"><a href="#2-1-递归的概念" class="headerlink" title="2.1　递归的概念"></a>2.1　递归的概念</h2><h2 id="2-2-分治法的基本思想"><a href="#2-2-分治法的基本思想" class="headerlink" title="2.2　分治法的基本思想"></a>2.2　分治法的基本思想</h2><h2 id="2-3-二分搜索技术"><a href="#2-3-二分搜索技术" class="headerlink" title="2.3　二分搜索技术"></a>2.3　二分搜索技术</h2><h2 id="2-4-大整数的乘法"><a href="#2-4-大整数的乘法" class="headerlink" title="2.4　大整数的乘法"></a>2.4　大整数的乘法</h2><h2 id="2-5-Strassen矩阵乘法"><a href="#2-5-Strassen矩阵乘法" class="headerlink" title="2.5　Strassen矩阵乘法"></a>2.5　Strassen矩阵乘法</h2><h2 id="2-6-棋盘覆盖"><a href="#2-6-棋盘覆盖" class="headerlink" title="2.6　棋盘覆盖"></a>2.6　棋盘覆盖</h2><h2 id="2-7-合并排序"><a href="#2-7-合并排序" class="headerlink" title="2.7　合并排序"></a>2.7　合并排序</h2><h2 id="2-8-快速排序"><a href="#2-8-快速排序" class="headerlink" title="2.8　快速排序"></a>2.8　快速排序</h2><h2 id="2-9-线性时间选择"><a href="#2-9-线性时间选择" class="headerlink" title="2.9　线性时间选择"></a>2.9　线性时间选择</h2><h2 id="2-10-最接近点对问题"><a href="#2-10-最接近点对问题" class="headerlink" title="2.10　最接近点对问题"></a>2.10　最接近点对问题</h2><h2 id="2-11-循环赛日程表"><a href="#2-11-循环赛日程表" class="headerlink" title="2.11　循环赛日程表"></a>2.11　循环赛日程表</h2><h1 id="第3章-动态规划"><a href="#第3章-动态规划" class="headerlink" title="第3章　动态规划"></a>第3章　动态规划</h1><h2 id="3-1-矩阵连乘问题"><a href="#3-1-矩阵连乘问题" class="headerlink" title="3.1　矩阵连乘问题"></a>3.1　矩阵连乘问题</h2><h2 id="3-2-动态规划算法的基本要素"><a href="#3-2-动态规划算法的基本要素" class="headerlink" title="3.2　动态规划算法的基本要素"></a>3.2　动态规划算法的基本要素</h2><h2 id="3-3-最长公共子序列"><a href="#3-3-最长公共子序列" class="headerlink" title="3.3　最长公共子序列"></a>3.3　最长公共子序列</h2><h2 id="3-4-最大子段和"><a href="#3-4-最大子段和" class="headerlink" title="3.4　最大子段和"></a>3.4　最大子段和</h2><h2 id="3-5-凸多边形最优三角剖分"><a href="#3-5-凸多边形最优三角剖分" class="headerlink" title="3.5　凸多边形最优三角剖分"></a>3.5　凸多边形最优三角剖分</h2><h2 id="3-6-多边形游戏"><a href="#3-6-多边形游戏" class="headerlink" title="3.6　多边形游戏"></a>3.6　多边形游戏</h2><h2 id="3-7-图像压缩"><a href="#3-7-图像压缩" class="headerlink" title="3.7　图像压缩"></a>3.7　图像压缩</h2><h2 id="3-8-电路布线"><a href="#3-8-电路布线" class="headerlink" title="3.8　电路布线"></a>3.8　电路布线</h2><h2 id="3-9-流水作业调度"><a href="#3-9-流水作业调度" class="headerlink" title="3.9　流水作业调度"></a>3.9　流水作业调度</h2><h2 id="3-10-0-1背包问题"><a href="#3-10-0-1背包问题" class="headerlink" title="3.10　0-1背包问题"></a>3.10　0-1背包问题</h2><h2 id="3-11-最优二叉搜索树"><a href="#3-11-最优二叉搜索树" class="headerlink" title="3.11　最优二叉搜索树"></a>3.11　最优二叉搜索树</h2><h2 id="3-12-动态规划加速原理"><a href="#3-12-动态规划加速原理" class="headerlink" title="3.12　动态规划加速原理"></a>3.12　动态规划加速原理</h2><h1 id="第4章-贪心算法"><a href="#第4章-贪心算法" class="headerlink" title="第4章　贪心算法"></a>第4章　贪心算法</h1><h1 id="第5章-回溯法"><a href="#第5章-回溯法" class="headerlink" title="第5章　回溯法"></a>第5章　回溯法</h1><h1 id="第6章-分支限界法"><a href="#第6章-分支限界法" class="headerlink" title="第6章　分支限界法"></a>第6章　分支限界法</h1><h1 id="第7章-随机化算法"><a href="#第7章-随机化算法" class="headerlink" title="第7章　随机化算法"></a>第7章　随机化算法</h1><h1 id="第8章-线性规划与网络流"><a href="#第8章-线性规划与网络流" class="headerlink" title="第8章　线性规划与网络流"></a>第8章　线性规划与网络流</h1><h1 id="第9章-NP完全性理论与近似算法"><a href="#第9章-NP完全性理论与近似算法" class="headerlink" title="第9章　NP完全性理论与近似算法"></a>第9章　NP完全性理论与近似算法</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;第1章-算法概述&quot;&gt;&lt;a href=&quot;#第1章-算法概述&quot; class=&quot;headerlink&quot; title=&quot;第1章　算法概述&quot;&gt;&lt;/a&gt;第1章　算法概述&lt;/h1&gt;&lt;h2 id=&quot;1-1-算法与程序&quot;&gt;&lt;a href=&quot;#1-1-算法与程序&quot; class=&quot;he
+      
+    
+    </summary>
+    
+      <category term="01_software_engineering" scheme="https://30s.github.io/categories/01-software-engineering/"/>
+    
+      <category term="015_algorithm" scheme="https://30s.github.io/categories/01-software-engineering/015-algorithm/"/>
+    
+    
+      <category term="Software Engineering" scheme="https://30s.github.io/tags/Software-Engineering/"/>
+    
+      <category term="Algorithm" scheme="https://30s.github.io/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
     <title>ACM OJ集锦</title>
     <link href="https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/0151_acm/acm_oj_collection/"/>
     <id>https://30s.github.io/2010/09/01/01_software_engineering/015_algorithm/0151_acm/acm_oj_collection/</id>
@@ -219,19 +219,19 @@
   </entry>
   
   <entry>
-    <title>JavaNIO系列教程</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0224_io/nio/JavaNIO%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0224_io/nio/JavaNIO系列教程/</id>
+    <title>CGLIB(Code Generation Library)详解</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/class_loader/java%E4%B8%AD%E7%9A%84ClassLoader%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/class_loader/java中的ClassLoader详解/</id>
     <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-07T15:20:42.334Z</updated>
+    <updated>2018-03-07T14:51:23.453Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="JavaNIO系列教程"><a href="#JavaNIO系列教程" class="headerlink" title="JavaNIO系列教程"></a>JavaNIO系列教程</h1><p><a href="http://ifeve.com/java-nio-all/" target="_blank" rel="noopener">http://ifeve.com/java-nio-all/</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="java中的ClassLoader详解"><a href="#java中的ClassLoader详解" class="headerlink" title="java中的ClassLoader详解"></a>java中的ClassLoader详解</h1><p><a href="http://blog.csdn.net/briblue/article/details/54973413" target="_blank" rel="noopener">http://blog.csdn.net/briblue/article/details/54973413</a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;JavaNIO系列教程&quot;&gt;&lt;a href=&quot;#JavaNIO系列教程&quot; class=&quot;headerlink&quot; title=&quot;JavaNIO系列教程&quot;&gt;&lt;/a&gt;JavaNIO系列教程&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://ifeve.com/java-nio
+        &lt;h1 id=&quot;java中的ClassLoader详解&quot;&gt;&lt;a href=&quot;#java中的ClassLoader详解&quot; class=&quot;headerlink&quot; title=&quot;java中的ClassLoader详解&quot;&gt;&lt;/a&gt;java中的ClassLoader详解&lt;/h1&gt;&lt;p&gt;&lt;a
       
     
     </summary>
@@ -240,16 +240,296 @@
     
       <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
     
-      <category term="0224_io" scheme="https://30s.github.io/categories/02-code-language/022-java/0224-io/"/>
+      <category term="0222_jvm" scheme="https://30s.github.io/categories/02-code-language/022-java/0222-jvm/"/>
     
     
       <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
     
       <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
     
-      <category term="IO" scheme="https://30s.github.io/tags/IO/"/>
+      <category term="Jvm" scheme="https://30s.github.io/tags/Jvm/"/>
     
-      <category term="NIO" scheme="https://30s.github.io/tags/NIO/"/>
+      <category term="ClassLoader" scheme="https://30s.github.io/tags/ClassLoader/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CLH队列锁</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0227_concurrent_package/CLH%E9%98%9F%E5%88%97%E9%94%81/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0227_concurrent_package/CLH队列锁/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-12T22:12:47.191Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CLH队列锁"><a href="#CLH队列锁" class="headerlink" title="CLH队列锁"></a>CLH队列锁</h1><p>CLH队列锁<br><a href="http://blog.csdn.net/aesop_wubo/article/details/7533186" target="_blank" rel="noopener">http://blog.csdn.net/aesop_wubo/article/details/7533186</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CLH队列锁&quot;&gt;&lt;a href=&quot;#CLH队列锁&quot; class=&quot;headerlink&quot; title=&quot;CLH队列锁&quot;&gt;&lt;/a&gt;CLH队列锁&lt;/h1&gt;&lt;p&gt;CLH队列锁&lt;br&gt;&lt;a href=&quot;http://blog.csdn.net/aesop_wubo/art
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0227_concurrent" scheme="https://30s.github.io/categories/02-code-language/022-java/0227-concurrent/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Concurrent" scheme="https://30s.github.io/tags/Concurrent/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java锁优化</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/optimize_lock/Java%E9%94%81%E4%BC%98%E5%8C%96/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/optimize_lock/Java锁优化/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-12T22:14:03.904Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java锁优化"><a href="#Java锁优化" class="headerlink" title="Java锁优化"></a>Java锁优化</h1><p><a href="http://luojinping.com/2015/07/09/java%E9%94%81%E4%BC%98%E5%8C%96/" target="_blank" rel="noopener">原文</a></p><ul><li><h1 id="1-同步的原理"><a href="#1-同步的原理" class="headerlink" title="1. 同步的原理"></a>1. 同步的原理</h1><p>JVM规范规定JVM基于进入和退出Monitor对象来实现方法同步和代码块同步，但两者的实现细节不一样。代码块同步是使用monitorenter和monitorexit指令实现，而方法同步是使用另外一种方式实现的，细节在JVM规范里并没有详细说明，但是方法的同步同样可以使用这两个指令来实现。monitorenter指令是在编译后插入到同步代码块的开始位置，而monitorexit是插入到方法结束处和异常处， JVM要保证每个monitorenter必须有对应的monitorexit与之配对。任何对象都有一个 monitor 与之关联，当且一个monitor 被持有后，它将处于锁定状态。线程执行到 monitorenter 指令时，将会尝试获取对象所对应的 monitor 的所有权，即尝试获得对象的锁。</p><h1 id="2-Java对象头"><a href="#2-Java对象头" class="headerlink" title="2. Java对象头"></a>2. Java对象头</h1><p>锁存在Java对象头里。如果对象是数组类型，则虚拟机用3个Word（字宽）存储对象头，如果对象是非数组类型，则用2字宽存储对象头。在32位虚拟机中，一字宽等于四字节，即32bit。</p><p>| 长度 | 内容 | 说明 |<br>| — | — | — |<br>| 32/64bit | Mark Word | 存储对象的hashCode或锁信息等 |<br>| 32/64bit | Class Metadata Address | 存储到对象类型数据的指针 |<br>| 32/64bit | Array length | 数组的长度（如果当前对象是数组） |</p><p>Java对象头里的Mark Word里默认存储对象的HashCode，分代年龄和锁标记位。32位JVM的Mark Word的默认存储结构如下：</p><p>|   | 25 bit | 4bit | 1bit<br>是否是偏向锁 | 2bit<br>锁标志位 |<br>| — | — | — | — | — |<br>| 无锁状态 | 对象的hashCode | 对象分代年龄 | 0 | 01 |</p><p>在运行期间Mark Word里存储的数据会随着锁标志位的变化而变化。Mark Word可能变化为存储以下4种数据：</p><p><a href="http://luojinping.com/img/markword_state.jpg" target="_blank" rel="noopener"><img src="http://luojinping.com/img/markword_state.jpg" alt=""></a></p><h1 id="3-几种锁的类型"><a href="#3-几种锁的类型" class="headerlink" title="3. 几种锁的类型"></a>3. 几种锁的类型</h1><p><strong>线程的阻塞和唤醒需要CPU从用户态转为核心态，频繁的阻塞和唤醒对CPU来说是一件负担很重的工作。</strong></p><p>Java SE1.6为了减少获得锁和释放锁所带来的性能消耗，引入了“偏向锁”和“轻量级锁”，所以在Java SE1.6里锁一共有四种状态，无锁状态，偏向锁状态，轻量级锁状态和重量级锁状态，它会随着竞争情况逐渐升级。</p><p><strong>锁可以升级但不能降级，意味着偏向锁升级成轻量级锁后不能降级成偏向锁。这种锁升级却不能降级的策略，目的是为了提高获得锁和释放锁的效率。</strong></p><h2 id="3-1-偏向锁"><a href="#3-1-偏向锁" class="headerlink" title="3.1 偏向锁"></a>3.1 偏向锁</h2><p>Hotspot的作者经过以往的研究发现大多数情况下锁不仅不存在多线程竞争，而且总是由同一线程多次获得。偏向锁的目的是在某个线程获得锁之后，消除这个线程锁重入（CAS）的开销，看起来让这个线程得到了偏护。<br><a href="http://luojinping.com/img/biased_lock_flow.jpg" target="_blank" rel="noopener"><img src="http://luojinping.com/img/biased_lock_flow.jpg" alt=""></a></p><h3 id="偏向锁的进一步理解"><a href="#偏向锁的进一步理解" class="headerlink" title="偏向锁的进一步理解"></a>偏向锁的进一步理解</h3><p>偏向锁的释放不需要做任何事情，这也就意味着加过偏向锁的MarkValue会一直保留偏向锁的状态，因此即便同一个线程持续不断地加锁解锁，也是没有开销的。</p><p>另一方面，偏向锁比轻量锁更容易被终结，轻量锁是在有锁竞争出现时升级为重量锁，而一般偏向锁是在有不同线程申请锁时升级为轻量锁，这也就意味着假如一个对象先被线程1加锁解锁，再被线程2加锁解锁，这过程中没有锁冲突，也一样会发生偏向锁失效，不同的是这回要先退化为无锁的状态，再加轻量锁，如图：<br><a href="http://luojinping.com/img/biased_lock_convert_flow.jpg" target="_blank" rel="noopener"><img src="http://luojinping.com/img/biased_lock_convert_flow.jpg" alt=""></a></p><p>另外，JVM对那种会有多线程加锁，但不存在锁竞争的情况也做了优化，听起来比较拗口，但在现实应用中确实是可能出现这种情况，因为线程之前除了互斥之外也可能发生同步关系，被同步的两个线程（一前一后）对共享对象锁的竞争很可能是没有冲突的。对这种情况，JVM用一个epoch表示一个偏向锁的时间戳（真实地生成一个时间戳代价还是蛮大的，因此这里应当理解为一种类似时间戳的identifier），对epoch，官方是这么解释的：</p><blockquote><p>A similar mechanism, called bulk rebiasing, optimizes situations in which objects of a class are locked and unlocked by different threads but never concurrently. It invalidates the bias of all instances of a class without disabling biased locking. An epoch value in the class acts as a timestamp that indicates the validity of the bias. This value is copied into the header word upon object allocation. Bulk rebiasing can then efficiently be implemented as an increment of the epoch in the appropriate class. The next time an instance of this class is going to be locked, the code detects a different value in the header word and rebiases the object towards the current thread.</p></blockquote><h3 id="偏向锁的获取"><a href="#偏向锁的获取" class="headerlink" title="偏向锁的获取"></a>偏向锁的获取</h3><p>当一个线程访问同步块并获取锁时，会在对象头和栈帧中的锁记录里存储锁偏向的线程ID，以后该线程在进入和退出同步块时不需要花费CAS操作来加锁和解锁，而只需简单的测试一下对象头的Mark Word里是否存储着指向当前线程的偏向锁，如果测试成功，表示线程已经获得了锁，如果测试失败，则需要再测试下Mark Word中偏向锁的标识是否设置成1（表示当前是偏向锁），如果没有设置，则使用CAS竞争锁，如果设置了，则尝试使用CAS将对象头的偏向锁指向当前线程。</p><h3 id="偏向锁的撤销"><a href="#偏向锁的撤销" class="headerlink" title="偏向锁的撤销"></a>偏向锁的撤销</h3><p>偏向锁使用了一种等到竞争出现才释放锁的机制，所以当其他线程尝试竞争偏向锁时，持有偏向锁的线程才会释放锁。偏向锁的撤销，需要等待全局安全点（在这个时间点上没有字节码正在执行），它会首先暂停拥有偏向锁的线程，然后检查持有偏向锁的线程是否活着，如果线程不处于活动状态，则将对象头设置成无锁状态，如果线程仍然活着，拥有偏向锁的栈会被执行，遍历偏向对象的锁记录，栈中的锁记录和对象头的Mark Word要么重新偏向于其他线程，要么恢复到无锁或者标记对象不适合作为偏向锁，最后唤醒暂停的线程。下图中的线程1演示了偏向锁初始化的流程，线程2演示了偏向锁撤销的流程。</p><h3 id="偏向锁的设置"><a href="#偏向锁的设置" class="headerlink" title="偏向锁的设置"></a>偏向锁的设置</h3><p>关闭偏向锁：偏向锁在Java 6和Java 7里是默认启用的，但是它在应用程序启动几秒钟之后才激活，如有必要可以使用JVM参数来关闭延迟-XX：BiasedLockingStartupDelay = 0。如果你确定自己应用程序里所有的锁通常情况下处于竞争状态，可以通过JVM参数关闭偏向锁-XX:-UseBiasedLocking=false，那么默认会进入轻量级锁状态。</p><h2 id="3-2-自旋锁"><a href="#3-2-自旋锁" class="headerlink" title="3.2 自旋锁"></a>3.2 自旋锁</h2><p>线程的阻塞和唤醒需要CPU从用户态转为核心态，频繁的阻塞和唤醒对CPU来说是一件负担很重的工作。同时我们可以发现，很多对象锁的锁定状态只会持续很短的一段时间，例如整数的自加操作，在很短的时间内阻塞并唤醒线程显然不值得，为此引入了自旋锁。</p><p>所谓“自旋”，就是让线程去执行一个无意义的循环，循环结束后再去重新竞争锁，如果竞争不到继续循环，循环过程中线程会一直处于running状态，但是基于JVM的线程调度，会出让时间片，所以其他线程依旧有申请锁和释放锁的机会。</p><p>自旋锁省去了阻塞锁的时间空间（队列的维护等）开销，但是长时间自旋就变成了“忙式等待”，忙式等待显然还不如阻塞锁。所以自旋的次数一般控制在一个范围内，例如10,100等，在超出这个范围后，自旋锁会升级为阻塞锁。</p><p>对自旋锁周期的选择上，HotSpot认为最佳时间应是一个线程上下文切换的时间，但目前并没有做到。经过调查，目前只是通过汇编暂停了几个CPU周期，除了自旋周期选择，HotSpot还进行许多其他的自旋优化策略，具体如下：</p><ul><li>如果平均负载小于CPUs则一直自旋</li><li>如果有超过(CPUs/2)个线程正在自旋，则后来线程直接阻塞</li><li>如果正在自旋的线程发现Owner发生了变化则延迟自旋时间（自旋计数）或进入阻塞 如果CPU处于节电模式则停止自旋</li><li>自旋时间的最坏情况是CPU的存储延迟（CPU A存储了一个数据，到CPU B得知这个数据直接的时间差）</li></ul><h2 id="3-3-轻量级锁"><a href="#3-3-轻量级锁" class="headerlink" title="3.3 轻量级锁"></a>3.3 轻量级锁</h2><h3 id="轻量级锁加锁"><a href="#轻量级锁加锁" class="headerlink" title="轻量级锁加锁"></a>轻量级锁加锁</h3><p>线程在执行同步块之前，JVM会先在当前线程的栈桢中创建用于存储锁记录的空间，并将对象头中的Mark Word复制到锁记录中，官方称为Displaced Mark Word。<strong>然后线程尝试使用CAS将对象头中的Mark Word替换为指向锁记录的指针。如果成功，当前线程获得锁，如果失败，则自旋获取锁，当自旋获取锁仍然失败时，表示存在其他线程竞争锁(两条或两条以上的线程竞争同一个锁)，则轻量级锁会膨胀成重量级锁。</strong></p><h3 id="轻量级锁解锁"><a href="#轻量级锁解锁" class="headerlink" title="轻量级锁解锁"></a>轻量级锁解锁</h3><p><strong>轻量级解锁时，会使用原子的CAS操作来将Displaced Mark Word替换回到对象头，如果成功，则表示同步过程已完成。</strong>如果失败，表示有其他线程尝试过获取该锁，则要在释放锁的同时唤醒被挂起的线程。下图是两个线程同时争夺锁，导致锁膨胀的流程图。</p><p><a href="http://luojinping.com/img/light_lock_flow.jpg" target="_blank" rel="noopener"><img src="http://luojinping.com/img/light_lock_flow.jpg" alt=""></a><br><a href="http://luojinping.com/img/light_lock_progress.jpg" target="_blank" rel="noopener"><img src="http://luojinping.com/img/light_lock_progress.jpg" alt=""></a></p><h2 id="3-4-重量级锁"><a href="#3-4-重量级锁" class="headerlink" title="3.4 重量级锁"></a>3.4 重量级锁</h2><p>重量锁在JVM中又叫对象监视器（Monitor），它很像C中的Mutex，除了具备Mutex互斥的功能，它还负责实现了Semaphore的功能，也就是说它至少包含一个竞争锁的队列，和一个信号阻塞队列（wait队列），前者负责做互斥，后一个用于做线程同步。</p><h1 id="4-锁的优缺点对比"><a href="#4-锁的优缺点对比" class="headerlink" title="4. 锁的优缺点对比"></a>4. 锁的优缺点对比</h1><p>| 锁 | 优点 | 缺点 | 适用场景 |<br>| — | — | — | — |<br>| 偏向锁 | 加锁和解锁不需要额外的消耗，和执行非同步方法比仅存在纳秒级的差距 | 如果线程间存在锁竞争，会带来额外的锁撤销的消耗 | 适用于只有一个线程访问同步块场景 |<br>| 轻量级锁 | 竞争的线程不会阻塞，提高了程序的响应速度 | 如果始终得不到锁竞争的线程使用自旋会消耗CPU | 追求响应时间,锁占用时间很短 |<br>| 重量级锁 | 线程竞争不使用自旋，不会消耗CPU | 线程阻塞，响应时间缓慢 | 追求吞吐量,锁占用时间较长 |</p><h1 id="refers"><a href="#refers" class="headerlink" title="refers:"></a>refers:</h1><blockquote><p>周志明的《深入理解Java虚拟机》<br><a href="https://blogs.oracle.com/dave/entry/biased_locking_in_hotspot" target="_blank" rel="noopener">https://blogs.oracle.com/dave/entry/biased_locking_in_hotspot</a><br><a href="https://www.usenix.org/legacy/event/jvm01/full_papers/dice/dice.pdf" target="_blank" rel="noopener">https://www.usenix.org/legacy/event/jvm01/full_papers/dice/dice.pdf</a><br><a href="http://www.javaworld.com/article/2076971/java-concurrency/how-the-java-virtual-machine-performs-thread-synchronization.html" target="_blank" rel="noopener">http://www.javaworld.com/article/2076971/java-concurrency/how-the-java-virtual-machine-performs-thread-synchronization.html</a><br><a href="http://www.infoq.com/cn/articles/java-se-16-synchronized" target="_blank" rel="noopener">http://www.infoq.com/cn/articles/java-se-16-synchronized</a><br><a href="http://www.majin163.com/2014/03/17/synchronized2/" target="_blank" rel="noopener">http://www.majin163.com/2014/03/17/synchronized2/</a><br><a href="http://www.cnblogs.com/javaminer/p/3889023.html" target="_blank" rel="noopener">http://www.cnblogs.com/javaminer/p/3889023.html</a><br><a href="http://blog.csdn.net/coslay/article/details/41526635" target="_blank" rel="noopener">http://blog.csdn.net/coslay/article/details/41526635</a></p></blockquote></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Java锁优化&quot;&gt;&lt;a href=&quot;#Java锁优化&quot; class=&quot;headerlink&quot; title=&quot;Java锁优化&quot;&gt;&lt;/a&gt;Java锁优化&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://luojinping.com/2015/07/09/java%E9%
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0228_optimize" scheme="https://30s.github.io/categories/02-code-language/022-java/0228-optimize/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Optimize" scheme="https://30s.github.io/tags/Optimize/"/>
+    
+      <category term="Optimize Lock" scheme="https://30s.github.io/tags/Optimize-Lock/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java中线程池ThreadPoolExecutor原理探究</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java%E4%B8%AD%E7%BA%BF%E7%A8%8B%E6%B1%A0ThreadPoolExecutor%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java中线程池ThreadPoolExecutor原理探究/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-12T22:12:14.111Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java中线程池ThreadPoolExecutor原理探究"><a href="#Java中线程池ThreadPoolExecutor原理探究" class="headerlink" title="Java中线程池ThreadPoolExecutor原理探究"></a>Java中线程池ThreadPoolExecutor原理探究</h1><ul><li><h1 id="一、-前言"><a href="#一、-前言" class="headerlink" title="一、 前言"></a>一、 前言</h1><p>线程池主要解决两个问题：一方面当执行大量异步任务时候线程池能够提供较好的性能，这是因为使用线程池可以使每个任务的调用开销减少（因为线程池线程是可复用的）。另一方面线程池提供了一种资源限制和管理的手段，比如当执行一系列任务时候对线程的管理，每个ThreadPoolExecutor也保留了一些基本的统计数据，比如当前线程池完成的任务数目。</p><p>另外，线程池提供许多可调参数和可扩展性钩子。程序员可以使用更方便<br>工厂方法比如newCachedThreadPool（无限线程池，线程自动回收），newFixedThreadPool（固定大小的线程池）newSingleThreadExecutor（单个线程），当然用户还可以自定义。</p><h1 id="二、-类图结构"><a href="#二、-类图结构" class="headerlink" title="二、 类图结构"></a>二、 类图结构</h1><p><img src="http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/7b36d810133e8bb624853f5c8e2fd909.jpg" alt="ClassDiagram1.jpg"></p><p>Executors其实是个工具类，里面提供了好多静态方法，根据用户选择返回不同的线程池实例。<br>ThreadPoolExecutor继承了AbstractExecutorService，成员变量ctl是个Integer的原子变量用来记录线程池状态 和 线程池线程个数，类似于ReentrantReadWriteLock使用一个变量存放两种信息。<br>Integer类型是32位二进制标示，其中高3位用来表示线程池状态，后面 29位用来记录线程池线程个数。</p><p><a href="http://ifeve.com/java%E4%B8%AD%E7%BA%BF%E7%A8%8B%E6%B1%A0threadpoolexecutor%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/" target="_blank" rel="noopener">http://ifeve.com/java%E4%B8%AD%E7%BA%BF%E7%A8%8B%E6%B1%A0threadpoolexecutor%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Java中线程池ThreadPoolExecutor原理探究&quot;&gt;&lt;a href=&quot;#Java中线程池ThreadPoolExecutor原理探究&quot; class=&quot;headerlink&quot; title=&quot;Java中线程池ThreadPoolExecutor原理探究&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0226_thread" scheme="https://30s.github.io/categories/02-code-language/022-java/0226-thread/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Thread" scheme="https://30s.github.io/tags/Thread/"/>
+    
+      <category term="Thread Pool" scheme="https://30s.github.io/tags/Thread-Pool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java网络教程：ServerSocket</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8BServerSocket/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络教程ServerSocket/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-12T21:06:19.956Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><h3 id="Java网络教程-ServerSocket"><a href="#Java网络教程-ServerSocket" class="headerlink" title="Java网络教程: ServerSocket"></a>Java网络教程: ServerSocket</h3><p><a href="http://tutorials.jenkov.com/java-networking/server-sockets.html" target="_blank" rel="noopener">原文链接</a> 作者：<a href="http://jakob.jenkov.com/" target="_blank" rel="noopener">Jakob Jenkov</a> 译者：homesick</p><p>用java.net.ServerSocket实现java服务通过TCP/IP监听客户端连接，你也可以用Java NIO 来代替java网络标准API，这时候需要用到 ServerSocketChannel。</p><h2 id="创建一个-ServerSocket连接"><a href="#创建一个-ServerSocket连接" class="headerlink" title="创建一个 ServerSocket连接"></a>创建一个 ServerSocket连接</h2><p>以下是一个创建ServerSocket类来监听9000端口的一个简单的代码</p><p>ServerSocket serverSocket = new ServerSocket(9000);</p><h2 id="监听请求的连接"><a href="#监听请求的连接" class="headerlink" title="监听请求的连接"></a>监听请求的连接</h2><p>要获取请求的连接需要用ServerSocket.accept()方法。该方法返回一个Socket类，该类具有普通java Socket类的所有特性。代码如下：</p><p>ServerSocket serverSocket = new ServerSocket(9000); boolean isStopped = false;while(!isStopped){   Socket clientSocket = serverSocket.accept();    //do something with clientSocket}</p><p>对每个调用了accept()方法的类都只获得一个请求的连接。</p><p>另外，请求的连接也只能在线程运行的server中调用了accept()方法之后才能够接受请求。线程运行在server中其它所有的方法上的时候都不能接受客户端的连接请求。所以”接受”请求的线程通常都会把Socket的请求连接放入一个工作线程池中，然后再和客户端连接。更多关于多线程服务端设计的文档请参考 java多线程服务</p><h2 id="关闭客户端Socket"><a href="#关闭客户端Socket" class="headerlink" title="关闭客户端Socket"></a>关闭客户端Socket</h2><p>客户端请求执行完毕，并且不会再有该客户端的其它请求发送过来的时候，就需要关闭Socket连接，这和关闭一个普通的客户端Socket连接一样。如下代码来执行关闭：</p><p>socket.close();</p><h2 id="关闭服务端Sockets"><a href="#关闭服务端Sockets" class="headerlink" title="关闭服务端Sockets"></a>关闭服务端Sockets</h2><p>要关闭服务的时候需要关掉 ServerSocket连接。通过执行如下代码：</p><p>serverSocket.close();</p><p><a href="http://ifeve.com/java-network-serversocket-2/" target="_blank" rel="noopener">http://ifeve.com/java-network-serversocket-2/</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&quot;Java网络教程-ServerSocket&quot;&gt;&lt;a href=&quot;#Java网络教程-ServerSocket&quot; class=&quot;headerlink&quot; title=&quot;Java网络教程: ServerSocket&quot;&gt;&lt;/a&gt;Java网络教程: Ser
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0225_net" scheme="https://30s.github.io/categories/02-code-language/022-java/0225-net/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="NET" scheme="https://30s.github.io/tags/NET/"/>
+    
+      <category term="Socket" scheme="https://30s.github.io/tags/Socket/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java中调度线程池ScheduledThreadPoolExecutor原理探究</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java%E4%B8%AD%E8%B0%83%E5%BA%A6%E7%BA%BF%E7%A8%8B%E6%B1%A0ScheduledThreadPoolExecutor%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0226_thread/thread_pool/Java中调度线程池ScheduledThreadPoolExecutor原理探究/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-12T22:12:19.525Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java中调度线程池ScheduledThreadPoolExecutor原理探究"><a href="#Java中调度线程池ScheduledThreadPoolExecutor原理探究" class="headerlink" title="Java中调度线程池ScheduledThreadPoolExecutor原理探究"></a>Java中调度线程池ScheduledThreadPoolExecutor原理探究</h1><ul><li><h1 id="一、-前言"><a href="#一、-前言" class="headerlink" title="一、 前言"></a>一、 前言</h1><p>前面讲解过Java中线程池ThreadPoolExecutor原理探究，ThreadPoolExecutor是Executors中一部分功能，下面来介绍另外一部分功能也就是ScheduledThreadPoolExecutor的实现，后者是一个可以在一定延迟时候或者定时进行任务调度的线程池。</p><h1 id="二、-类图结构"><a href="#二、-类图结构" class="headerlink" title="二、 类图结构"></a>二、 类图结构</h1><p><img src="http://ata2-img.cn-hangzhou.img-pub.aliyun-inc.com/0583c13ae9e056845b5a59ffed185744.jpg" alt="ClassDiagram1.jpg"></p><p>Executors其实是个工具类，里面提供了好多静态方法，根据用户选择返回不同的线程池实例。<br>ScheduledThreadPoolExecutor继承了ThreadPoolExecutor并实现ScheduledExecutorService接口，关于ThreadPoolExecutor的介绍可以参考：<br><a href="http://ifeve.com/java%E4%B8%AD%E7%BA%BF%E7%A8%8B%E6%B1%A0threadpoolexecutor%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/" target="_blank" rel="noopener">http://www.jianshu.com/p/3cc67876375f</a><br>线程池队列是DelayedWorkQueue，它是对delayqueue的优化，关于delayqueue参考：<a href="http://www.jianshu.com/p/2659eb72134b" target="_blank" rel="noopener">http://www.jianshu.com/p/2659eb72134b</a><br>ScheduledFutureTask是阻塞队列元素是对任务修饰。</p><p><a href="http://ifeve.com/33981-2/" target="_blank" rel="noopener">http://ifeve.com/33981-2/</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Java中调度线程池ScheduledThreadPoolExecutor原理探究&quot;&gt;&lt;a href=&quot;#Java中调度线程池ScheduledThreadPoolExecutor原理探究&quot; class=&quot;headerlink&quot; title=&quot;Java中调度线程池
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0226_thread" scheme="https://30s.github.io/categories/02-code-language/022-java/0226-thread/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Thread" scheme="https://30s.github.io/tags/Thread/"/>
+    
+      <category term="Thread Pool" scheme="https://30s.github.io/tags/Thread-Pool/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java高并发，如何解决，什么方式解决</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java%E9%AB%98%E5%B9%B6%E5%8F%91%EF%BC%8C%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%EF%BC%8C%E4%BB%80%E4%B9%88%E6%96%B9%E5%BC%8F%E8%A7%A3%E5%86%B3/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发，如何解决，什么方式解决/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-12T22:13:13.656Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java高并发，如何解决，什么方式解决"><a href="#Java高并发，如何解决，什么方式解决" class="headerlink" title="Java高并发，如何解决，什么方式解决"></a>Java高并发，如何解决，什么方式解决</h1><p><a href="https://www.cnblogs.com/lr393993507/p/5909804.html" target="_blank" rel="noopener">https://www.cnblogs.com/lr393993507/p/5909804.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Java高并发，如何解决，什么方式解决&quot;&gt;&lt;a href=&quot;#Java高并发，如何解决，什么方式解决&quot; class=&quot;headerlink&quot; title=&quot;Java高并发，如何解决，什么方式解决&quot;&gt;&lt;/a&gt;Java高并发，如何解决，什么方式解决&lt;/h1&gt;&lt;p&gt;&lt;a
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0228_optimize" scheme="https://30s.github.io/categories/02-code-language/022-java/0228-optimize/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Optimize" scheme="https://30s.github.io/tags/Optimize/"/>
+    
+      <category term="Asynchronous" scheme="https://30s.github.io/tags/Asynchronous/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java高并发异步应用案例</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java%E9%AB%98%E5%B9%B6%E5%8F%91%E5%BC%82%E6%AD%A5%E5%BA%94%E7%94%A8%E6%A1%88%E4%BE%8B/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0228_optimize/asynchronous/Java高并发异步应用案例/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-12T22:13:26.514Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java高并发异步应用案例"><a href="#Java高并发异步应用案例" class="headerlink" title="Java高并发异步应用案例"></a>Java高并发异步应用案例</h1><ul><li><h1 id="Java高并发异步应用案例-1"><a href="#Java高并发异步应用案例-1" class="headerlink" title="Java高并发异步应用案例"></a><a href="http://www.cnblogs.com/davidwang456/articles/6548394.html" target="_blank" rel="noopener">Java高并发异步应用案例</a></h1><p>原文地址：<a href="http://chuansong.me/n/355827651252" target="_blank" rel="noopener">http://chuansong.me/n/355827651252</a></p><p>泰康在线微信公众号系泰康在线财产保险股份有限公司旗下平台，希望可以通过持续不断的创新，提升客户对于保险的认知及体验，通过对大数据技术的应用，精准的为客户设计产品以及提供服务。泰康在线微信公众号，现有1000多万粉丝。在日常的运营中，借助于红包奖励、卡券分享、消息通知、微信分享等手段，通过好的内容，好的活动、好的产品以及相应的精准营销来增强用户的粘性和活跃度。</p><p>在日常运营中，公众号会通过给用户下发营销或者科普类的消息来通知客户。 根据经验，微信消息下发后10分钟后流量会逐步上升，30分钟左右到达峰值，1个小时后会显著下降。在这个时间段内，系统的压力会很大。</p><p>在系统设计和改进中，系统的很多场景使用异步进行实现，一方面能缩短主流程的时间处理，另一方面能够通过异步队列进行一定程度的削峰。今天重点介绍单个JVM内的异步优化实践，不涉及分布式时的异步优化实践。在异步执行时，可以调用远程的服务集群来实现一定的任务分解。</p><p>部署示意图</p><p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160403008-298152675.png" alt=""></p><p>整个系统都部署在公有云上，虚拟机上有部署1个Nginx，4个Tomcat，Nginx使用随机的方式负载均衡到Tomcat上面。虚机之间通过LB将客户请求转发到Nginx上面负载均衡，Nginx再将请求分配到tomcat应用服务器上。</p><p>由多台应用服务器，对外服务提供Rest服务，在每个Tomcat内部使用异步队列。同时由一台控制服务器，进行异步任务的补偿任务和管理功能。Tomcat和Redis使用多级缓存来降低对Redis的压力，并减少依赖。</p><p>为什么要在虚机上部署Nginx将请求转发到Tomcat，而不是由LB直接转发到Tomcat。这是因为LB能够支持的IP个数是有限的。</p><p>典型的用户场景</p><p><strong>在公众号的运营过程中，典型的事件包括：</strong></p><ul><li><p>发送短信验证码</p></li><li><p>购买成功或者抽奖成功短信通知</p></li><li><p>卡券或优惠券发放</p></li><li><p>发放微信红包</p></li><li><p>微信消息通知</p></li><li><p>订单流程处理</p></li><li><p>定时批处理（比如数据同步）</p></li><li><p>工作流性质的异步任务（未完成异步任务补偿）</p></li></ul><p><strong>面详细说明不同场景能够异步的原因：</strong></p><ol><li><p>不同场景（用户注册，用户购买产品等）下的短信验证码发送，可以使用异步方式发送： 一方面是因为客户这个时效性要求没有那样高，另一方面在特定时间范围内用户没有收到验证码，用户可以点击再次发送验证码。</p></li><li><p>购买成功或者抽奖成功后短信或者邮件通知，可以通过异步的方式进行。 因为涉及用户的利益，要谨慎对待。一方面一定要把数据先存到数据库或者日志里面（注意信息安全^-^,别存敏感明文信息或者加密存储），然后再放入到异步队列中执行。</p><p>另一个方面，要考虑到应用服务意外停止时，没有发送成功数据的补偿机制。 这种情况不常见，并且为了减少耦合和当前异步程序的复杂度。我们使用单独的服务上部署异步任务补偿程序，来扫描未完成的任务，并且进行重放（一定要注意严谨性）。</p></li><li><p>优惠券和卡券的发放，跟购买成功或抽奖成功的方式类似。\u000b可以在当前活动高峰后延时发放，并且使用异步的方式进行。</p></li><li><p>微信红包，因为需要跟微信进行交互，并且微信会通知客户红包的情况，可以使用异步的方式进行。 当涉及资金或者礼品时，一定要谨慎对待设计，并且需要有方便进行异步任务停止和启动的功能。</p></li><li><p>微信消息通知，因为跟微信进行交互，成功后微信进行通知，可以使用异步。 这个跟短信验证码类似。</p></li><li><p>订单流程处理，可以使用异步，因为涉及到后续步骤可以使用简单工作流来完成。有几个开源的框架可以参考。</p></li><li><p>数据同步或者异步任务补偿，因为是延时处理，可以使用异步进行处理。在使用时，可以配合定时任务，比如cron4j来周期性的进行补偿。适合后面总-分-总的任务处理模式。</p></li></ol><p>针对这些“无处不在的异步”，后面详细分析其内在模型。</p><p>无处不在的异步</p><p>下图包含了4种典型的异步队列模型（图片来源于网络）：</p><p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160422790-920115059.png" alt=""></p><p>一个生产者生产数据，一个消费者消费数据，一般用在后台处理的业务逻辑中。</p><ul><li><p>一个生产者生产数据，多个消费者消费数据（这里面有两种情况：同一个消息，可以被多个消费者分别消费。或者多个消费者组成一个组，一个消费者消费一个数据）。</p></li><li><p>多个生产者生产数据，单个消费者消费数据，可以用在限流或者排队等候单一资源处理的场景中。</p></li><li><p>多个生产者分别生产数据，多个消费者消费数据（这里面有两种情况：同一个消息，可以被多个消费者分别消费。或者多个消费者组成一个组，一个消费者消费一个数据）。</p></li></ul><p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160446477-2129802282.png" alt=""></p><p>总分总任务模型：特别适第一个线程取出一批数据放到队列中（比如select）；由多个线程分别执行业务逻辑；执行后的结果由一个线程来执行（比如update操作，这样能够防止数据库锁）</p><p>这是从技术上分析的几种常见模型，在实践中涉及怎样选择框架。</p><ol><li><p>使用堵塞队列的线程池</p></li><li><p>使用固定步长或固定时间的队列</p></li><li><p>使用Disruptor</p></li><li><p>使用MQ或Kafka</p></li></ol><p><strong>使用线程池实现异步 （支持多生产者，多消费者）</strong></p><p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160509040-2040984410.png" alt=""></strong></p><p>特点：可以使用JDK自带的线程池实现异步，编程简单，资料多。建议在并发量小的场景下优先选择。</p><p><strong>使用Guava Queues （支持多生产者单消费者）</strong></p><p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160526915-1233965664.png" alt=""></strong></p><p>特点：异步批量队列，在队列到达指定长度，或者到达指定时间后，批量进行数据处理。适合于对响应时间要求低，能够容忍一定的数据丢失的场景。比如短小文本数据的批量保存。</p><p>在经过一段时间调研后，我们发现Disruptor更能满足我们需要。</p><p>首先介绍一下Disruptor的强悍的性能。</p><p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160549118-772353050.png" alt=""></p><p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160758571-551925328.png" alt=""></p><p><em><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160602540-322185955.png" alt=""></em></p><p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160612540-1814206405.png" alt=""></p><p>这张图包含我列举的上述的异步队列模型景，因此很有代表意义。Disruptor因为使用无锁的队列方式，具有很高的性能。具体的原理不详述，大家可以搜索看到。Disruptor支持上面典型场景，并且灵活使用Disruptor的工作流机制，能简化编程。</p><blockquote><ul><li>英文文章入门：<a href="https://github.com/LMAX-Exchange/disruptor/wiki/Getting-Started" target="_blank" rel="noopener">https://github.com/LMAX-Exchange/disruptor/wiki/Getting-Started</a></li></ul><ul><li>中文的demo链接：<a href="http://my.oschina.net/u/2273085/blog/507735?p=1" target="_blank" rel="noopener">http://my.oschina.net/u/2273085/blog/507735?p=1</a></li></ul><ul><li>并发框架Disruptor相关译文：<a href="http://ifeve.com/disruptor/" target="_blank" rel="noopener">http://ifeve.com/disruptor/</a></li></ul></blockquote><p>再贴一下官方的测试结果。</p><p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160830040-140146429.png" alt=""></p><p>下面从代码层面说明disruptor的几种用法。</p><p><strong>使用Disruptor（单生产者多消费者）</strong></p><p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160847211-658956502.png" alt=""></strong></p><p>Disruptor 提供了多个 WaitStrategy的实现，每种策略都具有不同性能和优缺点，根据实际运行环境的 CPU 的硬件特点选择恰当的策略，并配合特定的 JVM的配置参数，能够实现不同的性能提升。 例如，BlockingWaitStrategy、SleepingWaitStrategy、YieldingWaitStrategy 等，其中：</p><ul><li><p>BlockingWaitStrategy 是最低效的策略，但其对CPU的消耗最小并且在各种不同部署环境中能提供更加一致的性能表现；</p></li><li><p>SleepingWaitStrategy 的性能表现跟 BlockingWaitStrategy 差不多，对 CPU的消耗也类似，但其对生产者线程的影响最小，适合用于异步日志类似的场景；</p></li><li><p>YieldingWaitStrategy的性能是最好的，适合用于低延迟的系统。在要求极高性能且事件处理线数小于 CPU逻辑核心数的场景中，推荐使用此策略；例如，CPU开启超线程的特性。</p></li></ul><p>我们现在使用BlockingWaitStrategy这种模式。</p><p><strong>使用Disruptor（多生产者多消费者）</strong></p><p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160900602-1899411962.png" alt=""></strong></p><p>使用Disruptor（多生产者多消费者）</p><p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160914665-743037908.png" alt=""></p><p>这个例子中，使用类似线程池的消费组处理数据。</p><p><strong>多步模式工作流：Disruptor</strong></p><p><strong><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160932305-1430035066.png" alt=""></strong></p><p><img src="https://images2017.cnblogs.com/blog/486074/201711/486074-20171123160959430-520072022.png" alt=""></p><p>使用异步后的烦恼</p><p><strong>烦恼一： 数据丢失的风险</strong></p><p>解决方式：先写日志或数据库，后放入异步队列.</p><p><strong>烦恼二：对其他系统的压力变大</strong></p><p>解决方式：使用一定的限流和熔断，对其他系统进行保护。</p><p><strong>烦恼三：数据保存后异步任务未执行</strong></p><p>解决方式：使用异步任务补偿的方式，定期从数据库中获取数据，放到队列中进行执行，执行后更新数据状态位。</p><p><strong>烦恼四：怎样队列长设置和消费者数量</strong></p><p>解决方式：使用实际的压力测试来获得队列长度。或者使用排队论的数学公式得到初步的值,然后进行实际压测。</p><p><strong>最后介绍一下项目中的经验：</strong></p><ul><li><p>量力而行：根据业务特点进行技术选型，业务量小尽量避免使用异步。有所为，有所不为</p></li><li><p>数据说话：异步时一定要进行必要的压力测试</p></li><li><p>先找出系统的关键点：优化单体系统内的性能，再通过整体系统分解来全局优化</p></li><li><p>根据团队和项目的特点选择框架。</p></li></ul><p><a href="https://www.cnblogs.com/davidwang456/articles/6548394.html" target="_blank" rel="noopener">https://www.cnblogs.com/davidwang456/articles/6548394.html</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Java高并发异步应用案例&quot;&gt;&lt;a href=&quot;#Java高并发异步应用案例&quot; class=&quot;headerlink&quot; title=&quot;Java高并发异步应用案例&quot;&gt;&lt;/a&gt;Java高并发异步应用案例&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h1 id=&quot;Java高并发异步应用案
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0228_optimize" scheme="https://30s.github.io/categories/02-code-language/022-java/0228-optimize/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Optimize" scheme="https://30s.github.io/tags/Optimize/"/>
+    
+      <category term="Asynchronous" scheme="https://30s.github.io/tags/Asynchronous/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CGLIB(Code Generation Library)详解</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/dynamic_proxy/cglib/CGLIB(Code%20Generation%20Library)%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/dynamic_proxy/cglib/CGLIB(Code Generation Library)详解/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-07T14:42:00.990Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CGLIB-Code-Generation-Library-详解"><a href="#CGLIB-Code-Generation-Library-详解" class="headerlink" title="CGLIB(Code Generation Library)详解"></a>CGLIB(Code Generation Library)详解</h1><p><a href="http://blog.csdn.net/danchu/article/details/70238002" target="_blank" rel="noopener">http://blog.csdn.net/danchu/article/details/70238002</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;CGLIB-Code-Generation-Library-详解&quot;&gt;&lt;a href=&quot;#CGLIB-Code-Generation-Library-详解&quot; class=&quot;headerlink&quot; title=&quot;CGLIB(Code Generation Librar
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0221_java_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0221-java-base/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Java Base" scheme="https://30s.github.io/tags/Java-Base/"/>
+    
+      <category term="CGLIB" scheme="https://30s.github.io/tags/CGLIB/"/>
     
   </entry>
   
@@ -290,20 +570,20 @@
   </entry>
   
   <entry>
-    <title>Java网络教程:ServerSocket</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8BServerSocket/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络教程ServerSocket/</id>
+    <title>Java开发知识库</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0229_web_page/Java%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86%E5%BA%93/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0229_web_page/Java开发知识库/</id>
     <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-12T21:05:41.101Z</updated>
+    <updated>2018-03-12T22:14:25.250Z</updated>
     
-    <content type="html"><![CDATA[<ul><li><h3 id="Java网络教程-ServerSocket"><a href="#Java网络教程-ServerSocket" class="headerlink" title="Java网络教程: ServerSocket"></a>Java网络教程: ServerSocket</h3><p><a href="http://tutorials.jenkov.com/java-networking/server-sockets.html" target="_blank" rel="noopener">原文链接</a> 作者：<a href="http://jakob.jenkov.com/" target="_blank" rel="noopener">Jakob Jenkov</a> 译者：homesick</p><p>用java.net.ServerSocket实现java服务通过TCP/IP监听客户端连接，你也可以用Java NIO 来代替java网络标准API，这时候需要用到 ServerSocketChannel。</p><h2 id="创建一个-ServerSocket连接"><a href="#创建一个-ServerSocket连接" class="headerlink" title="创建一个 ServerSocket连接"></a>创建一个 ServerSocket连接</h2><p>以下是一个创建ServerSocket类来监听9000端口的一个简单的代码</p><p>ServerSocket serverSocket = new ServerSocket(9000);</p><h2 id="监听请求的连接"><a href="#监听请求的连接" class="headerlink" title="监听请求的连接"></a>监听请求的连接</h2><p>要获取请求的连接需要用ServerSocket.accept()方法。该方法返回一个Socket类，该类具有普通java Socket类的所有特性。代码如下：</p><p>ServerSocket serverSocket = new ServerSocket(9000); boolean isStopped = false;while(!isStopped){   Socket clientSocket = serverSocket.accept();    //do something with clientSocket}</p><p>对每个调用了accept()方法的类都只获得一个请求的连接。</p><p>另外，请求的连接也只能在线程运行的server中调用了accept()方法之后才能够接受请求。线程运行在server中其它所有的方法上的时候都不能接受客户端的连接请求。所以”接受”请求的线程通常都会把Socket的请求连接放入一个工作线程池中，然后再和客户端连接。更多关于多线程服务端设计的文档请参考 java多线程服务</p><h2 id="关闭客户端Socket"><a href="#关闭客户端Socket" class="headerlink" title="关闭客户端Socket"></a>关闭客户端Socket</h2><p>客户端请求执行完毕，并且不会再有该客户端的其它请求发送过来的时候，就需要关闭Socket连接，这和关闭一个普通的客户端Socket连接一样。如下代码来执行关闭：</p><p>socket.close();</p><h2 id="关闭服务端Sockets"><a href="#关闭服务端Sockets" class="headerlink" title="关闭服务端Sockets"></a>关闭服务端Sockets</h2><p>要关闭服务的时候需要关掉 ServerSocket连接。通过执行如下代码：</p><p>serverSocket.close();</p><p><a href="http://ifeve.com/java-network-serversocket-2/" target="_blank" rel="noopener">http://ifeve.com/java-network-serversocket-2/</a></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="Java开发知识库"><a href="#Java开发知识库" class="headerlink" title="Java开发知识库"></a>Java开发知识库</h1><ul><li>IBM开发社区 <a href="https://www.ibm.com/developerworks/cn/java/" target="_blank" rel="noopener">https://www.ibm.com/developerworks/cn/java/</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;ul&gt;
-&lt;li&gt;&lt;h3 id=&quot;Java网络教程-ServerSocket&quot;&gt;&lt;a href=&quot;#Java网络教程-ServerSocket&quot; class=&quot;headerlink&quot; title=&quot;Java网络教程: ServerSocket&quot;&gt;&lt;/a&gt;Java网络教程: Ser
+        &lt;h1 id=&quot;Java开发知识库&quot;&gt;&lt;a href=&quot;#Java开发知识库&quot; class=&quot;headerlink&quot; title=&quot;Java开发知识库&quot;&gt;&lt;/a&gt;Java开发知识库&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;IBM开发社区 &lt;a href=&quot;https://www.ibm.com
       
     
     </summary>
@@ -312,16 +592,50 @@
     
       <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
     
-      <category term="0225_net" scheme="https://30s.github.io/categories/02-code-language/022-java/0225-net/"/>
+      <category term="0229_knowledge_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0229-knowledge-base/"/>
     
     
       <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
     
       <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
     
-      <category term="NET" scheme="https://30s.github.io/tags/NET/"/>
+      <category term="Optimize" scheme="https://30s.github.io/tags/Optimize/"/>
     
-      <category term="Socket" scheme="https://30s.github.io/tags/Socket/"/>
+      <category term="Knowledge Base" scheme="https://30s.github.io/tags/Knowledge-Base/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>定制并发类系列</title>
+    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0227_concurrent_package/%E5%AE%9A%E5%88%B6%E5%B9%B6%E5%8F%91%E7%B1%BB%E7%B3%BB%E5%88%97/"/>
+    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0227_concurrent_package/定制并发类系列/</id>
+    <published>2010-09-01T05:00:00.000Z</published>
+    <updated>2018-03-12T22:12:58.812Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="定制并发类系列"><a href="#定制并发类系列" class="headerlink" title="定制并发类系列"></a>定制并发类系列</h1><ul><li><p><strong>声明</strong>：本文是《 <a href="http://it-ebooks.info/book/1116/" target="_blank" rel="noopener">Java 7 Concurrency Cookbook</a> 》的第七章，作者： Javier Fernández González     译者：许巧辉 </p><p>在这个文章中，我们将包含：</p><ul><li><a href="http://ifeve.com/customizing-concurrency-classes-2/" title="定制并发类（二）定制ThreadPoolExecutor类" target="_blank" rel="noopener">定制ThreadPoolExecutor类</a></li><li><a href="http://ifeve.com/customizing-concurrency-classes-2/" title="定制并发类（二）定制ThreadPoolExecutor类" target="_blank" rel="noopener">实现一个基于优先级的Executor类</a></li><li><a href="http://ifeve.com/customizing-concurrency-classes-3/" title="定制并发类（三）实现一个基于优先级的Executor类" target="_blank" rel="noopener">实现ThreadFactory接口生成自定义的线程</a></li><li><a href="http://ifeve.com/customizing-concurrency-classes-4/" title="定制并发类（四）实现ThreadFactory接口生成自定义的线程" target="_blank" rel="noopener">在一个Executor对象中使用我们的ThreadFactory</a></li><li><a href="http://ifeve.com/customizing-concurrency-classes-5/" title="定制并发类（五）在一个Executor对象中使用我们的ThreadFactory" target="_blank" rel="noopener">定制任务运行在一个计划的线程池中</a></li><li><a href="http://ifeve.com/customizing-concurrency-classes-6/" title="定制并发类（六）自定义在计划的线程池内运行的任务" target="_blank" rel="noopener">实现ThreadFactory接口生成自定义的线程给Fork/Join框架</a></li><li><a href="http://ifeve.com/customizing-concurrency-classes-7/" title="定制并发类（七）实现ThreadFactory接口生成自定义的线程给Fork/Join框架" target="_blank" rel="noopener">定制任务运行在Fork/Join框架中</a></li><li><a href="http://ifeve.com/customizing-concurrency-classes-9/" title="定制并发类（九）实现一个自定义的Lock类" target="_blank" rel="noopener">实现一个自定义的Lock类</a></li><li><a href="http://ifeve.com/customizing-concurrency-classes-10/" title="定制并发类（十）实现一个基于优先级的转换队列" target="_blank" rel="noopener">实现一个基于优先级的传输队列</a></li><li><a href="http://ifeve.com/customizing-concurrency-classes-11/" title="定制并发类（十一）实现自定义的原子对象" target="_blank" rel="noopener">实现你自己的原子对象</a></li></ul><p><strong>引言</strong></p><p>Java 并发API提供许多接口和类来实现并发应用程序。它们提供底层（low-level）机制，如Thread类、Runnable或Callable接口、或synchronized关键字。同样也提供高级（high-level）机制，如Executor框架和Java 7 发布的Fork/Join框架。尽管这样，你可能发现你自己开发一个程序时，没有一个java类能满足你的需求。</p><p>在这种情况下，你也许需要基于Java提供的（API）实现自己定制的并发工具。基本上，你可以：</p><ul><li>实现一个接口提供那个接口定义的功能。比如：ThreadFactory接口。</li><li>覆盖一个类的一些方法来调整它的行为以满足你的需求。比如，覆盖Thread类的run()方法，默认情况下，它没有用并且应该被覆盖以提供一些功能。</li></ul><p>通过这个文章的指南，你将学习如何改变一些Java并发API类的行为，而不必从头开始设计一个并发框架。你可以使用这些指南作为初始点来实现你自己的定制。</p><p><a href="http://ifeve.com/customizing-concurrency-classes-1/" target="_blank" rel="noopener">http://ifeve.com/customizing-concurrency-classes-1/</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;定制并发类系列&quot;&gt;&lt;a href=&quot;#定制并发类系列&quot; class=&quot;headerlink&quot; title=&quot;定制并发类系列&quot;&gt;&lt;/a&gt;定制并发类系列&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;声明&lt;/strong&gt;：本文是《 &lt;a href=&quot;http://
+      
+    
+    </summary>
+    
+      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
+    
+      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
+    
+      <category term="0227_concurrent" scheme="https://30s.github.io/categories/02-code-language/022-java/0227-concurrent/"/>
+    
+    
+      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
+    
+      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
+    
+      <category term="Concurrent" scheme="https://30s.github.io/tags/Concurrent/"/>
     
   </entry>
   
@@ -358,322 +672,6 @@
       <category term="NET" scheme="https://30s.github.io/tags/NET/"/>
     
       <category term="Socket" scheme="https://30s.github.io/tags/Socket/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java网络教程之Socket</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8B%E4%B9%8BSocket/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0225_net/socket/Java网络教程之Socket/</id>
-    <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-12T21:01:50.835Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><h3 id="Java网络教程之Socket"><a href="#Java网络教程之Socket" class="headerlink" title="Java网络教程之Socket"></a>Java网络教程之Socket</h3><p><a href="http://tutorials.jenkov.com/java-networking/sockets.html" target="_blank" rel="noopener"><strong>原文地址</strong></a>  译者：贾毅</p><p>当我们想要在Java中使用TCP/IP通过网络连接到服务器时，就需要创建java.net.Socket对象并连接到服务器。假如希望使用Java NIO，也可以创建Java NIO中的<a href="http://tutorials.jenkov.com/java-nio/socketchannel.html" target="_blank" rel="noopener">SocketChannel</a>对象。</p><p><strong>创建**</strong>Socket**</p><p>下面的示例代码是连接到IP地址为78.64.84.171服务器上的80端口，这台服务器就是我们的Web服务器（<a href="http://www.jenkov.com），而80端口就是Web服务端口。" target="_blank" rel="noopener">www.jenkov.com），而80端口就是Web服务端口。</a></p><p>Socket socket = new Socket(“78.46.84.171”, 80);</p><p>我们也可以像如下示例中使用域名代替IP地址：</p><p>Socket socket = new Socket(“jenkov.com”, 80);</p><p><strong>Socket**</strong>发送数据**</p><p>要通过Socket发送数据，我们需要获取Socket的输出流（<a href="http://tutorials.jenkov.com/java-io/outputstream.html" target="_blank" rel="noopener">OutputStream</a>），示例代码如下：</p><p>Socket socket = new Socket(“jenkov.com”, 80);<br>OutputStream out = socket.getOutputStream();<br>out.write(“some data”.getBytes());<br>out.flush();<br>out.close();<br>socket.close();</p><p>代码非常简单，但是想要通过网络将数据发送到服务器端，一定不要忘记调用flush()方法。操作系统底层的TCP/IP实现会先将数据放入一个更大的数据缓存块中，而缓存块的大小是与TCP/IP的数据包大小相适应的。（译者注：调用flush()方法只是将数据写入操作系统缓存中，并不保证数据会立即发送）</p><p><strong>Socket**</strong>读取数据**</p><p>从Socket中读取数据，我们就需要获取Socket的输入流（<a href="http://tutorials.jenkov.com/java-io/inputstream.html" target="_blank" rel="noopener">InputStream</a>），代码如下：</p><p>Socket socket = new Socket(“jenkov.com”, 80);<br>InputStream in = socket.getInputStream();<br>int data = in.read();<br>//… read more data…<br>in.close();<br>socket.close();</p><p>代码也并不复杂，但需要注意的是，从Socket的输入流中读取数据并不能读取文件那样，一直调用read()方法直到返回-1为止，因为对Socket而言，只有当服务端关闭连接时，Socket的输入流才会返回-1，而是事实上服务器并不会不停地关闭连接。假设我们想要通过一个连接发送多个请求，那么在这种情况下关闭连接就显得非常愚蠢。</p><p>因此，从Socket的输入流中读取数据时我们必须要知道需要读取的字节数，这可以通过让服务器在数据中告知发送了多少字节来实现，也可以采用在数据末尾设置特殊字符标记的方式连实现。</p><p><strong>关闭**</strong>Socket**</p><p>当使用完Socket后我们必须将Socket关闭，断开与服务器之间的连接。关闭Socket只需要调用Socket.close()方法即可，代码如下：</p><p>Socket socket = new Socket(“jenkov.com”, 80); </p><p><strong>socket.close();</strong></p><p><a href="http://ifeve.com/java-socket/" target="_blank" rel="noopener">http://ifeve.com/java-socket/</a></p></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;ul&gt;
-&lt;li&gt;&lt;h3 id=&quot;Java网络教程之Socket&quot;&gt;&lt;a href=&quot;#Java网络教程之Socket&quot; class=&quot;headerlink&quot; title=&quot;Java网络教程之Socket&quot;&gt;&lt;/a&gt;Java网络教程之Socket&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;
-      
-    
-    </summary>
-    
-      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
-    
-      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
-    
-      <category term="0225_net" scheme="https://30s.github.io/categories/02-code-language/022-java/0225-net/"/>
-    
-    
-      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
-    
-      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
-    
-      <category term="NET" scheme="https://30s.github.io/tags/NET/"/>
-    
-      <category term="Socket" scheme="https://30s.github.io/tags/Socket/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CGLIB(Code Generation Library)详解</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/dynamic_proxy/cglib/CGLIB(Code%20Generation%20Library)%E8%AF%A6%E8%A7%A3/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/dynamic_proxy/cglib/CGLIB(Code Generation Library)详解/</id>
-    <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-07T14:42:00.990Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="CGLIB-Code-Generation-Library-详解"><a href="#CGLIB-Code-Generation-Library-详解" class="headerlink" title="CGLIB(Code Generation Library)详解"></a>CGLIB(Code Generation Library)详解</h1><p><a href="http://blog.csdn.net/danchu/article/details/70238002" target="_blank" rel="noopener">http://blog.csdn.net/danchu/article/details/70238002</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;CGLIB-Code-Generation-Library-详解&quot;&gt;&lt;a href=&quot;#CGLIB-Code-Generation-Library-详解&quot; class=&quot;headerlink&quot; title=&quot;CGLIB(Code Generation Librar
-      
-    
-    </summary>
-    
-      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
-    
-      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
-    
-      <category term="0221_java_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0221-java-base/"/>
-    
-    
-      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
-    
-      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
-    
-      <category term="Java Base" scheme="https://30s.github.io/tags/Java-Base/"/>
-    
-      <category term="CGLIB" scheme="https://30s.github.io/tags/CGLIB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TreeMap详细介绍(源码解析)和使用示例</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/treemap/TreeMap%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D(%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)%E5%92%8C%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/treemap/TreeMap详细介绍(源码解析)和使用示例/</id>
-    <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-07T14:56:59.364Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="TreeMap详细介绍-源码解析-和使用示例"><a href="#TreeMap详细介绍-源码解析-和使用示例" class="headerlink" title="TreeMap详细介绍(源码解析)和使用示例"></a>TreeMap详细介绍(源码解析)和使用示例</h1><p><a href="http://www.cnblogs.com/skywang12345/p/3310928.html" target="_blank" rel="noopener">http://www.cnblogs.com/skywang12345/p/3310928.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;TreeMap详细介绍-源码解析-和使用示例&quot;&gt;&lt;a href=&quot;#TreeMap详细介绍-源码解析-和使用示例&quot; class=&quot;headerlink&quot; title=&quot;TreeMap详细介绍(源码解析)和使用示例&quot;&gt;&lt;/a&gt;TreeMap详细介绍(源码解析)和使用
-      
-    
-    </summary>
-    
-      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
-    
-      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
-    
-      <category term="0223_set_utils" scheme="https://30s.github.io/categories/02-code-language/022-java/0223-set-utils/"/>
-    
-    
-      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
-    
-      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
-    
-      <category term="Set Utils" scheme="https://30s.github.io/tags/Set-Utils/"/>
-    
-      <category term="TreeMap" scheme="https://30s.github.io/tags/TreeMap/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>LinkedList详细介绍(源码解析)和使用示例</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/linked_list/LinkedList%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D(%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)%E5%92%8C%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0223_set_utils/linked_list/LinkedList详细介绍(源码解析)和使用示例/</id>
-    <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-07T14:56:59.443Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="LinkedList详细介绍-源码解析-和使用示例"><a href="#LinkedList详细介绍-源码解析-和使用示例" class="headerlink" title="LinkedList详细介绍(源码解析)和使用示例"></a>LinkedList详细介绍(源码解析)和使用示例</h1><p><a href="http://www.cnblogs.com/skywang12345/p/3308807.html" target="_blank" rel="noopener">http://www.cnblogs.com/skywang12345/p/3308807.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;LinkedList详细介绍-源码解析-和使用示例&quot;&gt;&lt;a href=&quot;#LinkedList详细介绍-源码解析-和使用示例&quot; class=&quot;headerlink&quot; title=&quot;LinkedList详细介绍(源码解析)和使用示例&quot;&gt;&lt;/a&gt;LinkedList详
-      
-    
-    </summary>
-    
-      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
-    
-      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
-    
-      <category term="0223_set_utils" scheme="https://30s.github.io/categories/02-code-language/022-java/0223-set-utils/"/>
-    
-    
-      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
-    
-      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
-    
-      <category term="Set Utils" scheme="https://30s.github.io/tags/Set-Utils/"/>
-    
-      <category term="LinkedList" scheme="https://30s.github.io/tags/LinkedList/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AbstractQueuedSynchronizer源码解读</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/abstract_queued_synchronizer/AbstractQueuedSynchronizer%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/abstract_queued_synchronizer/AbstractQueuedSynchronizer源码解读/</id>
-    <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-07T14:40:42.327Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="AbstractQueuedSynchronizer源码解读"><a href="#AbstractQueuedSynchronizer源码解读" class="headerlink" title="AbstractQueuedSynchronizer源码解读"></a>AbstractQueuedSynchronizer源码解读</h1><p><a href="https://www.cnblogs.com/micrari/p/6937995.html" target="_blank" rel="noopener">https://www.cnblogs.com/micrari/p/6937995.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;AbstractQueuedSynchronizer源码解读&quot;&gt;&lt;a href=&quot;#AbstractQueuedSynchronizer源码解读&quot; class=&quot;headerlink&quot; title=&quot;AbstractQueuedSynchronizer源码解读&quot;&gt;
-      
-    
-    </summary>
-    
-      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
-    
-      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
-    
-      <category term="0221_java_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0221-java-base/"/>
-    
-    
-      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
-    
-      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
-    
-      <category term="Java Base" scheme="https://30s.github.io/tags/Java-Base/"/>
-    
-      <category term="Abstract Queued Synchronizer" scheme="https://30s.github.io/tags/Abstract-Queued-Synchronizer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux写时拷贝技术(copy-on-write)</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/copy_on_write/Linux%E5%86%99%E6%97%B6%E6%8B%B7%E8%B4%9D%E6%8A%80%E6%9C%AF(copy-on-write)/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/copy_on_write/Linux写时拷贝技术(copy-on-write)/</id>
-    <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-07T14:41:36.686Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Linux写时拷贝技术-copy-on-write"><a href="#Linux写时拷贝技术-copy-on-write" class="headerlink" title="Linux写时拷贝技术(copy-on-write)"></a>Linux写时拷贝技术(copy-on-write)</h1><p><a href="https://www.cnblogs.com/biyeymyhjob/archive/2012/07/20/2601655.html" target="_blank" rel="noopener">https://www.cnblogs.com/biyeymyhjob/archive/2012/07/20/2601655.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Linux写时拷贝技术-copy-on-write&quot;&gt;&lt;a href=&quot;#Linux写时拷贝技术-copy-on-write&quot; class=&quot;headerlink&quot; title=&quot;Linux写时拷贝技术(copy-on-write)&quot;&gt;&lt;/a&gt;Linux写时拷贝技
-      
-    
-    </summary>
-    
-      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
-    
-      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
-    
-      <category term="0221_java_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0221-java-base/"/>
-    
-    
-      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
-    
-      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
-    
-      <category term="Java Base" scheme="https://30s.github.io/tags/Java-Base/"/>
-    
-      <category term="Copy on Write" scheme="https://30s.github.io/tags/Copy-on-Write/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>浅谈CAS(Compare and Swap) 原理</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/compare_and_swap/%E6%B5%85%E8%B0%88CAS(Compare%20and%20Swap)%20%E5%8E%9F%E7%90%86/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0221_java_base/compare_and_swap/浅谈CAS(Compare and Swap) 原理/</id>
-    <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-07T14:41:06.343Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="浅谈CAS-Compare-and-Swap-原理"><a href="#浅谈CAS-Compare-and-Swap-原理" class="headerlink" title="浅谈CAS(Compare and Swap) 原理"></a>浅谈CAS(Compare and Swap) 原理</h1><p><a href="https://www.cnblogs.com/Leo_wl/p/6899716.html" target="_blank" rel="noopener">https://www.cnblogs.com/Leo_wl/p/6899716.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;浅谈CAS-Compare-and-Swap-原理&quot;&gt;&lt;a href=&quot;#浅谈CAS-Compare-and-Swap-原理&quot; class=&quot;headerlink&quot; title=&quot;浅谈CAS(Compare and Swap) 原理&quot;&gt;&lt;/a&gt;浅谈CAS(Comp
-      
-    
-    </summary>
-    
-      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
-    
-      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
-    
-      <category term="0221_java_base" scheme="https://30s.github.io/categories/02-code-language/022-java/0221-java-base/"/>
-    
-    
-      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
-    
-      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
-    
-      <category term="Java Base" scheme="https://30s.github.io/tags/Java-Base/"/>
-    
-      <category term="Compare and Swap" scheme="https://30s.github.io/tags/Compare-and-Swap/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CGLIB(Code Generation Library)详解</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/class_loader/java%E4%B8%AD%E7%9A%84ClassLoader%E8%AF%A6%E8%A7%A3/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/class_loader/java中的ClassLoader详解/</id>
-    <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-07T14:51:23.453Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="java中的ClassLoader详解"><a href="#java中的ClassLoader详解" class="headerlink" title="java中的ClassLoader详解"></a>java中的ClassLoader详解</h1><p><a href="http://blog.csdn.net/briblue/article/details/54973413" target="_blank" rel="noopener">http://blog.csdn.net/briblue/article/details/54973413</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;java中的ClassLoader详解&quot;&gt;&lt;a href=&quot;#java中的ClassLoader详解&quot; class=&quot;headerlink&quot; title=&quot;java中的ClassLoader详解&quot;&gt;&lt;/a&gt;java中的ClassLoader详解&lt;/h1&gt;&lt;p&gt;&lt;a
-      
-    
-    </summary>
-    
-      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
-    
-      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
-    
-      <category term="0222_jvm" scheme="https://30s.github.io/categories/02-code-language/022-java/0222-jvm/"/>
-    
-    
-      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
-    
-      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
-    
-      <category term="Jvm" scheme="https://30s.github.io/tags/Jvm/"/>
-    
-      <category term="ClassLoader" scheme="https://30s.github.io/tags/ClassLoader/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>浅析java内存模型</title>
-    <link href="https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/memory_model/%E6%B5%85%E6%9E%90java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B/"/>
-    <id>https://30s.github.io/2010/09/01/02_code_language/022_java/0222_jvm/memory_model/浅析java内存模型/</id>
-    <published>2010-09-01T05:00:00.000Z</published>
-    <updated>2018-03-07T14:51:23.786Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="浅析java内存模型"><a href="#浅析java内存模型" class="headerlink" title="浅析java内存模型"></a>浅析java内存模型</h1><p><a href="https://www.cnblogs.com/lewis0077/p/5143268.html" target="_blank" rel="noopener">https://www.cnblogs.com/lewis0077/p/5143268.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;浅析java内存模型&quot;&gt;&lt;a href=&quot;#浅析java内存模型&quot; class=&quot;headerlink&quot; title=&quot;浅析java内存模型&quot;&gt;&lt;/a&gt;浅析java内存模型&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/lewis
-      
-    
-    </summary>
-    
-      <category term="02_code_language" scheme="https://30s.github.io/categories/02-code-language/"/>
-    
-      <category term="022_java" scheme="https://30s.github.io/categories/02-code-language/022-java/"/>
-    
-      <category term="0222_jvm" scheme="https://30s.github.io/categories/02-code-language/022-java/0222-jvm/"/>
-    
-    
-      <category term="Code Language" scheme="https://30s.github.io/tags/Code-Language/"/>
-    
-      <category term="Java" scheme="https://30s.github.io/tags/Java/"/>
-    
-      <category term="Jvm" scheme="https://30s.github.io/tags/Jvm/"/>
-    
-      <category term="Memory Model" scheme="https://30s.github.io/tags/Memory-Model/"/>
     
   </entry>
   
