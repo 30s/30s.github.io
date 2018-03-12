@@ -15,16 +15,16 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[算法设计与分析]]></title>
-    <url>%2F2010%2F09%2F01%2F01_software_engineering%2F015_algorithm%2Findex%2F</url>
-    <content type="text"><![CDATA[第1章 算法概述1.1 算法与程序1.2 算法复杂性分析第2章 递归与分治策略2.1 递归的概念2.2 分治法的基本思想2.3 二分搜索技术2.4 大整数的乘法2.5 Strassen矩阵乘法2.6 棋盘覆盖2.7 合并排序2.8 快速排序2.9 线性时间选择2.10 最接近点对问题2.11 循环赛日程表第3章 动态规划3.1 矩阵连乘问题3.2 动态规划算法的基本要素3.3 最长公共子序列3.4 最大子段和3.5 凸多边形最优三角剖分3.6 多边形游戏3.7 图像压缩3.8 电路布线3.9 流水作业调度3.10 0-1背包问题3.11 最优二叉搜索树3.12 动态规划加速原理第4章 贪心算法第5章 回溯法第6章 分支限界法第7章 随机化算法第8章 线性规划与网络流第9章 NP完全性理论与近似算法]]></content>
+    <title><![CDATA[计算机网络]]></title>
+    <url>%2F2010%2F09%2F01%2F01_software_engineering%2F013_network%2Findex%2F</url>
+    <content type="text"><![CDATA[第1章 概述第2章 物理层第3章 数据链路层第4章 网络层第5章 运输层第6章 应用层第7章 网络安全第8章 因特网上的音频/视频服务第9章 无线网络第10章 下一代因特网]]></content>
       <categories>
         <category>01_software_engineering</category>
-        <category>015_algorithm</category>
+        <category>013_network</category>
       </categories>
       <tags>
         <tag>Software Engineering</tag>
-        <tag>Algorithm</tag>
+        <tag>Network</tag>
       </tags>
   </entry>
   <entry>
@@ -54,6 +54,19 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[算法设计与分析]]></title>
+    <url>%2F2010%2F09%2F01%2F01_software_engineering%2F015_algorithm%2Findex%2F</url>
+    <content type="text"><![CDATA[第1章 算法概述1.1 算法与程序1.2 算法复杂性分析第2章 递归与分治策略2.1 递归的概念2.2 分治法的基本思想2.3 二分搜索技术2.4 大整数的乘法2.5 Strassen矩阵乘法2.6 棋盘覆盖2.7 合并排序2.8 快速排序2.9 线性时间选择2.10 最接近点对问题2.11 循环赛日程表第3章 动态规划3.1 矩阵连乘问题3.2 动态规划算法的基本要素3.3 最长公共子序列3.4 最大子段和3.5 凸多边形最优三角剖分3.6 多边形游戏3.7 图像压缩3.8 电路布线3.9 流水作业调度3.10 0-1背包问题3.11 最优二叉搜索树3.12 动态规划加速原理第4章 贪心算法第5章 回溯法第6章 分支限界法第7章 随机化算法第8章 线性规划与网络流第9章 NP完全性理论与近似算法]]></content>
+      <categories>
+        <category>01_software_engineering</category>
+        <category>015_algorithm</category>
+      </categories>
+      <tags>
+        <tag>Software Engineering</tag>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[操作系统]]></title>
     <url>%2F2010%2F09%2F01%2F01_software_engineering%2F012_operating_system%2Findex%2F</url>
     <content type="text"><![CDATA[第一章 操作系统引论1.1 操作系统的目标和作用1.2 操作系统的发展过程1.3 操作系统的基本特性1.4 操作系统的主要功能1.5 OS结构设计第二章 进程管理2.1 进程的基本概念2.2 进程控制2.3 进程同步2.4 经典进程的同步问题2.5 进程通信2.6 线程第三章 处理机调度与死锁3.1 处理机调度的层次3.2 调度队列模型和调度准则3.3 调度算法3.4 实时调度3.5 产生死锁的原因和必要条件3.6 预防死锁的方法3.7 死锁的检测与解除第四章 存储器管理4.1 存储器的层次结构4.2 程序的装入和链接4.3 连续分配方式4.4 基本分页存储管理方式4.5 基本分段存储管理方式4.6 虚拟存储器的基本概念4.7 请求分页存储管理方式4.8 页面置换算法4.9 请求分段存储管理方式第五章 设备管理5.1 I/O系统5.2 I/0控制方式5.3 缓冲管理5.4 I/O软件5.5 设备分配5.6 磁盘存储器的管理第六章 文件管理6.1 文件和文件系统6.2 文件的逻辑结构6.3 外存分配方式6.4 目录管理6.5 文件存储空间的管理6.6 文件共享与文件保护6.7 数据一致性控制第七章 操作系统接口7.1 联机用户接口7.2 Shell命令语言7.3 系统调用7.4 UNIX系统调用7.5 图形用户接口第八章 网络操作系统8.1 计算机网络概述8.2 网络体系结构8.3 Internet与Intranet8.4 客户，服务器模式8.5 网络操作系统的功能8.6 网络操作系统提供的服务第九章 系统安全性9.1 系统安全的基本概念9.2 数据加密技术9.3 认证技术9.4 访问控制技术9.5 计算机病毒第十章 UNIX系统内核结构10.1 UNIX系统概述10.2 进程的描述和控制10.3 进程的同步与通信10.4 存储器管理10.5 设备管理10.6 文件管理]]></content>
@@ -64,19 +77,6 @@
       <tags>
         <tag>Software Engineering</tag>
         <tag>Operating System</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[计算机网络]]></title>
-    <url>%2F2010%2F09%2F01%2F01_software_engineering%2F013_network%2Findex%2F</url>
-    <content type="text"><![CDATA[第1章 概述第2章 物理层第3章 数据链路层第4章 网络层第5章 运输层第6章 应用层第7章 网络安全第8章 因特网上的音频/视频服务第9章 无线网络第10章 下一代因特网]]></content>
-      <categories>
-        <category>01_software_engineering</category>
-        <category>013_network</category>
-      </categories>
-      <tags>
-        <tag>Software Engineering</tag>
-        <tag>Network</tag>
       </tags>
   </entry>
   <entry>
@@ -91,54 +91,6 @@
       <tags>
         <tag>Software Engineering</tag>
         <tag>Algorithm</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Apache-Commons包作用说明]]></title>
-    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0223_set_utils%2Fapache_commons%2FApache-Commons%E5%8C%85%E4%BD%9C%E7%94%A8%E8%AF%B4%E6%98%8E%2F</url>
-    <content type="text"><![CDATA[Apache-Commons包作用说明http://blog.csdn.net/qq877507054/article/details/51395859]]></content>
-      <categories>
-        <category>02_code_language</category>
-        <category>022_java</category>
-        <category>0223_set_utils</category>
-      </categories>
-      <tags>
-        <tag>Code Language</tag>
-        <tag>Java</tag>
-        <tag>Set Utils</tag>
-        <tag>Apache Commons</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[CGLIB(Code Generation Library)详解]]></title>
-    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0221_java_base%2Fdynamic_proxy%2Fcglib%2FCGLIB(Code%20Generation%20Library)%E8%AF%A6%E8%A7%A3%2F</url>
-    <content type="text"><![CDATA[CGLIB(Code Generation Library)详解http://blog.csdn.net/danchu/article/details/70238002]]></content>
-      <categories>
-        <category>02_code_language</category>
-        <category>022_java</category>
-        <category>0221_java_base</category>
-      </categories>
-      <tags>
-        <tag>Code Language</tag>
-        <tag>Java</tag>
-        <tag>Java Base</tag>
-        <tag>CGLIB</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[TreeMap详细介绍(源码解析)和使用示例]]></title>
-    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0223_set_utils%2Ftreemap%2FTreeMap%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D(%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)%E5%92%8C%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B%2F</url>
-    <content type="text"><![CDATA[TreeMap详细介绍(源码解析)和使用示例http://www.cnblogs.com/skywang12345/p/3310928.html]]></content>
-      <categories>
-        <category>02_code_language</category>
-        <category>022_java</category>
-        <category>0223_set_utils</category>
-      </categories>
-      <tags>
-        <tag>Code Language</tag>
-        <tag>Java</tag>
-        <tag>Set Utils</tag>
-        <tag>TreeMap</tag>
       </tags>
   </entry>
   <entry>
@@ -158,6 +110,102 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Java网络教程之Socket]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0225_net%2Fsocket%2FJava%E7%BD%91%E7%BB%9C%E6%95%99%E7%A8%8B%E4%B9%8BSocket%2F</url>
+    <content type="text"><![CDATA[Java网络教程之Socket原文地址 译者：贾毅 当我们想要在Java中使用TCP/IP通过网络连接到服务器时，就需要创建java.net.Socket对象并连接到服务器。假如希望使用Java NIO，也可以创建Java NIO中的SocketChannel对象。 创建**Socket** 下面的示例代码是连接到IP地址为78.64.84.171服务器上的80端口，这台服务器就是我们的Web服务器（www.jenkov.com），而80端口就是Web服务端口。 Socket socket = new Socket(“78.46.84.171”, 80); 我们也可以像如下示例中使用域名代替IP地址： Socket socket = new Socket(“jenkov.com”, 80); Socket**发送数据** 要通过Socket发送数据，我们需要获取Socket的输出流（OutputStream），示例代码如下： Socket socket = new Socket(“jenkov.com”, 80);OutputStream out = socket.getOutputStream();out.write(“some data”.getBytes());out.flush();out.close();socket.close(); 代码非常简单，但是想要通过网络将数据发送到服务器端，一定不要忘记调用flush()方法。操作系统底层的TCP/IP实现会先将数据放入一个更大的数据缓存块中，而缓存块的大小是与TCP/IP的数据包大小相适应的。（译者注：调用flush()方法只是将数据写入操作系统缓存中，并不保证数据会立即发送） Socket**读取数据** 从Socket中读取数据，我们就需要获取Socket的输入流（InputStream），代码如下： Socket socket = new Socket(“jenkov.com”, 80);InputStream in = socket.getInputStream();int data = in.read();//… read more data…in.close();socket.close(); 代码也并不复杂，但需要注意的是，从Socket的输入流中读取数据并不能读取文件那样，一直调用read()方法直到返回-1为止，因为对Socket而言，只有当服务端关闭连接时，Socket的输入流才会返回-1，而是事实上服务器并不会不停地关闭连接。假设我们想要通过一个连接发送多个请求，那么在这种情况下关闭连接就显得非常愚蠢。 因此，从Socket的输入流中读取数据时我们必须要知道需要读取的字节数，这可以通过让服务器在数据中告知发送了多少字节来实现，也可以采用在数据末尾设置特殊字符标记的方式连实现。 关闭**Socket** 当使用完Socket后我们必须将Socket关闭，断开与服务器之间的连接。关闭Socket只需要调用Socket.close()方法即可，代码如下： Socket socket = new Socket(“jenkov.com”, 80); socket.close(); http://ifeve.com/java-socket/]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0225_net</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>NET</tag>
+        <tag>Socket</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Java网络编程：UDP DatagramSocket]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0225_net%2Fsocket%2FJava%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%EF%BC%9AUDP%20DatagramSocket%2F</url>
+    <content type="text"><![CDATA[Java网络编程：UDP DatagramSocket原文地址 DatagramSocket类是java通过UDP通信的途径。UDP仍位于IP层的上面。 你可以用DatagramSocket类发送和接收UDP数据包。 UDP 和TCP UDP工作方式和TCP有点不同。当你通过TCP发送数据时，你先要创建连接。一旦TCP连接建立了，TCP会保证你的数据传递到对端，否则它将告诉你已发生的错误。 仅仅用UDP来发送数据包（datagrams）到网络间的某个IP地址。你不能保证数据会不会到达。你也不能保证UDP数据包到达接收方的指令。这意味着UDP比TCP有更少的协议开销（无完整检查流）。 当数据传输过程中不在乎数据包是否丢失时，UDP就比较适合这样的数据传输。比如，网上的电视信号的传输。你希望信号到达客户端时尽可能地接近直播。因此，如果丢失一两个画面，你一点都不在乎。你不希望直播延迟，值想确保所有的画面显示在客户端。你宁可跳过丢失的画面，希望一直看到最新的画面。 这种情况也会发生在网上摄像机直播节目中。谁会关心过去发生的什么，你只想显示当前的画面。你不希望比实际情况慢30s结束，只因为你想看到摄像机显示给观众的所有画面。这跟摄像机录像有点不同。从摄像机录制画面到磁盘，你不希望丢失一个画面。你可能还希望有点延迟，如果有重大的情况发生，就不需要倒回去检查画面。 通过DatagramSocket发送数据通过Java的DatagramSocket类发送数据，首先需要创建DatagramPacket。如下： buffer = new byte[65508];InetAddress address = new DatagramPacket(buffer, buffer.length, address,9000); 字节缓冲块（字节数组）就是UDP数据包中用来发送的数据。缓冲块上限长度为65508字节，是单一UDP数据包发送的最大的数据量。 数据包构造函数的长度就是缓存块中用于发送的数据的长度。所有多于最大容量的数据都会被忽略。 包含节点（例如服务器）地址的InetAddress实例携带节点（如服务器）的地址发送的UDP数据包。InetAddress类表示一个ip地址（网络地址）。getByName()方法返回带有一个InetAddress实例，该实例带有匹配主机名的ip地址。 端口参数是UDP端口服务器用来接收正在监听的数据。UDP端口和TCP端口是不一样的。一台电脑同时有不同的进程监听UDP和TCP 80端口。 为了发送数据包，你需要创建DatagramSocket来发送数据。如下： DatagramSocketdatagramSocket = new DatagramSocket(); 调用send()方法发送数据，像这样： datagramSocket.send(packet); 完整示例： DatagramSocketdatagramSocket = new DatagramSocket();byte [] buffer = “0123456789”.getBytes();InetAddressreceiverAddress = InetAddress.getLocalHost();DataframPacket packet =newDatagramPacket( buffer, buffer.length, receiverAddress, 80);datagramSocket.send(packet); 从DatagramSocket获取数据从DataframSocket获取数据时，首先创建DataframPacket,然后通过DatagramSocket类的receive()方法接收数据。例如：DatagramSocketdatagramSocket = new DatagramSocket(80);yte [] buffer = new byte [10];DatagramPacket packet = new DatagramPacket(buffer, buffer.length);datagramSocket.receive(packet); 注意DatagramSocket是如何通过传递参数80到它的构造器初始化的。这个参数是UDP端口的DatagramSocket用来接收UDP数据包的。像之前提到的，TCP和UDP端口是不一样的，也不重叠。你可以有俩个不同的进程同时在端口80监听TCP和UDP，没有任何冲突。 第二，字节缓存块和DatagramPacket创建了。注意DatagramPacket是没有关于节点如何发送数据的信息的，当创建一个方数据的DatagramPacket时，它会直到这个信息。这就是为什么我们会用DatagramPacket接收数据而不是发送数据。因此没有目标地址是必须的。 最后，调用DatagramSocket的receive()方法。直到数据包接收到为止，这个方法都是阻塞的。 接收的数据位于DatagramPacket的字节缓冲块。缓冲块可以通过调用getData()获得： byte [] buffer = packet.getData(); 缓冲块接收了多少的数据需要你去找出来。你用的协议应该定义每个UDP包发多少数据，活着定义一个你能找到的数据结束标记。一个真正的服务端程序可能会在一个loop中调用receive()方法，传送所有接收到的DatagramPacket到工作的线程池中，就像TCP服务器处理请求连接一样（查看Java Multithreaded Servers获取更多详情） http://ifeve.com/java-udp-datagramsocket/]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0225_net</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>NET</tag>
+        <tag>Socket</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CGLIB(Code Generation Library)详解]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0221_java_base%2Fdynamic_proxy%2Fcglib%2FCGLIB(Code%20Generation%20Library)%E8%AF%A6%E8%A7%A3%2F</url>
+    <content type="text"><![CDATA[CGLIB(Code Generation Library)详解http://blog.csdn.net/danchu/article/details/70238002]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0221_java_base</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>Java Base</tag>
+        <tag>CGLIB</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[JavaNIO系列教程]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0224_io%2Fnio%2FJavaNIO%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[JavaNIO系列教程http://ifeve.com/java-nio-all/]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0224_io</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>IO</tag>
+        <tag>NIO</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[TCP/IP十个入门问题]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0225_net%2Ftcp_ip%2FTCP%20IP%E5%8D%81%E4%B8%AA%E5%85%A5%E9%97%A8%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[TCP IP十个入门问题 本文整理了一些TCP/IP协议簇中需要必知必会的十大问题，既是面试高频问题，又是程序员必备基础素养。 1、TCP/IP模型 TCP/IP协议模型（Transmission Control Protocol/Internet Protocol），包含了一系列构成互联网基础的网络协议，是Internet的核心协议。 基于TCP/IP的参考模型将协议分成四个层次，它们分别是链路层、网络层、传输层和应用层。下图表示TCP/IP模型与OSI模型各层的对照关系。 TCP/IP协议族按照层次由上到下，层层包装。最上面的是应用层，这里面有http，ftp,等等我们熟悉的协议。而第二层则是传输层，著名的TCP和UDP协议就在这个层次。第三层是网络层，IP协议就在这里，它负责对数据加上IP地址和其他的数据以确定传输的目标。第四层是数据链路层，这个层次为待传送的数据加入一个以太网协议头，并进行CRC编码，为最后的数据传输做准备。 上图清楚地表示了TCP/IP协议中每个层的作用，而TCP/IP协议通信的过程其实就对应着数据入栈与出栈的过程。入栈的过程，数据发送方每层不断地封装首部与尾部，添加一些传输的信息，确保能传输到目的地。出栈的过程，数据接收方每层不断地拆除首部与尾部，得到最终传输的数据。 上图以HTTP协议为例，具体说明。 2、数据链路层 物理层负责0、1比特流与物理设备电压高低、光的闪灭之间的互换。 数据链路层负责将0、1序列划分为数据帧从一个节点传输到临近的另一个节点,这些节点是通过MAC来唯一标识的(MAC,物理地址，一个主机会有一个MAC地址)。 封装成帧: 把网络层数据报加头和尾，封装成帧,帧头中包括源MAC地址和目的MAC地址。 透明传输:零比特填充、转义字符。 可靠传输: 在出错率很低的链路上很少用，但是无线链路WLAN会保证可靠传输。 差错检测(CRC):接收者检测错误,如果发现差错，丢弃该帧。 3、网络层 1.IP协议 IP协议是TCP/IP协议的核心，所有的TCP，UDP，IMCP，IGMP的数据都以IP数据格式传输。要注意的是，IP不是可靠的协议，这是说，IP协议没有提供一种数据未传达以后的处理机制，这被认为是上层协议：TCP或UDP要做的事情。 1.1 IP地址 在数据链路层中我们一般通过MAC地址来识别不同的节点，而在IP层我们也要有一个类似的地址标识，这就是IP地址。 32位IP地址分为网络位和地址位，这样做可以减少路由器中路由表记录的数目，有了网络地址，就可以限定拥有相同网络地址的终端都在同一个范围内，那么路由表只需要维护一条这个网络地址的方向，就可以找到相应的这些终端了。 A类IP地址: 0.0.0.0~127.255.255.255 B类IP地址:128.0.0.0~191.255.255.255 C类IP地址:192.0.0.0~239.255.255.255 1.2 IP协议头 这里只介绍:八位的TTL字段。这个字段规定该数据包在穿过多少个路由之后才会被抛弃。某个IP数据包每穿过一个路由器，该数据包的TTL数值就会减少1，当该数据包的TTL成为零，它就会被自动抛弃。 这个字段的最大值也就是255，也就是说一个协议包也就在路由器里面穿行255次就会被抛弃了，根据系统的不同，这个数字也不一样，一般是32或者是64。 2.ARP及RARP协议 ARP 是根据IP地址获取MAC地址的一种协议。 ARP（地址解析）协议是一种解析协议，本来主机是完全不知道这个IP对应的是哪个主机的哪个接口，当主机要发送一个IP包的时候，会首先查一下自己的ARP高速缓存（就是一个IP-MAC地址对应表缓存）。 如果查询的IP－MAC值对不存在，那么主机就向网络发送一个ARP协议广播包，这个广播包里面就有待查询的IP地址，而直接收到这份广播的包的所有主机都会查询自己的IP地址，如果收到广播包的某一个主机发现自己符合条件，那么就准备好一个包含自己的MAC地址的ARP包传送给发送ARP广播的主机。 而广播主机拿到ARP包后会更新自己的ARP缓存（就是存放IP-MAC对应表的地方）。发送广播的主机就会用新的ARP缓存数据准备好数据链路层的的数据包发送工作。 RARP协议的工作与此相反，不做赘述。 3. ICMP协议 IP协议并不是一个可靠的协议，它不保证数据被送达，那么，自然的，保证数据送达的工作应该由其他的模块来完成。其中一个重要的模块就是ICMP(网络控制报文)协议。ICMP不是高层协议，而是IP层的协议。 当传送IP数据包发生错误。比如主机不可达，路由不可达等等，ICMP协议将会把错误信息封包，然后传送回给主机。给主机一个处理错误的机会，这 也就是为什么说建立在IP层以上的协议是可能做到安全的原因。 4、ping ping可以说是ICMP的最著名的应用，是TCP/IP协议的一部分。利用“ping”命令可以检查网络是否连通，可以很好地帮助我们分析和判定网络故障。 例如：当我们某一个网站上不去的时候。通常会ping一下这个网站。ping会回显出一些有用的信息。一般的信息如下: ping这个单词源自声纳定位，而这个程序的作用也确实如此，它利用ICMP协议包来侦测另一个主机是否可达。原理是用类型码为0的ICMP发请 求，受到请求的主机则用类型码为8的ICMP回应。 ping程序来计算间隔时间，并计算有多少个包被送达。用户就可以判断网络大致的情况。我们可以看到， ping给出来了传送的时间和TTL的数据。 5、Traceroute Traceroute是用来侦测主机到目的主机之间所经路由情况的重要工具，也是最便利的工具。 Traceroute的原理是非常非常的有意思，它收到到目的主机的IP后，首先给目的主机发送一个TTL=1的UDP数据包，而经过的第一个路由器收到这个数据包以后，就自动把TTL减1，而TTL变为0以后，路由器就把这个包给抛弃了，并同时产生 一个主机不可达的ICMP数据报给主机。主机收到这个数据报以后再发一个TTL=2的UDP数据报给目的主机，然后刺激第二个路由器给主机发ICMP数据 报。如此往复直到到达目的主机。这样，traceroute就拿到了所有的路由器IP。 6、TCP/UDP TCP/UDP都是是传输层协议，但是两者具有不同的特性，同时也具有不同的应用场景，下面以图表的形式对比分析。 面向报文 面向报文的传输方式是应用层交给UDP多长的报文，UDP就照样发送，即一次发送一个报文。因此，应用程序必须选择合适大小的报文。若报文太长，则IP层需要分片，降低效率。若太短，会是IP太小。 面向字节流 面向字节流的话，虽然应用程序和TCP的交互是一次一个数据块（大小不等），但TCP把应用程序看成是一连串的无结构的字节流。TCP有一个缓冲，当应用程序传送的数据块太长，TCP就可以把它划分短一些再传送。 关于拥塞控制，流量控制，是TCP的重点，后面讲解。 TCP和UDP协议的一些应用 什么时候应该使用TCP？ 当对网络通讯质量有要求的时候，比如：整个数据要准确无误的传递给对方，这往往用于一些要求可靠的应用，比如HTTP、HTTPS、FTP等传输文件的协议，POP、SMTP等邮件传输的协议。 什么时候应该使用UDP？ 当对网络通讯质量要求不高的时候，要求网络通讯速度能尽量的快，这时就可以使用UDP。]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0225_net</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>TCP/IP</tag>
+        <tag>NET</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[TreeMap详细介绍(源码解析)和使用示例]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0223_set_utils%2Ftreemap%2FTreeMap%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D(%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)%E5%92%8C%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B%2F</url>
+    <content type="text"><![CDATA[TreeMap详细介绍(源码解析)和使用示例http://www.cnblogs.com/skywang12345/p/3310928.html]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0223_set_utils</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>Set Utils</tag>
+        <tag>TreeMap</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[HashMap详细介绍(源码解析)和使用示例]]></title>
     <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0223_set_utils%2Fhashmap%2FHashMap%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D(%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90)%E5%92%8C%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B%2F</url>
     <content type="text"><![CDATA[HashMap详细介绍(源码解析)和使用示例https://www.cnblogs.com/skywang12345/p/3310835.html]]></content>
@@ -171,54 +219,6 @@
         <tag>Java</tag>
         <tag>Set Utils</tag>
         <tag>HashMap</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[深入分析ConcurrentHashMap]]></title>
-    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0223_set_utils%2Fconcurrent_hashmap%2F%E6%B7%B1%E5%85%A5%E5%88%86%E6%9E%90ConcurrentHashMap%2F</url>
-    <content type="text"><![CDATA[深入分析ConcurrentHashMaphttp://ifeve.com/concurrenthashmap/]]></content>
-      <categories>
-        <category>02_code_language</category>
-        <category>022_java</category>
-        <category>0223_set_utils</category>
-      </categories>
-      <tags>
-        <tag>Code Language</tag>
-        <tag>Java</tag>
-        <tag>Set Utils</tag>
-        <tag>ConcurrentHashMap</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[浅析java内存模型]]></title>
-    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0222_jvm%2Fmemory_model%2F%E6%B5%85%E6%9E%90java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%2F</url>
-    <content type="text"><![CDATA[浅析java内存模型https://www.cnblogs.com/lewis0077/p/5143268.html]]></content>
-      <categories>
-        <category>02_code_language</category>
-        <category>022_java</category>
-        <category>0222_jvm</category>
-      </categories>
-      <tags>
-        <tag>Code Language</tag>
-        <tag>Java</tag>
-        <tag>Jvm</tag>
-        <tag>Memory Model</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[ArrayList详解]]></title>
-    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0223_set_utils%2Farray_list%2FArrayList%E8%AF%A6%E8%A7%A3%2F</url>
-    <content type="text"><![CDATA[ArrayList详解http://blog.csdn.net/u012877472/article/details/50852933]]></content>
-      <categories>
-        <category>02_code_language</category>
-        <category>022_java</category>
-        <category>0223_set_utils</category>
-      </categories>
-      <tags>
-        <tag>Code Language</tag>
-        <tag>Java</tag>
-        <tag>Set Utils</tag>
-        <tag>ArrayList</tag>
       </tags>
   </entry>
   <entry>
@@ -298,7 +298,84 @@
         <tag>Code Language</tag>
         <tag>Java</tag>
         <tag>Jvm</tag>
-        <tag>Gc</tag>
+        <tag>GC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[浅析java内存模型]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0222_jvm%2Fmemory_model%2F%E6%B5%85%E6%9E%90java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[浅析java内存模型https://www.cnblogs.com/lewis0077/p/5143268.html]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0222_jvm</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>Jvm</tag>
+        <tag>Memory Model</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Apache-Commons包作用说明]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0223_set_utils%2Fapache_commons%2FApache-Commons%E5%8C%85%E4%BD%9C%E7%94%A8%E8%AF%B4%E6%98%8E%2F</url>
+    <content type="text"><![CDATA[Apache-Commons包作用说明http://blog.csdn.net/qq877507054/article/details/51395859]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0223_set_utils</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>Set Utils</tag>
+        <tag>Apache Commons</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[ArrayList详解]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0223_set_utils%2Farray_list%2FArrayList%E8%AF%A6%E8%A7%A3%2F</url>
+    <content type="text"><![CDATA[ArrayList详解http://blog.csdn.net/u012877472/article/details/50852933]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0223_set_utils</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>Set Utils</tag>
+        <tag>ArrayList</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[深入分析ConcurrentHashMap]]></title>
+    <url>%2F2010%2F09%2F01%2F02_code_language%2F022_java%2F0223_set_utils%2Fconcurrent_hashmap%2F%E6%B7%B1%E5%85%A5%E5%88%86%E6%9E%90ConcurrentHashMap%2F</url>
+    <content type="text"><![CDATA[深入分析ConcurrentHashMaphttp://ifeve.com/concurrenthashmap/]]></content>
+      <categories>
+        <category>02_code_language</category>
+        <category>022_java</category>
+        <category>0223_set_utils</category>
+      </categories>
+      <tags>
+        <tag>Code Language</tag>
+        <tag>Java</tag>
+        <tag>Set Utils</tag>
+        <tag>ConcurrentHashMap</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Java中常见的数据结构的区别]]></title>
+    <url>%2F2010%2F09%2F01%2F01_software_engineering%2F014_data_structure%2FJava%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9A%84%E5%8C%BA%E5%88%AB%2F</url>
+    <content type="text"><![CDATA[Java中常见的数据结构的区别 把多个数据按照一定的存储方式,存储起来,称存储方式之为数据结构.数据的存储方式有很多,数组,队列,链表,栈,哈希表等等.不同的数据结构,性能是不一样的,比如有的插入比较快,查询比较快,但是删除比较慢.有的删除比较快,插入比较快,但是查询比较慢. 根据实际操作,合理选择即可. ArrayList和Vector是采用数组方式存储数据，此数组元素数大于实际存储的数据以便增加和插入元素，都允许直接序号索引元素，但是插入数据要设计到数组元素移动等内存操作，所以索引数据快插入数据慢，Vector由于使用了synchronized方法（线程安全）所以性能上比ArrayList要差，LinkedList使用双向链表实现存储，按序号索引数据需要进行向前或向后遍历，但是插入数据时只需要记录本项的前后项即可，所以插入数度较快！ 不同的数据结构在做不同操作时,性能是有差异的,在业界计算性能叫做”大O算法”,我们简单分析以下就可以了. 分析ArrayList(基于数组的列表)在做CRUD时性能如何： 1:插入:且先不考虑扩容问题,扩容其实比较好性能(创建新数组,数组元素拷贝). 2:删除:把后面的元素整体向前移动. 如果删除最后一个元素: 此时操作1次. 如果删除第一个元素 : 此时操作N次. 平均:(N+1)/2次. 3:修改:操作1次. 4:查询:如果是根据索引来查询元素,就操作1次.如果是根据元素来查询第一次/最后一次出现的位置: 若元素就在第一个位置:此时操作1次.若元素在最后一个位置:此时操作N次. 平均:(N+1)/2次. 此时发现基于数组的列表(ArrayList),在删除操作上,比较慢.在插入,修改,查询上,比较快. 简单分析LinkedList的算法性能: 1:插入操作: 单向列表:插入第一个只有1次操作. 插入最后一个:N次操作.双向列表:插入第一个/最后一个都是1次. 但是,插入到中间位置:N/2次. 2:修改操作: N/2次操作. 3:查询操作:获取第一个和最后一个,只有1次操作. 查询中间的元素:N/2次. 4:删除操作:N/2次+1次. 操作第一个和最后一个是非常快的.从性能上分析,删除/插入到中间位置操作改变上一个和下一个的引用地址相对于ArrayList的移位来说,较快. 线性表，链表，哈希表是常用的数据结构，在进行Java开发时，JDK已经为我们提供了一系列相应的类来实现基本的数据结构。这些类均在java.util包中。 List跟Set继承自Collection接口:Collection├List│├LinkedList│├ArrayList│└Vector│ └Stack└SetMap├Hashtable├HashMap└WeakHashMap Collection接口 Collection是最基本的集合接口，一个Collection代表一组Object，即Collection的元素（Elements）。一些Collection允许相同的元素而另一些不行。一些能排序而另一些不行。JavaSDK不提供直接继承自Collection的类，JavaSDK提供的类都是继承自Collection的“子接口”如List和Set。 所有实现Collection接口的类都必须提供两个标准的构造函数：无参数的构造函数用于创建一个空的Collection，有一个Collection参数的构造函数用于创建一个新的Collection，这个新的Collection与传入的Collection有相同的元素。后一个构造函数允许用户复制一个Collection。 如何遍历Collection中的每一个元素？不论Collection的实际类型如何，它都支持一个iterator()的方法，该方法返回一个迭代子，使用该迭代子即可逐一访问Collection中每一个元素。典型的用法如下： Iterator it = collection.iterator(); // 获得一个迭代子 while(it.hasNext()) { Object obj = it.next(); // 得到下一个元素 } 由Collection接口派生的两个接口是List和Set。 List接口 List是有序的Collection，使用此接口能够精确的控制每个元素插入的位置。用户能够使用索引（元素在List中的位置，类似于数组下标）来访问List中的元素，这类似于Java的数组。和下面要提到的Set不同，List允许有相同的元素。 除了具有Collection接口必备的iterator()方法外，List还提供一个listIterator()方法，返回一个ListIterator接口，和标准的Iterator接口相比，ListIterator多了一些add()之类的方法，允许添加，删除，设定元素，还能向前或向后遍历。 实现List接口的常用类有LinkedList，ArrayList，Vector和Stack。 LinkedList类 LinkedList实现了List接口，允许null元素。此外LinkedList提供额外的get，remove，insert方法在LinkedList的首部或尾部。这些操作使LinkedList可被用作堆栈（stack），队列（queue）或双向队列（deque）。 注意LinkedList没有同步方法。如果多个线程同时访问一个List，则必须自己实现访问同步。一种解决方法是在创建List时构造一个同步的List： List list = Collections.synchronizedList(new LinkedList(…)); ArrayList类 ArrayList实现了可变大小的数组。它允许所有元素，包括null。ArrayList没有同步。size，isEmpty，get，set方法运行时间为常数。但是add方法开销为分摊的常数，添加n个元素需要t(n)的时间。其他的方法运行时间为线性。 每个ArrayList实例都有一个容量（Capacity），即用于存储元素的数组的大小。这个容量可随着不断添加新元素而自动增加，但是增长算法并没有定义。当需要插入大量元素时，在插入前可以调用ensureCapacity方法来增加ArrayList的容量以提高插入效率。 和LinkedList一样，ArrayList也是非同步的（unsynchronized）。 Vector类 Vector非常类似ArrayList，但是Vector是同步的。由Vector创建的Iterator，虽然和ArrayList创建的Iterator是同一接口，但是，因为Vector是同步的，当一个Iterator被创建而且正在被使用，另一个线程改变了Vector的状态（例如，添加或删除了一些元素），这时调用Iterator的方法时将抛出ConcurrentModificationException，因此必须捕获该异常。 Stack 类 Stack继承自Vector，实现一个后进先出的堆栈。Stack提供5个额外的方法使得Vector得以被当作堆栈使用。基本的push和pop方法，还有peek方法得到栈顶的元素，empty方法测试堆栈是否为空，search方法检测一个元素在堆栈中的位置。Stack刚创建后是空栈。 Set接口 Set是一种不包含重复的元素的Collection，即任意的两个元素e1和e2都有e1.equals(e2)=false，Set最多有一个null元素。 很明显，Set的构造函数有一个约束条件，传入的Collection参数不能包含重复的元素。 请注意：必须小心操作可变对象（MutableObject）。如果一个Set中的可变元素改变了自身状态导致Object.equals(Object)=true将导致一些问题。 Map接口 请注意，Map没有继承Collection接口，Map提供key到value的映射。一个Map中不能包含相同的key，每个key只能映射一个value。Map接口提供3种集合的视图，Map的内容可以被当作一组key集合，一组value集合，或者一组key-value映射。 Hashtable类 Hashtable继承Map接口，实现一个key-value映射的哈希表。任何非空（non-null）的对象都可作为key或者value。 添加数据使用put(key,value)，取出数据使用get(key)，这两个基本操作的时间开销为常数。Hashtable通过initial capacity和load factor两个参数调整性能。通常缺省的loadfactor 0.75较好地实现了时间和空间的均衡。增大loadfactor可以节省空间但相应的查找时间将增大，这会影响像get和put这样的操作。使用Hashtable的简单示例如下，将1，2，3放到Hashtable中，他们的key分别是”one”，”two”，”three”： Hashtable numbers = new Hashtable(); numbers.put(“one”, new Integer(1)); numbers.put(“two”, new Integer(2)); numbers.put(“three”, new Integer(3)); 要取出一个数，比如2，用相应的key： Integer n = (Integer)numbers.get(“two”); System.out.println(“two = ” + n); 由于作为key的对象将通过计算其散列函数来确定与之对应的value的位置，因此任何作为key的对象都必须实现hashCode和equals方法。hashCode和equals方法继承自根类Object，如果你用自定义的类当作key的话，要相当小心，按照散列函数的定义，如果两个对象相同，即obj1.equals(obj2)=true，则它们的hashCode必须相同，但如果两个对象不同，则它们的hashCode不一定不同，如果两个不同对象的hashCode相同，这种现象称为冲突，冲突会导致操作哈希表的时间开销增大，所以尽量定义好的hashCode()方法，能加快哈希表的操作。 如果相同的对象有不同的hashCode，对哈希表的操作会出现意想不到的结果（期待的get方法返回null），要避免这种问题，只需要牢记一条：要同时复写equals方法和hashCode方法，而不要只写其中一个。 Hashtable是同步的。 HashMap类 HashMap和Hashtable类似，不同之处在于HashMap是非同步的，并且允许null，即nullvalue和nullkey。，但是将HashMap视为Collection时（values()方法可返回Collection），其迭代子操作时间开销和HashMap的容量成比例。因此，如果迭代操作的性能相当重要的话，不要将HashMap的初始化容量设得过高，或者loadfactor过低。 WeakHashMap类 WeakHashMap是一种改进的HashMap，它对key实行“弱引用”，如果一个key不再被外部所引用，那么该key可以被GC回收。 总结 如果涉及到堆栈，队列等操作，应该考虑用List，对于需要快速插入，删除元素，应该使用LinkedList，如果需要快速随机访问元素，应该使用ArrayList。 如果程序在单线程环境中，或者访问仅仅在一个线程中进行，考虑非同步的类，其效率较高，如果多个线程可能同时操作一个类，应该使用同步的类。 要特别注意对哈希表的操作，作为key的对象要正确复写equals和hashCode方法。 尽量返回接口而非实际的类型，如返回List而非ArrayList，这样如果以后需要将ArrayList换成LinkedList时，客户端代码不用改变。这就是针对抽象编程。 同步性Vector是同步的。这个类中的一些方法保证了Vector中的对象是线程安全的。而ArrayList则是异步的，因此ArrayList中的对象并不是线程安全的。因为同步的要求会影响执行的效率，所以如果你不需要线程安全的集合那么使用ArrayList是一个很好的选择，这样可以避免由于同步带来的不必要的性能开销。数据增长从内部实现机制来讲ArrayList和Vector都是使用数组(Array)来控制集合中的对象。当你向这两种类型中增加元素的时候，如果元素的数目超出了内部数组目前的长度它们都需要扩展内部数组的长度，Vector缺省情况下自动增长原来一倍的数组长度，ArrayList是原来的50%,所以最后你获得的这个集合所占的空间总是比你实际需要的要大。所以如果你要在集合中保存大量的数据那么使用Vector有一些优势，因为你可以通过设置集合的初始化大小来避免不必要的资源开销。使用模式在ArrayList和Vector中，从一个指定的位置（通过索引）查找数据或是在集合的末尾增加、移除一个元素所花费的时间是一样的，这个时间我们用t(1)表示。但是，如果在集合的其他位置增加或移除元素那么花费的时间会呈线形增长：t(n-i)，其中n代表集合中元素的个数，i代表元素增加或移除元素的索引位置。为什么会这样呢？因为在进行上述操作的时候集合中第i和第i个元素之后的所有元素都要执行位移的操作。这一切意味着什么呢？这意味着，你只是查找特定位置的元素或只在集合的末端增加、移除元素，那么使用Vector或ArrayList都可以。如果是其他操作，你最好选择其他的集合操作类。比如，LinkList集合类在增加或移除集合中任何位置的元素所花费的时间都是一样的?t(1)，但它在索引一个元素的使用缺比较慢－t(i),其中i是索引的位置.使用ArrayList也很容易，因为你可以简单的使用索引来代替创建iterator对象的操作。LinkList也会为每个插入的元素创建对象，所有你要明白它也会带来额外的开销。最后，建议使用一个简单的数组（Array）来代替Vector或ArrayList。尤其是对于执行效率要求高的程序更应如此。因为使用数组(Array)避免了同步、额外的方法调用和不必要的重新分配空间的操作。 https://www.cnblogs.com/kevinZhu/p/6953182.html]]></content>
+      <categories>
+        <category>01_software_engineering</category>
+        <category>014_data_structure</category>
+      </categories>
+      <tags>
+        <tag>Software Engineering</tag>
+        <tag>Data Structure</tag>
       </tags>
   </entry>
   <entry>
@@ -347,22 +424,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Java中常见的数据结构的区别]]></title>
-    <url>%2F2010%2F09%2F01%2F01_software_engineering%2F014_data_structure%2FJava%E4%B8%AD%E5%B8%B8%E8%A7%81%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9A%84%E5%8C%BA%E5%88%AB%2F</url>
-    <content type="text"><![CDATA[Java中常见的数据结构的区别 把多个数据按照一定的存储方式,存储起来,称存储方式之为数据结构.数据的存储方式有很多,数组,队列,链表,栈,哈希表等等.不同的数据结构,性能是不一样的,比如有的插入比较快,查询比较快,但是删除比较慢.有的删除比较快,插入比较快,但是查询比较慢. 根据实际操作,合理选择即可. ArrayList和Vector是采用数组方式存储数据，此数组元素数大于实际存储的数据以便增加和插入元素，都允许直接序号索引元素，但是插入数据要设计到数组元素移动等内存操作，所以索引数据快插入数据慢，Vector由于使用了synchronized方法（线程安全）所以性能上比ArrayList要差，LinkedList使用双向链表实现存储，按序号索引数据需要进行向前或向后遍历，但是插入数据时只需要记录本项的前后项即可，所以插入数度较快！ 不同的数据结构在做不同操作时,性能是有差异的,在业界计算性能叫做”大O算法”,我们简单分析以下就可以了. 分析ArrayList(基于数组的列表)在做CRUD时性能如何： 1:插入:且先不考虑扩容问题,扩容其实比较好性能(创建新数组,数组元素拷贝). 2:删除:把后面的元素整体向前移动. 如果删除最后一个元素: 此时操作1次. 如果删除第一个元素 : 此时操作N次. 平均:(N+1)/2次. 3:修改:操作1次. 4:查询:如果是根据索引来查询元素,就操作1次.如果是根据元素来查询第一次/最后一次出现的位置: 若元素就在第一个位置:此时操作1次.若元素在最后一个位置:此时操作N次. 平均:(N+1)/2次. 此时发现基于数组的列表(ArrayList),在删除操作上,比较慢.在插入,修改,查询上,比较快. 简单分析LinkedList的算法性能: 1:插入操作: 单向列表:插入第一个只有1次操作. 插入最后一个:N次操作.双向列表:插入第一个/最后一个都是1次. 但是,插入到中间位置:N/2次. 2:修改操作: N/2次操作. 3:查询操作:获取第一个和最后一个,只有1次操作. 查询中间的元素:N/2次. 4:删除操作:N/2次+1次. 操作第一个和最后一个是非常快的.从性能上分析,删除/插入到中间位置操作改变上一个和下一个的引用地址相对于ArrayList的移位来说,较快. 线性表，链表，哈希表是常用的数据结构，在进行Java开发时，JDK已经为我们提供了一系列相应的类来实现基本的数据结构。这些类均在java.util包中。 List跟Set继承自Collection接口:Collection├List│├LinkedList│├ArrayList│└Vector│ └Stack└SetMap├Hashtable├HashMap└WeakHashMap Collection接口 Collection是最基本的集合接口，一个Collection代表一组Object，即Collection的元素（Elements）。一些Collection允许相同的元素而另一些不行。一些能排序而另一些不行。JavaSDK不提供直接继承自Collection的类，JavaSDK提供的类都是继承自Collection的“子接口”如List和Set。 所有实现Collection接口的类都必须提供两个标准的构造函数：无参数的构造函数用于创建一个空的Collection，有一个Collection参数的构造函数用于创建一个新的Collection，这个新的Collection与传入的Collection有相同的元素。后一个构造函数允许用户复制一个Collection。 如何遍历Collection中的每一个元素？不论Collection的实际类型如何，它都支持一个iterator()的方法，该方法返回一个迭代子，使用该迭代子即可逐一访问Collection中每一个元素。典型的用法如下： Iterator it = collection.iterator(); // 获得一个迭代子 while(it.hasNext()) { Object obj = it.next(); // 得到下一个元素 } 由Collection接口派生的两个接口是List和Set。 List接口 List是有序的Collection，使用此接口能够精确的控制每个元素插入的位置。用户能够使用索引（元素在List中的位置，类似于数组下标）来访问List中的元素，这类似于Java的数组。和下面要提到的Set不同，List允许有相同的元素。 除了具有Collection接口必备的iterator()方法外，List还提供一个listIterator()方法，返回一个ListIterator接口，和标准的Iterator接口相比，ListIterator多了一些add()之类的方法，允许添加，删除，设定元素，还能向前或向后遍历。 实现List接口的常用类有LinkedList，ArrayList，Vector和Stack。 LinkedList类 LinkedList实现了List接口，允许null元素。此外LinkedList提供额外的get，remove，insert方法在LinkedList的首部或尾部。这些操作使LinkedList可被用作堆栈（stack），队列（queue）或双向队列（deque）。 注意LinkedList没有同步方法。如果多个线程同时访问一个List，则必须自己实现访问同步。一种解决方法是在创建List时构造一个同步的List： List list = Collections.synchronizedList(new LinkedList(…)); ArrayList类 ArrayList实现了可变大小的数组。它允许所有元素，包括null。ArrayList没有同步。size，isEmpty，get，set方法运行时间为常数。但是add方法开销为分摊的常数，添加n个元素需要t(n)的时间。其他的方法运行时间为线性。 每个ArrayList实例都有一个容量（Capacity），即用于存储元素的数组的大小。这个容量可随着不断添加新元素而自动增加，但是增长算法并没有定义。当需要插入大量元素时，在插入前可以调用ensureCapacity方法来增加ArrayList的容量以提高插入效率。 和LinkedList一样，ArrayList也是非同步的（unsynchronized）。 Vector类 Vector非常类似ArrayList，但是Vector是同步的。由Vector创建的Iterator，虽然和ArrayList创建的Iterator是同一接口，但是，因为Vector是同步的，当一个Iterator被创建而且正在被使用，另一个线程改变了Vector的状态（例如，添加或删除了一些元素），这时调用Iterator的方法时将抛出ConcurrentModificationException，因此必须捕获该异常。 Stack 类 Stack继承自Vector，实现一个后进先出的堆栈。Stack提供5个额外的方法使得Vector得以被当作堆栈使用。基本的push和pop方法，还有peek方法得到栈顶的元素，empty方法测试堆栈是否为空，search方法检测一个元素在堆栈中的位置。Stack刚创建后是空栈。 Set接口 Set是一种不包含重复的元素的Collection，即任意的两个元素e1和e2都有e1.equals(e2)=false，Set最多有一个null元素。 很明显，Set的构造函数有一个约束条件，传入的Collection参数不能包含重复的元素。 请注意：必须小心操作可变对象（MutableObject）。如果一个Set中的可变元素改变了自身状态导致Object.equals(Object)=true将导致一些问题。 Map接口 请注意，Map没有继承Collection接口，Map提供key到value的映射。一个Map中不能包含相同的key，每个key只能映射一个value。Map接口提供3种集合的视图，Map的内容可以被当作一组key集合，一组value集合，或者一组key-value映射。 Hashtable类 Hashtable继承Map接口，实现一个key-value映射的哈希表。任何非空（non-null）的对象都可作为key或者value。 添加数据使用put(key,value)，取出数据使用get(key)，这两个基本操作的时间开销为常数。Hashtable通过initial capacity和load factor两个参数调整性能。通常缺省的loadfactor 0.75较好地实现了时间和空间的均衡。增大loadfactor可以节省空间但相应的查找时间将增大，这会影响像get和put这样的操作。使用Hashtable的简单示例如下，将1，2，3放到Hashtable中，他们的key分别是”one”，”two”，”three”： Hashtable numbers = new Hashtable(); numbers.put(“one”, new Integer(1)); numbers.put(“two”, new Integer(2)); numbers.put(“three”, new Integer(3)); 要取出一个数，比如2，用相应的key： Integer n = (Integer)numbers.get(“two”); System.out.println(“two = ” + n); 由于作为key的对象将通过计算其散列函数来确定与之对应的value的位置，因此任何作为key的对象都必须实现hashCode和equals方法。hashCode和equals方法继承自根类Object，如果你用自定义的类当作key的话，要相当小心，按照散列函数的定义，如果两个对象相同，即obj1.equals(obj2)=true，则它们的hashCode必须相同，但如果两个对象不同，则它们的hashCode不一定不同，如果两个不同对象的hashCode相同，这种现象称为冲突，冲突会导致操作哈希表的时间开销增大，所以尽量定义好的hashCode()方法，能加快哈希表的操作。 如果相同的对象有不同的hashCode，对哈希表的操作会出现意想不到的结果（期待的get方法返回null），要避免这种问题，只需要牢记一条：要同时复写equals方法和hashCode方法，而不要只写其中一个。 Hashtable是同步的。 HashMap类 HashMap和Hashtable类似，不同之处在于HashMap是非同步的，并且允许null，即nullvalue和nullkey。，但是将HashMap视为Collection时（values()方法可返回Collection），其迭代子操作时间开销和HashMap的容量成比例。因此，如果迭代操作的性能相当重要的话，不要将HashMap的初始化容量设得过高，或者loadfactor过低。 WeakHashMap类 WeakHashMap是一种改进的HashMap，它对key实行“弱引用”，如果一个key不再被外部所引用，那么该key可以被GC回收。 总结 如果涉及到堆栈，队列等操作，应该考虑用List，对于需要快速插入，删除元素，应该使用LinkedList，如果需要快速随机访问元素，应该使用ArrayList。 如果程序在单线程环境中，或者访问仅仅在一个线程中进行，考虑非同步的类，其效率较高，如果多个线程可能同时操作一个类，应该使用同步的类。 要特别注意对哈希表的操作，作为key的对象要正确复写equals和hashCode方法。 尽量返回接口而非实际的类型，如返回List而非ArrayList，这样如果以后需要将ArrayList换成LinkedList时，客户端代码不用改变。这就是针对抽象编程。 同步性Vector是同步的。这个类中的一些方法保证了Vector中的对象是线程安全的。而ArrayList则是异步的，因此ArrayList中的对象并不是线程安全的。因为同步的要求会影响执行的效率，所以如果你不需要线程安全的集合那么使用ArrayList是一个很好的选择，这样可以避免由于同步带来的不必要的性能开销。数据增长从内部实现机制来讲ArrayList和Vector都是使用数组(Array)来控制集合中的对象。当你向这两种类型中增加元素的时候，如果元素的数目超出了内部数组目前的长度它们都需要扩展内部数组的长度，Vector缺省情况下自动增长原来一倍的数组长度，ArrayList是原来的50%,所以最后你获得的这个集合所占的空间总是比你实际需要的要大。所以如果你要在集合中保存大量的数据那么使用Vector有一些优势，因为你可以通过设置集合的初始化大小来避免不必要的资源开销。使用模式在ArrayList和Vector中，从一个指定的位置（通过索引）查找数据或是在集合的末尾增加、移除一个元素所花费的时间是一样的，这个时间我们用t(1)表示。但是，如果在集合的其他位置增加或移除元素那么花费的时间会呈线形增长：t(n-i)，其中n代表集合中元素的个数，i代表元素增加或移除元素的索引位置。为什么会这样呢？因为在进行上述操作的时候集合中第i和第i个元素之后的所有元素都要执行位移的操作。这一切意味着什么呢？这意味着，你只是查找特定位置的元素或只在集合的末端增加、移除元素，那么使用Vector或ArrayList都可以。如果是其他操作，你最好选择其他的集合操作类。比如，LinkList集合类在增加或移除集合中任何位置的元素所花费的时间都是一样的?t(1)，但它在索引一个元素的使用缺比较慢－t(i),其中i是索引的位置.使用ArrayList也很容易，因为你可以简单的使用索引来代替创建iterator对象的操作。LinkList也会为每个插入的元素创建对象，所有你要明白它也会带来额外的开销。最后，建议使用一个简单的数组（Array）来代替Vector或ArrayList。尤其是对于执行效率要求高的程序更应如此。因为使用数组(Array)避免了同步、额外的方法调用和不必要的重新分配空间的操作。 https://www.cnblogs.com/kevinZhu/p/6953182.html]]></content>
-      <categories>
-        <category>01_software_engineering</category>
-        <category>014_data_structure</category>
-      </categories>
-      <tags>
-        <tag>Software Engineering</tag>
-        <tag>Data Structure</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[TCP/IP应用程序的通信连接模式]]></title>
     <url>%2F2010%2F09%2F01%2F01_software_engineering%2F013_network%2F0132_tcp_ip%2FTCPIP%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E9%80%9A%E4%BF%A1%E8%BF%9E%E6%8E%A5%E6%A8%A1%E5%BC%8F%2F</url>
-    <content type="text"><![CDATA[TCP/IP 应用程序的通信连接模式TCP/IP 应用层与应用程序 TCP/IP 起源于二十世纪 60 年代末美国政府资助的一个分组交换网络研究项目，它是一个真正的开放协议，很多不同厂家生产各种型号的计算机，它们运行完全不同的操作系统，但 TCP/IP 协议组件允许它们互相进行通信。现在 TCP/IP 已经从一个只供一些科学家使用的小实验网成长为一个由成千上万的计算机和用户构成的全球化网络，TCP/IP 也已成为全球因特网（Internet）的基础，越来越多的 TCP/IP 互联网应用和企业商业应用正在改变着世界。 TCP/IP 通讯协议采用了四层的层级模型结构（注：这与 OSI 七层模型不相同），每一层都调用它的下一层所提供的网络任务来完成自己的需求。TCP/IP 的每一层都是由一系列协议来定义的。这 4 层分别为： 应用层 (Application)：应用层是个很广泛的概念，有一些基本相同的系统级 TCP/IP 应用以及应用协议，也有许多的企业商业应用和互联网应用。 传输层 (Transport)：传输层包括 UDP 和 TCP，UDP 几乎不对报文进行检查，而 TCP 提供传输保证。 网络层 (Network)：网络层协议由一系列协议组成，包括 ICMP、IGMP、RIP、OSPF、IP(v4,v6) 等。 链路层 (Link)：又称为物理数据网络接口层，负责报文传输。 图１显示了 TCP/IP 层级模型结构，应用层之间的协议通过逐级调用传输层（Transport layer）、网络层（Network Layer）和物理数据链路层（Physical Data Link）而可以实现应用层的应用程序通信互联。 应用层需要关心应用程序的逻辑细节，而不是数据在网络中的传输活动。应用层其下三层则处理真正的通信细节。在 Internet 整个发展过程中的所有思想和着重点都以一种称为 RFC（Request For Comments）的文档格式存在。针对每一种特定的 TCP/IP 应用，有相应的 RFC 文档。一些典型的 TCP/IP 应用有 FTP、Telnet、SMTP、SNTP、REXEC、TFTP、LPD、SNMP、NFS、INETD 等。RFC 使一些基本相同的 TCP/IP 应用程序实现了标准化，从而使得不同厂家开发的应用程序可以互相通信。 图 １ TCP/IP 层级模型结构 然而除了这些已经实现标准化的系统级 TCP/IP 应用程序外，在企业商业应用和互联网应用开发中，存在着大量的商业应用程序通信互联问题。如图 １ 显示，其中的应用层所包含应用程序主要可以分成两类，即系统级应用和商业应用，互联网商业应用是商业应用中的主要形式之一。 不同开发商和用户在开发各自商业应用通信程序时也存在有许多不同的设计方式。关于 TCP/IP 应用层以下的技术文献与书籍早已是汗牛充栋，但是关于 TCP/IP 应用本身，尤其是关于商业应用的通信设计模式技术讨论方面的文章还是比较少的。TCP/IP 应用通信设计模式实际上是在 TCP/IP 基础编程之上的一种应用编程设计方式，也属于一种应用层协议范畴，其可以包含有 TCP/IP 地址族模式设计、I/O 模式设计、通信连接模式设计以及通信数据格式设计等。鉴于目前讨论 TCP/IP 商业应用程序设计模式问题这方面的文章还很少见，本文尝试给出一些通信连接模式设计中共同的概念与一些典型的设计模式，在以后的文章中将继续讨论地址族模式设计、I/O 模式设计、以及通信数据格式设计等方面的模式设计实现话题。 通信连接模式设计主要考虑内容有： 通信两端程序建立通信方式 通信连接方式 通信报文发送与接收方式 以下内容将介绍建立通信的 Client/Server 模型，然后逐一介绍通信连接模式设计所需要考虑的这些内容。 传输层接口 APIs 与 TCP/IP 应用程序 C/S 模型传输层接口 APIsTCP/IP 应用层位于传输层之上，TCP/IP 应用程序需要调用传输层的接口才能实现应用程序之间通信。目前使用最广泛的传输层的应用编程接口是套接字接口（Socket）。Socket APIs 是于 1983 年在 Berkeley Socket Distribution (BSD) Unix 中引进的。 1986 年 AT&amp;T 公司引进了另一种不同的网络层编程接口 TLI（Transport Layer Interface），1988 年 AT&amp;T 发布了一种修改版的 TLI，叫做 XTI（X/open Transport interface）。XTI/TLI 和 Socket 是用来处理相同任务的不同方法。关于 TCP/IP APIs 使用文章与书籍已相当多，本文则是侧重于如何组合使用这些 APIs 来进行 TCP/IP 应用程序连接模式设计，并归纳出几种基本应用连接模式。 如图 ２ 显示，应用层是通过调用传输层接口 APIs（Socket 或 XTI/TLI）来与传输层和网络层进行通信的。 图 ２ 传输层接口 不管是使用何种编程接口，要在两个机器或两个程序之间建立通信，通信双方必须建立互相一致的通信模式。如果双方的通信设计模式不一致就无法建立有效的通信连接。 以下是经常使用的 socket APIs，是建立 TCP/IP 应用程序的标准接口，也是影响 TCP/IP 应用程序通信方式的几个主要 APIs，不同 APIs 组合再结合系统调用可以实现不同方式的应用。Sockets 支持多种传输层和网络层协议，支持面向连接和无连接的数据传输，允许应用分布式工作。 socket()：是用来创建一个 socket，socket 表示通信中的一个节点，其可以在一个网络中被命名，用 socket 描述符表示，socket 描述符类似于 Unix 中的文件描述符。 bind()：是用来把本地 IP 层地址和 TCP 层端口赋予 socket。 listen() ：把未连接的 socket 转化成一个等待可连接的 socket，允许该 socket 可以被请求连接，并指定该 socket 允许的最大连接数。 accept()：是等待一个连接的进入，连接成功后，产生一个新的 socket 描述符，这个新的描述符用来建立与客户端的连接。 connect()：用来建立一个与服务端的连接。 send()：发送一个数据缓冲区，类似 Unix 的文件函数 write()。另外 sendto() 是用在无连接的 UDP 程序中，用来发送自带寻址信息的数据包。 recv()：接收一个数据缓冲区，类似 Unix 的文件函数 readI()。另外 recvfrom() 是用在无连接的 UDP 程序中，用来接收自带寻址信息的数据包。 close()：关闭一个连接 Client/Server 模型Sockets 是以 Client 和 Server 交互通信方式来使用的。典型的系统配置是把 Server 放在一台机器中，而把 Client 放在另一台机器中，Client 连接到 Server 交换信息。一个 socket 有一系列典型的事件流。例如，在面向连接的 Client/Server 模型中，Server 端的 socket 总是等待一个 Client 端的请求。要实现这个请求，Server 端首先需要建立能够被 Client 使用的地址，当地址建立后，Server 等待 Client 请求服务。当一个 Client 通过 socket 连接到 Server 后，Client 与 Server 之间就可以进行信息交换。Client/Server 是通信程序设计的基本模式。从软件开发的角度讲，TCP/IP 应用程序都是基于 Client/Server 方式的。注意本篇文章以下 Client/Server 概念是针对程序内部调用 Socket API 所讲的概念，与针对整个程序甚至针对机器而讲的客户端 / 服务器概念有所不同。用 Server APIs 建立的程序可以被当作客户端使用，用 Client APIs 建立的程序也可以被用作服务器端使用。建立 Server 需要的 APIs 有 socket(), bind(), listen(), accept()，建立 Client 需要的 APIs 有 Socket(), Connect()。在实际应用开发中，同一个程序里往往同时可以有 Client 和 Server 的代码，或者多种形式的组合。在实际应用编程中，针对 Socket APIs 不同有效组合，结合系统调用可以有多种复杂的设计变化。 面向连接的应用编程存在三类基本的不同级别的设计方式范畴，根据 Socket APIs 从上到下顺序依次是： Client/Server 通信建立方式 Client/Server 通信连接方式 Client/Server 通信发送与接收方式 下面内容以面向连接的 Socket 应用编程为例来说明这几种不同通信范畴的设计实现。 Client/Server 建立方式设计概述一个 Client 连接一个 Server如果只有两台机器之间连接，那么一个是 Client，另一个是 Server，如下面图 3 所示。这是最简单的 TCP/IP 的应用，也是 TCP/IP 应用早期的 Peer to Peer (P2P) 概念。其流程基本如图 ４ 所示。 图 ３ TCP/IP 应用单点 Client/Server 图 4 显示了 TCP/IP 应用编程最基本的 Client/Server 模式，显示了基本的 Client/Server 通信所需要调用的 Socket APIs 以及顺序。 图 ４ TCP/IP 应用编程基本 Client/Server 模式 多个 Client 连接一个 Server多个 Client 同时连接一个 Server 是 TCP/IP 应用的主流形式，如图 ５ 所示，其中 Client 连接数可以从几个到成千上万。 图 ５ TCP/IP 应用多 Client 端的 Client/Server 由于 socket APIs 缺省方式下都是阻塞方式的，实现多个 Client 同时连接一个 Server 就需要特别的设计。其实现方式可以有多种不同的设计，这其中也涉及 I/O 模式设计。下面将展开介绍其中几种设计形式。 利用一个 Client 连接一个 Server 形式实现多 Client 连接 从程序设计角度讲，只要 Client 和 Server 端口是一对一形式，那么就属于一个 Client 连接一个 Server 形式。在处理多个 Client 端连接时，Server 端轮流使用多个端口建立多个 Client-Server 连接，连接关闭后，被释放端口可以被循环使用。在这种多连接形式中需要谨慎处理 Client 端如何获取使用 Server 端的可用端口。比如图 ６ 显示 Server 有一个服务于所有进程的进程可以先把 Server 端的可用端口发送给 Client 端，Client 端再使用该端口建立连接来处理业务。Server 针对每一个 Client 连接用一个专门的进程来处理。由于可用端口数有限，Server 用一个有限循环来处理每一个可用的端口连接。由于新端口需要用 bind() 来绑定，所以需要从 bind() 开始到 close() 结束都需要包含在循环体内。 图 ６ 利用一对一 Client-Server 模式实现多 Client 连接 使用多个 accept() 实现多 Client 连接 多进程 Server 一般有一个专注进程是服务于每一个连接的。当 Client 端完成连接后，专注进程可以循环被另外的连接使用。使用多个 accept() 也可以实现处理多 Client 连接。多 accept() 的 Server 也只有一个 socket()，一个 bind()，一个 listen()，这与通常情况一样。但是它建立许多工作子进程，每一个工作子进程都有 accept()，这样可以为每一个 Client 建立 socket 描述符。如图 ７ 所示，由于 accept() 连接成功后，会产生一个新的 socket 描述符，这样通过循环多进程利用 accept() 产生的多 socket 描述符就可以与多个 Client 进行连接通信。循环体是从 accept() 开始到 close() 结束的。 图 ７ 使用多 accept() 实现多 Client 连接 使用并发 Server 模式实现多 Client 连接 并发服务器模式曾经是 TCP/IP 的主流应用程序设计模式，得到广泛使用，目前互联网上仍有相当多的应用使用此种模式。其设计思路是在 accept 之后 fork 出一个子进程。因为 socket 会产生监听 socket 描述符 listenfd，accept 会产生连接 socket 描述符 connfd。连接建立后，子进程继承连接描述符服务于 Client，父进程则继续使用监听描述符等待另外一个 Client 的连接请求，以产生另外一个连接 socket 描述符和子进程。如图 ８ 所示，accept() 接收到一个 Client 连接后，产生一个新的 socket 描述符，通过 fork() 系统调用，用一个子进程来处理该 socket 描述符的连接服务。而父进程可以立即返回到 accept()，等待一个新的 Client 请求，这就是典型的并发服务器模式。并发服务器模式同时处理的最大并发 Client 连接数由 listen() 的第二个参数来指定。 图 ８ TCP/IP 应用并发 Server 使用 I/O 多路技术实现多 Client 连接 以上三种连接设计，多 Server 端口、多 accept() 和并发服务器模式，都是通过 fork() 系统调用产生多进程来实现多 Client 连接的。使用 I/O 多路技术也可以同时处理多个输入与输出问题，即用一个进程同时处理多个文件描述符。I/O 多路技术是通过 select() 或 poll() 系统调用实现的。poll() 与 select() 功能完全相同，但是 poll() 可以更少使用内存资源以及有更少的错误发生。select() 调用需要与操作文件描述符集的 APIs 配合使用。select() 系统调用可以使一个进程检测多个等待的 I/O 是否准备好，当没有设备准备好时，select() 处于阻塞状态中，其中任一设备准备好后，select() 函数返回调用。select() API 本身也有一个超时时间参数，超时时间到后，无论是否有设备准备好，都返回调用。其流程如图 9 所示。在 socket APIs listen() 和 accept() 之间插入 select() 调用。使用这三个宏 FD_ZERO()、FD_CLR() 和 FD_SET()，在调用 select() 前设置 socket 描述符屏蔽位，在调用 select() 后使用 FD_ISSET 来检测 socket 描述符集中对应于 socket 描述符的位是否被设置。 FD_ISSET() 就相当通知了一个 socket 描述符是否可以被使用，如果该 socket 描述符可用，则可对该 socket 描述符进行读写通信操作。通常，操作系统通过宏 FD_SETSIZE 来声明在一个进程中 select() 所能操作的文件或 socket 描述符的最大数目。更详细的 I/O 多路技术实现，可以参考其他相关文献。 图 ９ I/O 多路技术实现多连接的 Server 一个 Client 连接多个 Server一个 Client 连接多个 Server 这种方式很少见，主要用于一个客户需要向多个服务器发送请求情况，比如一个 Client 端扫描连接多个 Server 端情况。如图 １０ 所示。此种方式设计主要是 Client 端应用程序的逻辑设计，通常需要在 Client 端设计逻辑循环来连接多个 Server，在此不做更多描述。 图 １０ 单 Client 对多 Server 复杂 Client/Server 设计与现代 P2P最近几年，对等网络技术 ( Peer-to-Peer，简称 P2P) 迅速成为计算机界关注的热门话题之一，以及影响 Internet 未来的科技之一。与早期点对点 (Peer to Peer) 的 Client/Server 模式不同，现在的 P2P 模式是指每个结点既可充当服务器，为其他结点提供服务，同时也可作为客户端享用其他结点提供的服务。实际上 P2P 模式仍然是基于 Client/Server 模式的，每个通信节点都既是 Server，又是 Client，P2P 是基于复杂 Client/Server 设计的 TCP/IP 应用。图 １１ 显示 P2P 模式下两个用户 PC 之间的对等连接。 图 １１ P2P 模式 在技术上，P2P 本身是基于 TCP/IP Client/Server 技术的一种设计模式思想， P2P 也属于网络应用层技术，与 Web 和 FTP 等应用是并列的。只是 P2P 应用在设计实现上更要复杂的多。P2P 技术实现的协同工作是无需专门的服务器支持的 (Serverless)，这里的服务器概念与 Client/Server 中的 Server 概念是不一样的。在传统意义上中心服务器机器上往往运行的是 TCP/IP 应用的 Server 端程序，所以传统意义上的 Server 概念在机器与应用上是重合的。如果更改 TCP/IP 的应用设计，使应用程序既可做 Server 又可做 Client，就可以实现无中心服务器的 P2P 模式。 在设计模式上，P2P 模式实现了网络终端用户不依赖中心服务器或者服务商而直接进行信息和数据交换的可能，因此 P2P 正在改变着整个互联网的一些基础应用，从而极大地增加了用户之间的信息沟通和交流能力。目前互联网的 P2P 应用与网络都正在飞速发展，一些典型的 P2P 应用程序比如有 BitTorrent, eDonkey 等，另外一些即时通信（IM）类软件比如 MSN、QQ 等也正在向无中心服务器模式转变。无中心服务器的 Internet 应用程序大大降低应用提供商的运营成本，而且减少人们对于 Server 稳定性的依赖。 Client/Server 通信连接方式设计Client/Server 通信方式建立后，下一步就需要考虑通信连接的方式，主要有两种方式的连接，即长连接通信与短连接通信。通信连接方式涉及到的 APIs 主要是 connect() 和 accept()。要实现某种 Client/Server 方式，就必须考虑用某种特定的连接方式。 短连接通信短连接通信是指 Client 方与 Server 方每进行一次通信报文收发交易时才进行通讯连接，交易完毕后立即断开连接。此种方式常用于多个 Client 连接一个 Server 情况，常用于机构与用户之间通信，比如 OLTP（联机事务处理）类应用。在短连接情况下，Client 端完成任务后，就关闭连接并退出。在 Server 端，可以通过循环 accept()，使 Server 不会退出，并连续处理 Client 的请求。图 １２ 显示了一般情况下短连接通信模式的 Socket 事件流，不同设计的连接多 Client 的 Server 有不同的循环流程。 图 １２ 短连接模式通信 长连接通信长连接通信是指 Client 方与 Server 方先建立通讯连接，连接建立后不会断开，然后再进行报文发送和接收，报文发送与接收完毕后，原来连接不会断开而继续存在，因此可以连续进行交易报文的发送与接收。这种方式下由于通讯连接一直存在，其 TCP/IP 状态是 Established，可以用操作系统的命令 netstat 查看连接是否建立。由于在长连接情况下，Client 端和 Server 端一样可以固定使用一个端口，所以长连接下的 Client 也需要使用 bind() 来绑定 Client 的端口。在长连接方式下，需要循环读写通信数据。为了区分每一次交易的通信数据，每一次交易数据常常需要在数据头部指定该次交易的长度，接收 API 需要首先读出该长度，然后再按该长度读出指定长度的字节。长连接方式常用于一个 Client 端对一个 Server 端的通讯，一般常用于机构与机构之间的商业应用通信，以处理机构之间连续的大量的信息数据交换。或者说可用于两个系统之间持续的信息交流情况。通常为了加快两个系统之间的信息交流，通常还需要建立几条长连接的并行通信线路。图 １３ 显示了一般情况下长连接通信模式的 socket 事件流，可见其最大特点是 Client 和 Server 都有循环体，而且循环体只包含读写 APIs。 图 １３ 长连接模式通信 Client/Server 通信发送与接收方式设计在通信数据发送与接收之间也存在不同的方式，即同步和异步两种方式。这里的同步和异步与 I/O 层次的同异步概念不同。主要涉及 socket APIs recv() 和 send() 的不同组合方式。 同步发送与接收从应用程序设计的角度讲，报文发送和接收是同步进行的，既报文发送后，发送方等待接收方返回消息报文。同步方式一般需要考虑超时问题，即报文发出去后发送方不能无限等待，需要设定超时时间，超过该时间后发送方不再处于等待状态中，而直接被通知超时返回。同步发送与接收经常与短连接通信方式结合使用，称为同步短连接通信方式，其 socket 事件流程可如上面的图 １２ 所示。 异步发送与接收从应用程序设计的角度讲，发送方只管发送数据，不需要等待接收任何返回数据，而接收方只管接收数据，这就是应用层的异步发送与接收方式。要实现异步方式，通常情况下报文发送和接收是用两个不同的进程来分别处理的，即发送与接收是分开的，相互独立的，互不影响。异步发送与接收经常与长连接通信方式结合使用，称为异步长连接通信方式。从应用逻辑角度讲，这种方式又可分双工和单工两种情况。 异步双工 异步双工是指应用通信的接收和发送在同一个程序中，而有两个不同的子进程分别负责发送和接收，异步双工模式是比较复杂的一种通信方式，有时候经常会出现在不同机构之间的两套系统之间的通信。比如银行与银行之间的信息交流。它也可以适用在现代 P2P 程序中。如图 １４ 所示，Server 和 Client 端分别 fork 出两个子进程，形成两对子进程之间的连接，两个连接都是单向的，一个连接是用于发送，另一个连接用于接收，这样方式的连接就被称为异步双工方式连接。 图 １４ 长连接异步双工模式 异步单工 应用通信的接收和发送是用两个不同的程序来完成，这种异步是利用两对不同程序依靠应用逻辑来实现的。图 １５ 显示了长连接方式下的异步单工模式，在通信的 A 和 B 端，分别有两套 Server 和 Client 程序，B 端的 Client 连接 A 端的 Server，A 端的 Server 只负责接收 B 端 Client 发送的报文。A 端的 Client 连接 B 端的 Server，A 端 Client 只负责向 B 端 Server 发送报文。 图 １５ 长连接异步单工模式 典型通信连接模式综上所述，在实际 TCP/IP 应用程序设计中，就连接模式而言，我们需要考虑 Client/Server 建立方式、Client/Server 连接方式、Client/Server 发送与接收方式这三个不同级别的设计方式。实际 TCP/IP 应用程序连接模式可以是以上三类不同级别 Client/Server 方式的组合。比如一般 TCP/IP 相关书籍上提供的 TCP/IP 范例程序大都是同步短连接的 Client/Server 程序。有的组合是基本没有实用价值的，比较常用的有价值的组合是以下几种： 同步短连接 Server/Client 同步长连接 Server/Client 异步短连接 Server/Client 异步长连接双工 Server/Client 异步长连接单工 Server/Client 其中异步长连接双工是较为复杂的一种通信方式，有时候经常会出现在不同银行或不同城市之间的两套系统之间的通信，比如国家金卡工程。由于这几种通信方式比较固定，所以可以预先编制这几种通信方式的模板程序。 总结本文探讨了 TCP/IP 应用程序中连接模式的设计。在以后的文章中还将继续讨论 TCP/IP 应用程序设计中的其他方面的设计话题，包括地址族模式设计、I/O 模式设计、以及通信数据格式设计等。 https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/]]></content>
+    <content type="text"><![CDATA[TCP/IP 应用程序的通信连接模式TCP/IP 应用层与应用程序 TCP/IP 起源于二十世纪 60 年代末美国政府资助的一个分组交换网络研究项目，它是一个真正的开放协议，很多不同厂家生产各种型号的计算机，它们运行完全不同的操作系统，但 TCP/IP 协议组件允许它们互相进行通信。现在 TCP/IP 已经从一个只供一些科学家使用的小实验网成长为一个由成千上万的计算机和用户构成的全球化网络，TCP/IP 也已成为全球因特网（Internet）的基础，越来越多的 TCP/IP 互联网应用和企业商业应用正在改变着世界。 TCP/IP 通讯协议采用了四层的层级模型结构（注：这与 OSI 七层模型不相同），每一层都调用它的下一层所提供的网络任务来完成自己的需求。TCP/IP 的每一层都是由一系列协议来定义的。这 4 层分别为： 应用层 (Application)：应用层是个很广泛的概念，有一些基本相同的系统级 TCP/IP 应用以及应用协议，也有许多的企业商业应用和互联网应用。 传输层 (Transport)：传输层包括 UDP 和 TCP，UDP 几乎不对报文进行检查，而 TCP 提供传输保证。 网络层 (Network)：网络层协议由一系列协议组成，包括 ICMP、IGMP、RIP、OSPF、IP(v4,v6) 等。 链路层 (Link)：又称为物理数据网络接口层，负责报文传输。 图１显示了 TCP/IP 层级模型结构，应用层之间的协议通过逐级调用传输层（Transport layer）、网络层（Network Layer）和物理数据链路层（Physical Data Link）而可以实现应用层的应用程序通信互联。 应用层需要关心应用程序的逻辑细节，而不是数据在网络中的传输活动。应用层其下三层则处理真正的通信细节。在 Internet 整个发展过程中的所有思想和着重点都以一种称为 RFC（Request For Comments）的文档格式存在。针对每一种特定的 TCP/IP 应用，有相应的 RFC 文档。一些典型的 TCP/IP 应用有 FTP、Telnet、SMTP、SNTP、REXEC、TFTP、LPD、SNMP、NFS、INETD 等。RFC 使一些基本相同的 TCP/IP 应用程序实现了标准化，从而使得不同厂家开发的应用程序可以互相通信。 图 １ TCP/IP 层级模型结构 然而除了这些已经实现标准化的系统级 TCP/IP 应用程序外，在企业商业应用和互联网应用开发中，存在着大量的商业应用程序通信互联问题。如图 １ 显示，其中的应用层所包含应用程序主要可以分成两类，即系统级应用和商业应用，互联网商业应用是商业应用中的主要形式之一。 不同开发商和用户在开发各自商业应用通信程序时也存在有许多不同的设计方式。关于 TCP/IP 应用层以下的技术文献与书籍早已是汗牛充栋，但是关于 TCP/IP 应用本身，尤其是关于商业应用的通信设计模式技术讨论方面的文章还是比较少的。TCP/IP 应用通信设计模式实际上是在 TCP/IP 基础编程之上的一种应用编程设计方式，也属于一种应用层协议范畴，其可以包含有 TCP/IP 地址族模式设计、I/O 模式设计、通信连接模式设计以及通信数据格式设计等。鉴于目前讨论 TCP/IP 商业应用程序设计模式问题这方面的文章还很少见，本文尝试给出一些通信连接模式设计中共同的概念与一些典型的设计模式，在以后的文章中将继续讨论地址族模式设计、I/O 模式设计、以及通信数据格式设计等方面的模式设计实现话题。 通信连接模式设计主要考虑内容有： 通信两端程序建立通信方式 通信连接方式 通信报文发送与接收方式 以下内容将介绍建立通信的 Client/Server 模型，然后逐一介绍通信连接模式设计所需要考虑的这些内容。 传输层接口 APIs 与 TCP/IP 应用程序 C/S 模型传输层接口 APIsTCP/IP 应用层位于传输层之上，TCP/IP 应用程序需要调用传输层的接口才能实现应用程序之间通信。目前使用最广泛的传输层的应用编程接口是套接字接口（Socket）。Socket APIs 是于 1983 年在 Berkeley Socket Distribution (BSD) Unix 中引进的。 1986 年 AT&amp;T 公司引进了另一种不同的网络层编程接口 TLI（Transport Layer Interface），1988 年 AT&amp;T 发布了一种修改版的 TLI，叫做 XTI（X/open Transport interface）。XTI/TLI 和 Socket 是用来处理相同任务的不同方法。关于 TCP/IP APIs 使用文章与书籍已相当多，本文则是侧重于如何组合使用这些 APIs 来进行 TCP/IP 应用程序连接模式设计，并归纳出几种基本应用连接模式。 如图 ２ 显示，应用层是通过调用传输层接口 APIs（Socket 或 XTI/TLI）来与传输层和网络层进行通信的。 图 ２ 传输层接口 不管是使用何种编程接口，要在两个机器或两个程序之间建立通信，通信双方必须建立互相一致的通信模式。如果双方的通信设计模式不一致就无法建立有效的通信连接。 以下是经常使用的 socket APIs，是建立 TCP/IP 应用程序的标准接口，也是影响 TCP/IP 应用程序通信方式的几个主要 APIs，不同 APIs 组合再结合系统调用可以实现不同方式的应用。Sockets 支持多种传输层和网络层协议，支持面向连接和无连接的数据传输，允许应用分布式工作。 socket()：是用来创建一个 socket，socket 表示通信中的一个节点，其可以在一个网络中被命名，用 socket 描述符表示，socket 描述符类似于 Unix 中的文件描述符。 bind()：是用来把本地 IP 层地址和 TCP 层端口赋予 socket。 listen() ：把未连接的 socket 转化成一个等待可连接的 socket，允许该 socket 可以被请求连接，并指定该 socket 允许的最大连接数。 accept()：是等待一个连接的进入，连接成功后，产生一个新的 socket 描述符，这个新的描述符用来建立与客户端的连接。 connect()：用来建立一个与服务端的连接。 send()：发送一个数据缓冲区，类似 Unix 的文件函数 write()。另外 sendto() 是用在无连接的 UDP 程序中，用来发送自带寻址信息的数据包。 recv()：接收一个数据缓冲区，类似 Unix 的文件函数 readI()。另外 recvfrom() 是用在无连接的 UDP 程序中，用来接收自带寻址信息的数据包。 close()：关闭一个连接 Client/Server 模型Sockets 是以 Client 和 Server 交互通信方式来使用的。典型的系统配置是把 Server 放在一台机器中，而把 Client 放在另一台机器中，Client 连接到 Server 交换信息。一个 socket 有一系列典型的事件流。例如，在面向连接的 Client/Server 模型中，Server 端的 socket 总是等待一个 Client 端的请求。要实现这个请求，Server 端首先需要建立能够被 Client 使用的地址，当地址建立后，Server 等待 Client 请求服务。当一个 Client 通过 socket 连接到 Server 后，Client 与 Server 之间就可以进行信息交换。Client/Server 是通信程序设计的基本模式。从软件开发的角度讲，TCP/IP 应用程序都是基于 Client/Server 方式的。注意本篇文章以下 Client/Server 概念是针对程序内部调用 Socket API 所讲的概念，与针对整个程序甚至针对机器而讲的客户端 / 服务器概念有所不同。用 Server APIs 建立的程序可以被当作客户端使用，用 Client APIs 建立的程序也可以被用作服务器端使用。建立 Server 需要的 APIs 有 socket(), bind(), listen(), accept()，建立 Client 需要的 APIs 有 Socket(), Connect()。在实际应用开发中，同一个程序里往往同时可以有 Client 和 Server 的代码，或者多种形式的组合。在实际应用编程中，针对 Socket APIs 不同有效组合，结合系统调用可以有多种复杂的设计变化。 面向连接的应用编程存在三类基本的不同级别的设计方式范畴，根据 Socket APIs 从上到下顺序依次是： Client/Server 通信建立方式 Client/Server 通信连接方式 Client/Server 通信发送与接收方式 下面内容以面向连接的 Socket 应用编程为例来说明这几种不同通信范畴的设计实现。 Client/Server 建立方式设计概述一个 Client 连接一个 Server如果只有两台机器之间连接，那么一个是 Client，另一个是 Server，如下面图 3 所示。这是最简单的 TCP/IP 的应用，也是 TCP/IP 应用早期的 Peer to Peer (P2P) 概念。其流程基本如图 ４ 所示。 图 ３ TCP/IP 应用单点 Client/Server 图 4 显示了 TCP/IP 应用编程最基本的 Client/Server 模式，显示了基本的 Client/Server 通信所需要调用的 Socket APIs 以及顺序。 图 ４ TCP/IP 应用编程基本 Client/Server 模式 多个 Client 连接一个 Server多个 Client 同时连接一个 Server 是 TCP/IP 应用的主流形式，如图 ５ 所示，其中 Client 连接数可以从几个到成千上万。 图 ５ TCP/IP 应用多 Client 端的 Client/Server 由于 socket APIs 缺省方式下都是阻塞方式的，实现多个 Client 同时连接一个 Server 就需要特别的设计。其实现方式可以有多种不同的设计，这其中也涉及 I/O 模式设计。下面将展开介绍其中几种设计形式。 利用一个 Client 连接一个 Server 形式实现多 Client 连接 从程序设计角度讲，只要 Client 和 Server 端口是一对一形式，那么就属于一个 Client 连接一个 Server 形式。在处理多个 Client 端连接时，Server 端轮流使用多个端口建立多个 Client-Server 连接，连接关闭后，被释放端口可以被循环使用。在这种多连接形式中需要谨慎处理 Client 端如何获取使用 Server 端的可用端口。比如图 ６ 显示 Server 有一个服务于所有进程的进程可以先把 Server 端的可用端口发送给 Client 端，Client 端再使用该端口建立连接来处理业务。Server 针对每一个 Client 连接用一个专门的进程来处理。由于可用端口数有限，Server 用一个有限循环来处理每一个可用的端口连接。由于新端口需要用 bind() 来绑定，所以需要从 bind() 开始到 close() 结束都需要包含在循环体内。 图 ６ 利用一对一 Client-Server 模式实现多 Client 连接 使用多个 accept() 实现多 Client 连接 多进程 Server 一般有一个专注进程是服务于每一个连接的。当 Client 端完成连接后，专注进程可以循环被另外的连接使用。使用多个 accept() 也可以实现处理多 Client 连接。多 accept() 的 Server 也只有一个 socket()，一个 bind()，一个 listen()，这与通常情况一样。但是它建立许多工作子进程，每一个工作子进程都有 accept()，这样可以为每一个 Client 建立 socket 描述符。如图 ７ 所示，由于 accept() 连接成功后，会产生一个新的 socket 描述符，这样通过循环多进程利用 accept() 产生的多 socket 描述符就可以与多个 Client 进行连接通信。循环体是从 accept() 开始到 close() 结束的。 图 ７ 使用多 accept() 实现多 Client 连接 使用并发 Server 模式实现多 Client 连接 并发服务器模式曾经是 TCP/IP 的主流应用程序设计模式，得到广泛使用，目前互联网上仍有相当多的应用使用此种模式。其设计思路是在 accept 之后 fork 出一个子进程。因为 socket 会产生监听 socket 描述符 listenfd，accept 会产生连接 socket 描述符 connfd。连接建立后，子进程继承连接描述符服务于 Client，父进程则继续使用监听描述符等待另外一个 Client 的连接请求，以产生另外一个连接 socket 描述符和子进程。如图 ８ 所示，accept() 接收到一个 Client 连接后，产生一个新的 socket 描述符，通过 fork() 系统调用，用一个子进程来处理该 socket 描述符的连接服务。而父进程可以立即返回到 accept()，等待一个新的 Client 请求，这就是典型的并发服务器模式。并发服务器模式同时处理的最大并发 Client 连接数由 listen() 的第二个参数来指定。 图 ８ TCP/IP 应用并发 Server 使用 I/O 多路技术实现多 Client 连接 以上三种连接设计，多 Server 端口、多 accept() 和并发服务器模式，都是通过 fork() 系统调用产生多进程来实现多 Client 连接的。使用 I/O 多路技术也可以同时处理多个输入与输出问题，即用一个进程同时处理多个文件描述符。I/O 多路技术是通过 select() 或 poll() 系统调用实现的。poll() 与 select() 功能完全相同，但是 poll() 可以更少使用内存资源以及有更少的错误发生。select() 调用需要与操作文件描述符集的 APIs 配合使用。select() 系统调用可以使一个进程检测多个等待的 I/O 是否准备好，当没有设备准备好时，select() 处于阻塞状态中，其中任一设备准备好后，select() 函数返回调用。select() API 本身也有一个超时时间参数，超时时间到后，无论是否有设备准备好，都返回调用。其流程如图 9 所示。在 socket APIs listen() 和 accept() 之间插入 select() 调用。使用这三个宏 FD_ZERO()、FD_CLR() 和 FD_SET()，在调用 select() 前设置 socket 描述符屏蔽位，在调用 select() 后使用 FD_ISSET 来检测 socket 描述符集中对应于 socket 描述符的位是否被设置。 FD_ISSET() 就相当通知了一个 socket 描述符是否可以被使用，如果该 socket 描述符可用，则可对该 socket 描述符进行读写通信操作。通常，操作系统通过宏 FD_SETSIZE 来声明在一个进程中 select() 所能操作的文件或 socket 描述符的最大数目。更详细的 I/O 多路技术实现，可以参考其他相关文献。 图 ９ I/O 多路技术实现多连接的 Server 一个 Client 连接多个 Server一个 Client 连接多个 Server 这种方式很少见，主要用于一个客户需要向多个服务器发送请求情况，比如一个 Client 端扫描连接多个 Server 端情况。如图 １０ 所示。此种方式设计主要是 Client 端应用程序的逻辑设计，通常需要在 Client 端设计逻辑循环来连接多个 Server，在此不做更多描述。 图10 单 Client 对多 Server 复杂 Client/Server 设计与现代 P2P最近几年，对等网络技术 ( Peer-to-Peer，简称 P2P) 迅速成为计算机界关注的热门话题之一，以及影响 Internet 未来的科技之一。与早期点对点 (Peer to Peer) 的 Client/Server 模式不同，现在的 P2P 模式是指每个结点既可充当服务器，为其他结点提供服务，同时也可作为客户端享用其他结点提供的服务。实际上 P2P 模式仍然是基于 Client/Server 模式的，每个通信节点都既是 Server，又是 Client，P2P 是基于复杂 Client/Server 设计的 TCP/IP 应用。图 １１ 显示 P2P 模式下两个用户 PC 之间的对等连接。 图 １１ P2P 模式 在技术上，P2P 本身是基于 TCP/IP Client/Server 技术的一种设计模式思想， P2P 也属于网络应用层技术，与 Web 和 FTP 等应用是并列的。只是 P2P 应用在设计实现上更要复杂的多。P2P 技术实现的协同工作是无需专门的服务器支持的 (Serverless)，这里的服务器概念与 Client/Server 中的 Server 概念是不一样的。在传统意义上中心服务器机器上往往运行的是 TCP/IP 应用的 Server 端程序，所以传统意义上的 Server 概念在机器与应用上是重合的。如果更改 TCP/IP 的应用设计，使应用程序既可做 Server 又可做 Client，就可以实现无中心服务器的 P2P 模式。 在设计模式上，P2P 模式实现了网络终端用户不依赖中心服务器或者服务商而直接进行信息和数据交换的可能，因此 P2P 正在改变着整个互联网的一些基础应用，从而极大地增加了用户之间的信息沟通和交流能力。目前互联网的 P2P 应用与网络都正在飞速发展，一些典型的 P2P 应用程序比如有 BitTorrent, eDonkey 等，另外一些即时通信（IM）类软件比如 MSN、QQ 等也正在向无中心服务器模式转变。无中心服务器的 Internet 应用程序大大降低应用提供商的运营成本，而且减少人们对于 Server 稳定性的依赖。 Client/Server 通信连接方式设计Client/Server 通信方式建立后，下一步就需要考虑通信连接的方式，主要有两种方式的连接，即长连接通信与短连接通信。通信连接方式涉及到的 APIs 主要是 connect() 和 accept()。要实现某种 Client/Server 方式，就必须考虑用某种特定的连接方式。 短连接通信短连接通信是指 Client 方与 Server 方每进行一次通信报文收发交易时才进行通讯连接，交易完毕后立即断开连接。此种方式常用于多个 Client 连接一个 Server 情况，常用于机构与用户之间通信，比如 OLTP（联机事务处理）类应用。在短连接情况下，Client 端完成任务后，就关闭连接并退出。在 Server 端，可以通过循环 accept()，使 Server 不会退出，并连续处理 Client 的请求。图 １２ 显示了一般情况下短连接通信模式的 Socket 事件流，不同设计的连接多 Client 的 Server 有不同的循环流程。 图 １２ 短连接模式通信 长连接通信长连接通信是指 Client 方与 Server 方先建立通讯连接，连接建立后不会断开，然后再进行报文发送和接收，报文发送与接收完毕后，原来连接不会断开而继续存在，因此可以连续进行交易报文的发送与接收。这种方式下由于通讯连接一直存在，其 TCP/IP 状态是 Established，可以用操作系统的命令 netstat 查看连接是否建立。由于在长连接情况下，Client 端和 Server 端一样可以固定使用一个端口，所以长连接下的 Client 也需要使用 bind() 来绑定 Client 的端口。在长连接方式下，需要循环读写通信数据。为了区分每一次交易的通信数据，每一次交易数据常常需要在数据头部指定该次交易的长度，接收 API 需要首先读出该长度，然后再按该长度读出指定长度的字节。长连接方式常用于一个 Client 端对一个 Server 端的通讯，一般常用于机构与机构之间的商业应用通信，以处理机构之间连续的大量的信息数据交换。或者说可用于两个系统之间持续的信息交流情况。通常为了加快两个系统之间的信息交流，通常还需要建立几条长连接的并行通信线路。图 １３ 显示了一般情况下长连接通信模式的 socket 事件流，可见其最大特点是 Client 和 Server 都有循环体，而且循环体只包含读写 APIs。 图 １３ 长连接模式通信 Client/Server 通信发送与接收方式设计在通信数据发送与接收之间也存在不同的方式，即同步和异步两种方式。这里的同步和异步与 I/O 层次的同异步概念不同。主要涉及 socket APIs recv() 和 send() 的不同组合方式。 同步发送与接收从应用程序设计的角度讲，报文发送和接收是同步进行的，既报文发送后，发送方等待接收方返回消息报文。同步方式一般需要考虑超时问题，即报文发出去后发送方不能无限等待，需要设定超时时间，超过该时间后发送方不再处于等待状态中，而直接被通知超时返回。同步发送与接收经常与短连接通信方式结合使用，称为同步短连接通信方式，其 socket 事件流程可如上面的图 １２ 所示。 异步发送与接收从应用程序设计的角度讲，发送方只管发送数据，不需要等待接收任何返回数据，而接收方只管接收数据，这就是应用层的异步发送与接收方式。要实现异步方式，通常情况下报文发送和接收是用两个不同的进程来分别处理的，即发送与接收是分开的，相互独立的，互不影响。异步发送与接收经常与长连接通信方式结合使用，称为异步长连接通信方式。从应用逻辑角度讲，这种方式又可分双工和单工两种情况。 异步双工 异步双工是指应用通信的接收和发送在同一个程序中，而有两个不同的子进程分别负责发送和接收，异步双工模式是比较复杂的一种通信方式，有时候经常会出现在不同机构之间的两套系统之间的通信。比如银行与银行之间的信息交流。它也可以适用在现代 P2P 程序中。如图 １４ 所示，Server 和 Client 端分别 fork 出两个子进程，形成两对子进程之间的连接，两个连接都是单向的，一个连接是用于发送，另一个连接用于接收，这样方式的连接就被称为异步双工方式连接。 图 １４ 长连接异步双工模式 异步单工 应用通信的接收和发送是用两个不同的程序来完成，这种异步是利用两对不同程序依靠应用逻辑来实现的。图 １５ 显示了长连接方式下的异步单工模式，在通信的 A 和 B 端，分别有两套 Server 和 Client 程序，B 端的 Client 连接 A 端的 Server，A 端的 Server 只负责接收 B 端 Client 发送的报文。A 端的 Client 连接 B 端的 Server，A 端 Client 只负责向 B 端 Server 发送报文。 图 １５ 长连接异步单工模式 典型通信连接模式综上所述，在实际 TCP/IP 应用程序设计中，就连接模式而言，我们需要考虑 Client/Server 建立方式、Client/Server 连接方式、Client/Server 发送与接收方式这三个不同级别的设计方式。实际 TCP/IP 应用程序连接模式可以是以上三类不同级别 Client/Server 方式的组合。比如一般 TCP/IP 相关书籍上提供的 TCP/IP 范例程序大都是同步短连接的 Client/Server 程序。有的组合是基本没有实用价值的，比较常用的有价值的组合是以下几种： 同步短连接 Server/Client 同步长连接 Server/Client 异步短连接 Server/Client 异步长连接双工 Server/Client 异步长连接单工 Server/Client 其中异步长连接双工是较为复杂的一种通信方式，有时候经常会出现在不同银行或不同城市之间的两套系统之间的通信，比如国家金卡工程。由于这几种通信方式比较固定，所以可以预先编制这几种通信方式的模板程序。 总结本文探讨了 TCP/IP 应用程序中连接模式的设计。在以后的文章中还将继续讨论 TCP/IP 应用程序设计中的其他方面的设计话题，包括地址族模式设计、I/O 模式设计、以及通信数据格式设计等。 https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/]]></content>
       <categories>
         <category>01_software_engineering</category>
         <category>013_network</category>
@@ -371,7 +435,7 @@
       <tags>
         <tag>Software Engineering</tag>
         <tag>Operating System</tag>
-        <tag>TCP IP</tag>
+        <tag>TCP/IP</tag>
       </tags>
   </entry>
   <entry>
